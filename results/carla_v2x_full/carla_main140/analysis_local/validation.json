@@ -1,0 +1,77 @@
+{
+  "checks": {
+    "manifest_completed": true,
+    "expected_140_episodes": true,
+    "all_status_completed": true,
+    "no_stale_sensor_frames": true,
+    "free_scenario_sensor_free": true,
+    "zero_recorded_collisions": true,
+    "same_script_hash": true,
+    "all_hazard_sensor_transitions_valid": true
+  },
+  "all_checks_passed": true,
+  "verdict": {
+    "closed_loop_joint_better_under_contention_both_scenarios": true,
+    "closed_loop_no_material_regression_independent": true,
+    "recorded_collisions": 0,
+    "caution": "Five paired seeds and a controlled corridor do not establish natural-scene safety."
+  },
+  "selected_comparisons": {
+    "contention": [
+      {
+        "config": "contention",
+        "scenario": "free",
+        "method": "set_joint",
+        "baseline": "set_independent",
+        "n": 5,
+        "distance_diff_m": 1.8344950860599056,
+        "distance_ci_low": 1.321243330067955,
+        "distance_ci_high": 2.377207490755245,
+        "delay_improvement_s": 0.08,
+        "delay_ci_low": 0.04,
+        "delay_ci_high": 0.1
+      },
+      {
+        "config": "contention",
+        "scenario": "hazard_a",
+        "method": "set_joint",
+        "baseline": "set_independent",
+        "n": 5,
+        "distance_diff_m": 1.942556105782387,
+        "distance_ci_low": 1.026268527051434,
+        "distance_ci_high": 3.2533757577048164,
+        "delay_improvement_s": 0.08000000000000007,
+        "delay_ci_low": -0.020000000000000018,
+        "delay_ci_high": 0.16000000000000014
+      }
+    ],
+    "independent": [
+      {
+        "config": "independent",
+        "scenario": "free",
+        "method": "set_joint",
+        "baseline": "set_independent",
+        "n": 5,
+        "distance_diff_m": -4.062652587890625e-05,
+        "distance_ci_low": -0.00012187957763671875,
+        "distance_ci_high": 0.0,
+        "delay_improvement_s": 0.0,
+        "delay_ci_low": 0.0,
+        "delay_ci_high": 0.0
+      },
+      {
+        "config": "independent",
+        "scenario": "hazard_a",
+        "method": "set_joint",
+        "baseline": "set_independent",
+        "n": 5,
+        "distance_diff_m": 0.0,
+        "distance_ci_low": 0.0,
+        "distance_ci_high": 0.0,
+        "delay_improvement_s": 0.0,
+        "delay_ci_low": 0.0,
+        "delay_ci_high": 0.0
+      }
+    ]
+  }
+}

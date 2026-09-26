@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/sheng/mobicom2027_carla_smoke_20260926/src/run_smoke.py", line 250, in <module>
+    main()
+  File "/home/sheng/mobicom2027_carla_smoke_20260926/src/run_smoke.py", line 181, in main
+    data, stale = get_frame(q, sensor_frame)
+  File "/home/sheng/mobicom2027_carla_smoke_20260926/src/run_smoke.py", line 36, in get_frame
+    raise RuntimeError("Sensor frame %d is ahead of requested frame %d" % (item.frame, frame))
+RuntimeError: Sensor frame 9323 is ahead of requested frame 9322

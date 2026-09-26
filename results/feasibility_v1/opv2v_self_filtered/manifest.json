@@ -1,0 +1,175 @@
+{
+  "host": "DESKTOP-UGDDO8T",
+  "arguments": {
+    "cache": "/home/sheng/voi/data/opv2v",
+    "raw": "/home/sheng/BEV_reproduction/data/OPV2V/opv2v_data_dumping/validate",
+    "output": "results/opv2v_self_filtered",
+    "limit": 0
+  },
+  "seconds": 22.250453233718872,
+  "source_sha256": "d554c8f2f451c052447c1226df5161a6cc336ae3335b2642975fd1d11c805b9e",
+  "helper_sha256": "8f06c66ec9fc79c042209eaf3aa65ee8f8112f9819b6c397c6333116be4084fb",
+  "original_cache_manifest": {
+    "arguments": {
+      "opencood": "/home/sheng/hsf/official_opencood",
+      "checkpoint": "/home/sheng/hsf/checkpoints/v2xvit_opv2v_20e",
+      "data": "/home/sheng/BEV_reproduction/data/OPV2V/opv2v_data_dumping/validate",
+      "frames_per_scene": 60,
+      "output": "data/opv2v"
+    },
+    "checkpoint_sha256": "457708f175372465d73ab239f750ab557751cb7baf6a627c6d0965af0097e45b",
+    "frames": 465,
+    "pairs": 4741,
+    "seconds": 449.8701298236847,
+    "torch": "2.4.1+cu121",
+    "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+    "data_scope": "OPV2V validation subset; known jointly detected objects; GT matching <=2m; not full detection benchmark",
+    "calibration_scenes": [
+      "2021_08_20_21_48_35",
+      "2021_08_22_22_01_17",
+      "2021_08_23_19_42_07"
+    ],
+    "evaluation_scenes": [
+      "2021_08_21_17_30_41",
+      "2021_08_22_13_37_16",
+      "2021_08_23_10_51_24",
+      "2021_08_23_13_17_21",
+      "2021_09_09_19_27_35",
+      "2021_09_11_00_33_16"
+    ]
+  },
+  "configurations": [
+    {
+      "name": "b96_q1.0",
+      "budget": 96,
+      "q": 1.0,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 100,
+      "compute": true
+    },
+    {
+      "name": "b96_q0.8",
+      "budget": 96,
+      "q": 0.8,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 100,
+      "compute": true
+    },
+    {
+      "name": "b160_q1.0",
+      "budget": 160,
+      "q": 1.0,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 100,
+      "compute": true
+    },
+    {
+      "name": "b160_q0.8",
+      "budget": 160,
+      "q": 0.8,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 100,
+      "compute": true
+    },
+    {
+      "name": "b288_q1.0",
+      "budget": 288,
+      "q": 1.0,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 100,
+      "compute": true
+    },
+    {
+      "name": "b288_q0.8",
+      "budget": 288,
+      "q": 0.8,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 100,
+      "compute": true
+    },
+    {
+      "name": "b512_q1.0",
+      "budget": 512,
+      "q": 1.0,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 100,
+      "compute": true
+    },
+    {
+      "name": "b512_q0.8",
+      "budget": 512,
+      "q": 0.8,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 100,
+      "compute": true
+    },
+    {
+      "name": "deadline10",
+      "budget": 288,
+      "q": 0.8,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 10,
+      "compute": true
+    },
+    {
+      "name": "deadline30",
+      "budget": 288,
+      "q": 0.8,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 30,
+      "compute": true
+    },
+    {
+      "name": "correlated",
+      "budget": 160,
+      "q": 0.8,
+      "rho": 0.5,
+      "rate": 100000,
+      "deadline_ms": 100,
+      "compute": true
+    },
+    {
+      "name": "no_compute_charge",
+      "budget": 160,
+      "q": 0.8,
+      "rho": 0,
+      "rate": 100000,
+      "deadline_ms": 100,
+      "compute": false
+    },
+    {
+      "name": "fast_loose",
+      "budget": 512,
+      "q": 1.0,
+      "rho": 0,
+      "rate": 1000000,
+      "deadline_ms": 100,
+      "compute": true
+    }
+  ],
+  "source_frames": 465,
+  "eligible_frames": 383,
+  "excluded_frames": 82,
+  "caveats": [
+    "OPV2V simulated validation data; frozen cached detections, not new GPU inference.",
+    "Static swept-box route probe; not dynamic planning or collision probability.",
+    "Lateral alternatives not verified against lanes/dynamics.",
+    "One sender, max 8 nearest objects; receiver state explicitly sent.",
+    "Pose-only self suppression: center <1.5m and footprint covers origin; no GT association.",
+    "Confidence threshold is a fixed heuristic, not calibrated risk.",
+    "Software erasure/constant service-rate model, not measured PC5.",
+    "Cached-probe construction and selector timing charged; sensor/network inference latency excluded.",
+    "Yaw-only path transform; pitch/roll recorded for audit.",
+    "Late unreceived messages ignored; no retransmissions or asynchronous expiry in v1."
+  ]
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/sheng/mobicom2027_carla_smoke_20260926/src/run_smoke.py", line 226, in <module>
+    main()
+  File "/home/sheng/mobicom2027_carla_smoke_20260926/src/run_smoke.py", line 164, in main
+    data, stale = get_frame(q, frame)
+  File "/home/sheng/mobicom2027_carla_smoke_20260926/src/run_smoke.py", line 32, in get_frame
+    item = q.get(timeout=max(.001, deadline - time.perf_counter()))
+  File "/home/sheng/anaconda3/envs/carla/lib/python3.8/queue.py", line 178, in get
+    raise Empty
+_queue.Empty

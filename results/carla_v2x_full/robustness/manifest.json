@@ -1,0 +1,39 @@
+{
+  "rows": 64000,
+  "seeds": 500,
+  "noise": {
+    "perfect": [
+      0,
+      0
+    ],
+    "nominal": [
+      0.01,
+      0.03
+    ],
+    "conservative_error": [
+      0.01,
+      0.1
+    ],
+    "false_free_stress": [
+      0.05,
+      0.03
+    ]
+  },
+  "methods": [
+    "coverage_greedy",
+    "singleton_voi",
+    "set_independent",
+    "set_joint"
+  ],
+  "scenarios": [
+    "free",
+    "hazard_a",
+    "hazard_b",
+    "both_hazard"
+  ],
+  "configs": [
+    "independent",
+    "contention"
+  ],
+  "elapsed_seconds": 62.129031041000005
+}

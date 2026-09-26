@@ -1,0 +1,128 @@
+{
+  "status": "completed",
+  "kind": "infrastructure_and_simple_lidar_feedback_only",
+  "host": "100.109.48.32",
+  "client_version": "0.9.15",
+  "server_version": "0.9.15",
+  "map": "Carla/Maps/Town10HD_Opt",
+  "views": 3,
+  "view_origins": [
+    {
+      "view": 0,
+      "attached_to_ego": true
+    },
+    {
+      "view": 1,
+      "attached_to_ego": false
+    },
+    {
+      "view": 2,
+      "attached_to_ego": false
+    }
+  ],
+  "obstacle_scenario": false,
+  "sensor_hz": 20,
+  "fixed_delta_seconds": 0.05,
+  "sensor_lag_frames": 1,
+  "sensor_tick": 0,
+  "wall_clock_pace_hz": 20,
+  "warmup_frames": 20,
+  "sim_seconds": 600.0,
+  "wall_seconds": 601.1907394130249,
+  "rtf": 0.9980193650118638,
+  "frames": 12000,
+  "loop_ms": {
+    "mean": 3.879309815897917,
+    "p50": 2.726768027059734,
+    "p95": 9.918722906149918,
+    "p99": 14.350394271314148,
+    "max": 55.814955034293234
+  },
+  "control_ms": {
+    "mean": 0.3897418661120658,
+    "p50": 0.3907159552909434,
+    "p95": 0.5027922161389142,
+    "p99": 0.5834336543921381,
+    "max": 1.367424032650888
+  },
+  "tick_ms": {
+    "mean": 3.3519110866376045,
+    "p50": 2.1989300148561597,
+    "p95": 9.290531807346268,
+    "p99": 13.834765594219789,
+    "max": 51.99275596532971
+  },
+  "sensor_wait_ms": {
+    "mean": 0.13765686314824657,
+    "p50": 0.1162730623036623,
+    "p95": 0.2028532151598483,
+    "p99": 0.3402936330530793,
+    "max": 23.302673012949526
+  },
+  "cycles_over_50ms": 1,
+  "counts": {
+    "camera_0": 12000,
+    "lidar_0": 12000,
+    "camera_1": 12000,
+    "lidar_1": 12000,
+    "camera_2": 12000,
+    "lidar_2": 12000
+  },
+  "discarded_stale_frames": {
+    "camera_0": 0,
+    "lidar_0": 0,
+    "camera_1": 0,
+    "lidar_1": 0,
+    "camera_2": 0,
+    "lidar_2": 0
+  },
+  "samples": {
+    "camera_0": {
+      "frame": 54467,
+      "width": 640,
+      "height": 360,
+      "std": 38.03237509203707,
+      "mean": 105.43062065972222
+    },
+    "lidar_0": {
+      "frame": 54467,
+      "points": 4245,
+      "finite": true
+    },
+    "camera_1": {
+      "frame": 54467,
+      "width": 640,
+      "height": 360,
+      "std": 35.96515475486669,
+      "mean": 95.37084924768519
+    },
+    "lidar_1": {
+      "frame": 54467,
+      "points": 4219,
+      "finite": true
+    },
+    "camera_2": {
+      "frame": 54467,
+      "width": 640,
+      "height": 360,
+      "std": 45.80350193199534,
+      "mean": 97.20562644675925
+    },
+    "lidar_2": {
+      "frame": 54467,
+      "points": 4069,
+      "finite": true
+    }
+  },
+  "distance_m": 2101.3763741464936,
+  "collisions": [],
+  "started_unix": 1790442001.661769,
+  "script_sha256": "5afdd1583a40fc566558b4d9f11c106eaae8fcd21a768b29f7d361487a91ec83",
+  "limitations": [
+    "No learned perception or semantic communication scheduler",
+    "Synchronous simulation waits for sensors and is not deadline-enforcing real-time deployment",
+    "Rendering quality is set by server launch; see environment manifest; no safety benchmark claim",
+    "Sample files are written after timing ends",
+    "Aligned sensor bundle is delayed by sensor_lag_frames; control consumes the previous bundle"
+  ]
+}

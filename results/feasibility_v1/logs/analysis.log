@@ -1,0 +1,64 @@
+{
+  "source_frames": 465,
+  "eligible_frames": 383,
+  "excluded_frames": 82,
+  "diagnostics": {
+    "lateral_stress": {
+      "frames": 230,
+      "scenes": 5,
+      "reference_differs": 2,
+      "source_blockage": 0.004347826086956522,
+      "reference_blockage": 0.0,
+      "table_p50_ms": 8.361603075172752,
+      "table_p95_ms": 10.151133191538975,
+      "table_p99_ms": 11.21597994468175,
+      "removed_sender": 184,
+      "removed_gt": 187,
+      "max_abs_roll": 0.3561897873878479,
+      "max_abs_pitch": 0.6581296920776367
+    },
+    "route_prefix": {
+      "frames": 230,
+      "scenes": 5,
+      "reference_differs": 2,
+      "source_blockage": 0.008695652173913044,
+      "reference_blockage": 0.0,
+      "table_p50_ms": 5.689141398761421,
+      "table_p95_ms": 7.3204715037718415,
+      "table_p99_ms": 8.369440286187459,
+      "removed_sender": 184,
+      "removed_gt": 187,
+      "max_abs_roll": 0.3561897873878479,
+      "max_abs_pitch": 0.6581296920776367
+    }
+  },
+  "audit": "All budget, probability-range, paired-count and nonnegative regret assertions passed."
+}
+MAIN PAIRED RESULTS
+     split         family            config metric             comparison  mean  ci_low  ci_high  clusters  observations  positive  negative
+evaluation lateral_stress         b160_q0.8 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress         b160_q1.0 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress         b288_q0.8 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress         b288_q1.0 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress         b512_q0.8 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress         b512_q1.0 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress          b96_q0.8 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress          b96_q1.0 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress        correlated regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress        deadline10 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress        deadline30 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress        fast_loose regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation lateral_stress no_compute_charge regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix         b160_q0.8 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix         b160_q1.0 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix         b288_q0.8 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix         b288_q1.0 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix         b512_q0.8 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix         b512_q1.0 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix          b96_q0.8 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix          b96_q1.0 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix        correlated regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix        deadline10 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix        deadline30 regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix        fast_loose regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0
+evaluation   route_prefix no_compute_charge regret greedy_voi_minus_exact   0.0     0.0      0.0         5           230         0         0

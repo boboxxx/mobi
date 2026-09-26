@@ -1,0 +1,31 @@
+{
+  "seeds": 1000,
+  "rows": 210000,
+  "configs": [
+    "ideal",
+    "independent",
+    "contention",
+    "burst",
+    "short_deadline",
+    "one_slot"
+  ],
+  "scenarios": [
+    "free",
+    "hazard_a",
+    "hazard_b",
+    "both_hazard",
+    "permanent_block"
+  ],
+  "methods": [
+    "no_comm",
+    "round_robin",
+    "coverage_greedy",
+    "singleton_voi",
+    "set_independent",
+    "set_joint",
+    "full_info"
+  ],
+  "elapsed_seconds": 115.909851791,
+  "script_sha256": "c7350f3ed7ef35ebf9be1b405f1cb020194b3d98eddff0281bd6431d927d3ce4",
+  "core_sha256": "c5e3fa967b212678b69a0d05da70936c48e15057d3eb21efb71b8b3847425dc5"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "episodes": 140,
+  "seeds": 5,
+  "seconds": 5.0,
+  "methods": [
+    "no_comm",
+    "round_robin",
+    "coverage_greedy",
+    "singleton_voi",
+    "set_independent",
+    "set_joint",
+    "full_info"
+  ],
+  "configs": [
+    "independent",
+    "contention"
+  ],
+  "scenarios": [
+    "free",
+    "hazard_a"
+  ],
+  "client_version": "0.9.15",
+  "server_version": "0.9.15",
+  "map": "Carla/Maps/Town10HD_Opt",
+  "started_unix": 1790444773.7036762,
+  "finished_unix": 1790445176.215493,
+  "script_sha256": "511c6da017381349b3fd6362ee88a69641c0abeddacc933fdb291337e051ea74",
+  "core_sha256": "c5e3fa967b212678b69a0d05da70936c48e15057d3eb21efb71b8b3847425dc5",
+  "limitations": [
+    "Controlled straight corridor, not natural traffic distribution",
+    "Two region sensor outputs are duplicated into two logical providers per region",
+    "Software link model, not PC5 measurement",
+    "Simple rule-based controller and semantic lidar, no learned perception"
+  ]
+}
