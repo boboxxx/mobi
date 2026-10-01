@@ -1,0 +1,9 @@
+# Finite actuator and policy-realizability audit
+
+The prior stopping constants (traction acceleration ≤3, absolute acceleration ≤8, braking ≥4 m/s², reaction 20 ms) were stipulated, not measured. Before treating a policy-conditioned tube as executable, audit these claims in CARLA 0.9.15 on sheng. This is simulator system identification/falsification, not a statistical physical safety guarantee.
+
+Use an exclusive empty Town10HD_Opt world, Audi A2, straight non-junction spawn, synchronous 50 ms steps, fixed zero steering. Throttle is 0.2. Targets are 0.5/1/2 m/s and braking commands are 0.3/0.5/0.8. Two repeats of all nine combinations, 18 bounded episodes. Settle for 20 ticks with full brake. Accelerate for at most 120 ticks until the target is reached; then apply the assigned brake for 40 ticks. Record every measured pose, horizontal velocity, yaw, command, collision event and frame timestamp. Actor state is own-vehicle telemetry only, not hidden-object input. No target-velocity override or vehicle teleport occurs within an episode.
+
+Report failed target acquisition, sampled acceleration/deceleration, command-to-stop-band time (speed ≤0.02 m/s for five consecutive frames), drift and yaw. Do not interpret sampled extrema as continuous hard bounds; terminal speed clipping and unknown substep forces must be distinguished from braking response. Evaluate existing constants before proposing any updated scope. The preselected prospective control is throttle 0.2 / brake 0.5; the other brake values are sensitivity checks, not options to cherry-pick after seeing results.
+
+No evidence-guided ego policy is exercised in this actuator audit. It establishes what remains unverified before that integration. Clean up only this experiment's actors/world settings/server. No recurring research loop.

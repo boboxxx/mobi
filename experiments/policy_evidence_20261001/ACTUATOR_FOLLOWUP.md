@@ -1,0 +1,3 @@
+# Finite actuator sensitivity protocol
+
+Four episodes, fixed before capture: Audi A2 and Tesla Model 3, each with throttle 0.5 and 1.0, target 2 m/s, brake 0.5, automatic transmission, synchronous batch commands. Same straight corridor, 20 warm ticks, at most 180 drive ticks and 40 brake ticks, 50 ms step with 10 ms maximum substep. No target-velocity override. Record actual commands, own pose/velocity, numerical gear ratios, body extents and collisions. This follows the observed failure of throttle 0.2 and manual first gear. It is a sensitivity diagnostic, not held-out physical calibration. Changed vehicle extents must not be substituted into old occupancy claims. Preserve unsuccessful cases and all source hashes. No evidence-guided driving or physical safety claim.

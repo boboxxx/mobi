@@ -4,7 +4,9 @@ Finite experiments and literature-driven audits for semantic V2X scheduling. The
 
 ## Main finding
 
-**Latest integration gate: whole-body occupancy and complete stopping.** The 0.5 m disk results do not transfer directly to a vehicle. On sheng, 432 cold geometry checks and 1,044 current-ray renewals expose two contract gaps (incompatible acceleration/braking bounds and unverified initial-free assertions). Both have explicit receiver checks now, including integer expiry handling. Forty-five full-body renewal packets pass geometry, but **zero pass the complete stopping budget**. These are saved-data diagnostics, not new driving runs. See the [full-body report](research/body_evidence_result_20261001.md) and [reproduction](experiments/body_evidence_20261001/README.md).
+**Latest: policy-conditioned validity and actual actuator diagnostics.** New sheng work adds 30 CARLA own-vehicle episodes, 180 paired geometry checks and 1,044 paired current-ray renewals. Restricting execution to a hold/go/brake policy extends the largest passing grid horizon by 100 ms in 4/36 scene/speed combinations; 13 cold and 87 renewed packets pass conditional geometry. All renewal outputs match the reference byte for byte, but **zero meet the measured age/stop budget**, and actual CARLA trajectories contradict several supplied actuator bounds. The contribution remains a conditional algorithm prototype, without evidence-guided driving or validated physical contracts. See the [policy report](research/policy_evidence_result_20261001.md), [reproduction](experiments/policy_evidence_20261001/README.md), and [source-backed validation](results/policy_evidence_20261001/validation.json).
+
+**Previous integration gate: whole-body occupancy and complete stopping.** The 0.5 m disk results do not transfer directly to a vehicle. On sheng, 432 cold geometry checks and 1,044 current-ray renewals expose two contract gaps (incompatible acceleration/braking bounds and unverified initial-free assertions). Both have explicit receiver checks now, including integer expiry handling. Forty-five full-body renewal packets pass geometry, but **zero pass the complete stopping budget**. These are saved-data diagnostics, not new driving runs. See the [full-body report](research/body_evidence_result_20261001.md) and [reproduction](experiments/body_evidence_20261001/README.md).
 
 **Previous: independently recomputable raw-ray proofs and new dynamic scans.** Version 2 lets the receiver reconstruct projection, quantization and per-ray age bounds from selected current first-return rays. Two exact optimizations match all 1,392 reference renewal outcomes byte for byte; the latest meets the modeled timing budget in 288 cases (299 geometrically valid). Two new 128-frame moving-obstacle CARLA monitor runs yield 23/1 and 22/9 geometric/timely acceptances. Both positive and negative results are retained: cold initialization and live timing remain limitations. These are receiver monitors for a 0.5 m query disk, without an ego controller or physical calibration. See the [new report](research/ray_proof_v2_result_20261001.md), [reproduction](experiments/ray_proof_v2_20261001/README.md), and [validation](results/ray_proof_v2_20261001/analysis.json).
 
@@ -22,6 +24,8 @@ This repository is a feasibility package, not a complete MobiCom evaluation. The
 
 ## Start here
 
+- [Policy-conditioned validity and actual actuator counterexamples (中文)](research/policy_evidence_result_20261001.md)
+- [Policy code, frozen protocols and sheng reproduction](experiments/policy_evidence_20261001/README.md)
 - [Whole-body, braking and history-trust integration result (中文)](research/body_evidence_result_20261001.md)
 - [Raw-ray proof, exact renewal optimization and live dynamic checks (中文)](research/ray_proof_v2_result_20261001.md)
 - [Version-two code and complete reproduction](experiments/ray_proof_v2_20261001/README.md)

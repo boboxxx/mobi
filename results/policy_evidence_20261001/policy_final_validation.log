@@ -1,0 +1,79 @@
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 2.949s
+
+OK
+
+{
+  "actuation": {
+    "episodes": 18,
+    "targets_reached": 12,
+    "collisions": 0,
+    "stop_claim_violating_episodes": 0,
+    "sampled_traction_3_violations": 48,
+    "sampled_absolute_8_violations": 30,
+    "control_readback_mismatches": null
+  },
+  "drivetrain": {
+    "episodes": 8,
+    "targets_reached": 2,
+    "collisions": 0,
+    "stop_claim_violating_episodes": 0,
+    "sampled_traction_3_violations": 10,
+    "sampled_absolute_8_violations": 6,
+    "control_readback_mismatches": 0
+  },
+  "sensitivity": {
+    "episodes": 4,
+    "targets_reached": 4,
+    "collisions": 0,
+    "stop_claim_violating_episodes": 1,
+    "sampled_traction_3_violations": 17,
+    "sampled_absolute_8_violations": 16,
+    "control_readback_mismatches": 0
+  },
+  "validation": "passed",
+  "scope": "Discrete own-vehicle telemetry falsifies specified dynamics bounds; absence of sampled violations does not calibrate continuous physics. No certificate-guided driving."
+}
+
+{
+  "geometry": {
+    "arbitrary_geometry": 9,
+    "policy_geometry": 13,
+    "packet_verified": 13,
+    "minimum_age_gate": 7,
+    "measured_compute_gate": 0,
+    "with_50ms_acquisition_gate": 0,
+    "trials": 180,
+    "source_backed_packets": 13,
+    "near_geometry": 0
+  },
+  "renewal": {
+    "template_available": 261,
+    "byte_equal": 1044,
+    "geometry": 87,
+    "fast_conditional_stop": 0,
+    "full_conditional_stop": 0,
+    "trials": 1044,
+    "source_backed_packets": 87,
+    "near_geometry": 0,
+    "medians_on_geometry_positive": {
+      "full_ms": 138.19653499999873,
+      "fast_ms": 112.9338730000029,
+      "receiver_ms": 18.983179000002792,
+      "acquisition_ms": 54.92483400000481,
+      "age_s": 0.20687261500000573,
+      "full_age_s": 0.22751326099999544
+    },
+    "timely_by_speed": {
+      "0.0": 0,
+      "0.5": 0,
+      "1.0": 0
+    }
+  },
+  "validation": "passed",
+  "source_backed_packets": 100,
+  "physical_movement_authorized": 0,
+  "scope": "Conditional computational artifact; supplied contracts are not physical calibration."
+}
+

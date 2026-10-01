@@ -1,0 +1,42 @@
+{
+  "host": "DESKTOP-UGDDO8T",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "python": "3.8.10 (default, Jun  4 2021, 15:09:15) \n[GCC 7.5.0]",
+  "numpy": "1.24.4",
+  "scipy": "1.10.1",
+  "dependencies_verified": true,
+  "runs": [
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/policy_evidence_20261001"
+      ],
+      "exit_code": 0,
+      "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 2.949s\n\nOK\n"
+    },
+    {
+      "command": [
+        "experiments/policy_evidence_20261001/analyze_actuation.py",
+        "--results",
+        "results/policy_evidence_20261001"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"actuation\": {\n    \"episodes\": 18,\n    \"targets_reached\": 12,\n    \"collisions\": 0,\n    \"stop_claim_violating_episodes\": 0,\n    \"sampled_traction_3_violations\": 48,\n    \"sampled_absolute_8_violations\": 30,\n    \"control_readback_mismatches\": null\n  },\n  \"drivetrain\": {\n    \"episodes\": 8,\n    \"targets_reached\": 2,\n    \"collisions\": 0,\n    \"stop_claim_violating_episodes\": 0,\n    \"sampled_traction_3_violations\": 10,\n    \"sampled_absolute_8_violations\": 6,\n    \"control_readback_mismatches\": 0\n  },\n  \"sensitivity\": {\n    \"episodes\": 4,\n    \"targets_reached\": 4,\n    \"collisions\": 0,\n    \"stop_claim_violating_episodes\": 1,\n    \"sampled_traction_3_violations\": 17,\n    \"sampled_absolute_8_violations\": 16,\n    \"control_readback_mismatches\": 0\n  },\n  \"validation\": \"passed\",\n  \"scope\": \"Discrete own-vehicle telemetry falsifies specified dynamics bounds; absence of sampled violations does not calibrate continuous physics. No certificate-guided driving.\"\n}\n"
+    },
+    {
+      "command": [
+        "experiments/policy_evidence_20261001/validate.py",
+        "--results",
+        "results/policy_evidence_20261001",
+        "--capture",
+        "results/carla120"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"geometry\": {\n    \"arbitrary_geometry\": 9,\n    \"policy_geometry\": 13,\n    \"packet_verified\": 13,\n    \"minimum_age_gate\": 7,\n    \"measured_compute_gate\": 0,\n    \"with_50ms_acquisition_gate\": 0,\n    \"trials\": 180,\n    \"source_backed_packets\": 13,\n    \"near_geometry\": 0\n  },\n  \"renewal\": {\n    \"template_available\": 261,\n    \"byte_equal\": 1044,\n    \"geometry\": 87,\n    \"fast_conditional_stop\": 0,\n    \"full_conditional_stop\": 0,\n    \"trials\": 1044,\n    \"source_backed_packets\": 87,\n    \"near_geometry\": 0,\n    \"medians_on_geometry_positive\": {\n      \"full_ms\": 138.19653499999873,\n      \"fast_ms\": 112.9338730000029,\n      \"receiver_ms\": 18.983179000002792,\n      \"acquisition_ms\": 54.92483400000481,\n      \"age_s\": 0.20687261500000573,\n      \"full_age_s\": 0.22751326099999544\n    },\n    \"timely_by_speed\": {\n      \"0.0\": 0,\n      \"0.5\": 0,\n      \"1.0\": 0\n    }\n  },\n  \"validation\": \"passed\",\n  \"source_backed_packets\": 100,\n  \"physical_movement_authorized\": 0,\n  \"scope\": \"Conditional computational artifact; supplied contracts are not physical calibration.\"\n}\n"
+    }
+  ],
+  "validation": "passed"
+}
