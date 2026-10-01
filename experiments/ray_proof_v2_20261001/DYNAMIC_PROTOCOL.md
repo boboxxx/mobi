@@ -1,0 +1,9 @@
+# Finite live dynamic evidence check
+
+Before new acquisition: two existing RSU mounts, dense 256-channel / 2M-point-per-second semantic LiDAR, 64 measured frames per mount, 50 ms simulation step. An Audi A2 starts 8 m ahead of the fixed query and moves toward/through it at a commanded 4 m/s. Actor labels and motion are evaluation-only; certificate inputs are raw XYZ, sensor pose and measurement timestamp. CARLA points within one frame remain simultaneous; no fabricated per-ray rolling time is used in this new acquisition.
+
+Use both required obstacle classes, 200 ms proof horizon, input boxes 0.01 m, common action disk radius 0.5 m. Initialize the support template on the first actual scan. Renew only from current rays, validating each packet against its raw coordinates/times. Record actual acquisition/processing cost, with modeled 20 ms transport and 50 ms action separately. Store every measured cloud, frame IDs, relative geometry, velocity and proof. If initialization fails, record failure rather than inventing an empty template.
+
+Compare sensor/world frame IDs, expired-packet rejection, acceptance while the vehicle center lies within the vehicle-model inflated query, and interpolated center trajectories over fully observed certificate horizons. The center check uses the stipulated outer radius and is a model check, not exact mesh collision testing. Truncated horizons at the end of a run must not be counted as verified future safety. Report measured speed and acceleration diagnostics; discrete samples cannot certify continuous real-world dynamics.
+
+This is live dynamic acquisition and a receiver decision monitor. The certificate does not command an ego vehicle, and the query disk is not a whole vehicle trajectory. Do not call this a completed driving closed loop. CARLA synchronous wall-clock stalls and the modeled link remain explicit. Only this experiment's actors/settings/server are cleaned up. No recurring research loop.

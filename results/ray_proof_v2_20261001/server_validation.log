@@ -1,0 +1,39 @@
+{
+  "validation": "passed",
+  "source_backed_packets": 376,
+  "receiver_classes": 2,
+  "cold": {
+    "trials": 144,
+    "geometry": 32,
+    "timing": 0
+  },
+  "renewal": {
+    "trials": 1392,
+    "geometry": 299,
+    "reference_timing": 0,
+    "optimized_timing": 266,
+    "local_timing": 288,
+    "packet_mismatches": 0
+  },
+  "dynamic": {
+    "frames": 128,
+    "geometry": 23,
+    "timing": 1,
+    "max_observed_speed_mps": 3.998027613644198,
+    "current_center_violations": 0,
+    "full_horizon_checks": 23,
+    "truncated_horizons": 0,
+    "interpolated_center_violations": 0
+  },
+  "dynamic_local": {
+    "frames": 128,
+    "geometry": 22,
+    "timing": 9,
+    "max_observed_speed_mps": 3.998027613644198,
+    "current_center_violations": 0,
+    "full_horizon_checks": 22,
+    "truncated_horizons": 0,
+    "interpolated_center_violations": 0
+  },
+  "scope": "Live dynamic receiver monitor, not ego control. Model-bounded geometry, checksum only, uncalibrated input boxes, modeled link/action timing."
+}

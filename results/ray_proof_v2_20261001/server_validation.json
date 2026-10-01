@@ -1,0 +1,18 @@
+{
+  "validation": "passed",
+  "matches_local_analysis": true,
+  "python": "3.8.10 (default, Jun  4 2021, 15:09:15) \n[GCC 7.5.0]",
+  "numpy": "1.24.4",
+  "scipy": "1.10.1",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "analyzer_sha256": "7543116fff0f88644f07c41da277651e3f07e01824377b1145de12663266f354",
+  "command": [
+    "/home/sheng/mobicom2027_carla_smoke_20260926/venv/bin/python",
+    "/home/sheng/mobicom2027_visibility_20261001/experiments/ray_proof_v2_20261001/analyze.py",
+    "--results",
+    "/home/sheng/mobicom2027_visibility_20261001/results/ray_proof_v2_20261001",
+    "--capture",
+    "/home/sheng/mobicom2027_visibility_20261001/results/carla120",
+    "--no-plots"
+  ]
+}
