@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "experiments/renewal_sheng_20261001/carla_coverage_gate.py", line 130, in <module>
+    if __name__=='__main__':main()
+  File "experiments/renewal_sheng_20261001/carla_coverage_gate.py", line 50, in main
+    if client.get_client_version()!=client.get_server_version():raise RuntimeError('Client/server mismatch')
+RuntimeError: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to 100.109.48.32:2000

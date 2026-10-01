@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-01",
+  "attempts": [
+    {
+      "endpoint": "sheng SSH alias",
+      "result": "old address timed out"
+    },
+    {
+      "endpoint": "sheng WSL Tailscale",
+      "result": "initially stopped; started existing Ubuntu-20.04 through Windows SSH; direct SSH intermittent"
+    },
+    {
+      "endpoint": "Windows SSH -> WSL sheng",
+      "result": "44,000 synthetic episodes completed"
+    },
+    {
+      "endpoint": "CARLA first and second RPC attempts",
+      "result": "30-second RPC timeout before a session-retained server was available"
+    },
+    {
+      "endpoint": "CARLA retained launch session",
+      "result": "RPC and stream ports connected; initial sensor subscription warm-up failed"
+    },
+    {
+      "endpoint": "CARLA bounded warm-up fix",
+      "result": "80 measured frames collected, matched frame IDs; primary coverage gate failed on one view"
+    },
+    {
+      "endpoint": "CARLA cleanup",
+      "result": "0 vehicles, 0 sensors, original asynchronous world restored; 0 remaining CARLA processes"
+    }
+  ]
+}

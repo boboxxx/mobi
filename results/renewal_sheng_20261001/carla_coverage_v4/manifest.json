@@ -1,0 +1,46 @@
+{
+  "host": "DESKTOP-UGDDO8T",
+  "client": "0.9.15",
+  "server": "0.9.15",
+  "map": "Carla/Maps/Town10HD_Opt",
+  "world_frames": 80,
+  "record_rows": 320,
+  "elapsed_s": 7.5767138159999945,
+  "primary_gate_passed": false,
+  "setup": [
+    {
+      "layout": 0,
+      "scenario": "free",
+      "sensor": "Transform(Location(x=0.568844, y=-53.468342, z=8.000000), Rotation(pitch=0.000000, yaw=0.000000, roll=0.000000))",
+      "target": "Transform(Location(x=0.632717, y=-57.467834, z=0.000000), Rotation(pitch=360.000000, yaw=0.914963, roll=0.000000))",
+      "warmup_frames_received": 20,
+      "actual_obstacle_transform": null
+    },
+    {
+      "layout": 0,
+      "scenario": "occupied",
+      "sensor": "Transform(Location(x=0.568844, y=-53.468342, z=8.000000), Rotation(pitch=0.000000, yaw=0.000000, roll=0.000000))",
+      "target": "Transform(Location(x=0.632717, y=-57.467834, z=0.000000), Rotation(pitch=360.000000, yaw=0.914963, roll=0.000000))",
+      "warmup_frames_received": 20,
+      "actual_obstacle_transform": "Transform(Location(x=0.633106, y=-57.467850, z=-0.006497), Rotation(pitch=0.065112, yaw=0.914971, roll=-0.002167))"
+    },
+    {
+      "layout": 1,
+      "scenario": "free",
+      "sensor": "Transform(Location(x=0.504970, y=-49.468853, z=6.000000), Rotation(pitch=0.000000, yaw=0.000000, roll=0.000000))",
+      "target": "Transform(Location(x=0.632717, y=-57.467834, z=0.000000), Rotation(pitch=360.000000, yaw=0.914963, roll=0.000000))",
+      "warmup_frames_received": 20,
+      "actual_obstacle_transform": null
+    },
+    {
+      "layout": 1,
+      "scenario": "occupied",
+      "sensor": "Transform(Location(x=0.504970, y=-49.468853, z=6.000000), Rotation(pitch=0.000000, yaw=0.000000, roll=0.000000))",
+      "target": "Transform(Location(x=0.632717, y=-57.467834, z=0.000000), Rotation(pitch=360.000000, yaw=0.914963, roll=0.000000))",
+      "warmup_frames_received": 20,
+      "actual_obstacle_transform": "Transform(Location(x=0.633106, y=-57.467850, z=-0.006497), Rotation(pitch=0.065112, yaw=0.914971, roll=-0.002167))"
+    }
+  ],
+  "source_sha256": "a9e5c7716619e95796d6d5d001cc7f39840eb0a539bd3f38860d2a95f28dd806",
+  "scope": "Actual CARLA semantic ground-truth LiDAR, stationary corridor coverage gate. No driving or detector robustness claim."
+}

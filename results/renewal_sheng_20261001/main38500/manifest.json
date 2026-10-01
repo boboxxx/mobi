@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-01",
+  "host": "DESKTOP-UGDDO8T",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "python": "3.8.10 (default, Jun  4 2021, 15:09:15) \n[GCC 7.5.0]",
+  "numpy": "1.24.4",
+  "configs": {
+    "uniform": {
+      "ttl": [
+        6,
+        6
+      ]
+    },
+    "heterogeneous": {
+      "ttl": [
+        2,
+        6
+      ]
+    },
+    "three_regions": {
+      "ttl": [
+        3,
+        4,
+        6
+      ]
+    },
+    "impossible": {
+      "ttl": [
+        1,
+        1
+      ]
+    },
+    "lossy": {
+      "ttl": [
+        2,
+        6
+      ],
+      "p": 0.7
+    },
+    "reliable": {
+      "ttl": [
+        2,
+        6
+      ],
+      "p": 1.0
+    },
+    "guard_two": {
+      "ttl": [
+        3,
+        7
+      ],
+      "guard": 2
+    },
+    "service_two": {
+      "ttl": [
+        3,
+        7
+      ],
+      "service": 2
+    },
+    "switch_required": {
+      "ttl": [
+        3,
+        4,
+        6
+      ],
+      "switching": true
+    },
+    "ttl_overestimate_one": {
+      "ttl": [
+        3,
+        7
+      ],
+      "true_ttl": [
+        2,
+        6
+      ]
+    },
+    "ttl_conservative_one": {
+      "ttl": [
+        2,
+        6
+      ],
+      "true_ttl": [
+        3,
+        7
+      ]
+    }
+  },
+  "methods": [
+    "edf",
+    "normalized_age",
+    "long_first_cycle",
+    "group_refresh",
+    "deterministic_mpc3",
+    "stochastic_mpc3",
+    "stochastic_mpc6"
+  ],
+  "seeds": 500,
+  "decisions": 60,
+  "episodes": 38500,
+  "elapsed_s": 11.957677741999994,
+  "code_sha256": {
+    "._certificate.py": "6d09f3a52e7d4fcec34d67e0a7b414b01c76fe9e816a807ba9a80499bafa1fae",
+    "run_suite.py": "c77cc54cdb29d22687c3ac520671fac129e861cf584f5903beddf2f0cf16deb6",
+    "scheduler.py": "9614545615297374d0091ce2db3f7fc8beb0454ee143ee5c04ecb4134147dc4d",
+    "certificate.py": "228ba29b3937933c584fdc9f5265d77ffdf55ce28cdc8a4ac65c43a43b4e2137",
+    "._run_suite.py": "6d09f3a52e7d4fcec34d67e0a7b414b01c76fe9e816a807ba9a80499bafa1fae",
+    "._test_renewal.py": "6d09f3a52e7d4fcec34d67e0a7b414b01c76fe9e816a807ba9a80499bafa1fae",
+    "._scheduler.py": "6d09f3a52e7d4fcec34d67e0a7b414b01c76fe9e816a807ba9a80499bafa1fae",
+    "test_renewal.py": "0bd42d62a02b20109352f46d7d44a2ccd6a7ceb6e437008d7fa38aca6866bdc5"
+  },
+  "protocol_sha256": "b5e5632ec618d61e45932aad0761869ca039cb64125e720eddb8df0f4ddea5db",
+  "scope": "Synthetic correct-free evidence; supplied TTLs; not a driving experiment. Latency has cold/warm-cache distinctions."
+}

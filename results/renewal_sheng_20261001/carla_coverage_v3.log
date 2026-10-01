@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "experiments/renewal_sheng_20261001/carla_coverage_gate.py", line 130, in <module>
+    if __name__=='__main__':main()
+  File "experiments/renewal_sheng_20261001/carla_coverage_gate.py", line 77, in main
+    f=world.tick(20);frame_data(q,f)
+  File "experiments/renewal_sheng_20261001/carla_coverage_gate.py", line 26, in frame_data
+    data=q.get(timeout=20)
+  File "/home/sheng/anaconda3/envs/carla/lib/python3.8/queue.py", line 178, in get
+    raise Empty
+_queue.Empty
