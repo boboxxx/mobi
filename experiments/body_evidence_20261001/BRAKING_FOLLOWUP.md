@@ -1,0 +1,9 @@
+# Consistent full-braking contract follow-up
+
+The initial full-body probe's geometry has a stipulated absolute acceleration bound 3 m/s², but its action-to-stop diagnostic assumes braking at least 4 m/s². These bounds are incompatible when applied jointly. Preserve the initial geometry and raw timing results, but DO NOT interpret its gate_without_acquisition field as a valid complete-stop admission. This is a discovered contract error, not an empirical controller failure.
+
+Correct the integration with separate upper traction acceleration (3), lower guaranteed braking deceleration (4), and upper absolute braking deceleration (8), all m/s². The geometric absolute acceleration bound is 8 and the receiver rejects a body model smaller than the stopping contract's upper acceleration requirements. These remain stipulated physical bounds; no calibration is claimed. Use the same twelve clouds, speed grid, horizon grid, body size, error boxes and optional instantaneous bootstrap as PROTOCOL.md: 216 further outcomes. Enlarging the geometric bound makes coverage harder, not easier. Acquisition is still excluded in this OFFLINE feasibility diagnostic and must be added for any live admission.
+
+This follow-up is fixed before its execution. No initial artifacts or source hashes are overwritten.
+
+The initial study completed: 24 all-ray geometry successes, but 0 packets, because the nearest-witness assignment selected too many rays for the 8,192-ray wire cap. For example, dense view-0 free geometry at H=0.2 requires 13,799 distinct nearest-assigned rays. The follow-up also adds a greedy coverage-preserving reduction over those candidates. The unchanged receiver recomputes every required tile; source provenance is retained. Direct all-ray geometry is recorded separately so acceleration-bound and compression effects are not conflated. This is not a minimum-byte optimality claim.

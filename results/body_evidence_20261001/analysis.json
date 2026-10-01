@@ -1,0 +1,28 @@
+{
+  "validation": "passed",
+  "source_backed_geometry_packets": 60,
+  "initial": {
+    "trials": 216,
+    "geometry": 24,
+    "packets": 0,
+    "stop_contract": "inconsistent; initial stop gate cannot support a claim"
+  },
+  "corrected": {
+    "trials": 216,
+    "geometry": 15,
+    "packets": 15,
+    "stop_gate_without_acquisition": 0,
+    "bootstrap_premise_violations": 3
+  },
+  "receiver_history": {
+    "timely_root_diagnostic_accepted": 6,
+    "unregistered_prior_accepted": 0
+  },
+  "renewal": {
+    "trials": 1044,
+    "geometry": 45,
+    "complete_stop_admitted": 0,
+    "near_accepted": 0
+  },
+  "scope": "Saved no-ego geometry; hypothetical velocity/body/motion/stopping contracts; no new CARLA driving. Conditional geometry positives with invalid bootstrap are explicitly not safety successes."
+}
