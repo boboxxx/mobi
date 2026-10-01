@@ -1,3 +1,5 @@
+> **2026-10-01 增量：** 新增 C-MASS、Share the Unseen、TAMP、相关信息年龄、逻辑语义驾驶与 coflow 近邻，见[本轮阅读记录](literature_update_20261001.md)。最新立项判断见[项目修订](update_20261001.md)。
+
 **语义通信 × 车联网：文献核查记录**
 
 日期：2026-09-26。对应研究设计：mobicom2027_semantic_v2x_proposal.md。

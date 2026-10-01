@@ -1,0 +1,13 @@
+config,method,baseline,seed_clusters,progress_diff,ci_low,ci_high,all_checked_episode_metrics_identical
+ideal,set_joint,channel_greedy,200,0.0,0.0,0.0,False
+ideal,set_joint,coverage_greedy,200,0.0,0.0,0.0,False
+independent,set_joint,channel_greedy,200,0.0,0.0,0.0,True
+independent,set_joint,coverage_greedy,200,0.0009428571428571431,-0.0007393749999999998,0.0027608928571428576,False
+contention,set_joint,channel_greedy,200,0.0,0.0,0.0,True
+contention,set_joint,coverage_greedy,200,0.28874642857142857,0.2744891964285715,0.30311839285714287,False
+burst,set_joint,channel_greedy,200,0.0,0.0,0.0,True
+burst,set_joint,coverage_greedy,200,-0.0032321428571428566,-0.00622142857142857,-0.0007783035714285707,False
+short_deadline,set_joint,channel_greedy,200,0.0,0.0,0.0,True
+short_deadline,set_joint,coverage_greedy,200,0.0009428571428571431,-0.0007071428571428569,0.002839375000000001,False
+one_slot,set_joint,channel_greedy,200,0.0,0.0,0.0,True
+one_slot,set_joint,coverage_greedy,200,0.0,0.0,0.0,False

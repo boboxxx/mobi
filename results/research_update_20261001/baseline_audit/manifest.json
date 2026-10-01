@@ -1,0 +1,34 @@
+{
+  "seeds": 200,
+  "episodes": 18000,
+  "elapsed_s": 13.711455792,
+  "date": "2026-10-01",
+  "methods": [
+    "coverage_greedy",
+    "set_joint",
+    "channel_greedy"
+  ],
+  "configs": [
+    "ideal",
+    "independent",
+    "contention",
+    "burst",
+    "short_deadline",
+    "one_slot"
+  ],
+  "scenarios": [
+    "free",
+    "hazard_a",
+    "hazard_b",
+    "both_hazard",
+    "permanent_block"
+  ],
+  "core_sha256": "c5e3fa967b212678b69a0d05da70936c48e15057d3eb21efb71b8b3847425dc5",
+  "audit_sha256": "9e884fc9774a444c0da3fa3223a1ef42d9b7770889201568f7a2b34524c194ec",
+  "noise": {
+    "false_free": 0.01,
+    "false_occupied": 0.03
+  },
+  "rng": "Legacy sequential stream retained for attribution; equal actions consume identical draws. No common exogenous trace claimed for differing actions.",
+  "interpretation": "Equality disproves uniqueness of the earlier mechanism evidence, not utility in all future settings."
+}

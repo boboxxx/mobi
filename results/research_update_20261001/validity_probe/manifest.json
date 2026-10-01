@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-01",
+  "episodes": 3200,
+  "seeds": 200,
+  "slots": 30,
+  "success_p": 0.9,
+  "action_guard": 1,
+  "lookahead": 3,
+  "configs": {
+    "uniform": [
+      6,
+      6
+    ],
+    "heterogeneous": [
+      2,
+      6
+    ],
+    "three_regions": [
+      3,
+      4,
+      6
+    ],
+    "impossible": [
+      1,
+      1
+    ]
+  },
+  "elapsed_s": 0.29947925,
+  "cache": {
+    "hits": 49883,
+    "misses": 557,
+    "maxsize": 150000,
+    "currsize": 557
+  },
+  "code_sha256": {
+    "run_validity_probe.py": "e090d46adddf110c7f56f9bb33c0e76d77f0e64fef1f88d6f133fe47f614f90e",
+    "validity_scheduler.py": "63fc4ed80bb3312c39369717d8e0833a3fa5c09c598adbf6c2622ff2d20b4016"
+  },
+  "scope": "Synthetic all-free evidence with supplied TTLs and fixed required regions. Exact short-horizon oracle; no learned model, geometry, control, or scalability result.",
+  "randomness": "Pre-generated per-seed per-slot per-region outcomes shared by every policy; no future outcomes visible to scheduler."
+}

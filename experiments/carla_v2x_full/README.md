@@ -1,3 +1,5 @@
+> **Superseded interpretation (2026-10-01):** The channel-aware greedy audit eliminates the earlier joint-selector advantage. This is a historical experiment package; see the [revision](../../research/update_20261001.md) for baseline, RNG, conditional-marginal, and sensor-validity limitations.
+
 # Finite decision-sufficient V2X experiment
 
 This directory contains the finite mechanism, robustness, and CARLA closed-loop experiment used in the 2026-09-26 feasibility decision. The frozen design is in `PROTOCOL.md`. The scripts do not create a daemon, recurring automation, or continuous research loop.
@@ -25,7 +27,7 @@ Run from this directory so `core.py` is importable:
 ```bash
 python3 -m unittest test_core.py
 python3 run_mechanism_sweep.py --seeds 1000 --out ../../results/carla_v2x_full/mechanism_reproduction
-python3 analyze.py ../../results/carla_v2x_full/mechanism_reproduction --out ../../results/carla_v2x_full/mechanism_reproduction/analysis
+python3 analyze.py ../../results/carla_v2x_full/mechanism_reproduction/per_episode.csv --out ../../results/carla_v2x_full/mechanism_reproduction/analysis
 MPLBACKEND=Agg python3 plot.py ../../results/carla_v2x_full/mechanism_reproduction/analysis --out ../../results/carla_v2x_full/mechanism_reproduction/analysis/plots
 python3 run_robustness.py --seeds 500 --out ../../results/carla_v2x_full/robustness_reproduction
 python3 analyze_robustness.py ../../results/carla_v2x_full/robustness_reproduction
@@ -68,7 +70,7 @@ core.py                   c5e3fa967b212678b69a0d05da70936c48e15057d3eb21efb71b8b
 
 ## Integrity and interpretation
 
-The validator requires all 140 episodes, completed status, zero stale sensor frames, free observations in the free scenario, the same script hash, and all 70 hazard traces to show occupied A before 2.5 s and free A after 2.6 s. All checks passed. Zero recorded collisions in this small controlled experiment is an observation, not a collision-probability estimate.
+The validator requires all 140 episodes, completed status, zero stale sensor frames, free observations in the free scenario, and all 70 hazard traces to show occupied A before 2.5 s and free A after 2.6 s. These checks passed. Its separate `same_script_hash` flag only checks one manifest value and cannot establish per-episode source identity; archived source hashes match the manifest, but this is a narrower check. Zero recorded collisions in this small controlled experiment is an observation, not a collision-probability estimate.
 
 The experiment uses a controlled straight corridor, two logical providers derived from each regional sensor, a software link model rather than measured PC5, and a simple rule-based controller. It does not establish natural-scene safety or a complete MobiCom evaluation.
 
