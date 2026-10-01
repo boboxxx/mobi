@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "experiments/live_repair_20261001/capture.py", line 119, in <module>
+    if __name__=='__main__':main()
+  File "experiments/live_repair_20261001/capture.py", line 86, in main
+    for i in range(20):process('warm',i)
+  File "experiments/live_repair_20261001/capture.py", line 61, in process
+    start=time.perf_counter();d=tick();raw=np.frombuffer(d.raw_data,dtype=DTYPE);xyz=(np.column_stack([raw['x'],raw['y'],raw['z'],np.ones(len(raw))])@np.asarray(d.transform.get_matrix()).T)[:,:3];origin=np.array([d.transform.location.x,d.transform.location.y,d.transform.location.z]);acq=time.perf_counter()-start
+  File "experiments/live_repair_20261001/capture.py", line 51, in tick
+    before=sample(world,vehicle);gate_start=time.perf_counter();renewed=bool(driving and usable_region and control.issue(usable_region,before,before['frame'],before['timestamp']));gate_s=time.perf_counter()-gate_start
+  File "/home/sheng/mobicom2027_visibility_20261001/experiments/actuation_calibration_20261001/capture_3d.py", line 11, in sample
+    actor=s.find(vehicle.id);assert actor is not None
+AssertionError
+WARNING: sensor object went out of the scope but the sensor is still alive in the simulation: Actor 26 (sensor.other.collision) 

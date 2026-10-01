@@ -1,0 +1,46 @@
+{
+  "decisions_checked": 260,
+  "ticks_checked": 2636,
+  "availability_changes": [
+    {
+      "run": "view0_repair_r1",
+      "id": "warm_001",
+      "old": true,
+      "strict": false,
+      "expiry_us": 105810546,
+      "arrival_s": 105.81054507568479
+    }
+  ],
+  "root_changes": [
+    {
+      "run": "view0_original_r0",
+      "id": "root_001",
+      "old": true,
+      "strict": false
+    },
+    {
+      "run": "view0_original_r1",
+      "id": "root_001",
+      "old": true,
+      "strict": false
+    },
+    {
+      "run": "view0_repair_r0",
+      "id": "root_001",
+      "old": true,
+      "strict": false
+    },
+    {
+      "run": "view0_repair_r1",
+      "id": "root_001",
+      "old": true,
+      "strict": true
+    }
+  ],
+  "admitted_action_expiry_violations": 0,
+  "qualification": "No actual admissions occurred: this zero is vacuous for moving control. Corrected entry is replay/unit-tested, not freshly driven.",
+  "source_sha256": {
+    "audit_deadlines.py": "c0941b6e388dd7de32e87b3dc7f545eb49d64c2c4409578e77bd303e6e65e05a",
+    "deadline.py": "06d2cfa4dae9fac0576f5d50061670d4675cfea35069620872a177bb62bf6afb"
+  }
+}
