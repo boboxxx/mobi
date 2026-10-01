@@ -1,0 +1,185 @@
+{
+  "ablation": {
+    "combined": {
+      "cases": 1044,
+      "geometry": 87,
+      "emitted": 87,
+      "conditional_stop": 0,
+      "plus_1ms_conditional_stop": 0,
+      "timely_by_speed": {
+        "0.0": 0,
+        "0.5": 0,
+        "1.0": 0
+      },
+      "median_on_geometry_positive": {
+        "generation_ms": 65.66457699999262,
+        "verification_ms": 14.832206000001236,
+        "age_s": 0.15894504300000675
+      }
+    },
+    "hints": {
+      "cases": 1044,
+      "geometry": 87,
+      "emitted": 87,
+      "conditional_stop": 0,
+      "plus_1ms_conditional_stop": 0,
+      "timely_by_speed": {
+        "0.0": 0,
+        "0.5": 0,
+        "1.0": 0
+      },
+      "median_on_geometry_positive": {
+        "generation_ms": 68.68538599999852,
+        "verification_ms": 13.42173900000887,
+        "age_s": 0.16701223100002635
+      }
+    },
+    "local": {
+      "cases": 1044,
+      "geometry": 87,
+      "emitted": 87,
+      "conditional_stop": 0,
+      "plus_1ms_conditional_stop": 0,
+      "timely_by_speed": {
+        "0.0": 0,
+        "0.5": 0,
+        "1.0": 0
+      },
+      "median_on_geometry_positive": {
+        "generation_ms": 98.72073399999692,
+        "verification_ms": 24.803216999998767,
+        "age_s": 0.19708778100001154
+      }
+    },
+    "reference": {
+      "cases": 1044,
+      "geometry": 87,
+      "emitted": 87,
+      "conditional_stop": 0,
+      "plus_1ms_conditional_stop": 0,
+      "timely_by_speed": {
+        "0.0": 0,
+        "0.5": 0,
+        "1.0": 0
+      },
+      "median_on_geometry_positive": {
+        "generation_ms": 103.62062400000127,
+        "verification_ms": 24.422064999995996,
+        "age_s": 0.20332497699999094
+      }
+    }
+  },
+  "binary": {
+    "binary_combined": {
+      "cases": 1044,
+      "geometry": 87,
+      "emitted": 87,
+      "conditional_stop": 2,
+      "plus_1ms_conditional_stop": 2,
+      "timely_by_speed": {
+        "0.0": 2,
+        "0.5": 0,
+        "1.0": 0
+      },
+      "median_on_geometry_positive": {
+        "generation_ms": 50.11496400000226,
+        "verification_ms": 7.982665999996641,
+        "age_s": 0.13813705400000173
+      },
+      "total_bytes": 3432631,
+      "rejected_bytes": 0,
+      "median_packet_bytes": 31525.0
+    },
+    "binary_full": {
+      "cases": 1044,
+      "geometry": 87,
+      "emitted": 87,
+      "conditional_stop": 0,
+      "plus_1ms_conditional_stop": 0,
+      "timely_by_speed": {
+        "0.0": 0,
+        "0.5": 0,
+        "1.0": 0
+      },
+      "median_on_geometry_positive": {
+        "generation_ms": 107.83113799999455,
+        "verification_ms": 21.09112400000157,
+        "age_s": 0.19991464700000391
+      },
+      "total_bytes": 3432631,
+      "rejected_bytes": 0,
+      "median_packet_bytes": 31525.0
+    },
+    "json_combined": {
+      "cases": 1044,
+      "geometry": 87,
+      "emitted": 87,
+      "conditional_stop": 0,
+      "plus_1ms_conditional_stop": 0,
+      "timely_by_speed": {
+        "0.0": 0,
+        "0.5": 0,
+        "1.0": 0
+      },
+      "median_on_geometry_positive": {
+        "generation_ms": 76.57568400000514,
+        "verification_ms": 15.3453720000023,
+        "age_s": 0.17135384100000237
+      },
+      "total_bytes": 4481377,
+      "rejected_bytes": 0,
+      "median_packet_bytes": 41041.0
+    }
+  },
+  "proposal": {
+    "binary_receiver_full": {
+      "cases": 1044,
+      "geometry": 87,
+      "emitted": 261,
+      "conditional_stop": 0,
+      "plus_1ms_conditional_stop": 0,
+      "timely_by_speed": {
+        "0.0": 0,
+        "0.5": 0,
+        "1.0": 0
+      },
+      "median_on_geometry_positive": {
+        "generation_ms": 63.14426800000206,
+        "verification_ms": 40.97672800000396,
+        "age_s": 0.18789925900000212
+      },
+      "total_bytes": 10895995,
+      "rejected_bytes": 7463364,
+      "median_packet_bytes": 31525.0
+    },
+    "binary_receiver_hints": {
+      "cases": 1044,
+      "geometry": 87,
+      "emitted": 261,
+      "conditional_stop": 0,
+      "plus_1ms_conditional_stop": 0,
+      "timely_by_speed": {
+        "0.0": 0,
+        "0.5": 0,
+        "1.0": 0
+      },
+      "median_on_geometry_positive": {
+        "generation_ms": 50.99127799999792,
+        "verification_ms": 10.787731000000633,
+        "age_s": 0.13974440099999838
+      },
+      "total_bytes": 10895995,
+      "rejected_bytes": 7463364,
+      "median_packet_bytes": 31525.0
+    }
+  },
+  "perturbation": {
+    "cases": 120,
+    "positive": 2,
+    "all_equal": true
+  },
+  "validation": "passed",
+  "source_backed_stage_bundle_checks": 522,
+  "physical_movement_authorized": 0,
+  "scope": "Conditional proof correctness and finite timing diagnostics; no physical calibration or evidence-guided driving."
+}

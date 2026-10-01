@@ -1,0 +1,38 @@
+         28995 function calls (26118 primitive calls) in 0.112 seconds
+
+   Ordered by: cumulative time
+   List reduced from 235 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.116    0.116 experiments/policy_runtime_20261001/profile_runtime.py:14(<lambda>)
+        1    0.033    0.033    0.110    0.110 /home/sheng/mobicom2027_visibility_20261001/experiments/policy_evidence_20261001/renew_policy.py:20(renew)
+        1    0.000    0.000    0.059    0.059 /home/sheng/mobicom2027_visibility_20261001/experiments/policy_evidence_20261001/strict_policy.py:7(verify)
+        1    0.000    0.000    0.056    0.056 /home/sheng/mobicom2027_visibility_20261001/experiments/policy_evidence_20261001/policy_proof.py:88(verify)
+        7    0.000    0.000    0.033    0.005 {built-in method builtins.all}
+        3    0.000    0.000    0.033    0.011 /home/sheng/mobicom2027_visibility_20261001/experiments/policy_evidence_20261001/policy_proof.py:99(<genexpr>)
+        2    0.002    0.001    0.033    0.017 /home/sheng/mobicom2027_visibility_20261001/experiments/policy_evidence_20261001/policy_proof.py:28(coverage)
+        7    0.032    0.005    0.032    0.005 {method 'query' of 'scipy.spatial._ckdtree.cKDTree' objects}
+        1    0.000    0.000    0.015    0.015 /home/sheng/mobicom2027_visibility_20261001/experiments/ray_proof_v2_20261001/proof.py:129(decode)
+       15    0.000    0.000    0.012    0.001 /home/sheng/mobicom2027_visibility_20261001/experiments/ray_proof_v2_20261001/proof.py:22(canonical)
+       15    0.000    0.000    0.012    0.001 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/__init__.py:183(dumps)
+       15    0.000    0.000    0.012    0.001 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/encoder.py:182(encode)
+       15    0.012    0.001    0.012    0.001 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/encoder.py:204(iterencode)
+        5    0.000    0.000    0.009    0.002 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/__init__.py:299(loads)
+        5    0.000    0.000    0.009    0.002 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/decoder.py:332(decode)
+        5    0.009    0.002    0.009    0.002 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/decoder.py:343(raw_decode)
+  2735/14    0.002    0.000    0.009    0.001 {built-in method builtins.any}
+     2723    0.001    0.000    0.009    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/ray_proof_v2_20261001/proof.py:143(<genexpr>)
+        1    0.000    0.000    0.008    0.008 /home/sheng/mobicom2027_visibility_20261001/experiments/ray_proof_v2_20261001/proof.py:120(serialize)
+        2    0.000    0.000    0.006    0.003 /home/sheng/.local/lib/python3.8/site-packages/numpy/lib/npyio.py:232(__getitem__)
+        2    0.000    0.000    0.006    0.003 /home/sheng/.local/lib/python3.8/site-packages/numpy/lib/format.py:731(read_array)
+       17    0.000    0.000    0.005    0.000 /home/sheng/anaconda3/envs/carla/lib/python3.8/zipfile.py:917(read)
+       15    0.000    0.000    0.005    0.000 /home/sheng/.local/lib/python3.8/site-packages/numpy/lib/format.py:944(_read_bytes)
+       12    0.000    0.000    0.005    0.000 /home/sheng/anaconda3/envs/carla/lib/python3.8/zipfile.py:997(_read1)
+  147/113    0.001    0.000    0.005    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+        1    0.000    0.000    0.005    0.005 /home/sheng/mobicom2027_visibility_20261001/experiments/ray_proof_v2_20261001/proof.py:78(projections)
+       12    0.005    0.000    0.005    0.000 {method 'decompress' of 'zlib.Decompress' objects}
+        2    0.004    0.002    0.005    0.002 /home/sheng/mobicom2027_visibility_20261001/experiments/visibility_uncertainty_20261001/projection.py:19(bounded_witnesses)
+       64    0.003    0.000    0.003    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+       41    0.000    0.000    0.003    0.000 /home/sheng/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:69(_wrapreduction)
+
+
