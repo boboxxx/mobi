@@ -4,7 +4,9 @@ Finite experiments and literature-driven audits for semantic V2X scheduling. The
 
 ## Main finding
 
-**Latest sheng implementation: evidence validity from incomplete observations.** Actual empty-ray witnesses exclude impossible obstacle centers under explicit size/error/motion bounds; a receiver verifies a quantized geometric proof and every required obstacle class. Fresh-ray support renewal avoids rebuilding the cover each frame. In 2,000 analytic scenes, no center-exclusion or expiry-bound violations were detected under the stipulated model. A new 120-frame CARLA acquisition supports 38 timed two-class 200 ms proofs in dense free/far scenes; 20 eligible near-obstacle frames are rejected. Across all configurations, 38/232 renewal attempts succeed; sparse scans and missing templates remain refusals. These are conditional geometry and static timing diagnostics, not a driving safety guarantee or established MobiCom novelty. See the [new report](research/visibility_certificate_result_20261001.md).
+**Newest follow-up: ray uncertainty and timing.** Supplied XYZ/pose/query error boxes and individual ray ages now produce explicit exclusion bounds. A matched best-uniform-error baseline explains equal positive-certificate counts in the 2 mm model; per-ray bounds lengthen expiry in 10/96 joint configurations, by up to 238 ms. Exact local search matches all 288 full-grid outputs. Larger-error tests retain failures: 20 mm input boxes with a 50 ms hypothetical scan give no joint certificates. These use saved static geometry and hypothetical ray times, not newly measured dynamic scans; the heterogeneous proof format and driving integration remain unfinished. See the [uncertainty report](research/visibility_uncertainty_result_20261001.md) and [project completion ledger](research/PROJECT_STATUS.md).
+
+**Earlier sheng implementation: evidence validity from incomplete observations.** Actual empty-ray witnesses exclude impossible obstacle centers under explicit size/error/motion bounds; a receiver verifies a quantized geometric proof and every required obstacle class. Fresh-ray support renewal avoids rebuilding the cover each frame. In 2,000 analytic scenes, no center-exclusion or expiry-bound violations were detected under the stipulated model. A new 120-frame CARLA acquisition supports 38 timed two-class 200 ms proofs in dense free/far scenes; 20 eligible near-obstacle frames are rejected. Across all configurations, 38/232 renewal attempts succeed; sparse scans and missing templates remain refusals. These are conditional geometry and static timing diagnostics, not a driving safety guarantee or established MobiCom novelty. See the [first certificate report](research/visibility_certificate_result_20261001.md).
 
 **Previous scheduling validation:** 44,000 synthetic episodes confirm that simple group refresh matches the core heterogeneous-lifetime result, and the candidate does not outperform a generic stationary scheduling reference. An 80-frame real CARLA coverage audit fails the primary complete-coverage gate in one of two views. The candidate has **not** established a new scheduling contribution. See the [earlier sheng report](research/renewal_sheng_result_20261001.md).
 
@@ -16,7 +18,9 @@ This repository is a feasibility package, not a complete MobiCom evaluation. The
 
 ## Start here
 
-- [Incomplete observations → conditional expiry: newest report (中文)](research/visibility_certificate_result_20261001.md)
+- [Ray error/time propagation and matched algorithm comparison (中文)](research/visibility_uncertainty_result_20261001.md)
+- [Full project completion ledger and remaining integration](research/PROJECT_STATUS.md)
+- [Incomplete observations → conditional expiry: first certificate report (中文)](research/visibility_certificate_result_20261001.md)
 - [Evidence certificate code, contract, and reproduction](experiments/visibility_certificate_20261001/README.md)
 - [Source, raw frame, and receiver-proof validation](results/visibility_certificate_20261001/analysis.json)
 - [Previous scheduling results and research verdict (中文)](research/renewal_sheng_result_20261001.md)
@@ -36,4 +40,4 @@ This repository is a feasibility package, not a complete MobiCom evaluation. The
 
 Downloaded literature PDFs and extracted full text are intentionally excluded. The reading log and research synthesis remain under `research/`.
 
-![Conditional geometric expiry and two-class proof timing](results/visibility_certificate_20261001/findings.png)
+![Per-ray versus best uniform error bounds under hypothetical scan timing](results/visibility_uncertainty_20261001/comparison.png)

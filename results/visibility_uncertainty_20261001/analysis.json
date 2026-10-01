@@ -1,0 +1,73 @@
+{
+  "validation": "passed",
+  "box_draws": 100000,
+  "box_violations": 0,
+  "hash_checked_clouds": 12,
+  "primary_comparison_rows": 1008,
+  "local_equivalence_cases": 288,
+  "sensitivity_rows": 576,
+  "joint_cases": 96,
+  "by_period": {
+    "0.02": {
+      "cases": 48,
+      "fixed_positive": 4,
+      "uniform_positive": 12,
+      "heterogeneous_positive": 12,
+      "fixed_200ms": 2,
+      "uniform_200ms": 8,
+      "heterogeneous_200ms": 8,
+      "weighted_strict_gain_cases": 8,
+      "max_gain_s": 0.14809229120778877
+    },
+    "0.05": {
+      "cases": 48,
+      "fixed_positive": 0,
+      "uniform_positive": 2,
+      "heterogeneous_positive": 2,
+      "fixed_200ms": 0,
+      "uniform_200ms": 2,
+      "heterogeneous_200ms": 2,
+      "weighted_strict_gain_cases": 2,
+      "max_gain_s": 0.23792418105840563
+    }
+  },
+  "local_max_abs_error_s": 0.0,
+  "combined_geometry_speed_ratio_median": 111.36776444186299,
+  "combined_local_ms_median": 18.789053499972397,
+  "combined_local_ms_max": 731.5976820000287,
+  "larger_errors": {
+    "0.01:0.02": {
+      "cases": 48,
+      "heterogeneous_positive": 6,
+      "uniform_positive": 6,
+      "heterogeneous_200ms": 4,
+      "uniform_200ms": 4
+    },
+    "0.01:0.05": {
+      "cases": 48,
+      "heterogeneous_positive": 2,
+      "uniform_positive": 2,
+      "heterogeneous_200ms": 0,
+      "uniform_200ms": 0
+    },
+    "0.02:0.02": {
+      "cases": 48,
+      "heterogeneous_positive": 2,
+      "uniform_positive": 2,
+      "heterogeneous_200ms": 2,
+      "uniform_200ms": 0
+    },
+    "0.02:0.05": {
+      "cases": 48,
+      "heterogeneous_positive": 0,
+      "uniform_positive": 0,
+      "heterogeneous_200ms": 0,
+      "uniform_200ms": 0
+    }
+  },
+  "joint_combined_local_ms_median": 75.95306999996865,
+  "joint_combined_local_ms_max": 969.3843830000333,
+  "heterogeneous_cpu_ms_median": 2911.4498425000193,
+  "heterogeneous_cpu_ms_max": 5740.643962999911,
+  "scope": "Geometric TTL at hypothetical common scan time. No packet/transport/action latency budget is evaluated by these counts."
+}

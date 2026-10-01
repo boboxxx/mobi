@@ -1,0 +1,37 @@
+{
+  "host": "DESKTOP-UGDDO8T",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "input_clouds": 12,
+  "rows": 720,
+  "perturbations": {
+    "draws": 100000,
+    "violations": 0,
+    "largest_error_to_bound": 0.978709479514518
+  },
+  "elapsed_s": 35.543395524000005,
+  "source_sha256": {
+    "test_projection.py": "56f7e38850189cb66501f0bbe4b2047c8a59c4849a86be5b20bd4a8962d4e188",
+    "run_audit.py": "b8f5d1395272cb6d50e3bf7d98149496d74ba1821781a9e1e722a23125cd7e0c",
+    "projection.py": "1e6b8d809a62e5bf31b27d347692e81b576631bac8d6eab9f6a3ab181f5b2fc3"
+  },
+  "dependency_sha256": {
+    "geometry.py": "47fa0d42d40d45a218fbe01a967a016bc91093f613340c13090cef0caba93f74",
+    "run_study.py": "10f848170bd3fd2824c61e1b25c62dcc47fbd6f8e569b75d011974c34fe7b780"
+  },
+  "protocol_sha256": "46c4020c6e60824825299ca9012709ef6b7a1e798eb8532959bd5e3e819da642",
+  "input_sha256": {
+    "base_0_far_00.npz": "deb24e34d74cf098fc63ae925a35d9e99def4aea29a014de0a69b05d618f698b",
+    "base_0_free_00.npz": "1eabb46b7d6833816c16674b9f37f51e55ce47dbef92b77cbc5c1f226baf5be9",
+    "base_0_near_00.npz": "c84b90459cc6696613027390d2a33b4c9a0084ee5c8f56f7b8f7f6e145f268c2",
+    "base_1_far_00.npz": "01c7bdd173b14e4055946dcf4cd12a7813fa851249affe0e48d716f679a0d318",
+    "base_1_free_00.npz": "e3ee33ee0e956126423e6fd6b332d6132aa51062ae4565fdaa1e9ceb1cd563cd",
+    "base_1_near_00.npz": "0897606c188424c544197bdbb69c0188343da8af4ba6a7a02169499e38ba9a68",
+    "dense_0_far_00.npz": "f6302e1ce8fc321de2695012c1109cc0ef42c915cf9aeb118930409f88032a14",
+    "dense_0_free_00.npz": "9e8251f21a87854d95f125a09c277c922f1065bc121b9f6ea9af3d9d9017e209",
+    "dense_0_near_00.npz": "63f237685b650cc71636a1d6f2a2965b2231b21af1fc00974b4eee4c4b121d2f",
+    "dense_1_far_00.npz": "f7e890d212f3da68ba59c44aedc758120047e0e75d235601547c0381dd278d9a",
+    "dense_1_free_00.npz": "ab993056f7ddca560b12a8e47c8df7f1e388209c34a7c5d2561a321c2b8b0af7",
+    "dense_1_near_00.npz": "423bb0f454be64efdd0a6fe3e2f5cac936c74e4099c1d6f0dd8b80a988dac2a4"
+  },
+  "scope": "Saved static CARLA geometry; upstream boxes supplied; rolling timestamps synthetically assigned by azimuth, not measured sensor times. No driving experiment."
+}

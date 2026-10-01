@@ -1,0 +1,10 @@
+# Finite error-propagation and scan-timing audit
+
+Written before production replay. Prior 120 CARLA scans and their outcomes are already known. No new acquisition, dynamic CARLA measurement, or real sensor calibration is claimed here.
+
+1. Validate ray-plane uncertainty propagation with all 256 input-box corners in a representative 8-dimensional case, 5,000 randomized box perturbations in unit tests, and 100,000 independently drawn production perturbations. Coordinate bounds are supplied, not statistically estimated from these draws.
+2. Use only the first frame in each of 12 existing acquisition conditions. Keep both stipulated obstacle classes and primary 0.1 m grid; report 0.05 m small-core refinement separately as in the prior experiment. Use full stored rays.
+3. Fixed componentwise point/origin/query error bounds: 0, 0.002, 0.01, 0.02 m. Propagate ray endpoint and sensor-origin Z error through the known fixed probe plane. Missing or ambiguous crossings are not evidence. Keep the existing 0.05 m receiver witness-error budget and reject rays that cannot meet it.
+4. First assess simultaneous rays. Then perform a declared rolling-scan sensitivity using the 0.002 m input bound, 20 ms and 50 ms periods, and four fixed end phases: 0, pi/2, pi, 3pi/2. Assign hypothetical ray ages by azimuth; the saved CARLA files do not contain per-ray timestamps. This is an analytical sensitivity on static geometry, not measured rolling CARLA data.
+5. Compare simultaneous treatment (invalid if used for genuinely asynchronous rays), a conservative all-rays-at-oldest-time baseline, and individually aligned rays. All use the same physical profile, queried disk and current timestamp. Temporal alignment subtracts v*age + a*age^2/2 from each ray's center-exclusion radius via the existing error budget. No improvement is asserted in advance; zeros and counterexamples remain in the report.
+6. Every run is finite, performed on sheng. Preserve source and input-cloud hashes, rows and validation. Existing October static results remain unchanged, with any new applicability limit documented explicitly.
