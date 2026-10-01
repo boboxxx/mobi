@@ -1,0 +1,33 @@
+{
+  "host": "DESKTOP-UGDDO8T",
+  "source_sha256": {
+    "experiments/evidence_loop_20261001/capture.py": "d87ab33a5fae5b78d2390aee5c0025ed426755c7fe60a310a8e67920cb164853",
+    "experiments/visibility_uncertainty_20261001/projection.py": "1e6b8d809a62e5bf31b27d347692e81b576631bac8d6eab9f6a3ab181f5b2fc3",
+    "experiments/visibility_certificate_20261001/geometry.py": "47fa0d42d40d45a218fbe01a967a016bc91093f613340c13090cef0caba93f74",
+    "experiments/ray_proof_v2_20261001/proof.py": "2674324e1ffab32f06aa10335030c9a97fdf7cc14fcc590678c2786dd4dddce1",
+    "experiments/ray_proof_v2_20261001/optimized.py": "8d2ea0f9af53587743aac1d54067d7caacbee0c1c7fd48bc98e09cfded1d19ba",
+    "experiments/body_evidence_20261001/body.py": "ed9d3ccd41aca4a59a6187e9a99dabfd459ad6eca066f0451c79c438ff3e62e3",
+    "experiments/policy_evidence_20261001/tube.py": "649d5a8bab9f11874a45954cdcda0a9059bbefa179c987727b4a7a11a15facf3",
+    "experiments/policy_evidence_20261001/policy_proof.py": "24d8e4ab89b7b1cd60796643e29c8846a59779b0c1c453d3c17b1c9bf0cbc85f",
+    "experiments/policy_runtime_20261001/incremental.py": "3e2696702010674f7a95d1eafcc7b333f9e27cc7ec31434d9d37b3bdf466fe89",
+    "experiments/policy_runtime_20261001/binary_proof.py": "0e91e0a4b34012aad2187539ee28c15f7f835a42b362ed71c62083d083e66423",
+    "experiments/lease_handoff_20261001/lease.py": "645d92bfa13af43fda54a04ba1d66d54c8aba914fadefefcf787a8a7baa13282",
+    "experiments/evidence_loop_20261001/control.py": "b9c5d1d56190e0e68a8744f7ecd084dda6d6699a2269e5a50f29855a0f991641",
+    "experiments/body_evidence_20261001/stopping.py": "c59a6ee33a580c55dbc1e89e7d87a945c3a8e17e32621e548b684348380a72b7",
+    "experiments/body_evidence_20261001/history.py": "bd245203adce628906f03ad2aa03659e594ef889a832c53e3da47c2b6d55df51",
+    "experiments/body_evidence_20261001/strict.py": "3ed430cb1aa82e1997759bb322b7223ad451344279335a43892f7477d7834595",
+    "experiments/actuation_calibration_20261001/capture_3d.py": "34b789d0a5220dd398150a86758c40ff85c0342747860074b903c67a27924839",
+    "experiments/actuation_calibration_20261001/model.py": "99f4213b05367a405f7ec06a743c28aeb16c7f00fbb2c78edb875582b03d125e"
+  },
+  "protocol_sha256": "bd948bd3e83c6113f6c6d2fe5f4155a0db9293d336b6c91fb2fccb98137eebce",
+  "model_sha256": "1a4f99e7ab33b68dccfc5323df29c1ccc1db5f9f6c35f9fc3c740667a56b854b",
+  "bound": [
+    0.07731969220628696,
+    0.07700000000000007,
+    0.07700000000000007,
+    0.2
+  ],
+  "runs": 4,
+  "elapsed_s": 9.880815036,
+  "scope": "Actual ego controls with measured-delay synchronous co-simulation; controlled pre-ego raw-ray initialization; no real-time or statistical deployment guarantee."
+}

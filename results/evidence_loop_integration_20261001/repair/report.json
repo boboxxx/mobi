@@ -1,0 +1,100 @@
+{
+  "rows": [
+    {
+      "repeat": 0,
+      "compressed_ms": 750.927130000001,
+      "compressed_rays": 2355,
+      "compressed_bytes": 67728,
+      "repair_ms": 206.98586100000148,
+      "repair_rays": 2696,
+      "repair_bytes": 77441
+    },
+    {
+      "repeat": 1,
+      "repair_ms": 203.90884499999908,
+      "repair_rays": 2696,
+      "repair_bytes": 77441,
+      "compressed_ms": 877.0931750000007,
+      "compressed_rays": 2355,
+      "compressed_bytes": 67728
+    },
+    {
+      "repeat": 2,
+      "compressed_ms": 835.8099980000002,
+      "compressed_rays": 2355,
+      "compressed_bytes": 67728,
+      "repair_ms": 201.53139600000003,
+      "repair_rays": 2696,
+      "repair_bytes": 77441
+    },
+    {
+      "repeat": 3,
+      "repair_ms": 192.53889000000157,
+      "repair_rays": 2696,
+      "repair_bytes": 77441,
+      "compressed_ms": 693.9323170000016,
+      "compressed_rays": 2355,
+      "compressed_bytes": 67728
+    },
+    {
+      "repeat": 4,
+      "compressed_ms": 678.9081249999995,
+      "compressed_rays": 2355,
+      "compressed_bytes": 67728,
+      "repair_ms": 178.90557200000146,
+      "repair_rays": 2696,
+      "repair_bytes": 77441
+    },
+    {
+      "repeat": 5,
+      "repair_ms": 178.54671899999985,
+      "repair_rays": 2696,
+      "repair_bytes": 77441,
+      "compressed_ms": 666.0817879999996,
+      "compressed_rays": 2355,
+      "compressed_bytes": 67728
+    },
+    {
+      "repeat": 6,
+      "compressed_ms": 690.2291160000011,
+      "compressed_rays": 2355,
+      "compressed_bytes": 67728,
+      "repair_ms": 170.10594299999937,
+      "repair_rays": 2696,
+      "repair_bytes": 77441
+    },
+    {
+      "repeat": 7,
+      "repair_ms": 163.82621200000003,
+      "repair_rays": 2696,
+      "repair_bytes": 77441,
+      "compressed_ms": 694.857300999999,
+      "compressed_rays": 2355,
+      "compressed_bytes": 67728
+    }
+  ],
+  "median_ms": {
+    "compressed": 694.3948090000004,
+    "repair": 185.7222310000015
+  },
+  "all_proofs_fully_verified": true,
+  "current_ray_provenance_verified": true,
+  "source_sha256": {
+    "capture_v2.py": "82352cffc8743858807c39f0bff19c9efdee0db8fbcdf99a7c13dbf803d86346",
+    "fast_path.py": "9e1b785b2ac00e2b13b0146384cd7033a75757a1678b296d5e62bf983b742c77",
+    "test_fast_path.py": "3798035e079b6bd82fed1020a79f2813c71bca282d7070ee479e898f2c80b5eb",
+    "capture.py": "d87ab33a5fae5b78d2390aee5c0025ed426755c7fe60a310a8e67920cb164853",
+    "lazy_compress.py": "879650efe85794d78f5bcf0e2a493651f40a9393ecb7f47695c5fcb769272ae9",
+    "capture_v3.py": "f00956bf12390e872f0ca4137070e6e1de3e3b044517110fbd918b8cd4b8107e",
+    "repair_renew.py": "b86c0b2bb3d7114d6c5aeec20b09faa0cbe84ab345e961f12cd21dfcd1d245e0",
+    "test_lazy.py": "ce3f9608cf70156ee466efbaeffbef68451346f36b18259451fdbfee4bf99992",
+    "profile_repair.py": "1249d4bed1474522172a8a1faf98853d147663cc1e756d2fa6dfc9e1f8c972c2",
+    "analyze.py": "a82530a66db3183b802009b7389e78985934f58426022ce5bf862bbb1dd97f22",
+    "diagnose_transition.py": "d1859e24eaff78eebf001a1ebba5c3613ba32a8d5bb5721a12e08d7cfb32e1d4",
+    "profile_compression.py": "011c1e764b04957fb025483cc6c1a9dde6debb5bf8a8f84c008952335e7e9e64",
+    "control.py": "b9c5d1d56190e0e68a8744f7ecd084dda6d6699a2269e5a50f29855a0f991641",
+    "test_control.py": "128cca31ee1c7ab3f1ef969253549cfa6a725d8d7e87e3e7e834a7a4f8997437",
+    "diagnose_shadow.py": "dc2f1edb45770d7b8f2826176bdc39e7e214537c205dd47842c318300ce87527"
+  },
+  "scope": "Post-analysis repair of one identified archived transition, eight alternating-order repeats. Not independent scenarios, fresh closed-loop evidence, or a worst-case timing bound."
+}
