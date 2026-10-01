@@ -1,0 +1,38 @@
+{
+  "validation": "passed",
+  "source_manifests_checked": 4,
+  "raw_clouds": 120,
+  "analytic_scenes": 2000,
+  "synthetic_positive": 417,
+  "false_center_exclusions": 0,
+  "expiry_overestimates": 0,
+  "actual_center_checks": 320,
+  "stale_frames": 0,
+  "serialized_current_ray_proofs_checked": 76,
+  "cold": {
+    "attempts": 96,
+    "geometry": 26,
+    "timing": 4
+  },
+  "per_class_renewal": {
+    "attempts": 377,
+    "geometry": 247,
+    "timing": 124
+  },
+  "bundle": {
+    "attempts": 232,
+    "templates": 58,
+    "geometry": 38,
+    "timing": 38,
+    "near_rejected": 80,
+    "eligible_near_rejected": 20,
+    "age_ms_min": 104.04791599999939,
+    "age_ms_median": 114.6895544999995,
+    "age_ms_max": 137.9743979999941,
+    "sender_ms_median": 39.40121400000063,
+    "receiver_ms_median": 4.183120499999582,
+    "bytes_min": 9148,
+    "bytes_max": 9794
+  },
+  "scope": "Conditional geometric bounds. Repeated static frames, no natural-scene probability or closed-loop driving claim."
+}

@@ -1,0 +1,7 @@
+# Pre-production acquisition addendum
+
+Archived-cloud local replay, before new CARLA acquisition, showed positive vehicle-core certificates but zero small-core certificates under the primary profile. The new finite acquisition therefore includes a second, denser sensor configuration (256 channels, 2,000,000 points/s) in addition to 64 channels / 500,000 points/s. Two mounts × two sensor densities × free/near/far obstacle × ten measured frames = 120 new frames. This is an explicitly documented expansion from the initial 60-frame acquisition plan, motivated by the prior-data pilot, not a claim of external preregistration.
+
+Keep all primary 0.1m results. For small-core cases with primary expiry below 0.1s, additionally calculate the 0.05m tile bound with the same physical error and obstacle assumptions. Refinement reduces numerical over-approximation; it does not reduce assumed sensor error or increase the assumed obstacle size. Record the chosen proof grid explicitly.
+
+Attempt witness packets only on the first measured frame of each acquisition condition/thinning/class to avoid pretending repeated identical static clouds are independent packet trials. Both target horizons 0.1s and 0.2s remain fixed. Receiver timing checks use measured acquisition, geometry, encoding and verification computation plus an explicitly modeled 20ms message delay and 50ms action; this is a timing budget diagnostic, not a real driving loop or measured wireless proof transfer.

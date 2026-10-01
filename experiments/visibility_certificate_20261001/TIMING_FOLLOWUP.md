@@ -1,0 +1,9 @@
+# Finite follow-up after observing the cold-start timing results
+
+The completed 120-frame acquisition produced 26 geometrically valid cold proofs in 96 attempts, but only four passed the stipulated timing budget. This diagnostic motivated support-location reuse. This follow-up is post-diagnostic, not part of the frozen primary protocol.
+
+`run_renewal.py` uses each configuration's first free frame as its only template. It selects new points from each subsequent current scan near the old support locations and verifies the entire requested cover again. It does not renew the timestamps of old evidence. The per-class diagnostic retains each capture row's chosen grid and can therefore refuse on a template/profile mismatch; not every refusal should be attributed to occlusion alone.
+
+`run_bundle.py` fixes this diagnostic ambiguity: it holds each template's receiver-agreed profile and grid constant across free/near/far cases, requires both stipulated obstacle classes, processes them serially, and accounts for one shared witness preprocessing stage, both refreshes, and both receiver verifications. It uses only the 0.2-second horizon. All 116 non-initialization clouds and both thinning settings are included; missing templates count as rejection. The 0.1-second and cold-start failures remain in the original outputs.
+
+Both are finite replay measurements on sheng using the newly captured clouds. Acquisition latency is recorded from acquisition; 20 ms transport and a 50 ms action remain modeled. Reading the cached cloud from disk is excluded (a live stream would already supply the cloud). These runs do not demonstrate physical wireless transmission, dynamic-scene generalization, or a driving controller. Static repeated frames must not be treated as independent scene trials. No cold/warm speedup ratio is claimed from unmatched trial denominators.
