@@ -54,3 +54,11 @@ Select2Drive 最终版公开作者 PDF：[作者站点](https://rongpeng.info/im
 **核查纪律**
 
 本记录没有断言检索穷尽所有文献；预印本和正式录用论文分开标注；没有将论文自报结果当成本项目结果。特别是 Plan2comm 的未完成核查意味着，主方案的新颖性目前只能是有文献依据的候选判断。正式立项前，应补齐这些直接近邻并把方法目标、可访问输入、消息表示、网络假设和评估任务逐项对齐。
+
+## 2026-10-01：完整动作统计校准的增量阅读
+
+- [Formal Verification and Control with Conformal Prediction，v3](https://arxiv.org/html/2409.00536v3)：阅读轨迹校准讨论与 §20（包括独立校准轨迹假设），用于限定本轮 episode 级采样及部署分布要求；没有声称逐节完成全书式综述。
+- [Hulsman，Distribution-Free Finite-Sample Guarantees and Split Conformal Prediction，2022 v1](https://arxiv.org/html/2210.14735v1)：阅读 §4.2–4.3、Proposition 4 的分数化与 Beta 次序统计量覆盖关系。公开硕士论文，不作为新同行评议贡献；本项目最大分数容忍界不是新算法。
+- CARLA 0.9.15 官方 [Transform.h](https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/LibCarla/source/carla/geom/Transform.h) 与 [BoundingBox.h](https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/LibCarla/source/carla/geom/BoundingBox.h)：核查车辆姿态与局部包围盒旋转组合，独立矩阵实现复核八角点；发现仅 yaw 的水平边界会少算，已重新采集完整正式批。
+
+本轮没有取得 Plan2comm / AoUI 的缺失全文，不据二级搜索摘要增添算法对比结论。详见 [本轮结果及局限](actuation_calibration_result_20261001.md)。

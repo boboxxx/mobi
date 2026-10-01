@@ -1,0 +1,82 @@
+{
+  "episodes": 799,
+  "splits": {
+    "train": 100,
+    "calibration": 299,
+    "test": 400
+  },
+  "validated_snapshot_rows": 119387,
+  "actual_command_acceleration_above_3": 60,
+  "source_and_protocol_verified": true,
+  "random_plan_reproduced": true,
+  "failures_by_split": {
+    "train": 0,
+    "calibration": 0,
+    "test": 0
+  },
+  "methods": {
+    "constant": {
+      "test_n": 400,
+      "joint_exceedances": 0,
+      "upper_failure_95": 0.007461355528799602,
+      "counterfactual_admissions": 400,
+      "exceedances_among_admitted": 0,
+      "upper_failure_among_admitted_95": 0.007461355528799602,
+      "median_predicted": {
+        "front_m": 0.07731969220628696,
+        "rear_m": 0.07700000000000007,
+        "lateral_m": 0.07700000000000007,
+        "stop_s": 0.2
+      },
+      "strata": {
+        "low": {
+          "n": 72,
+          "exceedances": 0,
+          "upper_95": 0.04075368623063992
+        },
+        "middle": {
+          "n": 218,
+          "exceedances": 0,
+          "upper_95": 0.013647902397090208
+        },
+        "high": {
+          "n": 110,
+          "exceedances": 0,
+          "upper_95": 0.02686643000626772
+        }
+      }
+    },
+    "state": {
+      "test_n": 400,
+      "joint_exceedances": 7,
+      "upper_failure_95": 0.032617976451330515,
+      "counterfactual_admissions": 400,
+      "exceedances_among_admitted": 7,
+      "upper_failure_among_admitted_95": 0.032617976451330515,
+      "median_predicted": {
+        "front_m": 0.04946210249951864,
+        "rear_m": 0.049115422526639196,
+        "lateral_m": 0.049115422526639196,
+        "stop_s": 0.1600423046682235
+      },
+      "strata": {
+        "low": {
+          "n": 72,
+          "exceedances": 5,
+          "upper_95": 0.14047991400030072
+        },
+        "middle": {
+          "n": 218,
+          "exceedances": 0,
+          "upper_95": 0.013647902397090208
+        },
+        "high": {
+          "n": 110,
+          "exceedances": 2,
+          "upper_95": 0.05612708514646994
+        }
+      }
+    }
+  },
+  "physical_movement_authorized": false
+}
