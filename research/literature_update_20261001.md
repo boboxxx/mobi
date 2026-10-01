@@ -25,3 +25,7 @@
 ## 可追溯性与阅读限制
 
 全文下载只存于忽略的 `research/papers/update_20261001/`，不上传论文原文。已缓存版本的 URL 与 SHA-256 见 [source_manifest_20261001.json](source_manifest_20261001.json)；未缓存的网页以上述链接及阅读范围为准。未取得全文的条目保留为明确缺口，不用二手摘要补写算法细节。检索不是系统综述，也不能证明不存在更早同类工作。
+
+## 条件区域交接的补充核查
+
+[A Safe Control Architecture Based on Robust Model Predictive Control for Autonomous Driving](https://arxiv.org/pdf/2206.09735)，Nezami 等，2022 公开稿：本轮读取 PDF 的 II、IV、V 节，核对保存后备输入、扰动传播、终端不变集及递归可行性条件；未复现论文实验。它说明监督器检查下一动作并保存后备方案是既有方法。本项目新实现的有限区域/期限交接没有该文的长期终端集保证，不能把交接状态机本身作为新颖性结论。与原始射线证据、通信成本和有效期的具体差异见 [本轮报告](lease_handoff_result_20261001.md)。

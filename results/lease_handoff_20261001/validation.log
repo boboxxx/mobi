@@ -1,0 +1,55 @@
+{
+  "validation": "passed",
+  "source_backed_current_ray_packets": 87,
+  "paired_cases": 1044,
+  "grid_pair_checks": 43587,
+  "reason_counts": {
+    "no_packet_geometry": 957,
+    "deadline": 31,
+    "deadline_and_space": 37,
+    "admitted": 19
+  },
+  "by_speed": {
+    "0.0": {
+      "geometry": 29,
+      "old_gate": 2,
+      "region_gate": 14,
+      "plus_1ms_old": 2,
+      "plus_1ms_region": 14,
+      "cases": 348
+    },
+    "0.5": {
+      "geometry": 29,
+      "old_gate": 0,
+      "region_gate": 5,
+      "plus_1ms_old": 0,
+      "plus_1ms_region": 5,
+      "cases": 348
+    },
+    "1.0": {
+      "geometry": 29,
+      "old_gate": 0,
+      "region_gate": 0,
+      "plus_1ms_old": 0,
+      "plus_1ms_region": 0,
+      "cases": 348
+    }
+  },
+  "grid_maximum_groups": {
+    "(0.0, '0.2', 62, 72)": 15,
+    "(0.5, '0.2', None, None)": 15,
+    "(1.0, '0.2', None, None)": 15,
+    "(0.0, '0.3', 120, 172)": 2,
+    "(0.0, '0.4', 120, 272)": 2,
+    "(0.5, '0.3', 37, 47)": 7,
+    "(0.5, '0.4', 120, 147)": 2,
+    "(1.0, '0.3', None, None)": 7,
+    "(1.0, '0.4', 15, 22)": 7,
+    "(0.0, '0.3', 119, 172)": 5,
+    "(0.0, '0.4', 119, 272)": 5,
+    "(0.5, '0.4', 119, 147)": 5
+  },
+  "old_grid_subset_new_on_this_dataset": true,
+  "physical_movement_authorized": false,
+  "scope": "Current raw-ray provenance and full reference geometry; deterministic conditional model and hybrid timing only. No safe waiting or actual control guarantee."
+}
