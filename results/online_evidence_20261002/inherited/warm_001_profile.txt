@@ -1,0 +1,38 @@
+         55235 function calls (49663 primitive calls) in 0.192 seconds
+
+   Ordered by: cumulative time
+   List reduced from 219 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.195    0.195 experiments/online_evidence_20261002/profile_source.py:25(generate)
+        1    0.020    0.020    0.189    0.189 /home/sheng/mobicom2027_visibility_20261001/experiments/evidence_loop_20261001/repair_renew.py:15(renew)
+        2    0.000    0.000    0.058    0.029 /home/sheng/mobicom2027_visibility_20261001/experiments/body_evidence_20261001/body.py:132(verify)
+        1    0.048    0.048    0.056    0.056 /home/sheng/mobicom2027_visibility_20261001/experiments/policy_runtime_20261001/local_renew.py:10(nearest)
+       18    0.043    0.002    0.044    0.002 {method 'query' of 'scipy.spatial._ckdtree.cKDTree' objects}
+       10    0.000    0.000    0.032    0.003 {built-in method builtins.all}
+        5    0.000    0.000    0.032    0.006 /home/sheng/mobicom2027_visibility_20261001/experiments/body_evidence_20261001/body.py:143(<genexpr>)
+        3    0.002    0.001    0.032    0.011 /home/sheng/mobicom2027_visibility_20261001/experiments/body_evidence_20261001/body.py:94(coverage)
+  380/295    0.001    0.000    0.023    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+       26    0.000    0.000    0.022    0.001 /home/sheng/mobicom2027_visibility_20261001/experiments/ray_proof_v2_20261001/proof.py:22(canonical)
+       26    0.000    0.000    0.022    0.001 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/__init__.py:183(dumps)
+       26    0.000    0.000    0.022    0.001 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/encoder.py:182(encode)
+       26    0.022    0.001    0.022    0.001 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/encoder.py:204(iterencode)
+        1    0.000    0.000    0.018    0.018 /home/sheng/mobicom2027_visibility_20261001/experiments/evidence_loop_20261001/repair_renew.py:28(<listcomp>)
+        2    0.001    0.001    0.018    0.009 /home/sheng/mobicom2027_visibility_20261001/experiments/evidence_loop_20261001/diagnose_transition.py:13(missing_cells)
+        2    0.000    0.000    0.017    0.009 /home/sheng/mobicom2027_visibility_20261001/experiments/ray_proof_v2_20261001/proof.py:120(serialize)
+        2    0.000    0.000    0.012    0.006 /home/sheng/mobicom2027_visibility_20261001/experiments/ray_proof_v2_20261001/proof.py:129(decode)
+       76    0.000    0.000    0.012    0.000 /home/sheng/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:51(_wrapfunc)
+        9    0.000    0.000    0.012    0.001 <__array_function__ internals>:177(unique)
+        6    0.000    0.000    0.012    0.002 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/__init__.py:299(loads)
+        9    0.000    0.000    0.012    0.001 /home/sheng/.local/lib/python3.8/site-packages/numpy/lib/arraysetops.py:138(unique)
+        9    0.000    0.000    0.012    0.001 /home/sheng/.local/lib/python3.8/site-packages/numpy/lib/arraysetops.py:323(_unique1d)
+        6    0.000    0.000    0.012    0.002 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/decoder.py:332(decode)
+        6    0.012    0.002    0.012    0.002 /home/sheng/anaconda3/envs/carla/lib/python3.8/json/decoder.py:343(raw_decode)
+        2    0.000    0.000    0.012    0.006 <__array_function__ internals>:177(cumsum)
+        2    0.000    0.000    0.012    0.006 /home/sheng/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:2523(cumsum)
+        2    0.012    0.006    0.012    0.006 {method 'cumsum' of 'numpy.ndarray' objects}
+      168    0.009    0.000    0.009    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+  5361/37    0.002    0.000    0.008    0.000 {built-in method builtins.any}
+     5328    0.002    0.000    0.008    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/ray_proof_v2_20261001/proof.py:143(<genexpr>)
+
+
