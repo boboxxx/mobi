@@ -1,0 +1,16 @@
+{
+  "host": "pa-240-38.byodstaff.susx.ac.uk",
+  "independent_audit": {
+    "byte_identical_to_sheng": true,
+    "file": "validation.json",
+    "sha256": "4e9caba2266e17121c5c19469bd2c95a85380981b82e15459fe4fc52b86ae33d"
+  },
+  "python": "3.8.10",
+  "scope": "Completed independent local reconstruction and observed unit output; original sheng timings unchanged. No local timing benchmark.",
+  "unit_tests": {
+    "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 MOBI_COVER_LIBRARY=/tmp/mobi-incremental-cover.dylib MOBI_RASTER_LIBRARY=/tmp/mobi-stream-raster.dylib MOBI_MASK_LIBRARY=/tmp/mobi-set-mask.dylib MOBI_PROPAGATE_LIBRARY=/tmp/mobi-compact-propagate.dylib python3 -m unittest discover -s experiments/compact_observer_20261002 -v",
+    "distinct_tests": 6,
+    "passed": true,
+    "seconds": 0.467
+  }
+}

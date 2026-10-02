@@ -1,0 +1,17 @@
+{
+  "command": [
+    "g++",
+    "-O3",
+    "-std=c++17",
+    "-ffp-contract=off",
+    "-shared",
+    "-fPIC",
+    "experiments/compact_observer_20261002/propagate.cpp",
+    "-o",
+    "build/compact_observer_20261002/propagate.so"
+  ],
+  "compiler": "g++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0\nCopyright (C) 2019 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "build_ms": 497.82379200000014,
+  "source_sha256": "598526ad69f6eff08038a5d15231ac4c9e8683e6278c00edc9c06e76cc6421f9",
+  "binary_sha256": "971df82a35f364d79c3e810868c9d37fd1becf3d80cefe238165b1d63ca64b73"
+}

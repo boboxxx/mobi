@@ -2,7 +2,27 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October 2 set-observer update: `set_observer_result_20261002.md` adds72
+Latest October 2 compact-observer update: `compact_observer_result_20261002.md`
+adds108 frozen matched sheng calls using common exact temporal dictionaries and
+empty-per-target exact caches. Both positional methods share conservative local
+computation windows with unknown arrivals each transition and an established
+native squared EDT. Fixed-K/coarse geometry remains6/12 with9/36 modeled timely
+calls each; fine remains10/12 with1/36 timely call (246.702ms, only3.298ms to the
+next refusal tick). Extra restored reference targets and all long targets stay
+late. All30 dictionaries reconstruct original typed packet bytes;72 local masks
+contain original full-domain crops, and24 positional horizons match. Independent
+uncached ball/vertex audits check252 prefixes,120 source records,480 class
+transitions,72 masks,30 packets,108 cost rows and40 horizon boundaries. Six new
+distinct tests pass on both hosts. Benefits rely on repeated saved geometry;
+changed-input tests verify correctness, not moving-scene performance. Existing
+set filtering/dictionary/cache/window/EDT techniques do not establish novelty.
+Stable precise timely recovery, changing-scene/real-link generalization, a
+realizable moving control interface, physical contracts and a defensible final
+MobiCom contribution remain unfinished. Full goal stays active and unachieved;
+this changes actual code/data/interpretation, with no new CARLA server or
+recurring research loop.
+
+Previous October 2 set-observer update: `set_observer_result_20261002.md` adds72
 matched sheng calls and12 one-factor2 representation diagnostic calls. Fixed-K
 and the established conservative position-set observer each support6/12 target
 geometries, with1/36 versus0/36 timely modeled calls. Keeping the identical raw
