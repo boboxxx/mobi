@@ -2,6 +2,26 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
+Latest October 2 update: `continuity_recovery_result_20261002.md` implements typed
+receiver-owned fixed class-center fact recovery with strictly overlapping actual
+historical rays, while expired action authority remains refused. It corrects the
+observation-speed age/future acceleration cross term and independently revalidates
+252 original prefix packets. On sheng, 144 on-demand calls recover 6/12 targeted
+geometries but 0 timely requests; 360 charged FIFO maintenance calls and 72 target
+evaluations recover the same 6/12, with 2/36 backfill requests timely. All 360 queues
+have zero measured wait. Independent source/grid audits check 120 saved source
+steps, 6 complete maintained chains/76 chain steps, all cost/queue rows and 24 H/H+1
+boundaries; selected target maxima 475.211 ms add only 0.211 ms. Six negative targets
+have temporal gaps and remain refused. Sixteen distinct tests pass locally and
+on sheng; import/audit failures are retained. This is conditional timestamped
+replay for fixed regions, not effective driving, physical calibration, WCET or
+an established MobiCom contribution. Historical reachability and fixed-K
+induction are established theory. A strong same-history/resource set-membership
+baseline, moving-body control integration and real communication benefits remain
+necessary. The full goal remains active and unachieved; this turn changes
+authoritative implementation/data/interpretation and counts as substantive
+progress. No recurring research loop or new CARLA server was created.
+
 | Requirement | Authoritative evidence / state | Remaining work |
 |---|---|---|
 | Literature-grounded candidate and honest novelty positioning | `literature_update_20261001.md`; scheduling gains defeated by strong simple baselines | Finish closest-neighbor coverage; establish a contribution that survives fair comparison |

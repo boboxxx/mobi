@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "experiments/streaming_recovery_20261002/analyze.py", line 117, in <module>
+    if __name__=='__main__':main()
+  File "experiments/streaming_recovery_20261002/analyze.py", line 76, in main
+    assert [z['id'] for z in selected]==row['planned_ids']
+AssertionError
