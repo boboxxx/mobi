@@ -1,0 +1,26 @@
+test_backfill_cannot_invent_untransmitted_rays (test_repair.Tests) ... ok
+test_bounded_decompression_and_trailing_data (test_repair.Tests) ... ok
+test_cache_eviction_fails_closed (test_repair.Tests) ... ok
+test_changed_fragment_rejected (test_repair.Tests) ... ok
+test_one_request_and_unchanged_geometry_suppression (test_repair.Tests) ... ok
+test_real_historical_repair_and_expired_action (test_repair.Tests) ... ok
+test_reply_request_binding (test_repair.Tests) ... ok
+test_stale_parent_is_not_rolled_back (test_repair.Tests) ... ok
+test_unknown_exterior_and_exact_preimage_against_boxes (test_repair.Tests) ... ERROR
+test_valid_checksum_but_insufficient_fragment_rejected (test_repair.Tests) ... ok
+
+======================================================================
+ERROR: test_unknown_exterior_and_exact_preimage_against_boxes (test_repair.Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/sheng/mobicom2027_visibility_20261001/experiments/historical_repair_20261002/test_repair.py", line 38, in test_unknown_exterior_and_exact_preimage_against_boxes
+    g=body.Profile(domain=1.,step=.1);cells=np.array([[.05,.05],[-.25,.15]]);d=.213
+  File "<string>", line 12, in __init__
+  File "/home/sheng/mobicom2027_visibility_20261001/experiments/visibility_certificate_20261001/geometry.py", line 30, in __post_init__
+    if self.query_radius+self.r_max>=self.domain:raise ValueError('Domain must enclose inflated query')
+ValueError: Domain must enclose inflated query
+
+----------------------------------------------------------------------
+Ran 10 tests in 9.632s
+
+FAILED (errors=1)

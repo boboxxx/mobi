@@ -2,7 +2,30 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October2 class-guard update: `class_guard_result_20261002.md` adds5400
+Latest October2 historical-repair update: `historical_repair_result_20261002.md`
+adds5400 finite sheng normal rows with fully causal modeled feedback events.
+Only a failed observed proof requests cached historical evidence; the21→22 gap
+is repaired by129 actual older rays, with407-byte requests/1548-byte replies.
+Standard timely normal updates rise306→357/360, slow219→261; under chosen normal
+packet losses, original-history backfill explains111→246 and extra historical
+repair reaches285. All69 successful repairs themselves miss the200ms action
+reserve, yet restore future proof chains. Standard CPU-busy-subtracted coverage
+rises21.642%→24.972%. Coverage semantics differ from older quantized-start reports;
+comparisons are within this matched study. All84 fixed old counterexamples still
+survive13,949,004 full3D checks with the actual delivered supplements. All18 queries
+now have positive conditional bounds, at most74.488ms/13.5433% missed lifetime;
+the three zero lower queries are repaired under added information, not solved
+under their original information. Ten tests pass on both hosts; independent
+byte-identical geometry/queue and witness audits validate252 complete prefixes,
+5400 rows,4266 logical class propagations,3936 boundaries,78 source caches and
+270 coverage windows. A fixture failure is preserved. Proof-guided retrospective
+selection is a concrete candidate mechanism, but no firstness/global optimality
+claim is established. Static/repeated geometry, modeled links, uncalibrated sensor
+and kinematic contracts, lightweight bookkeeping outside service timing, and
+unfinished useful moving control/backup remain. The full project goal remains
+active; no recurring research loop or new CARLA service was created.
+
+Previous October2 class-guard update: `class_guard_result_20261002.md` adds5400
 finite sheng rows, class-specific retained facts and same-information positional
 controls. Additional current rays restore all18 previously failing unique source
 frames (54 repeated rows), including the three selected zero-lower queries, but

@@ -1,0 +1,2194 @@
+{
+  "run": "c0_view0_reference_rate20",
+  "method": "backfill",
+  "preset": "slow",
+  "repeat": 1,
+  "root_sender_end_us": 61022539,
+  "root_link_end_us": 61423051,
+  "root_receipt_us": 61516366,
+  "rows": [
+    {
+      "index": 20,
+      "ref_us": 61213942,
+      "raw_sha256": "fd252ac2e7602d3219787e302809a07ee4c592799f475b6a510b0bb410e2572c",
+      "source_arrival_us": 61263734,
+      "sender_start_us": 61263734,
+      "sender_end_us": 61339512,
+      "generation_ms": 68.71755500000631,
+      "encoding_ms": 7.0598599999982525,
+      "bytes": 20748,
+      "packet_sha256": "ccc7006c012a29a762b1bdd0b66af7f0c3f73a1d1754643331d6fcfb836a82ab",
+      "dropped": false,
+      "horizon_us": 475000,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 61339512,
+        "start_us": 61423051,
+        "end_us": 61755019,
+        "arrival_us": 61775019,
+        "bytes": 20748,
+        "sha256": "ccc7006c012a29a762b1bdd0b66af7f0c3f73a1d1754643331d6fcfb836a82ab",
+        "dropped": false
+      },
+      "receiver_start_us": 61775019,
+      "receiver_end_us": 61801736,
+      "verification_ms": 26.716410000005908,
+      "decision": {
+        "reference_us": 61213942,
+        "sequence": 42,
+        "horizon_us": 475000,
+        "endpoint_us": 61688942,
+        "fact_accepted": true,
+        "past_distances": {
+          "small": 1.5675009000000002,
+          "vehicle": 1.5675009000000002
+        },
+        "inherited_radii": {
+          "small": 1.675038085,
+          "vehicle": 3.7750380850000003
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 600000,
+      "authority": [
+        61688942,
+        61801736
+      ],
+      "fact_ref_us": 61213942
+    },
+    {
+      "index": 21,
+      "ref_us": 61463942,
+      "raw_sha256": "a38d5aa222d9d8238a8e87153248dab0e3189ea5dfda6b980b67338e0cfcff58",
+      "source_arrival_us": 61510285,
+      "sender_start_us": 61510285,
+      "sender_end_us": 61584882,
+      "generation_ms": 71.9115549999998,
+      "encoding_ms": 2.6845969999840236,
+      "bytes": 258,
+      "packet_sha256": "6ef1d83c62171fe5c5f1506319d5138867ccc23429199346d9088e7c384261e6",
+      "dropped": false,
+      "horizon_us": 475000,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 61584882,
+        "start_us": 61755019,
+        "end_us": 61759147,
+        "arrival_us": 61779147,
+        "bytes": 258,
+        "sha256": "6ef1d83c62171fe5c5f1506319d5138867ccc23429199346d9088e7c384261e6",
+        "dropped": false
+      },
+      "receiver_start_us": 61801736,
+      "receiver_end_us": 61826979,
+      "verification_ms": 25.242840999993632,
+      "decision": {
+        "reference_us": 61463942,
+        "sequence": 43,
+        "horizon_us": 475000,
+        "endpoint_us": 61938942,
+        "fact_accepted": true,
+        "past_distances": {
+          "small": 1.2968757500000003,
+          "vehicle": 1.2968757500000003
+        },
+        "inherited_radii": {
+          "small": 1.9456632349999998,
+          "vehicle": 4.045663235
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 400000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 22,
+      "ref_us": 62013942,
+      "raw_sha256": "6aacb55bd03418426e8fbc034355154ea8262804f46e59f03e432732798caedb",
+      "source_arrival_us": 62059512,
+      "sender_start_us": 62059512,
+      "sender_end_us": 62133111,
+      "generation_ms": 70.37405399999841,
+      "encoding_ms": 3.2248429999981454,
+      "bytes": 257,
+      "packet_sha256": "5c4c91f7d3ca72ae520cad01197f53d20b2026a9529141c0c39257a50f83db2d",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 62133111,
+        "start_us": 62133111,
+        "end_us": 62137223,
+        "arrival_us": 62157223,
+        "bytes": 257,
+        "sha256": "5c4c91f7d3ca72ae520cad01197f53d20b2026a9529141c0c39257a50f83db2d",
+        "dropped": false
+      },
+      "receiver_start_us": 62157223,
+      "receiver_end_us": 62183270,
+      "verification_ms": 26.046858999990263,
+      "decision": {
+        "reference_us": 62013942,
+        "sequence": 44,
+        "horizon_us": 0,
+        "endpoint_us": 62013942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 2.976876650000001,
+          "vehicle": 2.976876650000001
+        },
+        "inherited_radii": {
+          "small": 0.2656623349999995,
+          "vehicle": 2.3656623349999997
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 23,
+      "ref_us": 62463942,
+      "raw_sha256": "e11e80a3e75f2d8dd7ef192781147c8354b1d3df36eced3d458556c4f468456f",
+      "source_arrival_us": 62507328,
+      "sender_start_us": 62507328,
+      "sender_end_us": 62579852,
+      "generation_ms": 69.37775999999474,
+      "encoding_ms": 3.1458280000151717,
+      "bytes": 259,
+      "packet_sha256": "b441053ba2b47befd767587e54bea9bfd1d5931eb86707f9945216eab19ead8d",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 62579852,
+        "start_us": 62579852,
+        "end_us": 62583996,
+        "arrival_us": 62603996,
+        "bytes": 259,
+        "sha256": "b441053ba2b47befd767587e54bea9bfd1d5931eb86707f9945216eab19ead8d",
+        "dropped": false
+      },
+      "receiver_start_us": 62603996,
+      "receiver_end_us": 62642608,
+      "verification_ms": 38.611107999997785,
+      "decision": {
+        "reference_us": 62463942,
+        "sequence": 45,
+        "horizon_us": 0,
+        "endpoint_us": 62463942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 5.750003000000001,
+          "vehicle": 5.750003000000001
+        },
+        "inherited_radii": {
+          "small": -2.5074640150000014,
+          "vehicle": -0.40746401500000046
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 24,
+      "ref_us": 62913942,
+      "raw_sha256": "ef8629e424953c7022a22fdbd5e1ddd198b00cae6b6d9924d26d7e7c73634b69",
+      "source_arrival_us": 62964187,
+      "sender_start_us": 62964187,
+      "sender_end_us": 63035996,
+      "generation_ms": 69.23383999999544,
+      "encoding_ms": 2.5750389999927847,
+      "bytes": 257,
+      "packet_sha256": "7dc7c6ea6fff30455f7316234e68a32de61c62aadf6d609afe9a3e2c991629dc",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 63035996,
+        "start_us": 63035996,
+        "end_us": 63040108,
+        "arrival_us": 63060108,
+        "bytes": 257,
+        "sha256": "7dc7c6ea6fff30455f7316234e68a32de61c62aadf6d609afe9a3e2c991629dc",
+        "dropped": false
+      },
+      "receiver_start_us": 63060108,
+      "receiver_end_us": 63088179,
+      "verification_ms": 28.070923999990782,
+      "decision": {
+        "reference_us": 62913942,
+        "sequence": 46,
+        "horizon_us": 0,
+        "endpoint_us": 62913942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 8.826879350000002,
+          "vehicle": 8.826879350000002
+        },
+        "inherited_radii": {
+          "small": -5.584340365000003,
+          "vehicle": -3.4843403650000018
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 25,
+      "ref_us": 63363942,
+      "raw_sha256": "20b413d1b151575422a3611203895129adcdf9c40d0e7746e10db23de7fc5134",
+      "source_arrival_us": 63407368,
+      "sender_start_us": 63407368,
+      "sender_end_us": 63484154,
+      "generation_ms": 69.89846300000124,
+      "encoding_ms": 6.8866270000000895,
+      "bytes": 20748,
+      "packet_sha256": "8fdddb3eaae9815a7ab5ccaeb049d49eca4a96a30ed6248f2b72cdcbb5b963a0",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 63484154,
+        "start_us": 63484154,
+        "end_us": 63816122,
+        "arrival_us": 63836122,
+        "bytes": 20748,
+        "sha256": "8fdddb3eaae9815a7ab5ccaeb049d49eca4a96a30ed6248f2b72cdcbb5b963a0",
+        "dropped": false
+      },
+      "receiver_start_us": 63836122,
+      "receiver_end_us": 63864530,
+      "verification_ms": 28.40726299999119,
+      "decision": {
+        "reference_us": 63363942,
+        "sequence": 47,
+        "horizon_us": 0,
+        "endpoint_us": 63363942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 12.207505700000002,
+          "vehicle": 12.207505700000002
+        },
+        "inherited_radii": {
+          "small": -8.964966715000005,
+          "vehicle": -6.864966715000002
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 550000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 26,
+      "ref_us": 63813942,
+      "raw_sha256": "170f20c9c6ba0001cf247791a735c278ddeab8036a3d4f87411144f2e587780b",
+      "source_arrival_us": 63864482,
+      "sender_start_us": 63864482,
+      "sender_end_us": 63936629,
+      "generation_ms": 69.72389999999962,
+      "encoding_ms": 2.422236999990446,
+      "bytes": 260,
+      "packet_sha256": "5c81be19b0a22936c3ad5e8014bda4381d5169aea7147950fe967389a1f471ef",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 63936629,
+        "start_us": 63936629,
+        "end_us": 63940789,
+        "arrival_us": 63960789,
+        "bytes": 260,
+        "sha256": "5c81be19b0a22936c3ad5e8014bda4381d5169aea7147950fe967389a1f471ef",
+        "dropped": false
+      },
+      "receiver_start_us": 63960789,
+      "receiver_end_us": 63986003,
+      "verification_ms": 25.213274000009278,
+      "decision": {
+        "reference_us": 63813942,
+        "sequence": 48,
+        "horizon_us": 0,
+        "endpoint_us": 63813942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 15.891882050000001,
+          "vehicle": 15.891882050000001
+        },
+        "inherited_radii": {
+          "small": -12.649343065000002,
+          "vehicle": -10.549343065000002
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 27,
+      "ref_us": 64313942,
+      "raw_sha256": "11d883310348049fc6606ca5bb2a03222bf5f4851aa56dbf7bb6edca7a61ffb5",
+      "source_arrival_us": 64363967,
+      "sender_start_us": 64363967,
+      "sender_end_us": 64440382,
+      "generation_ms": 73.81311799998969,
+      "encoding_ms": 2.601100999982009,
+      "bytes": 259,
+      "packet_sha256": "e8896c27b96a534e3a7450b2742ca892cd62b49c38ef44187009a53aaf37d9de",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 64440382,
+        "start_us": 64440382,
+        "end_us": 64444526,
+        "arrival_us": 64464526,
+        "bytes": 259,
+        "sha256": "e8896c27b96a534e3a7450b2742ca892cd62b49c38ef44187009a53aaf37d9de",
+        "dropped": false
+      },
+      "receiver_start_us": 64464526,
+      "receiver_end_us": 64501884,
+      "verification_ms": 37.35754100000577,
+      "decision": {
+        "reference_us": 64313942,
+        "sequence": 49,
+        "horizon_us": 0,
+        "endpoint_us": 64313942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 20.341883550000006,
+          "vehicle": 20.341883550000006
+        },
+        "inherited_radii": {
+          "small": -17.09934456500001,
+          "vehicle": -14.999344565000007
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 28,
+      "ref_us": 64813942,
+      "raw_sha256": "aad499517360b7ee06ac95e6a318cb14b50ac6d34262b6d7db75704c56a37d18",
+      "source_arrival_us": 64863441,
+      "sender_start_us": 64863441,
+      "sender_end_us": 64935506,
+      "generation_ms": 69.5409339999884,
+      "encoding_ms": 2.523881000001893,
+      "bytes": 259,
+      "packet_sha256": "968e27cf2cf2379a5498e1157653ac862b6a010ef4a9e9155b492249c808147d",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 64935506,
+        "start_us": 64935506,
+        "end_us": 64939650,
+        "arrival_us": 64959650,
+        "bytes": 259,
+        "sha256": "968e27cf2cf2379a5498e1157653ac862b6a010ef4a9e9155b492249c808147d",
+        "dropped": false
+      },
+      "receiver_start_us": 64959650,
+      "receiver_end_us": 64986185,
+      "verification_ms": 26.53493799999751,
+      "decision": {
+        "reference_us": 64813942,
+        "sequence": 50,
+        "horizon_us": 0,
+        "endpoint_us": 64813942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 25.16688505000001,
+          "vehicle": 25.16688505000001
+        },
+        "inherited_radii": {
+          "small": -21.924346065000012,
+          "vehicle": -19.82434606500001
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 29,
+      "ref_us": 65313942,
+      "raw_sha256": "103af2059c49be0de0372c5454707aaa08bb88ea48c0c82a03ceed7ae0573065",
+      "source_arrival_us": 65366388,
+      "sender_start_us": 65366388,
+      "sender_end_us": 65436880,
+      "generation_ms": 67.92228699998759,
+      "encoding_ms": 2.5692940000112685,
+      "bytes": 259,
+      "packet_sha256": "c9d71bef26d57200e5175a41bdb2c392179fb93895632165b7239d2ebdbe43d3",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 65436880,
+        "start_us": 65436880,
+        "end_us": 65441024,
+        "arrival_us": 65461024,
+        "bytes": 259,
+        "sha256": "c9d71bef26d57200e5175a41bdb2c392179fb93895632165b7239d2ebdbe43d3",
+        "dropped": false
+      },
+      "receiver_start_us": 65461024,
+      "receiver_end_us": 65486918,
+      "verification_ms": 25.89362999998457,
+      "decision": {
+        "reference_us": 65313942,
+        "sequence": 51,
+        "horizon_us": 0,
+        "endpoint_us": 65313942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 30.366886550000007,
+          "vehicle": 30.366886550000007
+        },
+        "inherited_radii": {
+          "small": -27.12434756500001,
+          "vehicle": -25.02434756500001
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 30,
+      "ref_us": 65813942,
+      "raw_sha256": "6e93116412818ce73d589dde08df89b78abaef8060d81d3caca3ef6abc38007d",
+      "source_arrival_us": 65854673,
+      "sender_start_us": 65854673,
+      "sender_end_us": 65930252,
+      "generation_ms": 68.8756770000083,
+      "encoding_ms": 6.7031189999795515,
+      "bytes": 20751,
+      "packet_sha256": "48df1d5c8e021bf682eeb1ac46007191e5c5af3d3061ff7a6970c1a43d3268b3",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 65930252,
+        "start_us": 65930252,
+        "end_us": 66262268,
+        "arrival_us": 66282268,
+        "bytes": 20751,
+        "sha256": "48df1d5c8e021bf682eeb1ac46007191e5c5af3d3061ff7a6970c1a43d3268b3",
+        "dropped": false
+      },
+      "receiver_start_us": 66282268,
+      "receiver_end_us": 66322726,
+      "verification_ms": 40.45752199999697,
+      "decision": {
+        "reference_us": 65813942,
+        "sequence": 52,
+        "horizon_us": 0,
+        "endpoint_us": 65813942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 35.94188805,
+          "vehicle": 35.94188805
+        },
+        "inherited_radii": {
+          "small": -32.69934906500001,
+          "vehicle": -30.599349065000006
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 550000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 31,
+      "ref_us": 66263942,
+      "raw_sha256": "7d32387bad0cff1dde5b50a4d08f6f945d84b62326c67e6fe43eba6f3d16c820",
+      "source_arrival_us": 66317772,
+      "sender_start_us": 66317772,
+      "sender_end_us": 66389600,
+      "generation_ms": 68.47220400000253,
+      "encoding_ms": 3.3551129999978,
+      "bytes": 259,
+      "packet_sha256": "7f6128d7a4439f021e49636eead379e5976ee75f7936995ea277ee5d17748939",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 66389600,
+        "start_us": 66389600,
+        "end_us": 66393744,
+        "arrival_us": 66413744,
+        "bytes": 259,
+        "sha256": "7f6128d7a4439f021e49636eead379e5976ee75f7936995ea277ee5d17748939",
+        "dropped": false
+      },
+      "receiver_start_us": 66413744,
+      "receiver_end_us": 66439142,
+      "verification_ms": 25.397102999988874,
+      "decision": {
+        "reference_us": 66263942,
+        "sequence": 53,
+        "horizon_us": 0,
+        "endpoint_us": 66263942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 41.280014400000006,
+          "vehicle": 41.280014400000006
+        },
+        "inherited_radii": {
+          "small": -38.03747541500001,
+          "vehicle": -35.937475415000016
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 32,
+      "ref_us": 66763942,
+      "raw_sha256": "ad5138c6381fc70ef9f417fe1ae00f4fdf1f6ae6e085bd937c0cb8c7af029283",
+      "source_arrival_us": 66808492,
+      "sender_start_us": 66808492,
+      "sender_end_us": 66879098,
+      "generation_ms": 68.09119499999383,
+      "encoding_ms": 2.514318999999432,
+      "bytes": 259,
+      "packet_sha256": "50b50a405631f24381898850831e9ce2e05fea41b66ebc8b8fc027945f453b20",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 66879098,
+        "start_us": 66879098,
+        "end_us": 66883242,
+        "arrival_us": 66903242,
+        "bytes": 259,
+        "sha256": "50b50a405631f24381898850831e9ce2e05fea41b66ebc8b8fc027945f453b20",
+        "dropped": false
+      },
+      "receiver_start_us": 66903242,
+      "receiver_end_us": 66929832,
+      "verification_ms": 26.589094999991403,
+      "decision": {
+        "reference_us": 66763942,
+        "sequence": 54,
+        "horizon_us": 0,
+        "endpoint_us": 66763942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 47.56751590000001,
+          "vehicle": 47.56751590000001
+        },
+        "inherited_radii": {
+          "small": -44.324976915000015,
+          "vehicle": -42.22497691500002
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 33,
+      "ref_us": 67213942,
+      "raw_sha256": "a1f3405517226e12cc7e58d260d1380236ce78fd855d5f103cfaa4334302aa03",
+      "source_arrival_us": 67256424,
+      "sender_start_us": 67256424,
+      "sender_end_us": 67328856,
+      "generation_ms": 69.89310800000226,
+      "encoding_ms": 2.53795000000423,
+      "bytes": 259,
+      "packet_sha256": "994b976f304095ca2e7b5a5e93c18ebe58d1658ee8e09658ecea0773ea358b6a",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 67328856,
+        "start_us": 67328856,
+        "end_us": 67333000,
+        "arrival_us": 67353000,
+        "bytes": 259,
+        "sha256": "994b976f304095ca2e7b5a5e93c18ebe58d1658ee8e09658ecea0773ea358b6a",
+        "dropped": false
+      },
+      "receiver_start_us": 67353000,
+      "receiver_end_us": 67379255,
+      "verification_ms": 26.254558999994515,
+      "decision": {
+        "reference_us": 67213942,
+        "sequence": 55,
+        "horizon_us": 0,
+        "endpoint_us": 67213942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 53.546892250000006,
+          "vehicle": 53.546892250000006
+        },
+        "inherited_radii": {
+          "small": -50.30435326500001,
+          "vehicle": -48.204353265000016
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 34,
+      "ref_us": 67663942,
+      "raw_sha256": "0be1abca42a38edf60e678b070e6428dbb0c519d04ec7f049b4802fc09a0bba9",
+      "source_arrival_us": 67700884,
+      "sender_start_us": 67700884,
+      "sender_end_us": 67773652,
+      "generation_ms": 70.29230599999892,
+      "encoding_ms": 2.475255000007337,
+      "bytes": 258,
+      "packet_sha256": "de5893bc43bb84e4afba25a796afc49705cbd16633d6546a61d1eea605c6baec",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 67773652,
+        "start_us": 67773652,
+        "end_us": 67777780,
+        "arrival_us": 67797780,
+        "bytes": 258,
+        "sha256": "de5893bc43bb84e4afba25a796afc49705cbd16633d6546a61d1eea605c6baec",
+        "dropped": false
+      },
+      "receiver_start_us": 67797780,
+      "receiver_end_us": 67834837,
+      "verification_ms": 37.05655300001354,
+      "decision": {
+        "reference_us": 67663942,
+        "sequence": 56,
+        "horizon_us": 0,
+        "endpoint_us": 67663942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 59.83001860000001,
+          "vehicle": 59.83001860000001
+        },
+        "inherited_radii": {
+          "small": -56.587479615000014,
+          "vehicle": -54.48747961500002
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 35,
+      "ref_us": 68113942,
+      "raw_sha256": "5f46d3a51e0de01c39d959b9448f9e5f6e843aec85f0dbf6599f02606c19b9e6",
+      "source_arrival_us": 68162002,
+      "sender_start_us": 68162002,
+      "sender_end_us": 68236643,
+      "generation_ms": 67.31489700000282,
+      "encoding_ms": 7.325996000020041,
+      "bytes": 20738,
+      "packet_sha256": "097f19559807f19296e15e80c0c221b32fac9b82f94fac44fd8d50ebc4d78e26",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 68236643,
+        "start_us": 68236643,
+        "end_us": 68568451,
+        "arrival_us": 68588451,
+        "bytes": 20738,
+        "sha256": "097f19559807f19296e15e80c0c221b32fac9b82f94fac44fd8d50ebc4d78e26",
+        "dropped": false
+      },
+      "receiver_start_us": 68588451,
+      "receiver_end_us": 68616821,
+      "verification_ms": 28.36900999997738,
+      "decision": {
+        "reference_us": 68113942,
+        "sequence": 57,
+        "horizon_us": 0,
+        "endpoint_us": 68113942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 66.41689495000001,
+          "vehicle": 66.41689495000001
+        },
+        "inherited_radii": {
+          "small": -63.17435596500002,
+          "vehicle": -61.07435596500002
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 550000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 36,
+      "ref_us": 68563942,
+      "raw_sha256": "93d6ce9ba87eb3c9bb99bb416936d3c9ad66b9a7a7708cd13877f2b439f14747",
+      "source_arrival_us": 68615844,
+      "sender_start_us": 68615844,
+      "sender_end_us": 68696786,
+      "generation_ms": 78.42324099999587,
+      "encoding_ms": 2.51788099998862,
+      "bytes": 258,
+      "packet_sha256": "cc642e5b967cd6cc2ade0d229c931129bec1a1c40d9a1e0627d0a48e3ee49e5c",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 68696786,
+        "start_us": 68696786,
+        "end_us": 68700914,
+        "arrival_us": 68720914,
+        "bytes": 258,
+        "sha256": "cc642e5b967cd6cc2ade0d229c931129bec1a1c40d9a1e0627d0a48e3ee49e5c",
+        "dropped": false
+      },
+      "receiver_start_us": 68720914,
+      "receiver_end_us": 68748634,
+      "verification_ms": 27.719250999979295,
+      "decision": {
+        "reference_us": 68563942,
+        "sequence": 58,
+        "horizon_us": 0,
+        "endpoint_us": 68563942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 73.30752130000002,
+          "vehicle": 73.30752130000002
+        },
+        "inherited_radii": {
+          "small": -70.06498231500004,
+          "vehicle": -67.96498231500003
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 37,
+      "ref_us": 69013942,
+      "raw_sha256": "e32b68b2308473e04311a22b9646fbe7d10660eaec8ec253fea41715c5b80158",
+      "source_arrival_us": 69059325,
+      "sender_start_us": 69059325,
+      "sender_end_us": 69130774,
+      "generation_ms": 68.87089900000376,
+      "encoding_ms": 2.5779340000156026,
+      "bytes": 259,
+      "packet_sha256": "ce46ebae086916b38f210bbf2872f651761e297e9be52d605d74bf79d9bb8fe2",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 69130774,
+        "start_us": 69130774,
+        "end_us": 69134918,
+        "arrival_us": 69154918,
+        "bytes": 259,
+        "sha256": "ce46ebae086916b38f210bbf2872f651761e297e9be52d605d74bf79d9bb8fe2",
+        "dropped": false
+      },
+      "receiver_start_us": 69154918,
+      "receiver_end_us": 69182857,
+      "verification_ms": 27.93819400000075,
+      "decision": {
+        "reference_us": 69013942,
+        "sequence": 59,
+        "horizon_us": 0,
+        "endpoint_us": 69013942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 80.50189765000002,
+          "vehicle": 80.50189765000002
+        },
+        "inherited_radii": {
+          "small": -77.25935866500004,
+          "vehicle": -75.15935866500003
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 38,
+      "ref_us": 69463942,
+      "raw_sha256": "86e6d2cf59a40ae1b07ca381145aba564ad316b6bfb297b0fa2c41ee96fbf649",
+      "source_arrival_us": 69506201,
+      "sender_start_us": 69506201,
+      "sender_end_us": 69579699,
+      "generation_ms": 70.96840100000179,
+      "encoding_ms": 2.528887000011082,
+      "bytes": 259,
+      "packet_sha256": "05b675c223f78588cff4df629b412ab7662ea5d61a5c34c64a421f3d52f5e52d",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 69579699,
+        "start_us": 69579699,
+        "end_us": 69583843,
+        "arrival_us": 69603843,
+        "bytes": 259,
+        "sha256": "05b675c223f78588cff4df629b412ab7662ea5d61a5c34c64a421f3d52f5e52d",
+        "dropped": false
+      },
+      "receiver_start_us": 69603843,
+      "receiver_end_us": 69640115,
+      "verification_ms": 36.271714000008615,
+      "decision": {
+        "reference_us": 69463942,
+        "sequence": 60,
+        "horizon_us": 0,
+        "endpoint_us": 69463942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 88.00002400000001,
+          "vehicle": 88.00002400000001
+        },
+        "inherited_radii": {
+          "small": -84.75748501500003,
+          "vehicle": -82.65748501500002
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    },
+    {
+      "index": 39,
+      "ref_us": 69913942,
+      "raw_sha256": "d66e8bf73346f39b7dccf1f7e36286c247b49040f240aa49bacd06bc10ddd946",
+      "source_arrival_us": 69969103,
+      "sender_start_us": 69969103,
+      "sender_end_us": 70041787,
+      "generation_ms": 70.25127100000361,
+      "encoding_ms": 2.432030999983681,
+      "bytes": 259,
+      "packet_sha256": "f5cec7efd77e083fd1f9c52f572617f7c08e9157a53438bcd0634a1d66e80da6",
+      "dropped": false,
+      "horizon_us": 0,
+      "fresh_admission": false,
+      "link": {
+        "kind": "normal_arrival",
+        "direction": "down",
+        "enqueued_us": 70041787,
+        "start_us": 70041787,
+        "end_us": 70045931,
+        "arrival_us": 70065931,
+        "bytes": 259,
+        "sha256": "f5cec7efd77e083fd1f9c52f572617f7c08e9157a53438bcd0634a1d66e80da6",
+        "dropped": false
+      },
+      "receiver_start_us": 70065931,
+      "receiver_end_us": 70092446,
+      "verification_ms": 26.514522000013585,
+      "decision": {
+        "reference_us": 69913942,
+        "sequence": 61,
+        "horizon_us": 0,
+        "endpoint_us": 69913942,
+        "fact_accepted": false,
+        "past_distances": {
+          "small": 95.80190035,
+          "vehicle": 95.80190035
+        },
+        "inherited_radii": {
+          "small": -92.55936136500002,
+          "vehicle": -90.459361365
+        },
+        "class_horizons": {
+          "small": 475000,
+          "vehicle": 475000
+        },
+        "cache_hit": false
+      },
+      "age_us": 200000,
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    }
+  ],
+  "events": [
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 61263734,
+      "start_us": 61263734,
+      "end_us": 61339512,
+      "service_ms": 75.77741500000457,
+      "index": 20,
+      "input_sha256": "ccc7006c012a29a762b1bdd0b66af7f0c3f73a1d1754643331d6fcfb836a82ab"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 61339512,
+      "start_us": 61423051,
+      "end_us": 61755019,
+      "arrival_us": 61775019,
+      "bytes": 20748,
+      "sha256": "ccc7006c012a29a762b1bdd0b66af7f0c3f73a1d1754643331d6fcfb836a82ab",
+      "dropped": false
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 61510285,
+      "start_us": 61510285,
+      "end_us": 61584882,
+      "service_ms": 74.59615199998382,
+      "index": 21,
+      "input_sha256": "6ef1d83c62171fe5c5f1506319d5138867ccc23429199346d9088e7c384261e6"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 61584882,
+      "start_us": 61755019,
+      "end_us": 61759147,
+      "arrival_us": 61779147,
+      "bytes": 258,
+      "sha256": "6ef1d83c62171fe5c5f1506319d5138867ccc23429199346d9088e7c384261e6",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 61775019,
+      "start_us": 61775019,
+      "end_us": 61801736,
+      "service_ms": 26.716410000005908,
+      "index": 20,
+      "input_sha256": "ccc7006c012a29a762b1bdd0b66af7f0c3f73a1d1754643331d6fcfb836a82ab"
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 61779147,
+      "start_us": 61801736,
+      "end_us": 61826979,
+      "service_ms": 25.242840999993632,
+      "index": 21,
+      "input_sha256": "6ef1d83c62171fe5c5f1506319d5138867ccc23429199346d9088e7c384261e6"
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 62059512,
+      "start_us": 62059512,
+      "end_us": 62133111,
+      "service_ms": 73.59889699999655,
+      "index": 22,
+      "input_sha256": "5c4c91f7d3ca72ae520cad01197f53d20b2026a9529141c0c39257a50f83db2d"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 62133111,
+      "start_us": 62133111,
+      "end_us": 62137223,
+      "arrival_us": 62157223,
+      "bytes": 257,
+      "sha256": "5c4c91f7d3ca72ae520cad01197f53d20b2026a9529141c0c39257a50f83db2d",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 62157223,
+      "start_us": 62157223,
+      "end_us": 62183270,
+      "service_ms": 26.046858999990263,
+      "index": 22,
+      "input_sha256": "5c4c91f7d3ca72ae520cad01197f53d20b2026a9529141c0c39257a50f83db2d"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 62183270,
+      "start_us": 62183270,
+      "end_us": 62187472,
+      "service_ms": 4.201756000014711,
+      "index": 22,
+      "input_sha256": null
+    },
+    {
+      "kind": "request_arrival",
+      "direction": "up",
+      "enqueued_us": 62187472,
+      "start_us": 62187472,
+      "end_us": 62194016,
+      "arrival_us": 62214016,
+      "bytes": 409,
+      "sha256": "8ed4343606d885e10db5dde8cd27a2f2c35e2197fa1e4c6edc86e9570e120f4c",
+      "dropped": false
+    },
+    {
+      "kind": "reply_source",
+      "resource": "source",
+      "enqueued_us": 62214016,
+      "start_us": 62214016,
+      "end_us": 62227839,
+      "service_ms": 13.822062000002688,
+      "index": null,
+      "input_sha256": "8ed4343606d885e10db5dde8cd27a2f2c35e2197fa1e4c6edc86e9570e120f4c"
+    },
+    {
+      "kind": "reply_arrival",
+      "direction": "down",
+      "enqueued_us": 62227839,
+      "start_us": 62227839,
+      "end_us": 62231503,
+      "arrival_us": 62251503,
+      "bytes": 229,
+      "sha256": "734bb19e1b850d74d2c2967240583e875ac6b6803f034626c1a521045a30ddb9",
+      "dropped": false
+    },
+    {
+      "kind": "reply_receiver",
+      "resource": "receiver",
+      "enqueued_us": 62251503,
+      "start_us": 62251503,
+      "end_us": 62251540,
+      "service_ms": 0.03622599999175691,
+      "index": null,
+      "input_sha256": "734bb19e1b850d74d2c2967240583e875ac6b6803f034626c1a521045a30ddb9"
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 62507328,
+      "start_us": 62507328,
+      "end_us": 62579852,
+      "service_ms": 72.52358800000991,
+      "index": 23,
+      "input_sha256": "b441053ba2b47befd767587e54bea9bfd1d5931eb86707f9945216eab19ead8d"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 62579852,
+      "start_us": 62579852,
+      "end_us": 62583996,
+      "arrival_us": 62603996,
+      "bytes": 259,
+      "sha256": "b441053ba2b47befd767587e54bea9bfd1d5931eb86707f9945216eab19ead8d",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 62603996,
+      "start_us": 62603996,
+      "end_us": 62642608,
+      "service_ms": 38.611107999997785,
+      "index": 23,
+      "input_sha256": "b441053ba2b47befd767587e54bea9bfd1d5931eb86707f9945216eab19ead8d"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 62642608,
+      "start_us": 62642608,
+      "end_us": 62646635,
+      "service_ms": 4.0264319999891995,
+      "index": 23,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 62964187,
+      "start_us": 62964187,
+      "end_us": 63035996,
+      "service_ms": 71.80887899998822,
+      "index": 24,
+      "input_sha256": "7dc7c6ea6fff30455f7316234e68a32de61c62aadf6d609afe9a3e2c991629dc"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 63035996,
+      "start_us": 63035996,
+      "end_us": 63040108,
+      "arrival_us": 63060108,
+      "bytes": 257,
+      "sha256": "7dc7c6ea6fff30455f7316234e68a32de61c62aadf6d609afe9a3e2c991629dc",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 63060108,
+      "start_us": 63060108,
+      "end_us": 63088179,
+      "service_ms": 28.070923999990782,
+      "index": 24,
+      "input_sha256": "7dc7c6ea6fff30455f7316234e68a32de61c62aadf6d609afe9a3e2c991629dc"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 63088179,
+      "start_us": 63088179,
+      "end_us": 63092929,
+      "service_ms": 4.749857000007296,
+      "index": 24,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 63407368,
+      "start_us": 63407368,
+      "end_us": 63484154,
+      "service_ms": 76.78509000000133,
+      "index": 25,
+      "input_sha256": "8fdddb3eaae9815a7ab5ccaeb049d49eca4a96a30ed6248f2b72cdcbb5b963a0"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 63484154,
+      "start_us": 63484154,
+      "end_us": 63816122,
+      "arrival_us": 63836122,
+      "bytes": 20748,
+      "sha256": "8fdddb3eaae9815a7ab5ccaeb049d49eca4a96a30ed6248f2b72cdcbb5b963a0",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 63836122,
+      "start_us": 63836122,
+      "end_us": 63864530,
+      "service_ms": 28.40726299999119,
+      "index": 25,
+      "input_sha256": "8fdddb3eaae9815a7ab5ccaeb049d49eca4a96a30ed6248f2b72cdcbb5b963a0"
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 63864482,
+      "start_us": 63864482,
+      "end_us": 63936629,
+      "service_ms": 72.14613699999006,
+      "index": 26,
+      "input_sha256": "5c81be19b0a22936c3ad5e8014bda4381d5169aea7147950fe967389a1f471ef"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 63864530,
+      "start_us": 63864530,
+      "end_us": 63868304,
+      "service_ms": 3.7738389999901756,
+      "index": 25,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 63936629,
+      "start_us": 63936629,
+      "end_us": 63940789,
+      "arrival_us": 63960789,
+      "bytes": 260,
+      "sha256": "5c81be19b0a22936c3ad5e8014bda4381d5169aea7147950fe967389a1f471ef",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 63960789,
+      "start_us": 63960789,
+      "end_us": 63986003,
+      "service_ms": 25.213274000009278,
+      "index": 26,
+      "input_sha256": "5c81be19b0a22936c3ad5e8014bda4381d5169aea7147950fe967389a1f471ef"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 63986003,
+      "start_us": 63986003,
+      "end_us": 63990205,
+      "service_ms": 4.201063000010663,
+      "index": 26,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 64363967,
+      "start_us": 64363967,
+      "end_us": 64440382,
+      "service_ms": 76.4142189999717,
+      "index": 27,
+      "input_sha256": "e8896c27b96a534e3a7450b2742ca892cd62b49c38ef44187009a53aaf37d9de"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 64440382,
+      "start_us": 64440382,
+      "end_us": 64444526,
+      "arrival_us": 64464526,
+      "bytes": 259,
+      "sha256": "e8896c27b96a534e3a7450b2742ca892cd62b49c38ef44187009a53aaf37d9de",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 64464526,
+      "start_us": 64464526,
+      "end_us": 64501884,
+      "service_ms": 37.35754100000577,
+      "index": 27,
+      "input_sha256": "e8896c27b96a534e3a7450b2742ca892cd62b49c38ef44187009a53aaf37d9de"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 64501884,
+      "start_us": 64501884,
+      "end_us": 64505839,
+      "service_ms": 3.954881999987947,
+      "index": 27,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 64863441,
+      "start_us": 64863441,
+      "end_us": 64935506,
+      "service_ms": 72.06481499999029,
+      "index": 28,
+      "input_sha256": "968e27cf2cf2379a5498e1157653ac862b6a010ef4a9e9155b492249c808147d"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 64935506,
+      "start_us": 64935506,
+      "end_us": 64939650,
+      "arrival_us": 64959650,
+      "bytes": 259,
+      "sha256": "968e27cf2cf2379a5498e1157653ac862b6a010ef4a9e9155b492249c808147d",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 64959650,
+      "start_us": 64959650,
+      "end_us": 64986185,
+      "service_ms": 26.53493799999751,
+      "index": 28,
+      "input_sha256": "968e27cf2cf2379a5498e1157653ac862b6a010ef4a9e9155b492249c808147d"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 64986185,
+      "start_us": 64986185,
+      "end_us": 64990507,
+      "service_ms": 4.321965999992017,
+      "index": 28,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 65366388,
+      "start_us": 65366388,
+      "end_us": 65436880,
+      "service_ms": 70.49158099999886,
+      "index": 29,
+      "input_sha256": "c9d71bef26d57200e5175a41bdb2c392179fb93895632165b7239d2ebdbe43d3"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 65436880,
+      "start_us": 65436880,
+      "end_us": 65441024,
+      "arrival_us": 65461024,
+      "bytes": 259,
+      "sha256": "c9d71bef26d57200e5175a41bdb2c392179fb93895632165b7239d2ebdbe43d3",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 65461024,
+      "start_us": 65461024,
+      "end_us": 65486918,
+      "service_ms": 25.89362999998457,
+      "index": 29,
+      "input_sha256": "c9d71bef26d57200e5175a41bdb2c392179fb93895632165b7239d2ebdbe43d3"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 65486918,
+      "start_us": 65486918,
+      "end_us": 65490756,
+      "service_ms": 3.8373200000023644,
+      "index": 29,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 65854673,
+      "start_us": 65854673,
+      "end_us": 65930252,
+      "service_ms": 75.57879599998785,
+      "index": 30,
+      "input_sha256": "48df1d5c8e021bf682eeb1ac46007191e5c5af3d3061ff7a6970c1a43d3268b3"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 65930252,
+      "start_us": 65930252,
+      "end_us": 66262268,
+      "arrival_us": 66282268,
+      "bytes": 20751,
+      "sha256": "48df1d5c8e021bf682eeb1ac46007191e5c5af3d3061ff7a6970c1a43d3268b3",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 66282268,
+      "start_us": 66282268,
+      "end_us": 66322726,
+      "service_ms": 40.45752199999697,
+      "index": 30,
+      "input_sha256": "48df1d5c8e021bf682eeb1ac46007191e5c5af3d3061ff7a6970c1a43d3268b3"
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 66317772,
+      "start_us": 66317772,
+      "end_us": 66389600,
+      "service_ms": 71.82731700000033,
+      "index": 31,
+      "input_sha256": "7f6128d7a4439f021e49636eead379e5976ee75f7936995ea277ee5d17748939"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 66322726,
+      "start_us": 66322726,
+      "end_us": 66326908,
+      "service_ms": 4.181061999986468,
+      "index": 30,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 66389600,
+      "start_us": 66389600,
+      "end_us": 66393744,
+      "arrival_us": 66413744,
+      "bytes": 259,
+      "sha256": "7f6128d7a4439f021e49636eead379e5976ee75f7936995ea277ee5d17748939",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 66413744,
+      "start_us": 66413744,
+      "end_us": 66439142,
+      "service_ms": 25.397102999988874,
+      "index": 31,
+      "input_sha256": "7f6128d7a4439f021e49636eead379e5976ee75f7936995ea277ee5d17748939"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 66439142,
+      "start_us": 66439142,
+      "end_us": 66443156,
+      "service_ms": 4.013595999992958,
+      "index": 31,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 66808492,
+      "start_us": 66808492,
+      "end_us": 66879098,
+      "service_ms": 70.60551399999326,
+      "index": 32,
+      "input_sha256": "50b50a405631f24381898850831e9ce2e05fea41b66ebc8b8fc027945f453b20"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 66879098,
+      "start_us": 66879098,
+      "end_us": 66883242,
+      "arrival_us": 66903242,
+      "bytes": 259,
+      "sha256": "50b50a405631f24381898850831e9ce2e05fea41b66ebc8b8fc027945f453b20",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 66903242,
+      "start_us": 66903242,
+      "end_us": 66929832,
+      "service_ms": 26.589094999991403,
+      "index": 32,
+      "input_sha256": "50b50a405631f24381898850831e9ce2e05fea41b66ebc8b8fc027945f453b20"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 66929832,
+      "start_us": 66929832,
+      "end_us": 66933816,
+      "service_ms": 3.9838759999781814,
+      "index": 32,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 67256424,
+      "start_us": 67256424,
+      "end_us": 67328856,
+      "service_ms": 72.43105800000649,
+      "index": 33,
+      "input_sha256": "994b976f304095ca2e7b5a5e93c18ebe58d1658ee8e09658ecea0773ea358b6a"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 67328856,
+      "start_us": 67328856,
+      "end_us": 67333000,
+      "arrival_us": 67353000,
+      "bytes": 259,
+      "sha256": "994b976f304095ca2e7b5a5e93c18ebe58d1658ee8e09658ecea0773ea358b6a",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 67353000,
+      "start_us": 67353000,
+      "end_us": 67379255,
+      "service_ms": 26.254558999994515,
+      "index": 33,
+      "input_sha256": "994b976f304095ca2e7b5a5e93c18ebe58d1658ee8e09658ecea0773ea358b6a"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 67379255,
+      "start_us": 67379255,
+      "end_us": 67383917,
+      "service_ms": 4.66157799999678,
+      "index": 33,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 67700884,
+      "start_us": 67700884,
+      "end_us": 67773652,
+      "service_ms": 72.76756100000625,
+      "index": 34,
+      "input_sha256": "de5893bc43bb84e4afba25a796afc49705cbd16633d6546a61d1eea605c6baec"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 67773652,
+      "start_us": 67773652,
+      "end_us": 67777780,
+      "arrival_us": 67797780,
+      "bytes": 258,
+      "sha256": "de5893bc43bb84e4afba25a796afc49705cbd16633d6546a61d1eea605c6baec",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 67797780,
+      "start_us": 67797780,
+      "end_us": 67834837,
+      "service_ms": 37.05655300001354,
+      "index": 34,
+      "input_sha256": "de5893bc43bb84e4afba25a796afc49705cbd16633d6546a61d1eea605c6baec"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 67834837,
+      "start_us": 67834837,
+      "end_us": 67839688,
+      "service_ms": 4.85002400000667,
+      "index": 34,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 68162002,
+      "start_us": 68162002,
+      "end_us": 68236643,
+      "service_ms": 74.64089300002286,
+      "index": 35,
+      "input_sha256": "097f19559807f19296e15e80c0c221b32fac9b82f94fac44fd8d50ebc4d78e26"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 68236643,
+      "start_us": 68236643,
+      "end_us": 68568451,
+      "arrival_us": 68588451,
+      "bytes": 20738,
+      "sha256": "097f19559807f19296e15e80c0c221b32fac9b82f94fac44fd8d50ebc4d78e26",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 68588451,
+      "start_us": 68588451,
+      "end_us": 68616821,
+      "service_ms": 28.36900999997738,
+      "index": 35,
+      "input_sha256": "097f19559807f19296e15e80c0c221b32fac9b82f94fac44fd8d50ebc4d78e26"
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 68615844,
+      "start_us": 68615844,
+      "end_us": 68696786,
+      "service_ms": 80.94112199998449,
+      "index": 36,
+      "input_sha256": "cc642e5b967cd6cc2ade0d229c931129bec1a1c40d9a1e0627d0a48e3ee49e5c"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 68616821,
+      "start_us": 68616821,
+      "end_us": 68620783,
+      "service_ms": 3.9615639999794894,
+      "index": 35,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 68696786,
+      "start_us": 68696786,
+      "end_us": 68700914,
+      "arrival_us": 68720914,
+      "bytes": 258,
+      "sha256": "cc642e5b967cd6cc2ade0d229c931129bec1a1c40d9a1e0627d0a48e3ee49e5c",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 68720914,
+      "start_us": 68720914,
+      "end_us": 68748634,
+      "service_ms": 27.719250999979295,
+      "index": 36,
+      "input_sha256": "cc642e5b967cd6cc2ade0d229c931129bec1a1c40d9a1e0627d0a48e3ee49e5c"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 68748634,
+      "start_us": 68748634,
+      "end_us": 68752539,
+      "service_ms": 3.904817000005778,
+      "index": 36,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 69059325,
+      "start_us": 69059325,
+      "end_us": 69130774,
+      "service_ms": 71.44883300001936,
+      "index": 37,
+      "input_sha256": "ce46ebae086916b38f210bbf2872f651761e297e9be52d605d74bf79d9bb8fe2"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 69130774,
+      "start_us": 69130774,
+      "end_us": 69134918,
+      "arrival_us": 69154918,
+      "bytes": 259,
+      "sha256": "ce46ebae086916b38f210bbf2872f651761e297e9be52d605d74bf79d9bb8fe2",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 69154918,
+      "start_us": 69154918,
+      "end_us": 69182857,
+      "service_ms": 27.93819400000075,
+      "index": 37,
+      "input_sha256": "ce46ebae086916b38f210bbf2872f651761e297e9be52d605d74bf79d9bb8fe2"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 69182857,
+      "start_us": 69182857,
+      "end_us": 69186705,
+      "service_ms": 3.8472120000108134,
+      "index": 37,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 69506201,
+      "start_us": 69506201,
+      "end_us": 69579699,
+      "service_ms": 73.49728800001287,
+      "index": 38,
+      "input_sha256": "05b675c223f78588cff4df629b412ab7662ea5d61a5c34c64a421f3d52f5e52d"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 69579699,
+      "start_us": 69579699,
+      "end_us": 69583843,
+      "arrival_us": 69603843,
+      "bytes": 259,
+      "sha256": "05b675c223f78588cff4df629b412ab7662ea5d61a5c34c64a421f3d52f5e52d",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 69603843,
+      "start_us": 69603843,
+      "end_us": 69640115,
+      "service_ms": 36.271714000008615,
+      "index": 38,
+      "input_sha256": "05b675c223f78588cff4df629b412ab7662ea5d61a5c34c64a421f3d52f5e52d"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 69640115,
+      "start_us": 69640115,
+      "end_us": 69643913,
+      "service_ms": 3.7976819999983036,
+      "index": 38,
+      "input_sha256": null
+    },
+    {
+      "kind": "normal_source",
+      "resource": "source",
+      "enqueued_us": 69969103,
+      "start_us": 69969103,
+      "end_us": 70041787,
+      "service_ms": 72.6833019999873,
+      "index": 39,
+      "input_sha256": "f5cec7efd77e083fd1f9c52f572617f7c08e9157a53438bcd0634a1d66e80da6"
+    },
+    {
+      "kind": "normal_arrival",
+      "direction": "down",
+      "enqueued_us": 70041787,
+      "start_us": 70041787,
+      "end_us": 70045931,
+      "arrival_us": 70065931,
+      "bytes": 259,
+      "sha256": "f5cec7efd77e083fd1f9c52f572617f7c08e9157a53438bcd0634a1d66e80da6",
+      "dropped": false
+    },
+    {
+      "kind": "normal_receiver",
+      "resource": "receiver",
+      "enqueued_us": 70065931,
+      "start_us": 70065931,
+      "end_us": 70092446,
+      "service_ms": 26.514522000013585,
+      "index": 39,
+      "input_sha256": "f5cec7efd77e083fd1f9c52f572617f7c08e9157a53438bcd0634a1d66e80da6"
+    },
+    {
+      "kind": "request_receiver",
+      "resource": "receiver",
+      "enqueued_us": 70092446,
+      "start_us": 70092446,
+      "end_us": 70096721,
+      "service_ms": 4.274357999975109,
+      "index": 39,
+      "input_sha256": null
+    }
+  ],
+  "repairs": [
+    {
+      "request_sha256": "8ed4343606d885e10db5dde8cd27a2f2c35e2197fa1e4c6edc86e9570e120f4c",
+      "reply_sha256": "734bb19e1b850d74d2c2967240583e875ac6b6803f034626c1a521045a30ddb9",
+      "source_start_us": 62214016,
+      "source_end_us": 62227839,
+      "stats": {
+        "cache": [
+          {
+            "ref": 60913942,
+            "sha256": "de02bfafef36c9857d507bf5e2592fc506a7484f8b224440091ea571074d4f6f"
+          },
+          {
+            "ref": 61213942,
+            "sha256": "fd252ac2e7602d3219787e302809a07ee4c592799f475b6a510b0bb410e2572c"
+          },
+          {
+            "ref": 61463942,
+            "sha256": "a38d5aa222d9d8238a8e87153248dab0e3189ea5dfda6b980b67338e0cfcff58"
+          },
+          {
+            "ref": 62013942,
+            "sha256": "6aacb55bd03418426e8fbc034355154ea8262804f46e59f03e432732798caedb"
+          }
+        ],
+        "transitions": [
+          {
+            "parent": 61463942,
+            "target": 62013942,
+            "ordinary_supported": false
+          }
+        ]
+      },
+      "link": {
+        "kind": "reply_arrival",
+        "direction": "down",
+        "enqueued_us": 62227839,
+        "start_us": 62227839,
+        "end_us": 62231503,
+        "arrival_us": 62251503,
+        "bytes": 229,
+        "sha256": "734bb19e1b850d74d2c2967240583e875ac6b6803f034626c1a521045a30ddb9",
+        "dropped": false
+      },
+      "receiver_start_us": 62251503,
+      "receiver_end_us": 62251540,
+      "verification_ms": 0.03622599999175691,
+      "decision": {
+        "reason": "replay_unproved",
+        "horizon_us": 0
+      },
+      "authority": [
+        61938942,
+        61826979
+      ],
+      "fact_ref_us": 61463942
+    }
+  ],
+  "downlink_bytes": 112384,
+  "uplink_bytes": 409,
+  "coverage": {
+    "start_us": 61213942,
+    "end_us": 70413942,
+    "covered_us": 0,
+    "coverage": 0.0,
+    "intervals": [],
+    "grants": [
+      [
+        61516366,
+        61188942
+      ],
+      [
+        61801736,
+        61488942
+      ],
+      [
+        61826979,
+        61738942
+      ]
+    ],
+    "cpu": [
+      [
+        61775019,
+        61801736
+      ],
+      [
+        61801736,
+        61826979
+      ],
+      [
+        62157223,
+        62183270
+      ],
+      [
+        62183270,
+        62187472
+      ],
+      [
+        62251503,
+        62251540
+      ],
+      [
+        62603996,
+        62642608
+      ],
+      [
+        62642608,
+        62646635
+      ],
+      [
+        63060108,
+        63088179
+      ],
+      [
+        63088179,
+        63092929
+      ],
+      [
+        63836122,
+        63864530
+      ],
+      [
+        63864530,
+        63868304
+      ],
+      [
+        63960789,
+        63986003
+      ],
+      [
+        63986003,
+        63990205
+      ],
+      [
+        64464526,
+        64501884
+      ],
+      [
+        64501884,
+        64505839
+      ],
+      [
+        64959650,
+        64986185
+      ],
+      [
+        64986185,
+        64990507
+      ],
+      [
+        65461024,
+        65486918
+      ],
+      [
+        65486918,
+        65490756
+      ],
+      [
+        66282268,
+        66322726
+      ],
+      [
+        66322726,
+        66326908
+      ],
+      [
+        66413744,
+        66439142
+      ],
+      [
+        66439142,
+        66443156
+      ],
+      [
+        66903242,
+        66929832
+      ],
+      [
+        66929832,
+        66933816
+      ],
+      [
+        67353000,
+        67379255
+      ],
+      [
+        67379255,
+        67383917
+      ],
+      [
+        67797780,
+        67834837
+      ],
+      [
+        67834837,
+        67839688
+      ],
+      [
+        68588451,
+        68616821
+      ],
+      [
+        68616821,
+        68620783
+      ],
+      [
+        68720914,
+        68748634
+      ],
+      [
+        68748634,
+        68752539
+      ],
+      [
+        69154918,
+        69182857
+      ],
+      [
+        69182857,
+        69186705
+      ],
+      [
+        69603843,
+        69640115
+      ],
+      [
+        69640115,
+        69643913
+      ],
+      [
+        70065931,
+        70092446
+      ],
+      [
+        70092446,
+        70096721
+      ]
+    ]
+  }
+}
