@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "experiments/incremental_validity_20261002/plot.py", line 8, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/sheng/.local/lib/python3.8/site-packages/matplotlib/pyplot.py", line 61, in <module>
+    from matplotlib.figure import Figure, FigureBase, figaspect
+  File "/home/sheng/.local/lib/python3.8/site-packages/matplotlib/figure.py", line 43, in <module>
+    from matplotlib import _blocking_input, backend_bases, _docstring, projections
+  File "/home/sheng/.local/lib/python3.8/site-packages/matplotlib/projections/__init__.py", line 55, in <module>
+    from .. import axes, _docstring
+  File "/home/sheng/.local/lib/python3.8/site-packages/matplotlib/axes/__init__.py", line 2, in <module>
+    from ._axes import *
+  File "/home/sheng/.local/lib/python3.8/site-packages/matplotlib/axes/_axes.py", line 11, in <module>
+    import matplotlib.category  # Register category unit converter as side effect.
+  File "/home/sheng/.local/lib/python3.8/site-packages/matplotlib/category.py", line 14, in <module>
+    import dateutil.parser
+  File "/home/sheng/.local/lib/python3.8/site-packages/dateutil/parser/__init__.py", line 2, in <module>
+    from ._parser import parse, parser, parserinfo, ParserError
+  File "/home/sheng/.local/lib/python3.8/site-packages/dateutil/parser/_parser.py", line 42, in <module>
+    import six
+ModuleNotFoundError: No module named 'six'

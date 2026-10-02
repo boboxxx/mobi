@@ -1,0 +1,48 @@
+{
+  "host": "pa-240-38.byodstaff.susx.ac.uk",
+  "python": "3.12.8 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 10:37:40) [Clang 14.0.6 ]",
+  "audit_command": [
+    "python",
+    "experiments/incremental_validity_20261002/analyze.py",
+    "--results",
+    "results/incremental_validity_20261002",
+    "--selected-capture",
+    "results/live_repair_closed_loop_20261001/capture",
+    "--capture",
+    "results/online_evidence_20261002/live",
+    "--out",
+    "/tmp/mobi-incremental-local-audit.json"
+  ],
+  "audit_exit_code": 0,
+  "independent_local_audit_sha256": "37809cf26ec1a73c896a9e7492f9880c9f68e37dc8fd07aea0d4dbe726ece95e",
+  "sheng_audit_sha256": "37809cf26ec1a73c896a9e7492f9880c9f68e37dc8fd07aea0d4dbe726ece95e",
+  "byte_identical": true,
+  "local_unit_tests": {
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "test_patch",
+      "test_shared",
+      "-v"
+    ],
+    "distinct_tests": 8,
+    "exit_code": 0,
+    "seconds": 3.433
+  },
+  "source_sha256": {
+    "experiments/incremental_validity_20261002/package.py": "80e9039f28f52d97bbc31e171c03a36187568ca4bf99968fe5edc7816b73d429",
+    "experiments/incremental_validity_20261002/patch.py": "f5944c604bd89e02cc2aed0e54767850c5e5372ef50eb8c2b1c70c04206620d9",
+    "experiments/incremental_validity_20261002/test_shared.py": "3adc6a1becc38b1e3a274db61585f7379f7f532b0706db178eb267f9380ac5af",
+    "experiments/incremental_validity_20261002/plot.py": "be0a804c2db2a475299219d63784ee34ad26f7879fa9b6a29d6054ea0142e4a3",
+    "experiments/incremental_validity_20261002/projection_once.py": "2d0a8d7e7a2e940da5212d1a4a30f3cb52f8a56536df104fe5c34356aafde4be",
+    "experiments/incremental_validity_20261002/bench_shared.py": "d51c2074b32938a721de864d8fb32903b18766031e0326e405d955038475a127",
+    "experiments/incremental_validity_20261002/bench.py": "e909d6e3104edd2dbb1d3ae083293a174012257c4c6da34acd0b8d7bf59faa1b",
+    "experiments/incremental_validity_20261002/test_patch.py": "b3d3689f8e39a1f5f6474d41f5e1520e77ec77036d5e8856b3acd743ba32d73a",
+    "experiments/incremental_validity_20261002/patch_shared.py": "19e666f7b4eafd544d206161ef0738a9425b23b959e12fab7d9318ef8515fd66",
+    "experiments/incremental_validity_20261002/fallback_shared.py": "d2374f5dcdb4682e0c9a4e4415cec3e5257ec96ad7ec7a324ef05a7d10b28bcd",
+    "experiments/incremental_validity_20261002/baseline_shared.py": "6526b022b981dab6b7f79313b1266f6dd05f0829fef5d2f852da319492d135b4",
+    "experiments/incremental_validity_20261002/analyze.py": "82284c7a38ab0a1094d01277e74807dffe8209c76ee3c3e322c5765770780eed"
+  },
+  "scope": "Local rerun of original-receiver independent audit on the archived sheng corpus; same numerical contracts, not new experimental inputs or a formal proof."
+}

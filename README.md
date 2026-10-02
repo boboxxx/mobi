@@ -1,8 +1,10 @@
 # V2X Evidence Scheduling toward MobiCom 2027
 
-Finite experiments and literature-driven audits for semantic V2X scheduling. The latest research revision is dated **2026-10-01**; historical September code and data are retained for reproducibility.
+Finite experiments and literature-driven audits for semantic V2X scheduling. The latest research revision is dated **2026-10-02**; historical September code and data are retained for reproducibility.
 
 ## Main finding
+
+**Latest: uncertainty-checked gap repair retains useful time in some horizon-extension cases, but does not beat fast renewal overall.** Four finite sheng studies add 2628 calls. With a common projection optimization given to all methods, gap greedy passes the strict modeled action budget in 6/9 selected difficult 475ms renewals versus 0/9 for old repair and nearest valid support. On ALL 384 original inputs, the strong old method passes 254 times versus 253 for gap greedy. All 1632 archived first-repeat packets pass independent full-receiver/source/history replay; 816 optimized packets match original bytes and 72 subset horizon checks agree. This is conditional fixed-region evidence and observed retrospective timing, not new driving, WCET or established MobiCom novelty. See the [new research result](research/incremental_validity_result_20261002.md), [derivation](experiments/incremental_validity_20261002/THEORY.md), and [frozen protocols and reproduction](experiments/incremental_validity_20261002/README.md).
 
 **Latest selection audit: smaller proofs and a larger sent horizon do not guarantee more useful time after delivery.** Two new 288-call studies on sheng preserve full geometry and raw-ray provenance, but all modeled action tests fail after charging acquisition, generation, receiver verification and byte-dependent transport. Giving both greedy and reverse deletion a compiled kernel reduces full-rebuild cost; fast local renewal remains the stronger baseline. All 112 saved packets pass independent replay and 64 compiled-stage packets match their references byte for byte. See the [useful-lifetime result](research/usable_lease_result_20261002.md), [protocols and reproduction](experiments/usable_lease_20261002/README.md), and [primary-paper reading](research/usable_lease_reading_20261002.md).
 
@@ -37,6 +39,9 @@ The earlier revised candidate was **renewing complementary evidence so it remain
 This repository is a feasibility package, not a complete MobiCom evaluation. The earlier closed-loop CARLA study has five paired seeds, a software link model, and a controlled scene; zero recorded collisions do not establish natural-scene safety. The latest evidence-validity study includes new moving-obstacle scans and modeled message delay, with no ego driving controller.
 
 ## Start here
+
+- [Incomplete observations, maximal conditional lifetime and incremental support (中文)](research/incremental_validity_result_20261002.md)
+- [New algorithms, conditional derivation and independent replay](experiments/incremental_validity_20261002/README.md)
 
 - [Equivalent online-cost optimization, ten fresh runs and actuator probe (中文)](research/online_evidence_result_20261002.md)
 - [Finite October 2 protocols, source and full replay](experiments/online_evidence_20261002/README.md)
