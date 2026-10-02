@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "experiments/class_guard_20261002/bench.py", line 90, in <module>
+    if __name__=='__main__':main()
+  File "experiments/class_guard_20261002/bench.py", line 47, in main
+    else:core=flow.Receiver('fixed_terminal' if method=='fixed' else 'fine_terminal',profiles,contract,windows);anchor=core.register(old,blob,scope,motion)
+  File "/home/sheng/mobicom2027_visibility_20261001/experiments/recursive_validity_20261002/flow.py", line 39, in register
+    anchor=self.core.register(legacy,blob,scope,motion);self.anchor=anchor
+  File "/home/sheng/mobicom2027_visibility_20261001/experiments/continuity_recovery_20261002/continuity.py", line 174, in register
+    raise ValueError('Missing revalidated legacy parent')
+ValueError: Missing revalidated legacy parent

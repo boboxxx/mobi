@@ -1,0 +1,21 @@
+{
+  "prefixes": 252,
+  "augmented_roots": 6,
+  "sources": 120,
+  "augmented_sources": 120,
+  "augmentation_rows": 360,
+  "saved_packets": 5400,
+  "logical_class_predictions": 4104,
+  "unique_kd_predictions": 76,
+  "states": 1392,
+  "frontier_boundaries": 3621,
+  "scalar_class_checks": 6408,
+  "cost_rows": 5400,
+  "coverage_rows": 270,
+  "root_fifo_occupancy_charged": true,
+  "unique_saved_packet_checks": 600,
+  "unique_saved_states": 14,
+  "analyzer_sha256": "f14db6a54b6322f9389ca1382323daa76eb94a03e610fba52c20f34d539de8ca",
+  "audited_data_sha256": "02700aebfc0bcce5b1a5ad48dc86130cd279603bf30ec5fbd1792fc406034931",
+  "scope": "Independent complete prefix/augmented root/superset source/current pointcloud, ungrouped whole-cell KD cover, closed-form past travel, scalar erosion, fine vertex-KD propagation, every H/H+1, all F/R dictionaries, paid FIFO/expiry/coverage. Corrected mode also charges initial root source/link occupancy and checks unchanged measured services/proofs. Memoization uses only reference operands; no tested guard/flow/compact/observer/dictionary/replay/native imports. Warm prefix costs reported separately; modeled aligned-time stationary contract."
+}

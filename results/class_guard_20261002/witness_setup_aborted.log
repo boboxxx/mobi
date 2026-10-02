@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "experiments/class_guard_20261002/witness_check.py", line 59, in <module>
+    if __name__=='__main__':main()
+  File "experiments/class_guard_20261002/witness_check.py", line 24, in main
+    s=read(a.results/'study/analysis.json');base=read(old/'study/analysis.json')
+  File "experiments/class_guard_20261002/witness_check.py", line 23, in read
+    def read(path):inputs[str(path.relative_to(ROOT))]=sha(path);return json.loads(path.read_bytes())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/pathlib.py", line 908, in relative_to
+    raise ValueError("{!r} does not start with {!r}"
+ValueError: 'results/class_guard_20261002/study/analysis.json' does not start with '/Users/chen/Documents/ChatGPT/mobi'

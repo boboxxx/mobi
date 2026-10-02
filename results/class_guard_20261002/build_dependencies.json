@@ -1,0 +1,35 @@
+{
+  "host": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "python": "3.8.10",
+  "scope": "Existing native dependency files checked after study, reused unchanged builds; exact outputs independently audited.",
+  "libraries": [
+    {
+      "environment": "MOBI_COVER_LIBRARY",
+      "path": "build/incremental_validity_20261002/cover.so",
+      "binary_sha256": "dc23f44d3ffbbc16a07bbdb49963ba00f17c884def6231e3e811907fe61e2c1a",
+      "source": "experiments/usable_lease_20261002/cover.cpp",
+      "source_sha256": "7682bd0f56528e8ef3c69b49ba9015bb78041c619d1a71d2f59df1327e381526"
+    },
+    {
+      "environment": "MOBI_RASTER_LIBRARY",
+      "path": "build/streaming_recovery_20261002/raster.so",
+      "binary_sha256": "e11d714ab6178a11a3a073d454d0bbdacc882dcfac77db742ed5f009ce9b5be4",
+      "source": "experiments/streaming_recovery_20261002/raster.cpp",
+      "source_sha256": "17dcb686649a46275b6f7887cd8f0f7d0f7398d3e94fe50ddcf3b6f8a873f178"
+    },
+    {
+      "environment": "MOBI_MASK_LIBRARY",
+      "path": "build/set_observer_20261002/mask.so",
+      "binary_sha256": "ae15c979f8cd44fdf3c642ba3aefc322fb2dce747a03677a7de9d9269156d16b",
+      "source": "experiments/set_observer_20261002/mask.cpp",
+      "source_sha256": "862ad305fe84f8ecdf78b4357606bda20944b8687803ee931e3b8506eabf3dad"
+    },
+    {
+      "environment": "MOBI_PROPAGATE_LIBRARY",
+      "path": "build/compact_observer_20261002/propagate.so",
+      "binary_sha256": "971df82a35f364d79c3e810868c9d37fd1becf3d80cefe238165b1d63ca64b73",
+      "source": "experiments/compact_observer_20261002/propagate.cpp",
+      "source_sha256": "598526ad69f6eff08038a5d15231ac4c9e8683e6278c00edc9c06e76cc6421f9"
+    }
+  ]
+}

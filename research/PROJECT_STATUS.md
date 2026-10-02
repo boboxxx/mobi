@@ -2,7 +2,36 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October2 validity-witness update: `validity_witness_result_20261002.md`
+Latest October2 class-guard update: `class_guard_result_20261002.md` adds5400
+finite sheng rows, class-specific retained facts and same-information positional
+controls. Additional current rays restore all18 previously failing unique source
+frames (54 repeated rows), including the three selected zero-lower queries, but
+change the information set. Original-information optimality is still unresolved.
+Geometry306→360/360 does not translate to paid utility: standard timely grants
+306→205/360 and duration coverage16.443%→3.324% for fixed versus augmented scalar.
+The same augmented fine observer restores geometry but has118/360 timely grants.
+A discovered root FIFO occupancy omission is transparently corrected by replaying
+unchanged actual services and proofs;402 slow rows change, giving219 versus139/360
+slow-link timely grants. Standard/blackout rows and all mathematical results stay
+unchanged. Eleven distinct tests pass on both hosts. Final independent audits
+check252 prefixes,6 augmented roots,240 source records,5400 packet/cost rows,
+4104 logical class predictions,1392 masks,3621 boundaries and270 duration windows.
+All84 prior counterexamples are rechecked against augmented information with
+15,400,478 segment checks;36 survive, yielding18 intervals with positive lower
+bounds but at most304.488ms/39.037% conservatism bounds. No near-optimality claim.
+Source selection adds65.556–128.528ms per update, so unconditional augmentation
+fails the aggregate utility objective even though the difficult history improves.
+The sharpened open algorithm problem is pricing evidence that protects a future
+proof chain without immediately extending joint expiry, then choosing it using
+only available history and all costs. Fixed525/475 targets and nonminimal ray
+selection do not solve adaptive selection or establish novelty. Primary reading
+of Where2comm, Chiu/Smith, SComCP and RICPN further constrains generic selection/
+risk/semantic-compression claims. Physical contracts, useful moving control and
+backup, dynamic scenes, actual links, tighter same-information bounds and the
+final MobiCom contribution remain unfinished. This is substantive progress; the
+full goal remains active. No new CARLA service or scheduled research loop.
+
+Previous October2 validity-witness update: `validity_witness_result_20261002.md`
 adds36 sphere,36 ellipsoid,12 independent-heading searches and36 extra-ray
 diagnostics on six saved histories,18 joint targets. All84 conditional witnesses
 pass13,946,682 full3D segment checks. Independently revalidated252 complete prefix
