@@ -1,0 +1,23 @@
+{
+  "audit_pairs": [
+    {
+      "byte_identical": true,
+      "file": "validation.json",
+      "sha256": "e0126e8cf8da9ca74838d54b07962a8641e41fcae1340cbeabc56e15ab0d9b82"
+    },
+    {
+      "byte_identical": true,
+      "file": "refinement_validation.json",
+      "sha256": "18acb4472fa4404419df1b15e158db94c85874f00503a60b0fc97f67c0e0ffe6"
+    }
+  ],
+  "host": "pa-240-38.byodstaff.susx.ac.uk",
+  "python": "3.8.10",
+  "scope": "Recorded completed independent local reconstruction and observed test output; server measurements unchanged. No local timing benchmark.",
+  "unit_tests": {
+    "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 MOBI_COVER_LIBRARY=/tmp/mobi-incremental-cover.dylib MOBI_RASTER_LIBRARY=/tmp/mobi-stream-raster.dylib MOBI_MASK_LIBRARY=/tmp/mobi-set-mask.dylib python3 -m unittest discover -s experiments/set_observer_20261002 -v",
+    "distinct_tests": 8,
+    "passed": true,
+    "seconds": 0.389
+  }
+}

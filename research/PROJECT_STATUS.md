@@ -2,7 +2,28 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October 2 update: `continuity_recovery_result_20261002.md` implements typed
+Latest October 2 set-observer update: `set_observer_result_20261002.md` adds72
+matched sheng calls and12 one-factor2 representation diagnostic calls. Fixed-K
+and the established conservative position-set observer each support6/12 target
+geometries, with1/36 versus0/36 timely modeled calls. Keeping the identical raw
+observations and physical metadata, finer internal tiles support10/12 targets,
+with0/12 timely. Four temporal-gap targets are restored: earlier strict-chain
+refusal is not proof of intrinsic information insufficiency. Remaining two zero
+frontiers are also not certified impossibility results. Full fine costs are
+731.343–2040.878ms; long-chain input/transport alone exceeds250ms latest passing
+age tick. Independent audits fully revalidate252 prefix packets, rebuild480
+class transitions/72 saved masks, check30 packets/84 costs and40 H/H+1 boundaries.
+Eight distinct tests pass on both hosts; two audit outputs are byte-identical.
+All120 source records have repeated per-run exact quantized geometry/relative
+ages; this motivates only a future checked optimization, not moving-scene gain.
+Primary set-estimation/occlusion literature is documented; no set-membership
+novelty, physical safety, effective driving or completed MobiCom contribution
+is claimed. Next requirement is an efficient, adequately precise, source-backed
+posterior/transport interface given to strong baselines, followed by changed
+scenes and executable control. Full goal remains active and unachieved; no new
+CARLA server or recurring research loop was created.
+
+Previous October 2 update: `continuity_recovery_result_20261002.md` implements typed
 receiver-owned fixed class-center fact recovery with strictly overlapping actual
 historical rays, while expired action authority remains refused. It corrects the
 observation-speed age/future acceleration cross term and independently revalidates
