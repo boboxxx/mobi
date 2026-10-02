@@ -2,7 +2,31 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October2 recursive-validity update: `recursive_validity_result_20261002.md`
+Latest October2 validity-witness update: `validity_witness_result_20261002.md`
+adds36 sphere,36 ellipsoid,12 independent-heading searches and36 extra-ray
+diagnostics on six saved histories,18 joint targets. All84 conditional witnesses
+pass13,946,682 full3D segment checks. Independently revalidated252 complete prefix
+packets/120 source dictionaries support the inherited conservative lower bounds.
+In15 positive joint queries, lifetime loss is bounded by74.488ms/13.5433% under
+the original received information and explicit abstract ray/kinematic contract;
+three0–550ms queries remain unresolved. Extra same-time untransmitted rays refute
+all36 original sphere candidates, with760–768byte typed facts and at least
+0.149077m independent core-exclusion margin. This changes receiver information;
+it neither grants action nor proves a longer TTL. Fourteen distinct new tests
+pass on both hosts; three independent audit pairs match bytewise, including
+2304 extra-ray corner pairs and independent rational motion integration. Source
+selection, physical core/outer/error/aligned-timestamp contracts, stationary
+rectangle, repeated geometry, offline search costs and unmodeled road/terrain
+constraints limit conclusions. New APRO/OcclusionCBF primary reading rules out
+claiming novelty merely by adding joint states or backup control. Current code
+does not implement an optimal online gap-guided exchange/controller. Full goal
+remains active and unachieved: unresolved zero bounds, paid adaptive selection,
+physical calibration, moving action/backup, changing scenes/actual links and
+final defensible MobiCom contribution remain. This changes code/data/scientific
+interpretation and is substantive progress. No new CARLA server or recurring
+research loop was created.
+
+Previous October2 recursive-validity update: `recursive_validity_result_20261002.md`
 adds two finite sheng studies/15,120 measured paid FIFO rows (seven methods,
 six saved histories, twenty frames, three repeats and three link presets each).
 Receiver-owned recursive facts and finite action grants are separated. The

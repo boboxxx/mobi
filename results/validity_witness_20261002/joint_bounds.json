@@ -1,0 +1,247 @@
+{
+  "joint_queries": 18,
+  "positive_queries": 15,
+  "unresolved_zero_queries": 3,
+  "witnesses": 84,
+  "segment_checks": 13946682,
+  "maximum_positive_absolute_gap_us": 74488,
+  "maximum_positive_relative_gap": 0.13543272727272726,
+  "extra_ray_refutations": 36,
+  "extra_ray_margin_min_m": 0.149077,
+  "extra_ray_bytes_range": [
+    760,
+    768
+  ],
+  "costs": {
+    "study": {
+      "cases": 36,
+      "milliseconds_min": 83.42022799999782,
+      "milliseconds_median": 107.06185649999966,
+      "milliseconds_max": 154.1173150000006
+    },
+    "ellipsoid_study": {
+      "cases": 36,
+      "milliseconds_min": 155.65532000000104,
+      "milliseconds_median": 181.78639099999927,
+      "milliseconds_max": 239.71003599999995
+    },
+    "heading_study": {
+      "cases": 12,
+      "milliseconds_min": 3336.9844080000066,
+      "milliseconds_median": 3650.308945499997,
+      "milliseconds_max": 4687.317126
+    },
+    "extra_ray_study": {
+      "cases": 36,
+      "milliseconds_min": 26.037872999999934,
+      "milliseconds_median": 30.958035500000314,
+      "milliseconds_max": 56.28648300000094
+    }
+  },
+  "rows": [
+    {
+      "run": "c0_view0_reference_fixed",
+      "index": 22,
+      "reference_us": 159163944,
+      "lower_us": 475512,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 74488,
+      "relative_conservatism_bound": 0.13543272727272726,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275512
+    },
+    {
+      "run": "c0_view0_reference_fixed",
+      "index": 25,
+      "reference_us": 160613944,
+      "lower_us": 475512,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 74488,
+      "relative_conservatism_bound": 0.13543272727272726,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275512
+    },
+    {
+      "run": "c0_view0_reference_fixed",
+      "index": 39,
+      "reference_us": 167213944,
+      "lower_us": 475512,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 74488,
+      "relative_conservatism_bound": 0.13543272727272726,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275512
+    },
+    {
+      "run": "c0_view0_reference_rate20",
+      "index": 22,
+      "reference_us": 62013942,
+      "lower_us": 0,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 550000,
+      "relative_conservatism_bound": null,
+      "resolved_zero": false,
+      "maximum_strict_admission_age_us": null
+    },
+    {
+      "run": "c0_view0_reference_rate20",
+      "index": 25,
+      "reference_us": 63363942,
+      "lower_us": 0,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 550000,
+      "relative_conservatism_bound": null,
+      "resolved_zero": false,
+      "maximum_strict_admission_age_us": null
+    },
+    {
+      "run": "c0_view0_reference_rate20",
+      "index": 39,
+      "reference_us": 69913942,
+      "lower_us": 0,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 550000,
+      "relative_conservatism_bound": null,
+      "resolved_zero": false,
+      "maximum_strict_admission_age_us": null
+    },
+    {
+      "run": "c0_view0_reuse_fixed",
+      "index": 22,
+      "reference_us": 181813944,
+      "lower_us": 475512,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 74488,
+      "relative_conservatism_bound": 0.13543272727272726,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275512
+    },
+    {
+      "run": "c0_view0_reuse_fixed",
+      "index": 25,
+      "reference_us": 183013944,
+      "lower_us": 475512,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 74488,
+      "relative_conservatism_bound": 0.13543272727272726,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275512
+    },
+    {
+      "run": "c0_view0_reuse_fixed",
+      "index": 39,
+      "reference_us": 188663944,
+      "lower_us": 475512,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 74488,
+      "relative_conservatism_bound": 0.13543272727272726,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275512
+    },
+    {
+      "run": "c0_view0_reuse_rate20",
+      "index": 22,
+      "reference_us": 86713943,
+      "lower_us": 475512,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 74488,
+      "relative_conservatism_bound": 0.13543272727272726,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275512
+    },
+    {
+      "run": "c0_view0_reuse_rate20",
+      "index": 25,
+      "reference_us": 87913943,
+      "lower_us": 475512,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 74488,
+      "relative_conservatism_bound": 0.13543272727272726,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275512
+    },
+    {
+      "run": "c0_view0_reuse_rate20",
+      "index": 39,
+      "reference_us": 93513943,
+      "lower_us": 475512,
+      "upper_us": 550000,
+      "absolute_conservatism_bound_us": 74488,
+      "relative_conservatism_bound": 0.13543272727272726,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275512
+    },
+    {
+      "run": "c2_view0_reference_rate20",
+      "index": 22,
+      "reference_us": 112613943,
+      "lower_us": 475551,
+      "upper_us": 545000,
+      "absolute_conservatism_bound_us": 69449,
+      "relative_conservatism_bound": 0.1274293577981651,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275551
+    },
+    {
+      "run": "c2_view0_reference_rate20",
+      "index": 25,
+      "reference_us": 114063943,
+      "lower_us": 475551,
+      "upper_us": 545000,
+      "absolute_conservatism_bound_us": 69449,
+      "relative_conservatism_bound": 0.1274293577981651,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275551
+    },
+    {
+      "run": "c2_view0_reference_rate20",
+      "index": 39,
+      "reference_us": 120863943,
+      "lower_us": 475551,
+      "upper_us": 545000,
+      "absolute_conservatism_bound_us": 69449,
+      "relative_conservatism_bound": 0.1274293577981651,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275551
+    },
+    {
+      "run": "c2_view0_reuse_rate20",
+      "index": 22,
+      "reference_us": 137613943,
+      "lower_us": 475551,
+      "upper_us": 545000,
+      "absolute_conservatism_bound_us": 69449,
+      "relative_conservatism_bound": 0.1274293577981651,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275551
+    },
+    {
+      "run": "c2_view0_reuse_rate20",
+      "index": 25,
+      "reference_us": 138813943,
+      "lower_us": 475551,
+      "upper_us": 545000,
+      "absolute_conservatism_bound_us": 69449,
+      "relative_conservatism_bound": 0.1274293577981651,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275551
+    },
+    {
+      "run": "c2_view0_reuse_rate20",
+      "index": 39,
+      "reference_us": 144513943,
+      "lower_us": 475551,
+      "upper_us": 545000,
+      "absolute_conservatism_bound_us": 69449,
+      "relative_conservatism_bound": 0.1274293577981651,
+      "resolved_zero": null,
+      "maximum_strict_admission_age_us": 275551
+    }
+  ],
+  "audit_sha256": {
+    "audit": "efb72b223c7ba2cab2cf8858ca67bd10fb723984ae8c0fffd63d5a8c755f25a6",
+    "extension_audit": "5f8f8223a3c6cc97cf0db9677182251f49e578732b42919099f16fc0181f1a5d",
+    "extra_ray_audit": "07ee470690ad935a5079617bc9453a64f260a345dc91f74d1471cd82c6ca2eca"
+  },
+  "scope": "Audited source-time continuous stationary rectangle lifetime bounds, conditional on stated core/error/motion/source contracts. Positive gap bounds are relative to original RECEIVED information; unreceived extra facts cannot extend them without recertification. No controller grant/physical confidence/global optimality."
+}
