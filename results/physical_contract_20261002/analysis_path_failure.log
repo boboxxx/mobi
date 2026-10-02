@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "experiments/physical_contract_20261002/analyze.py", line 23, in <module>
+    if __name__=='__main__':main()
+  File "experiments/physical_contract_20261002/analyze.py", line 11, in main
+    ap=argparse.ArgumentParser();ap.add_argument('--capture',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);a=ap.parse_args();records=json.loads((a.capture/'record.json').read_bytes());rows=[];inputs={str((a.capture/'record.json').relative_to(ROOT)):sha(a.capture/'record.json')};profiles=dict(small=body.Profile(r_min=.2,r_max=.4,query_radius=0.,step=.05,error=0.),vehicle=body.Profile(r_min=.55,r_max=2.5,query_radius=0.,step=.1,error=0.));contract=body.Contract()
+  File "/home/sheng/anaconda3/envs/carla/lib/python3.8/pathlib.py", line 908, in relative_to
+    raise ValueError("{!r} does not start with {!r}"
+ValueError: 'results/physical_contract_20261002/capture/record.json' does not start with '/home/sheng/mobicom2027_visibility_20261001'

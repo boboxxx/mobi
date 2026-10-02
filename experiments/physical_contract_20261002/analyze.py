@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+"""Operational legacy exclusion at known occupied centers; no authority issued."""
+import argparse,hashlib,json,math,sys
+from pathlib import Path
+import numpy as np
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'body_evidence_20261001'))
+import body
+ROOT=Path(__file__).resolve().parents[2]
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def main():
+ ap=argparse.ArgumentParser();ap.add_argument('--capture',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);a=ap.parse_args();a.capture=a.capture.resolve();records=json.loads((a.capture/'record.json').read_bytes());rows=[];inputs={str((a.capture/'record.json').relative_to(ROOT)):sha(a.capture/'record.json')};profiles=dict(small=body.Profile(r_min=.2,r_max=.4,query_radius=0.,step=.05,error=0.),vehicle=body.Profile(r_min=.55,r_max=2.5,query_radius=0.,step=.1,error=0.));contract=body.Contract()
+ for row in records:
+  if row['status']!='captured':rows.append(dict(id=row.get('id'),status=row['status'],blueprint=row['blueprint']));continue
+  p=a.capture/row['cloud_file'];assert sha(p)==row['cloud_sha256'];inputs[str(p.relative_to(ROOT))]=sha(p)
+  with np.load(p) as z:xyz=z['xyz'];origin=z['origin'];raw=z['raw'];matrix=z['transform'];stamp=float(z['timestamp'])
+  expected=(np.c_[raw['x'],raw['y'],raw['z'],np.ones(len(raw))]@matrix.T)[:,:3];np.testing.assert_array_equal(xyz,expected);assert row['frame']==row['sensor_frame']==row['snapshot_frame'] and stamp==row['timestamp']==row['snapshot_timestamp'];np.testing.assert_allclose(row['actor_transform']['matrix'],row['snapshot_transform']['matrix'],rtol=0,atol=1e-8)
+  center=np.array(row['center']);query=np.array(row['query']);z=row['plane_z'];g=profiles[row['klass']];scope=body.Scope(row['id'],row['map'],tuple(query),z);o,r,ref=body.encode_source(xyz,origin,stamp,stamp);v=body.projections(o,r,ref,{row['klass']:g},scope,contract)[row['klass']];valid=np.flatnonzero((xyz[:,2]<z-1e-9)&(origin[2]>z+1e-9));t=(origin[2]-z)/(origin[2]-xyz[valid,2]);crossing=origin[:2]+t[:,None]*(xyz[valid,:2]-origin[:2]);dist=np.linalg.norm(crossing-center[:2],axis=1);j=int(np.argmin(dist));nearest=int(valid[j]);nominal_gap=g.r_min-float(dist[j]);local=center[:2]-query;tile=-g.domain+(np.floor((local+g.domain)/g.step)+.5)*g.step;inside=bool((np.abs(local)<g.domain).all());margin=g.r_min-v['error']-g.step/math.sqrt(2)-np.linalg.norm(v['witnesses']-tile,axis=1)-1e-9;k=int(np.argmax(margin));best=int(v['ray_indices'][k]);proof_margin=float(margin[k]);own=xyz[raw['id']==row['actor_id']];outer=float(np.linalg.norm(own[:,:2]-center[:2],axis=1).max()) if len(own) else None;verts=np.asarray(row['bounding_box']['world_vertices']);box=float(np.linalg.norm(verts[:,:2]-center[:2],axis=1).max())
+  rows.append(dict(id=row['id'],status='analyzed',blueprint=row['blueprint'],klass=row['klass'],angle=row['angle'],layout=row['layout'],r_min=g.r_min,r_max=g.r_max,nominal_min_crossing_distance_m=round(float(dist[j]),9),nominal_core_gap_m=round(nominal_gap,9),nominal_contradiction=nominal_gap>1e-7,nearest_ray_index=nearest,nearest_ray_endpoint=xyz[nearest].tolist(),nearest_ray_tag=int(raw['tag'][nearest]),nearest_ray_actor_id=int(raw['id'][nearest]),tile_center_local=tile.tolist(),tile_contains_actual_center=inside,receiver_margin_m=round(proof_margin,9),receiver_excludes_actual_tile=inside and proof_margin>1e-7,proof_ray_index=best,proof_ray_integer=r[best].tolist(),proof_origin_integer=o[r[best,0]].tolist(),proof_projected_local=v['witnesses'][k].tolist(),proof_error=float(v['error'][k]),reference_us=ref,own_returns=len(own),observed_outer_radius_m=None if outer is None else round(outer,9),actual_return_outside_outer=bool(outer is not None and outer>g.r_max+1e-5),box_outer_radius_m=round(box,9),box_does_not_fit=box>g.r_max+1e-5))
+ grouped=[]
+ for bp in sorted({x['blueprint'] for x in rows}):
+  group=[x for x in rows if x['blueprint']==bp and x['status']=='analyzed'];grouped.append(dict(blueprint=bp,frames=len(group),nominal_core_failures=sum(x['nominal_contradiction'] for x in group),robust_false_exclusions=sum(x['receiver_excludes_actual_tile'] for x in group),actual_outer_failures=sum(x['actual_return_outside_outer'] for x in group),unproved_bbox_outer=sum(x['box_does_not_fit'] for x in group)))
+ result=dict(rows=rows,groups=grouped,captured=sum(x['status']=='analyzed' for x in rows),source_sha256=sha(Path(__file__)),input_sha256=inputs,scope='Necessary-condition falsification of old physical interpretation, not a continuous mesh proof or physical sensor calibration; no action authority');a.out.write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(grouped),flush=True)
+if __name__=='__main__':main()

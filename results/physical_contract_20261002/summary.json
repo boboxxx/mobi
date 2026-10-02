@@ -1,0 +1,61 @@
+{
+  "frames": 48,
+  "raw_rays": 4237728,
+  "corner_checks": 12288,
+  "robust_exclusions": 22,
+  "actual_outer_failures": 8,
+  "any_center_outer_failures": 7,
+  "groups": [
+    {
+      "blueprint": "vehicle.audi.a2",
+      "frames": 8,
+      "nominal_core_failures": 0,
+      "robust_false_exclusions": 0,
+      "actual_outer_failures": 0,
+      "unproved_bbox_outer": 0
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "frames": 8,
+      "nominal_core_failures": 8,
+      "robust_false_exclusions": 8,
+      "actual_outer_failures": 0,
+      "unproved_bbox_outer": 0
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "frames": 8,
+      "nominal_core_failures": 8,
+      "robust_false_exclusions": 8,
+      "actual_outer_failures": 0,
+      "unproved_bbox_outer": 0
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "frames": 8,
+      "nominal_core_failures": 0,
+      "robust_false_exclusions": 0,
+      "actual_outer_failures": 8,
+      "unproved_bbox_outer": 8
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "frames": 8,
+      "nominal_core_failures": 0,
+      "robust_false_exclusions": 0,
+      "actual_outer_failures": 0,
+      "unproved_bbox_outer": 8
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "frames": 8,
+      "nominal_core_failures": 8,
+      "robust_false_exclusions": 6,
+      "actual_outer_failures": 0,
+      "unproved_bbox_outer": 0
+    }
+  ],
+  "analysis_sha256": "b30a00f1064eb012eec22dd6f3a5c96c4bde1e349d199e892b5bd8c39630486a",
+  "audit_sha256": "a45c1a1a0fed2232311b7546d553120771e05877bd9c5424d79a5094b8e8646b",
+  "scope": "Fresh finite necessary-condition falsification; no physical calibration or new driving authority"
+}

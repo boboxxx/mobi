@@ -2,7 +2,29 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October2 historical-repair update: `historical_repair_result_20261002.md`
+Latest October2 physical-contract update: `physical_contract_result_20261002.md`
+adds48 genuinely new CARLA frames and4,237,728 raw rays on sheng. Across six actor
+blueprints/four yaws/two RSU views, the old physical interpretation is refuted:
+22 real occupied-center tiles are excluded under the unchanged uncertainty-aware
+rule (8 bicycle,8 motorcycle,6 pedestrian). Sprinter violates the2.5m outer bound
+in all8 frames;7 observed diameters exceed5m and disprove every possible center.
+Tesla bbox corners exceed the bound but observed returns do not, so those are
+not counted as actual outer refutations. Audi/Tesla no-failure samples do not
+establish continuous mesh/pose calibration. Two-host independent audits match
+bytewise and check12,288 endpoint/origin/query error corners. Six regression tests
+pass. The new locally pinned population eligibility boundary preserves conditional
+mathematical horizons but authorizes no physical actions without validated
+premises; it is not a useful-driving solution. The48 frames were not replaced or
+used to tune new radii. An initial analysis path bug is preserved. Actors/sensors
+were cleaned, world settings restored and the owned finite CARLA server stopped.
+Previous conditional proofs and measured historical-repair gains remain frozen;
+general traffic applicability is now contradicted for several actual models.
+Next necessary work is a defensible shape/pose/height/observation contract or
+shape-aware3D model with independently validated residual risk, then dynamic
+control and actual links. This changes the scientific next action and is real
+progress, but the full project remains active/unachieved. No recurring loop.
+
+Previous October2 historical-repair update: `historical_repair_result_20261002.md`
 adds5400 finite sheng normal rows with fully causal modeled feedback events.
 Only a failed observed proof requests cached historical evidence; the21→22 gap
 is repaired by129 actual older rays, with407-byte requests/1548-byte replies.
