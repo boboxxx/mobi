@@ -2,7 +2,36 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October 2 compact-observer update: `compact_observer_result_20261002.md`
+Latest October2 recursive-validity update: `recursive_validity_result_20261002.md`
+adds two finite sheng studies/15,120 measured paid FIFO rows (seven methods,
+six saved histories, twenty frames, three repeats and three link presets each).
+Receiver-owned recursive facts and finite action grants are separated. The
+existing global speed-at-observation contract admits a tighter two-endpoint
+PAST displacement integral; future travel remains one-sided. The same
+improvement raises the strong fixed/coarse baseline standard admissions201 to
+306/360, matching fine geometry, so earlier fine-only novelty claims do not
+survive. A separately frozen common inter-message dictionary lowers paid
+bytes79.007% and changes slow-link strong-baseline admissions0 to225/360 while
+all7560 matched horizons/fact references and1368 positional references remain
+identical. Terminal positional masks are subsets in1368 class comparisons.
+Thirteen distinct new tests pass on both hosts, including missing-template
+fail-closed behavior. Each study independently checks252 prefixes,120 sources,
+8208 logical class transitions/327 own KD-tree memoized operators,2784 masks,
+2253 horizon boundaries,7560 cost rows and378 interval coverage rows. First
+and second audit outputs each match bytewise across hosts. Standard best-fixed
+action duration coverage17.286%, slow
+12.089% and dropout6.287% still fail continuous availability. Warm initialization,
+repeated geometry, uncalibrated all-hidden-object/core/clock/error contracts,
+stationary action envelope and modeled links limit conclusions. New primary
+TWC/full-text and semantic-push-pull preprint reading further constrain novelty;
+no innovation in set filtering/two-cone integration/dictionary coding is claimed.
+Full goal remains active and unachieved. This changes code/data/scientific
+interpretation and is substantive progress; no new CARLA server or recurring
+research loop was created. Physical calibration, realizable moving action and
+backup, changing-scene/real-link generalization and a final defensible MobiCom
+contribution remain unfinished.
+
+Previous October 2 compact-observer update: `compact_observer_result_20261002.md`
 adds108 frozen matched sheng calls using common exact temporal dictionaries and
 empty-per-target exact caches. Both positional methods share conservative local
 computation windows with unknown arrivals each transition and an established
