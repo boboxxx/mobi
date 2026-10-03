@@ -1,0 +1,26 @@
+{
+  "reason": "Identical discs have only one boundary projection; Decimal rounding can put the proposed projection infinitesimally outside the identical second disc and incorrectly discard every candidate. Admit the projection proposal when centers coincide; exact integer primal/dual checks are unchanged.",
+  "original_kernel_sha256": "1265bab00cd1bcc41ce19604eca596359441597093594cea87f55165fcd3b449",
+  "repaired_kernel_sha256": "3e3b004f0abd4038b18d04f1f0357a5c638d3aaf17bf3a5dd5f5b6e221c5037b",
+  "failure_source_ids": [
+    "prospective_walker_pedestrian_0001_test_048_s00_v0",
+    "prospective_walker_pedestrian_0001_test_048_s00_v1"
+  ],
+  "failure_geometry": {
+    "left_um": [
+      1690000,
+      -2110000
+    ],
+    "right_um": [
+      1690000,
+      -2110000
+    ],
+    "query_um": [
+      -6000000,
+      0
+    ],
+    "radius_um": 197411
+  },
+  "policy_data_risk_parameters_changed": false,
+  "accepted_initial_output": false
+}

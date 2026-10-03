@@ -2,7 +2,24 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October3 prospective expiry update: `prospective_expiry_result_20261003.md`.
+Latest October4 same-frame intersection update: `view_intersection_result_20261004.md`.
+Finite sheng current-only receiver development reuses the prospective data without
+new capture or risk fitting. Of1080 planned source pairs,1038 captured pairs yield
+1035 bounded intersections and3 missing views. Independent all-pair integer checks
+validate16015 certificates, with distance bracket<=2um and modeled expiry<=1us.
+Only61/2070 geometric queries gain>1us. Paid20Mbps union/lossless grants increase
+3446→3453 per11520 planned queries; full saved XYZ stays1449. Sprinter stays4→4.
+Covered actual-free Sprinter sources retain173 abstract supported contact witnesses,
+not proven raw-compatible worlds. Improving solver precision cannot remove this
+model ambiguity. One inherited Motorcycle coverage failure and15 union grants
+from that episode remain; zero observed grid conflicts does not erase them.
+Three independent JSON pairs match across hosts and13 tests pass perhost. The first
+identical-disc numerical failure and minimal candidate-only repair are retained.
+No new holdout, unknown-inventory solution, physical safety, live-link/ego utility
+or distinct MobiCom contribution. The finite package is completed; do not mark
+the full goal complete or redefine it around conditional geometric tightness.
+
+Previous October3 prospective expiry update: `prospective_expiry_result_20261003.md`.
 One frozen930-episode new batch completes884 captured episodes and5304 scans
 with117069888 retained returns; failed plans are retained. At20Mbps the action-
 eligible direct task-expiry policy gives4451/11520 grants versus3446 for the

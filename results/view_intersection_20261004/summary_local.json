@@ -1,0 +1,363 @@
+{
+  "total": {
+    "captured_test_pairs": 1038,
+    "planned_test_pairs": 1080,
+    "planned_test_episodes": 360,
+    "status_counts": {
+      "bounded": 1035,
+      "empty": 0,
+      "precision_gap": 0,
+      "missing_view": 3
+    },
+    "certificate_checks": 16015,
+    "computed_horizon_queries": 2070,
+    "geometric_gains_greater_than_1us": 61,
+    "geometric_horizon_gain": {
+      "n": 2070,
+      "median_us": 0.0,
+      "p95_us": 0,
+      "max_us": 191319
+    },
+    "maximum_distance_bracket_um": 2,
+    "maximum_expiry_bracket_us": 1,
+    "parent_test_excluded_episodes": 1,
+    "inherited_joint_calibration_confidence_lower": 0.954091431307709
+  },
+  "comparisons": [
+    {
+      "bitrate": 20000000,
+      "method": "union",
+      "scheduled_queries": 11520,
+      "grants": 3453,
+      "primary_grants": 3446,
+      "intersection_chosen_grants": 32,
+      "grants_on_parent_excluded_episodes": 15,
+      "observed_occupied_grid_grants": 0,
+      "contradiction_events": 0,
+      "extra_receiver_cost": {
+        "n": 2076,
+        "median_us": 28.5,
+        "p95_us": 1316,
+        "max_us": 3856
+      },
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 635,
+          "primary_grants": 631,
+          "intersection_chosen_grants": 12
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 285,
+          "primary_grants": 284,
+          "intersection_chosen_grants": 2
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 4,
+          "primary_grants": 4,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 903,
+          "primary_grants": 903,
+          "intersection_chosen_grants": 12
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 862,
+          "primary_grants": 860,
+          "intersection_chosen_grants": 6
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 764,
+          "primary_grants": 764,
+          "intersection_chosen_grants": 0
+        }
+      ]
+    },
+    {
+      "bitrate": 20000000,
+      "method": "lossless_centers",
+      "scheduled_queries": 11520,
+      "grants": 3453,
+      "primary_grants": 3446,
+      "intersection_chosen_grants": 32,
+      "grants_on_parent_excluded_episodes": 15,
+      "observed_occupied_grid_grants": 0,
+      "contradiction_events": 0,
+      "extra_receiver_cost": {
+        "n": 2076,
+        "median_us": 16.5,
+        "p95_us": 1283,
+        "max_us": 3401
+      },
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 635,
+          "primary_grants": 631,
+          "intersection_chosen_grants": 12
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 283,
+          "primary_grants": 282,
+          "intersection_chosen_grants": 2
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 4,
+          "primary_grants": 4,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 905,
+          "primary_grants": 905,
+          "intersection_chosen_grants": 12
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 862,
+          "primary_grants": 860,
+          "intersection_chosen_grants": 6
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 764,
+          "primary_grants": 764,
+          "intersection_chosen_grants": 0
+        }
+      ]
+    },
+    {
+      "bitrate": 20000000,
+      "method": "full_xyz",
+      "scheduled_queries": 11520,
+      "grants": 1449,
+      "primary_grants": 1449,
+      "intersection_chosen_grants": 2,
+      "grants_on_parent_excluded_episodes": 7,
+      "observed_occupied_grid_grants": 0,
+      "contradiction_events": 0,
+      "extra_receiver_cost": {
+        "n": 2076,
+        "median_us": 19.5,
+        "p95_us": 1286,
+        "max_us": 3612
+      },
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 242,
+          "primary_grants": 242,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 121,
+          "primary_grants": 121,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 2,
+          "primary_grants": 2,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 446,
+          "primary_grants": 446,
+          "intersection_chosen_grants": 2
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 262,
+          "primary_grants": 262,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 376,
+          "primary_grants": 376,
+          "intersection_chosen_grants": 0
+        }
+      ]
+    },
+    {
+      "bitrate": 2000000,
+      "method": "union",
+      "scheduled_queries": 11520,
+      "grants": 3446,
+      "primary_grants": 3439,
+      "intersection_chosen_grants": 32,
+      "grants_on_parent_excluded_episodes": 15,
+      "observed_occupied_grid_grants": 0,
+      "contradiction_events": 0,
+      "extra_receiver_cost": {
+        "n": 2076,
+        "median_us": 28.5,
+        "p95_us": 1316,
+        "max_us": 3856
+      },
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 633,
+          "primary_grants": 629,
+          "intersection_chosen_grants": 12
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 282,
+          "primary_grants": 281,
+          "intersection_chosen_grants": 2
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 4,
+          "primary_grants": 4,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 903,
+          "primary_grants": 903,
+          "intersection_chosen_grants": 12
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 860,
+          "primary_grants": 858,
+          "intersection_chosen_grants": 6
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 764,
+          "primary_grants": 764,
+          "intersection_chosen_grants": 0
+        }
+      ]
+    },
+    {
+      "bitrate": 2000000,
+      "method": "lossless_centers",
+      "scheduled_queries": 11520,
+      "grants": 3445,
+      "primary_grants": 3438,
+      "intersection_chosen_grants": 31,
+      "grants_on_parent_excluded_episodes": 15,
+      "observed_occupied_grid_grants": 0,
+      "contradiction_events": 0,
+      "extra_receiver_cost": {
+        "n": 2076,
+        "median_us": 16.5,
+        "p95_us": 1283,
+        "max_us": 3401
+      },
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 633,
+          "primary_grants": 629,
+          "intersection_chosen_grants": 11
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 281,
+          "primary_grants": 280,
+          "intersection_chosen_grants": 2
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 4,
+          "primary_grants": 4,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 903,
+          "primary_grants": 903,
+          "intersection_chosen_grants": 12
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 860,
+          "primary_grants": 858,
+          "intersection_chosen_grants": 6
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 764,
+          "primary_grants": 764,
+          "intersection_chosen_grants": 0
+        }
+      ]
+    },
+    {
+      "bitrate": 2000000,
+      "method": "full_xyz",
+      "scheduled_queries": 11520,
+      "grants": 0,
+      "primary_grants": 0,
+      "intersection_chosen_grants": 0,
+      "grants_on_parent_excluded_episodes": 0,
+      "observed_occupied_grid_grants": 0,
+      "contradiction_events": 0,
+      "extra_receiver_cost": {
+        "n": 2076,
+        "median_us": 19.5,
+        "p95_us": 1286,
+        "max_us": 3612
+      },
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 0,
+          "primary_grants": 0,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 0,
+          "primary_grants": 0,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 0,
+          "primary_grants": 0,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 0,
+          "primary_grants": 0,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 0,
+          "primary_grants": 0,
+          "intersection_chosen_grants": 0
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 0,
+          "primary_grants": 0,
+          "intersection_chosen_grants": 0
+        }
+      ]
+    }
+  ],
+  "source_sha256": "24fc6852b6f382a25e3acb1ce67600dc80eb97ad593558861ccf395f74bf76c8",
+  "analysis_sha256": "9b344bbb158b720703923df083594859e460fa56e23d70f4fe976ca38fd8a945",
+  "audit_sha256": "cb2ea5d9fea98f37b34d2cc65493eacfc7a77055a6808096f54c380638cbaa13",
+  "parent_summary_sha256": "c703bd6f2efba926663c8f8b30a27013aef81495c7290865f721c5904aab3dbf",
+  "scope": "Paid finite post-result intersection development. Geometry maximality only within declared calibrated supports/motion. Inherited current-state coverage failures retained; no new holdout or raw/physical/novelty claim."
+}
