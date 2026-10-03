@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import json
+from pathlib import Path
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'results/expiry_runtime_20261003';s=json.loads((OUT/'summary.json').read_bytes());t=json.loads((OUT/'transport64000_local.json').read_bytes());plt.rcParams.update({'font.size':10,'axes.spines.top':False,'axes.spines.right':False});f,ax=plt.subplots(1,3,figsize=(15,6),gridspec_kw={'width_ratios':[1,1.3,1]});variants=[s['variants'][n] for n in ('native16000','native64000')];x=np.arange(2)
+ax[0].bar(x-.17,[v['warm_median_full_recheck_s']*1e3 for v in variants],.34,label='Full recheck',color='#94a4b8');ax[0].bar(x+.17,[v['warm_median_incremental_s']*1e3 for v in variants],.34,label='Delta recheck',color='#168272');ax[0].set_xticks(x);ax[0].set_xticklabels(['16k-node source','64k-node source']);ax[0].set_yscale('log');ax[0].set_ylabel('Median receiver time (ms)');ax[0].set_title('Same inherited partition\nSame current packet');ax[0].legend()
+rows=[r for r in s['net_rows'] if r['variant']=='native64000'];labels=['Audi -6','Audi +6','Bicycle -6','Bicycle +6','Motorcycle -6','Motorcycle +6','Sprinter -6','Sprinter +6','Tesla -6','Tesla +6','Pedestrian -6','Pedestrian +6'];yy=np.arange(len(rows));values=[r['incremental_remaining_us']/1000 for r in rows];ax[1].barh(yy,values,color='#168272');ax[1].scatter([0]*len(rows),yy,color='#94a4b8',s=14);ax[1].set_yticks(yy);ax[1].set_yticklabels(labels);ax[1].invert_yaxis();ax[1].set_xlim(-3,90);ax[1].set_xlabel('Modeled usable remainder (ms)');ax[1].set_title('2/12 conditional positive remainders\nWorst observed costs charged')
+for i,v in enumerate(values):
+ if v:ax[1].text(v+1,i,'%.3f'%v,va='center',fontsize=9)
+noise=t['noise_bit_sensitivity'];bps=list(dict.fromkeys(r['blueprint'] for r in noise));actual=[next(r['changed_rows']/r['rows']*100 for r in noise if r['blueprint']==b and r['synthetic_sigma_m']==0) for b in bps];mm=[next(r['changed_rows']/r['rows']*100 for r in noise if r['blueprint']==b and r['synthetic_sigma_m']==.001) for b in bps];xx=np.arange(6);ax[2].bar(xx-.17,actual,.34,label='Captured fixture',color='#168272');ax[2].bar(xx+.17,mm,.34,label='+1 mm synthetic noise',color='#b35b56');ax[2].set_xticks(xx);ax[2].set_xticklabels(['Audi','Bicycle','Moto','Van','Tesla','Walker'],rotation=35,ha='right');ax[2].set_ylabel('Changed return bit patterns (%)');ax[2].set_ylim(0,110);ax[2].set_title('Sparse-change premise is fragile');ax[2].legend(fontsize=8)
+f.suptitle('Current-observation proof revalidation: computation gains and remaining limits',fontsize=15,y=.99);f.tight_layout(rect=[0,.075,1,.95]);f.text(.5,.028,'Saved ideal sensor observations; modeled 20 Mbps link; no fresh risk validation, WCET or driving result.',ha='center',fontsize=10);f.savefig(OUT/'runtime_tradeoffs.png',dpi=180);f.savefig(OUT/'runtime_tradeoffs.pdf');plt.close(f)

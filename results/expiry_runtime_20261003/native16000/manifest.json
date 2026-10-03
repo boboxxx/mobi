@@ -1,0 +1,32 @@
+{
+  "compilation": {
+    "command": [
+      "c++",
+      "-O3",
+      "-std=c++17",
+      "-ffp-contract=off",
+      "-shared",
+      "-fPIC",
+      "/home/sheng/mobicom2027_visibility_20261001/experiments/expiry_runtime_20261003/kernel.cpp",
+      "-o",
+      "/tmp/mobi_expiry_runtime.so"
+    ],
+    "seconds": 0.906234790999406,
+    "compiler": "c++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0",
+    "source_sha256": "c2eab6af17ddbd28a294f83451db20831ee0bbcf75e47bf100ae567ce94b81ec",
+    "binary_sha256": "21bfe8503c382220d1f2f35846da41bc70d09b223f301b94c9970c5daad7fb19"
+  },
+  "budget": 16000,
+  "calls": 24,
+  "warm_calls": 12,
+  "analysis_sha256": "f46727e9173fc706580a8cfbb03d959df2a9b353ac0e096213913bec9d61d917",
+  "source_hashes": {
+    "experiments/expiry_runtime_20261003/kernel.cpp": "c2eab6af17ddbd28a294f83451db20831ee0bbcf75e47bf100ae567ce94b81ec",
+    "experiments/expiry_runtime_20261003/runtime.py": "9dd565d4eaffc497bb0ef66ec825a076779deb58ab14b50783478029af7b95a5",
+    "experiments/expiry_runtime_20261003/run.py": "1da9d1f55e9e7949c33af186a288a9c8294ab93579bfc75f6595e9d0467b7299",
+    "experiments/expiry_runtime_20261003/PROTOCOL.md": "ca2374d12593f723947eb863bf76cc40b9095255e977b9142835a1458270bebc",
+    "experiments/pose_inversion_20261003/packet.py": "a87931c00e10d8fe15c1151c0cebe6d3b795b9308d09c430d2c6d35a2c015fca",
+    "experiments/pose_inversion_20261003/reference_codec.py": "d3e441907b2b7505f902df77fc4b4aecfce3984ddd1f3b0718a8c8b177c22968"
+  },
+  "scope": "Finite retrospective native and fresh-current-packet delta revalidation. Same score, priors, uncertain dynamics. Full recheck on identical inherited partition is the paired baseline. Current source times retained; wire modeled."
+}

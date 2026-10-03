@@ -1,0 +1,43 @@
+         32101588 function calls (32053383 primitive calls) in 13.758 seconds
+
+   Ordered by: cumulative time
+   List reduced from 179 to 35 due to restriction <35>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.125    0.125   13.831   13.831 /home/sheng/mobicom2027_visibility_20261001/experiments/pose_inversion_20261003/solver.py:30(solve)
+    25682    0.467    0.000    5.858    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/terrain_score_20261003/cell_bounds.py:16(bound)
+    17411    0.037    0.000    5.217    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/pose_inversion_20261003/solver.py:37(add)
+    17411    0.142    0.000    5.167    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/pose_inversion_20261003/solver.py:22(cell_age)
+    17413    0.028    0.000    4.766    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/pose_inversion_20261003/solver.py:17(age_bounds)
+    17413    0.110    0.000    4.680    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/shape_evidence_20261002/lifetime.py:28(expiry)
+   271366    0.621    0.000    4.542    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/shape_evidence_20261002/lifetime.py:22(safe_at)
+    25682    0.334    0.000    2.097    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/pose_inversion_20261003/refined.py:20(refined_enclosures)
+    33572    1.303    0.000    1.997    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/terrain_score_20261003/cell_bounds.py:11(interval)
+  1085464    0.265    0.000    1.993    0.000 /home/sheng/anaconda3/envs/carla/lib/python3.8/fractions.py:382(forward)
+     8706    0.123    0.000    1.818    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/pose_inversion_20261003/solver.py:39(probe)
+  2547325    1.266    0.000    1.676    0.000 /home/sheng/anaconda3/envs/carla/lib/python3.8/fractions.py:84(__new__)
+  1085464    0.639    0.000    1.586    0.000 /home/sheng/anaconda3/envs/carla/lib/python3.8/fractions.py:425(_mul)
+    25682    0.737    0.000    1.494    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/pose_inversion_20261003/refined.py:7(rotation_difference)
+762378/714175    0.446    0.000    1.462    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+     4417    0.794    0.000    1.395    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/terrain_score_20261003/model.py:4(score)
+   542732    0.146    0.000    1.069    0.000 /home/sheng/anaconda3/envs/carla/lib/python3.8/fractions.py:394(reverse)
+    16786    0.124    0.000    0.790    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/pose_inversion_20261003/bounds.py:48(candidates)
+   542732    0.334    0.000    0.769    0.000 /home/sheng/anaconda3/envs/carla/lib/python3.8/fractions.py:409(_add)
+   343379    0.083    0.000    0.535    0.000 /home/sheng/anaconda3/envs/carla/lib/python3.8/fractions.py:625(__gt__)
+   265923    0.148    0.000    0.506    0.000 /home/sheng/.local/lib/python3.8/site-packages/numpy/core/numeric.py:290(full)
+     8705    0.079    0.000    0.492    0.000 /home/sheng/mobicom2027_visibility_20261001/experiments/pose_inversion_20261003/bounds.py:19(split)
+  2131440    0.253    0.000    0.481    0.000 {built-in method builtins.isinstance}
+   343381    0.213    0.000    0.452    0.000 /home/sheng/anaconda3/envs/carla/lib/python3.8/fractions.py:599(_richcmp)
+    16786    0.357    0.000    0.375    0.000 {method 'query_ball_point' of 'scipy.spatial._ckdtree.cKDTree' objects}
+    26117    0.016    0.000    0.327    0.000 {method 'clip' of 'numpy.ndarray' objects}
+    26117    0.044    0.000    0.311    0.000 /home/sheng/.local/lib/python3.8/site-packages/numpy/core/_methods.py:127(_clip)
+   209873    0.229    0.000    0.305    0.000 /home/sheng/.local/lib/python3.8/site-packages/numpy/lib/twodim_base.py:162(eye)
+   721483    0.304    0.000    0.304    0.000 {built-in method numpy.asarray}
+   303912    0.097    0.000    0.298    0.000 <__array_function__ internals>:177(copyto)
+   119954    0.100    0.000    0.276    0.000 /home/sheng/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:69(_wrapreduction)
+    37828    0.037    0.000    0.263    0.000 {built-in method builtins.all}
+    77046    0.032    0.000    0.253    0.000 <__array_function__ internals>:177(outer)
+   886113    0.115    0.000    0.228    0.000 /home/sheng/anaconda3/envs/carla/lib/python3.8/abc.py:96(__instancecheck__)
+   180028    0.228    0.000    0.228    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+
+

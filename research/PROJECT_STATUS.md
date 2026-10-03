@@ -2,7 +2,30 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October3 terrain-score repair: `terrain_score_result_20261003.md`.
+Latest October3 expiry-runtime update: `expiry_runtime_result_20261003.md`.
+The existing13.8s profiled query exposes repeated rational-age and geometry work.
+C++17 exact integer age and unchanged geometric scoring reproduce the complete
+503118-node16k partition; median native construction is0.608s versus9.601s Python.
+Two fixed budgets yield48 cold queries and24 warm queries. Every warm current
+packet reconstructs bitwise, retains its source timestamp and checks cache identity.
+Changed-ray subtraction/addition equals full rechecking on the identical inherited
+partition. Invalid old exclusions are revoked (3442 at16k,9605 at64k); an Audi
+certificate's inherited lower bound falls205.465ms→0 under new observations.
+At64k, two of12 queries retain39.376ms/75.659ms after worst-observed compute/coding,
+modeled20Mbps wire,20ms propagation,20ms clock and200ms action reserve. The same
+partition/full-recheck baseline yields zero. Paid initialization fits the saved
+20.5s gaps, not a demonstrated live schedule. Query tasks are evaluated separately.
+Two-host independent world-plane/count/tree/age audits match; five tests pass.
+The audit uses an independently inflated cone filter and deterministic full-cloud
+cross-checks; it is not claimed to scan every ray unconditionally at every cell.
+Synthetic1mm/1cm perturbations change all return bits, exposing dependence on
+ideal semantic-LiDAR temporal coherence. No additional noise model or risk
+calibration was established. Broad expiry brackets, unknown inventory/terrain,
+physical motion contracts, sensor/callback latency, dynamic control, real links,
+robust computational reuse and final novelty remain. This turn is substantive
+progress, not a verified completion or recurring research automation.
+
+Previous October3 terrain-score repair: `terrain_score_result_20261003.md`.
 A fixed above-road halfspace removes the near-ground support mechanism discovered
 in18/25 surviving full-input pose hypotheses. New joint calibration and1497
 independent score checks use460 existing frames; no new CARLA data are claimed.

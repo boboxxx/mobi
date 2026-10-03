@@ -1,0 +1,38 @@
+{
+  "deterministic_pairs": [
+    {
+      "local": "audit16000_local.json",
+      "sheng": "audit16000_sheng.json",
+      "sha256": "b769876e8b1eb1320789095866fdfb3417fbf826db1bdd74b884fa036bf411e0"
+    },
+    {
+      "local": "audit64000_local.json",
+      "sheng": "audit64000_sheng.json",
+      "sha256": "259819c088e9f3d3189b2c169e9ad1aebde82d2c347614a7163cae6cf4d76ba7"
+    },
+    {
+      "local": "transport16000_local.json",
+      "sheng": "transport16000_sheng.json",
+      "sha256": "27739ba201108ae91a62425b33fbd59ef970d69963344ecea4096622057f221d"
+    },
+    {
+      "local": "transport64000_local.json",
+      "sheng": "transport64000_sheng.json",
+      "sha256": "27739ba201108ae91a62425b33fbd59ef970d69963344ecea4096622057f221d"
+    },
+    {
+      "local": "partition_equivalence_local.json",
+      "sheng": "partition_equivalence_sheng.json",
+      "sha256": "4aac0f570f61bdd54c3066387b35eecd9860c75555c466281db96a8cb5a0132a"
+    },
+    {
+      "local": "summary.json",
+      "sheng": "summary_sheng.json",
+      "sha256": "6905c8ac3dde0070b7ba0e25e093ec8f0ed1ab34b9831d3e95353d98936b39a5"
+    }
+  ],
+  "tests_per_host": 5,
+  "source_manifest_sha256": "5430f9ecb5e4f9690db0dea107233cde2312a3d5ccbe91a269540dd8f18da24d",
+  "goal_complete": false,
+  "scope": "Measured producer files unchanged; independently audited continuous partitions, all evaluated cell counts, current-source packet reconstruction and cost accounting. Candidate cone filtering explicitly distinguished from unconditional full-ray scans."
+}

@@ -1,0 +1,230 @@
+{
+  "packets": [
+    {
+      "blueprint": "vehicle.audi.a2",
+      "query": 0,
+      "wire_bytes": 8277,
+      "sha256": "e4da881e458101df703483094a83a5f0933fb61a217968179aead02dd48577c7",
+      "bit_exact": true,
+      "source_timestamp": 111.68938568979502
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "query": 1,
+      "wire_bytes": 8277,
+      "sha256": "e4da881e458101df703483094a83a5f0933fb61a217968179aead02dd48577c7",
+      "bit_exact": true,
+      "source_timestamp": 111.68938568979502
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "query": 0,
+      "wire_bytes": 1184,
+      "sha256": "bce8dc5d561db36808130014f22176c53333999f6139363a5776a9bb70ec708f",
+      "bit_exact": true,
+      "source_timestamp": 351.53938926383853
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "query": 1,
+      "wire_bytes": 1184,
+      "sha256": "bce8dc5d561db36808130014f22176c53333999f6139363a5776a9bb70ec708f",
+      "bit_exact": true,
+      "source_timestamp": 351.53938926383853
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "query": 0,
+      "wire_bytes": 2283,
+      "sha256": "80c823157e638de32eea0efbf25224572394159d2014089678bace7e4f3a4d29",
+      "bit_exact": true,
+      "source_timestamp": 431.48939045518637
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "query": 1,
+      "wire_bytes": 2283,
+      "sha256": "80c823157e638de32eea0efbf25224572394159d2014089678bace7e4f3a4d29",
+      "bit_exact": true,
+      "source_timestamp": 431.48939045518637
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "query": 0,
+      "wire_bytes": 18581,
+      "sha256": "825b5f2b7a1bf8fa410cef4fd4d3ff12defbad732445278246674342c4362ed9",
+      "bit_exact": true,
+      "source_timestamp": 271.5893880724907
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "query": 1,
+      "wire_bytes": 18581,
+      "sha256": "825b5f2b7a1bf8fa410cef4fd4d3ff12defbad732445278246674342c4362ed9",
+      "bit_exact": true,
+      "source_timestamp": 271.5893880724907
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "query": 0,
+      "wire_bytes": 8669,
+      "sha256": "3929b361f6ed6c0edcecd1ee5adb3a78f8d93d5e93d98b8c62b2fc6f537f13a2",
+      "bit_exact": true,
+      "source_timestamp": 191.63938688114285
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "query": 1,
+      "wire_bytes": 8669,
+      "sha256": "3929b361f6ed6c0edcecd1ee5adb3a78f8d93d5e93d98b8c62b2fc6f537f13a2",
+      "bit_exact": true,
+      "source_timestamp": 191.63938688114285
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "query": 0,
+      "wire_bytes": 1007,
+      "sha256": "0efe267ab056fa669fbfa637f8f9830e4291fe617b6f2893871cade85b08d03d",
+      "bit_exact": true,
+      "source_timestamp": 121.61738161370158
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "query": 1,
+      "wire_bytes": 1007,
+      "sha256": "0efe267ab056fa669fbfa637f8f9830e4291fe617b6f2893871cade85b08d03d",
+      "bit_exact": true,
+      "source_timestamp": 121.61738161370158
+    }
+  ],
+  "noise_bit_sensitivity": [
+    {
+      "blueprint": "vehicle.audi.a2",
+      "synthetic_sigma_m": 0.0,
+      "changed_rows": 703,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "synthetic_sigma_m": 0.001,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "synthetic_sigma_m": 0.01,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "synthetic_sigma_m": 0.0,
+      "changed_rows": 55,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "synthetic_sigma_m": 0.001,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "synthetic_sigma_m": 0.01,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "synthetic_sigma_m": 0.0,
+      "changed_rows": 143,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "synthetic_sigma_m": 0.001,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "synthetic_sigma_m": 0.01,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "synthetic_sigma_m": 0.0,
+      "changed_rows": 1668,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "synthetic_sigma_m": 0.001,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "synthetic_sigma_m": 0.01,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "synthetic_sigma_m": 0.0,
+      "changed_rows": 745,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "synthetic_sigma_m": 0.001,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "synthetic_sigma_m": 0.01,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "synthetic_sigma_m": 0.0,
+      "changed_rows": 40,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "synthetic_sigma_m": 0.001,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "synthetic_sigma_m": 0.01,
+      "changed_rows": 21612,
+      "rows": 21612,
+      "scope": "Bit-change diagnostic only; synthetic perturbation is not a calibrated sensor model and no expiry authorization is evaluated."
+    }
+  ],
+  "source_sha256": "4b1efef7892f8697ad66ad5904680d7ecd0cf7329ab57c6706abf0f0c78eb48e",
+  "scope": "Independent byte format reconstruction with explicit current timestamps. Wire fingerprints authenticated only for integrity, not sender identity. Fixed-scene exact-float coherence is a tested premise, not established real-LiDAR robustness."
+}
