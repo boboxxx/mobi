@@ -2,7 +2,54 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October3 shape-evidence update: `shape_evidence_result_20261003.md`
+Latest October3 terrain-score repair: `terrain_score_result_20261003.md`.
+A fixed above-road halfspace removes the near-ground support mechanism discovered
+in18/25 surviving full-input pose hypotheses. New joint calibration and1497
+independent score checks use460 existing frames; no new CARLA data are claimed.
+All39 old witnesses are rejected at stride4, but true vehicle exclusions rise
+2→3/100; pedestrian0/19 available and1 refused. This is retrospective repair,
+not confirmed deployment risk. New continuous inner/outer bounds yield1076 whole
+cell exclusions at2000 nodes, then132441 at16000. Ten of24 higher-budget queries
+obtain18.528–210.947ms geometric lower horizons, but6.13–11.43s computation makes
+all net grants zero. The other14 lower bounds stay zero; upper bounds are only
+unknown-boundary witnesses, so gaps remain broad. Both batches, all trees and
+messages are retained and independently checked with full-ray exclusions.
+Five new tests supplement the unchanged twelve pose tests. Shared-reference
+lossless coding reconstructs full current input in19–54KB after725KB paid setup;
+it removes a controlled-fixture warm bandwidth bottleneck without repairing
+inference or inventing fresh evidence. This also prevents an unfair raw-byte
+baseline from motivating a semantic novelty claim. Remaining requirements include
+fresh validation, physical sensor/terrain/motion contracts, directional body
+geometry, efficient tight inference, useful closed loop, real links and a final
+MobiCom contribution. This is substantive bounded progress, not a completed
+project or a repeated unchanged block. No recurring automation was created.
+
+Previous October3 pose-inversion update: `pose_inversion_result_20261003.md`
+adds two finite sheng144-call replays, geometry-only binary packets and continuous
+six-dimensional pose partitions under an explicit upright flat-road prior. No actor
+truth seeds receiver positions. Both2000-node implementations exclude zero entire
+cells and produce zero lower expiry. Their outer union remains the prior. Each
+study finds119 zero-time score/disc-model witnesses,45 of which have no projected
+bbox overlap; none establishes a physical mesh collision. An independently rescored
+39-pose bank leaves39/32/25 candidates at strides16/4/1 and zero upper bounds for
+23/22/17 of24 queries. The other7 full-budget queries remain0–340.649ms brackets,
+not positive-lifetime successes. All12 true poses remain in the score model and
+all24 true bbox queries are clear; oracle-pose disc lower bounds142.953–500ms are
+audit-only. Full raw packets exceed the modeled500ms deadline even at zero compute.
+Independent audits check288 calls,72 packet records and317,672 partition nodes;
+12 tests pass. No real-data exclusion proof occurred. Four final-bit differences
+in truth annotations are preserved, then only displayed annotations are rounded;
+final audit/bank/summary pairs match. Float guards are not formal interval arithmetic.
+This changes the research direction: penetration-fraction calibration alone fails
+as the complete localizing frontend. A calibrated pose estimator and validated
+orientation-aware trajectory envelope must precede compact task-evidence selection.
+No generic SIVIA/calibration novelty is claimed. Unknown inventory/terrain, physical
+contracts, temporal risk, useful dynamic control, real links and final contribution
+remain. Full project stays active/unachieved; this is substantive implementation
+and negative evidence, not a reduced completion criterion. No new CARLA service
+or recurring automation was created.
+
+Previous October3 shape-evidence update: `shape_evidence_result_20261003.md`
 adds528 genuinely new CARLA frames and46,615,008 raw rays across two finite studies
 on sheng. A fixed 3D ray/box score calibrated jointly over2 views/3 budgets reduces
 true-box false exclusions17→2/100 vehicle test episodes, retaining83.92% translated

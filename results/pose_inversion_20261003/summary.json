@@ -1,0 +1,316 @@
+{
+  "variants": {
+    "replay": {
+      "calls": 144,
+      "positive_lower": 0,
+      "zero_upper": 119,
+      "excluded_cells": 0,
+      "zero_upper_with_bbox_overlap": 74,
+      "zero_upper_without_bbox_overlap": 45,
+      "by_budget": {
+        "16": {
+          "calls": 48,
+          "positive_lower": 0,
+          "zero_upper": 45,
+          "median_receiver_ms": 19.2019135,
+          "p95_receiver_ms": 529.2556603499999,
+          "wire_bytes": 65060,
+          "zero_compute_min_age_and_reserve_us": 266024,
+          "positive_usable": 0
+        },
+        "4": {
+          "calls": 48,
+          "positive_lower": 0,
+          "zero_upper": 42,
+          "median_receiver_ms": 53.4569385,
+          "p95_receiver_ms": 823.74156255,
+          "wire_bytes": 259568,
+          "zero_compute_min_age_and_reserve_us": 343828,
+          "positive_usable": 0
+        },
+        "1": {
+          "calls": 48,
+          "positive_lower": 0,
+          "zero_upper": 32,
+          "median_receiver_ms": 80.75292999999999,
+          "p95_receiver_ms": 1251.5029042,
+          "wire_bytes": 1037588,
+          "zero_compute_min_age_and_reserve_us": 655036,
+          "positive_usable": 0
+        }
+      }
+    },
+    "refined": {
+      "calls": 144,
+      "positive_lower": 0,
+      "zero_upper": 119,
+      "excluded_cells": 0,
+      "zero_upper_with_bbox_overlap": 74,
+      "zero_upper_without_bbox_overlap": 45,
+      "by_budget": {
+        "16": {
+          "calls": 48,
+          "positive_lower": 0,
+          "zero_upper": 45,
+          "median_receiver_ms": 21.112631999999998,
+          "p95_receiver_ms": 611.3747571499999,
+          "wire_bytes": 65060,
+          "zero_compute_min_age_and_reserve_us": 266024,
+          "positive_usable": 0
+        },
+        "4": {
+          "calls": 48,
+          "positive_lower": 0,
+          "zero_upper": 42,
+          "median_receiver_ms": 61.854071000000005,
+          "p95_receiver_ms": 925.248637,
+          "wire_bytes": 259568,
+          "zero_compute_min_age_and_reserve_us": 343828,
+          "positive_usable": 0
+        },
+        "1": {
+          "calls": 48,
+          "positive_lower": 0,
+          "zero_upper": 32,
+          "median_receiver_ms": 92.08419950000001,
+          "p95_receiver_ms": 1470.2719137000001,
+          "wire_bytes": 1037588,
+          "zero_compute_min_age_and_reserve_us": 655036,
+          "positive_usable": 0
+        }
+      }
+    }
+  },
+  "witness_bank": {
+    "16": {
+      "candidates": 39,
+      "surviving": 39,
+      "zero_witness_queries": 23,
+      "queries": 24,
+      "max_upper_us": 73826
+    },
+    "4": {
+      "candidates": 39,
+      "surviving": 32,
+      "zero_witness_queries": 22,
+      "queries": 24,
+      "max_upper_us": 340649
+    },
+    "1": {
+      "candidates": 39,
+      "surviving": 25,
+      "zero_witness_queries": 17,
+      "queries": 24,
+      "max_upper_us": 340649
+    }
+  },
+  "unique_bank_candidates": 39,
+  "bank_point_checks": 4425018,
+  "tree_nodes_checked": 317672,
+  "packet_checks": 72,
+  "declared_pose_domain_violations": 0,
+  "truth_diagnostics": [
+    {
+      "case": "vehicle_audi_a2_test00",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 3.1001390631,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 394954
+    },
+    {
+      "case": "vehicle_audi_a2_test00",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 4.7998991129,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "vehicle_audi_a2_test10",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 5.4133414294,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "vehicle_audi_a2_test10",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 3.5110422322,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 384039
+    },
+    {
+      "case": "vehicle_diamondback_century_test00",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 3.9180389152,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 480475
+    },
+    {
+      "case": "vehicle_diamondback_century_test00",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 6.6222400086,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "vehicle_diamondback_century_test10",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 4.4578406741,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 491981
+    },
+    {
+      "case": "vehicle_diamondback_century_test10",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 6.9581753796,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "vehicle_kawasaki_ninja_test00",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 6.2124851497,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "vehicle_kawasaki_ninja_test00",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 3.8204249336,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 471995
+    },
+    {
+      "case": "vehicle_kawasaki_ninja_test10",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 5.230352003,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "vehicle_kawasaki_ninja_test10",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 5.8353976483,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "vehicle_mercedes_sprinter_test00",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 5.769467522,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "vehicle_mercedes_sprinter_test00",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 3.4792014427,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 142953
+    },
+    {
+      "case": "vehicle_mercedes_sprinter_test10",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 3.9309896603,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 353056
+    },
+    {
+      "case": "vehicle_mercedes_sprinter_test10",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 3.5733739925,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 330102
+    },
+    {
+      "case": "vehicle_tesla_model3_test00",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 4.4883569336,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "vehicle_tesla_model3_test00",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 2.5524276936,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 276295
+    },
+    {
+      "case": "vehicle_tesla_model3_test10",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 4.7642678175,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "vehicle_tesla_model3_test10",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 2.2377441236,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 224862
+    },
+    {
+      "case": "walker_pedestrian_0001_test00",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 6.8295342963,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "walker_pedestrian_0001_test00",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 4.662033541,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "walker_pedestrian_0001_test10",
+      "query_index": 0,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 5.3774364116,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    },
+    {
+      "case": "walker_pedestrian_0001_test10",
+      "query_index": 1,
+      "true_pose_retained_by_all_budgets": true,
+      "true_bbox_footprint_distance_m": 6.1114151605,
+      "true_bbox_clear": true,
+      "oracle_pose_disc_lower_us": 500000
+    }
+  ],
+  "truth_pose_excluded_source_cases": 0,
+  "true_bbox_clear_queries": 24,
+  "oracle_pose_positive_queries": 24,
+  "oracle_pose_lower_range_us": [
+    142953,
+    500000
+  ],
+  "audit_sha256": "45ac485b5241f2cbe5a4b029613e4ae4d700cc0e513ee2815ba6ba0fe5729b8c",
+  "witness_bank_sha256": "6785a1c2ab54fb942fd010a4ebef045d49f4f6098d686304155a476a87738122",
+  "scope": "Retrospective descriptive results, not independent statistical trials. Oracle poses and bbox overlaps are audit-only diagnostics. No physical-safety, optimal raw-information lifetime or new algorithmic superiority claim."
+}

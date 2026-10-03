@@ -1,0 +1,29 @@
+{
+  "differences": [
+    {
+      "path": "/truth_domain/3/pose/1",
+      "local": -0.4932572583882426,
+      "sheng": -0.4932572583882425,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "path": "/truth_domain/7/pose/1",
+      "local": 0.26399264792248484,
+      "sheng": 0.2639926479224849,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "path": "/truth_domain/15/pose/1",
+      "local": -0.4932572583882426,
+      "sheng": -0.4932572583882425,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "path": "/truth_domain/19/pose/1",
+      "local": 0.26399264792248484,
+      "sheng": 0.2639926479224849,
+      "absolute_difference": 5.551115123125783e-17
+    }
+  ],
+  "interpretation": "Four truth annotation coordinates differ only in final floating point bits. All geometric decisions, counts, witnesses and domain-fit flags match. Preserve unrounded outputs and canonicalize only displayed truth pose annotations to12 decimal places; decisions continue using unrounded values."
+}

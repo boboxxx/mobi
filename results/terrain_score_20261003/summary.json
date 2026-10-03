@@ -1,0 +1,79 @@
+{
+  "known_witnesses": {
+    "16": {
+      "old_surviving": 39,
+      "new_surviving": 10
+    },
+    "4": {
+      "old_surviving": 32,
+      "new_surviving": 0
+    },
+    "1": {
+      "old_surviving": 25,
+      "new_surviving": 0
+    }
+  },
+  "test_episodes": {
+    "vehicle.audi.a2": {
+      "available": 20,
+      "false_exclusions": 1,
+      "refused": 0
+    },
+    "vehicle.diamondback.century": {
+      "available": 20,
+      "false_exclusions": 0,
+      "refused": 0
+    },
+    "vehicle.kawasaki.ninja": {
+      "available": 20,
+      "false_exclusions": 0,
+      "refused": 0
+    },
+    "vehicle.mercedes.sprinter": {
+      "available": 20,
+      "false_exclusions": 0,
+      "refused": 0
+    },
+    "vehicle.tesla.model3": {
+      "available": 20,
+      "false_exclusions": 2,
+      "refused": 0
+    },
+    "walker.pedestrian.0001": {
+      "available": 19,
+      "false_exclusions": 0,
+      "refused": 1
+    }
+  },
+  "variants": {
+    "inversion": {
+      "calls": 24,
+      "excluded_cells": 1076,
+      "positive_geometric_lower": 0,
+      "positive_lower_min_us": null,
+      "positive_lower_max_us": null,
+      "median_inversion_s": 0.7615920195000854,
+      "min_inversion_s": 0.7281951640002262,
+      "max_inversion_s": 1.2924394359997677,
+      "positive_net_usable": 0,
+      "upper_witness_kind_counts": {
+        "unknown_boundary": 24
+      }
+    },
+    "inversion16000": {
+      "calls": 24,
+      "excluded_cells": 132441,
+      "positive_geometric_lower": 10,
+      "positive_lower_min_us": 18528,
+      "positive_lower_max_us": 210947,
+      "median_inversion_s": 9.601376763999724,
+      "min_inversion_s": 6.128593531000206,
+      "max_inversion_s": 11.434530672000164,
+      "positive_net_usable": 0,
+      "upper_witness_kind_counts": {
+        "unknown_boundary": 24
+      }
+    }
+  },
+  "scope": "Retrospective model/compute diagnosis, all timings measured on sheng, link costs modeled. No physical safety or near-optimality claim."
+}

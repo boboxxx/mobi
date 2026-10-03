@@ -1,0 +1,86 @@
+{
+  "summary": {
+    "vehicle.audi.a2": {
+      "threshold": {
+        "numerator": 103,
+        "denominator": 251
+      },
+      "calibration_missing": [],
+      "test_refused": [],
+      "test_false_exclusion": [
+        "vehicle_audi_a2_test_01"
+      ],
+      "available_test_episodes": 20,
+      "supported_test_frames": 120
+    },
+    "vehicle.diamondback.century": {
+      "threshold": {
+        "numerator": 9,
+        "denominator": 10
+      },
+      "calibration_missing": [],
+      "test_refused": [],
+      "test_false_exclusion": [],
+      "available_test_episodes": 20,
+      "supported_test_frames": 120
+    },
+    "vehicle.kawasaki.ninja": {
+      "threshold": {
+        "numerator": 8,
+        "denominator": 11
+      },
+      "calibration_missing": [],
+      "test_refused": [],
+      "test_false_exclusion": [],
+      "available_test_episodes": 20,
+      "supported_test_frames": 120
+    },
+    "vehicle.mercedes.sprinter": {
+      "threshold": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "calibration_missing": [],
+      "test_refused": [],
+      "test_false_exclusion": [],
+      "available_test_episodes": 20,
+      "supported_test_frames": 120
+    },
+    "vehicle.tesla.model3": {
+      "threshold": {
+        "numerator": 28,
+        "denominator": 65
+      },
+      "calibration_missing": [],
+      "test_refused": [],
+      "test_false_exclusion": [
+        "vehicle_tesla_model3_test_06",
+        "vehicle_tesla_model3_test_18"
+      ],
+      "available_test_episodes": 20,
+      "supported_test_frames": 120
+    },
+    "walker.pedestrian.0001": {
+      "threshold": {
+        "numerator": 8,
+        "denominator": 9
+      },
+      "calibration_missing": [
+        "walker_availability_calibration_03",
+        "walker_availability_calibration_07",
+        "walker_availability_calibration_08"
+      ],
+      "test_refused": [
+        "walker_availability_test_19"
+      ],
+      "test_false_exclusion": [],
+      "available_test_episodes": 19,
+      "supported_test_frames": 98
+    }
+  },
+  "surviving_by_stride": {
+    "16": 10,
+    "4": 0,
+    "1": 0
+  }
+}

@@ -1,0 +1,17 @@
+test_containment_at_all_sampled_pose_corners (test_bounds.BoundsTests) ... ok
+test_empty_rays_cannot_exclude (test_bounds.BoundsTests) ... ok
+test_interval_lower_score_at_random_interior_poses (test_bounds.BoundsTests) ... ok
+test_split_covers_parent (test_bounds.BoundsTests) ... ok
+test_unsupported_and_sensor_inside_retained (test_bounds.BoundsTests) ... ok
+test_correlated_counts_improve_empty_ray_bound (test_refined.RefinementTests) ... ok
+test_nested_boxes_and_scores (test_refined.RefinementTests) ... ok
+test_relative_rotation_matrix_bounds (test_refined.RefinementTests) ... ok
+test_both_schedulers_preserve_domain (test_solver.InversionTests) ... ok
+test_nested_packets_and_source_time (test_solver.InversionTests) ... ok
+test_no_rays_retains_collision_witness (test_solver.InversionTests) ... ok
+test_uninformative_threshold_never_excludes (test_solver.InversionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.583s
+
+OK
