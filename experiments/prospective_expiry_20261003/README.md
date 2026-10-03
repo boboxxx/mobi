@@ -22,6 +22,28 @@ Audits import the inherited independent raster and Decimal implementations;
 production geometry imports frozen prior XYZ/codec/lifetime dependencies.
 All exact source hashes, observations, messages, timings and failures are retained.
 
+The seven deterministic cross-host outputs are audit, summary,
+action_functional_audit, action_functional_summary, support_audit, tightness and
+contract_audit. Run their corresponding scripts with `--results
+results/prospective_expiry_20261003 --out <stem>_local.json` (summary uses
+`summarize.py`), then `python -m unittest discover -s
+experiments/prospective_expiry_20261003 -p 'test_*.py' -v` and
+`python experiments/prospective_expiry_20261003/verify_package.py`.
+
+The inherited frozen action producer's docstring and output `scope` still say
+"exploratory/posthoc"; its inherited auditor also says "no untouched holdout". Those legacy strings are retained to avoid rewriting
+the pre-capture hash. The present batch uses new seeds, with its selected
+predictor/filter frozen before new observations; the source was published at
+cf4daa07 before any new calibration/evaluation output. This is not external
+preregistration before capture. The selection itself came from development
+data, as documented in the previous report.
+
+The original finite runner exited after capture because WSL PowerShell interop
+failed. The original stop log is retained. The same ownership-checked stop
+script succeeded via direct Windows SSH. `resume_once.sh` executes the original
+evaluation sequence once plus separate diagnostics; no capture, threshold or
+policy was changed, and no scheduled research loop was created.
+
 The theorem concerns finite declared body-disc occupancy snapshots under iid
 known-class complete episodes, and does not establish conditional grant risk,
 unknown inventory, continuous physics, live wireless, ego control or novelty.

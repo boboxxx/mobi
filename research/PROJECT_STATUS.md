@@ -2,7 +2,27 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October3 dynamic/action-eligible update: `causal_state_result_20261003.md`.
+Latest October3 prospective expiry update: `prospective_expiry_result_20261003.md`.
+One frozen930-episode new batch completes884 captured episodes and5304 scans
+with117069888 retained returns; failed plans are retained. At20Mbps the action-
+eligible direct task-expiry policy gives4451/11520 grants versus3446 for the
+state-envelope baseline; strong lossless centers give4454. All six classes have
+0/60 observed test expiry-overstatement episodes and no occupied-grid grants.
+Single-class one-sided95% test upper bounds are4.8703%, not simultaneous class
+confidence or conditional-grant risk. The standard max95 fixed-score theorem
+has joint six-class calibration confidence95.4091% under iid full-episode law.
+Sprinter's500.001ms correction disables the entire class; Audi needs112.969ms.
+Granted gap p95=112.969ms, p99=116.029ms despite median0;500mscap and refusal
+selection preclude near-optimality claims. Seven independent pairs match
+bytewise and seven causal tests pass perhost. Exact contradictory-view
+calibration witnesses and the WSL cleanup failure/recovery are retained.
+The owned CARLA server and scene objects are cleaned. No recapture, test tuning,
+scheduler or recurring research job was created. This finite package is
+completed; the full credible-and-not-overconservative, unknown-inventory,
+real-link/continuous-physics/ego-control and MobiCom novelty goals remain
+unachieved. Do not mark the full objective complete.
+
+Previous October3 dynamic/action-eligible update: `causal_state_result_20261003.md`.
 A frozen930-episode dynamic batch captures867 sequences,5202scans and114818544
 retained returns. State/tube policies give3080/3807 union grants per11520 scheduled
 queries at20Mbps. Unfiltered task correction gives2770; filtering base expiry
@@ -10,10 +30,8 @@ shorter than220ms BEFORE max95 task calibration gives5154, tying the strong
 lossless-center baseline. One observed occupied Sprinter grant is retained.
 Its class development-test risk upper is7.664%; reused data and model/grid scope
 preclude safety/near-optimality/novelty completion. Nine independent pairs match
-bytewise, seven tests pass perhost. A single NEW pre-capture frozen prospective
-930-episode batch is in progress onsheng, with no policy tuning or recurring job.
-The prospective outputs must be independently audited and published before
-being claimed. Full inventory, actual links, continuous physics, interactive
+bytewise, seven tests pass perhost. The separately frozen prospective batch is now completed and reported above.
+Full inventory, actual links, continuous physics, interactive
 ego control, novel evidence selection and submission-quality demonstration
 remain unresolved; do not redefine completion around this experiment.
 

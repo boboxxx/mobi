@@ -8,10 +8,11 @@ def read(p):return json.loads(p.read_bytes())
 def write(p,d):p.write_text(json.dumps(d,indent=2)+'\n')
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--freeze',action='store_true');a=ap.parse_args();d=read(P/'analysis_sheng.json');f=read(P/'action_functional_sheng.json');pairs=[]
-    for stem,script in [('audit','audit.py'),('summary','summarize.py'),('action_functional_audit','action_functional_audit.py'),('action_functional_summary','action_functional_summary.py'),('support_audit','support_audit.py'),('tightness','tightness.py')]:
+    for stem,script in [('audit','audit.py'),('summary','summarize.py'),('action_functional_audit','action_functional_audit.py'),('action_functional_summary','action_functional_summary.py'),('support_audit','support_audit.py'),('tightness','tightness.py'),('contract_audit','contract_audit.py')]:
         left=P/(stem+'_local.json');right=P/(stem+'_sheng.json');assert left.read_bytes()==right.read_bytes();assert read(right)['source_sha256']==sha(E/script);pairs.append(dict(stem=stem,sha256=sha(right)))
     for mapping in (read(E/'capture_freeze.json')['source_hashes'],read(E/'action_functional_freeze.json')['source_hashes'],d['source_hashes'],d['input_hashes'],f['source_hashes']):
         for name,h in mapping.items():assert sha(ROOT/name)==h,name
+    assert read(E/'contract_audit_freeze.json')['source_sha256']==sha(E/'contract_audit.py')
     assert read(E/'tightness_freeze.json')['source_sha256']==sha(E/'tightness.py')
     assert d['capture_manifest_sha256']==sha(P/'capture/manifest.json')
     assert read(P/'audit_sheng.json')['analysis_sha256']==sha(P/'analysis_sheng.json')
@@ -19,6 +20,11 @@ def main():
     assert read(P/'action_functional_audit_sheng.json')['action_functional_sha256']==sha(P/'action_functional_sheng.json')
     assert read(P/'action_functional_audit_sheng.json')['primary_audit_sha256']==sha(P/'audit_sheng.json')
     assert read(P/'support_audit_sheng.json')['analysis_sha256']==sha(P/'analysis_sheng.json')
+    assert read(P/'contract_audit_sheng.json')['analysis_sha256']==sha(P/'analysis_sheng.json')
+    assert read(P/'tightness_sheng.json')['functional_sha256']==sha(P/'action_functional_sheng.json')
+    assert read(P/'tightness_sheng.json')['functional_audit_sha256']==sha(P/'action_functional_audit_sheng.json')
+    case=read(P/'calibration_counterexample.json')
+    assert case['source_sha256']==sha(E/'extract_counterexample.py') and case['action_functional_sha256']==sha(P/'action_functional_sheng.json') and case['primary_analysis_sha256']==sha(P/'analysis_sheng.json')
     for r in d['rows']+f['rows']:
         for method in ('union','lossless_centers','full_xyz'):
             m=r['methods'][method];assert sha(P/m['packet'])==m['wire_sha256'] and (P/m['packet']).stat().st_size==m['wire_bytes'];assert all(0<=s['selection_s']<=s['source_s'] for s in m['samples'])

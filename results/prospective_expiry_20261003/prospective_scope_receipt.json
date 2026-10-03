@@ -1,0 +1,15 @@
+{
+  "experiment": "prospective_expiry_20261003",
+  "source_publication_commit": "cf4daa07",
+  "publication_timing": "Published while capture was running, before any fresh calibration/evaluation outputs; not external preregistration before capture.",
+  "pre_capture_freezes": [
+    "capture_freeze.json",
+    "action_functional_freeze.json"
+  ],
+  "calibration_seed_base": 2026102100,
+  "test_seed_base": 2026102200,
+  "policy_selection": "Selected on the separate causal_state_20261003 development batch; frozen before this new capture. Fresh scores only fit the prescribed max95 correction.",
+  "legacy_metadata": "The frozen action_functional.py producer/docstring and action_functional_audit.py scope contain inherited exploratory/no-untouched-holdout phrases. They are preserved hash-identically. The factual scope of this batch follows the new frozen seeds, hashes, split and execution receipts; legacy strings are not proof of post-capture tuning.",
+  "timing_scope": "Observed loaded-host timing samples, not isolated or worst-case bounds. Raw archive generation/download overlapped part of primary evaluation. Geometry, bytes and independent audit results are not selected by timing.",
+  "goal_complete": false
+}
