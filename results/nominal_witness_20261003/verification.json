@@ -1,0 +1,23 @@
+{
+  "deterministic_pairs": [
+    {
+      "local": "audit_local.json",
+      "sheng": "audit_sheng.json",
+      "sha256": "15ea26e0368cc72443b279e7abae5283e8cbbc8f635c4e74b684c2c3526ff03e"
+    },
+    {
+      "local": "transfer_local.json",
+      "sheng": "transfer_sheng.json",
+      "sha256": "a1438aeaae94a8a00952e4180e74d50005e484aeb898ccd20212e5456b678c34"
+    },
+    {
+      "local": "summary_local.json",
+      "sheng": "summary_sheng.json",
+      "sha256": "2311b373ac2e0a694fdaee73af4228a18eeb53dfa16266a19fb588ba8e0b4642"
+    }
+  ],
+  "tests_per_host": 3,
+  "source_manifest_sha256": "686ade6428454d55e2bc5e38266f735f68b2c94779ed9ab0e4f4761247b1a9a6",
+  "goal_complete": false,
+  "scope": "Receiver-only upper witnesses and offline fixed-pool raw-data diagnosis; no physical safety, new risk calibration, optimality or online-success claim."
+}

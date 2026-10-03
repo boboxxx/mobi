@@ -2,7 +2,29 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October3 proof-repair update: `proof_repair_result_20261003.md`.
+Latest October3 receiver-only witness update: `nominal_witness_result_20261003.md`.
+Sheng completed36 finite searches with294912 evaluated poses and549 successive
+best feasible witnesses. All36 model upper horizons tighten. Search uses legal
+nominal message realizations only; hidden actual current data is restricted to a
+post-search independent auditor on a fixed545-pose same-class pool. Transfer
+further tightens24 upper bounds. Seven actual-raw tasks have accepted witnesses
+below the fixed240ms reserve; their model obstruction cannot be removed solely
+by reducing coding, wire or compute cost. Tesla(+6,0) has a35.083ms witness in
+all three perturbation conditions, with hundreds of supporting rays. Eighteen
+closest nominal witnesses fail actual-raw scoring, proving only state-specific
+coordinate ambiguity. No heuristic upper-bound difference is labeled compression
+loss. Final message gaps32.075–430.799ms remain above10ms in every task. Initial
+audits check1696 poses/45817440 rays; transfer audits check6540 poses/176678100
+rays. Both audit pairs and summary pair match bytewise; three tests pass on both
+hosts. A strict initializer equality check was corrected for SciPy rescaling
+roundoff; actual witness/domain/count/contact checks remain unchanged. No search
+rerun, new capture, physical collision, deployment-risk or online success is
+claimed. State-model discrimination and validated directional body/motion models
+must be addressed alongside computation and selective evidence. The existing
+counterexample bank is regression evidence, not a future independent test set.
+The full objective remains unachieved; no recurring research loop was created.
+
+Previous October3 proof-repair update: `proof_repair_result_20261003.md`.
 Sheng completed324 fixed-budget calls and108 timing-dependent adaptive calls over
 36 retained tasks. Repair now evaluates old unresolved cells using current
 endpoint-ball messages, maintains a complete partition and explores earliest
