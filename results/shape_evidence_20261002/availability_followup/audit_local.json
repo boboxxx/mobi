@@ -1,0 +1,34 @@
+{
+  "episodes": 39,
+  "frames": 70,
+  "raw_rays": 6180020,
+  "actor_returns": 5018,
+  "independent_box_checks": 1890,
+  "summary": [
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "method": "full_only",
+      "false_exclusions": 4,
+      "available": 19,
+      "threshold": "83/129"
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "method": "joint",
+      "false_exclusions": 0,
+      "available": 19,
+      "threshold": "7/9"
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "method": "solid_box",
+      "false_exclusions": 19,
+      "available": 19,
+      "threshold": "0"
+    }
+  ],
+  "analysis_sha256": "6fb25b3379c8e14505eaa4e36a184455bfd936823100b1c014290d050eedb416",
+  "capture_manifest_sha256": "c73c9131650e1658c78d56ecbb3ed23a1cd6f094ad5fb0281da50ac7e87535d5",
+  "audit_source_sha256": "70587f5046628d053e1641a35b8004be0785bac8cc04756a84e0b7b4c8b66c70",
+  "scope": "Independent six-face intersections, draw/split hashes, same-frame labels and exact quantiles; statistical exchangeability and physical sensor validity are assumptions, not audit conclusions."
+}

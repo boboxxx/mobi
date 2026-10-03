@@ -2,7 +2,30 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October2 physical-contract update: `physical_contract_result_20261002.md`
+Latest October3 shape-evidence update: `shape_evidence_result_20261003.md`
+adds528 genuinely new CARLA frames and46,615,008 raw rays across two finite studies
+on sheng. A fixed 3D ray/box score calibrated jointly over2 views/3 budgets reduces
+true-box false exclusions17→2/100 vehicle test episodes, retaining83.92% translated
+hypothesis rejection (not certified free-space coverage). Initial missing pedestrian
+calibration inputs make q=1; a fresh39-episode availability-aware follow-up assigns
+zero exclusion score only when the procedure outputs full support and refuses
+execution. It obtains0/19 available test exclusions versus4/19, with1 other test
+refused, and68.64% diagnostic rejection. All9 failed spawns across both studies
+remain; no resampling. Marginal5% theory is conditional on the episode law and fixed
+family; observed0/20 has a13.91% one-sided95% risk upper bound, not proven5% risk.
+Two-host analysis/audit pairs match bytewise; independent six-face geometry checks
+14,256 boxes, raw hashes, poses, seeds and quantiles. Twenty tests pass both hosts.
+A separate integer/rational finite-disc expiry module agrees with2,000 independent
+analytic references/10,359 boundaries and supplies a<=1us abstract-model bracket.
+It still requires a complete calibrated state set not constructed by these captures.
+No physical action gate is opened. All owned CARLA servers were stopped and worlds
+cleaned. Generic calibration/reachability are established methods, not novelty.
+Full continuous pose/inventory coverage, physical error/motion contracts, temporal
+risk, effective dynamic control, real links and the final MobiCom contribution remain.
+The full goal stays active/unachieved. This is substantive code/data/theory progress,
+with no recurring research loop or automation.
+
+Previous October2 physical-contract update: `physical_contract_result_20261002.md`
 adds48 genuinely new CARLA frames and4,237,728 raw rays on sheng. Across six actor
 blueprints/four yaws/two RSU views, the old physical interpretation is refuted:
 22 real occupied-center tiles are excluded under the unchanged uncertainty-aware

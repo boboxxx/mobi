@@ -1,0 +1,887 @@
+scored 60
+scored 120
+scored 180
+scored 240
+scored 300
+scored 360
+scored 420
+scored 480
+scored 540
+scored 600
+scored 660
+scored 720
+scored 780
+scored 840
+scored 900
+scored 960
+scored 1020
+scored 1080
+scored 1140
+scored 1200
+scored 1260
+scored 1320
+{
+  "vehicle.audi.a2": {
+    "full_only": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 308,
+        "denominator": 1051,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 2,
+      "false_exclusion_episode_ids": [
+        "vehicle_audi_a2_test_01",
+        "vehicle_audi_a2_test_15"
+      ],
+      "one_sided_95_upper": 0.28261852488586087,
+      "true_hypothesis_rejections": 4,
+      "supported_true_cases": 120,
+      "translated_rejections": 891,
+      "translated_supported": 960,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 1,
+          "total": 40,
+          "utility_rejected": 297,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 1,
+          "total": 40,
+          "utility_rejected": 297,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 2,
+          "total": 40,
+          "utility_rejected": 297,
+          "utility_total": 320
+        }
+      }
+    },
+    "joint": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 79,
+        "denominator": 265,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 1,
+      "false_exclusion_episode_ids": [
+        "vehicle_audi_a2_test_01"
+      ],
+      "one_sided_95_upper": 0.2161061642068473,
+      "true_hypothesis_rejections": 3,
+      "supported_true_cases": 120,
+      "translated_rejections": 889,
+      "translated_supported": 960,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 1,
+          "total": 40,
+          "utility_rejected": 297,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 1,
+          "total": 40,
+          "utility_rejected": 297,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 1,
+          "total": 40,
+          "utility_rejected": 295,
+          "utility_total": 320
+        }
+      }
+    },
+    "solid_box": {
+      "threshold": {
+        "n": 0,
+        "rank": 0,
+        "numerator": 0,
+        "denominator": 1,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 20,
+      "false_exclusion_episode_ids": [
+        "vehicle_audi_a2_test_00",
+        "vehicle_audi_a2_test_01",
+        "vehicle_audi_a2_test_02",
+        "vehicle_audi_a2_test_03",
+        "vehicle_audi_a2_test_04",
+        "vehicle_audi_a2_test_05",
+        "vehicle_audi_a2_test_06",
+        "vehicle_audi_a2_test_07",
+        "vehicle_audi_a2_test_08",
+        "vehicle_audi_a2_test_09",
+        "vehicle_audi_a2_test_10",
+        "vehicle_audi_a2_test_11",
+        "vehicle_audi_a2_test_12",
+        "vehicle_audi_a2_test_13",
+        "vehicle_audi_a2_test_14",
+        "vehicle_audi_a2_test_15",
+        "vehicle_audi_a2_test_16",
+        "vehicle_audi_a2_test_17",
+        "vehicle_audi_a2_test_18",
+        "vehicle_audi_a2_test_19"
+      ],
+      "one_sided_95_upper": 1.0,
+      "true_hypothesis_rejections": 120,
+      "supported_true_cases": 120,
+      "translated_rejections": 960,
+      "translated_supported": 960,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        }
+      }
+    }
+  },
+  "vehicle.diamondback.century": {
+    "full_only": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 223,
+        "denominator": 360,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 6,
+      "false_exclusion_episode_ids": [
+        "vehicle_diamondback_century_test_02",
+        "vehicle_diamondback_century_test_03",
+        "vehicle_diamondback_century_test_04",
+        "vehicle_diamondback_century_test_13",
+        "vehicle_diamondback_century_test_14",
+        "vehicle_diamondback_century_test_16"
+      ],
+      "one_sided_95_upper": 0.5078184066147933,
+      "true_hypothesis_rejections": 6,
+      "supported_true_cases": 120,
+      "translated_rejections": 754,
+      "translated_supported": 944,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 258,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 1,
+          "total": 40,
+          "utility_rejected": 257,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 5,
+          "total": 40,
+          "utility_rejected": 239,
+          "utility_total": 320
+        }
+      }
+    },
+    "joint": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 5,
+        "denominator": 7,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 0,
+      "false_exclusion_episode_ids": [],
+      "one_sided_95_upper": 0.13910834066826516,
+      "true_hypothesis_rejections": 0,
+      "supported_true_cases": 120,
+      "translated_rejections": 530,
+      "translated_supported": 944,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 192,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 182,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 156,
+          "utility_total": 320
+        }
+      }
+    },
+    "solid_box": {
+      "threshold": {
+        "n": 0,
+        "rank": 0,
+        "numerator": 0,
+        "denominator": 1,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 20,
+      "false_exclusion_episode_ids": [
+        "vehicle_diamondback_century_test_00",
+        "vehicle_diamondback_century_test_01",
+        "vehicle_diamondback_century_test_02",
+        "vehicle_diamondback_century_test_03",
+        "vehicle_diamondback_century_test_04",
+        "vehicle_diamondback_century_test_05",
+        "vehicle_diamondback_century_test_06",
+        "vehicle_diamondback_century_test_07",
+        "vehicle_diamondback_century_test_08",
+        "vehicle_diamondback_century_test_09",
+        "vehicle_diamondback_century_test_10",
+        "vehicle_diamondback_century_test_11",
+        "vehicle_diamondback_century_test_12",
+        "vehicle_diamondback_century_test_13",
+        "vehicle_diamondback_century_test_14",
+        "vehicle_diamondback_century_test_15",
+        "vehicle_diamondback_century_test_16",
+        "vehicle_diamondback_century_test_17",
+        "vehicle_diamondback_century_test_18",
+        "vehicle_diamondback_century_test_19"
+      ],
+      "one_sided_95_upper": 1.0,
+      "true_hypothesis_rejections": 120,
+      "supported_true_cases": 120,
+      "translated_rejections": 944,
+      "translated_supported": 944,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 304,
+          "utility_total": 320
+        }
+      }
+    }
+  },
+  "vehicle.kawasaki.ninja": {
+    "full_only": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 174,
+        "denominator": 361,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 5,
+      "false_exclusion_episode_ids": [
+        "vehicle_kawasaki_ninja_test_02",
+        "vehicle_kawasaki_ninja_test_04",
+        "vehicle_kawasaki_ninja_test_07",
+        "vehicle_kawasaki_ninja_test_09",
+        "vehicle_kawasaki_ninja_test_14"
+      ],
+      "one_sided_95_upper": 0.4555824040017489,
+      "true_hypothesis_rejections": 9,
+      "supported_true_cases": 120,
+      "translated_rejections": 875,
+      "translated_supported": 959,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 4,
+          "total": 40,
+          "utility_rejected": 292,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 2,
+          "total": 40,
+          "utility_rejected": 293,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 3,
+          "total": 40,
+          "utility_rejected": 290,
+          "utility_total": 320
+        }
+      }
+    },
+    "joint": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 13,
+        "denominator": 25,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 1,
+      "false_exclusion_episode_ids": [
+        "vehicle_kawasaki_ninja_test_14"
+      ],
+      "one_sided_95_upper": 0.2161061642068473,
+      "true_hypothesis_rejections": 1,
+      "supported_true_cases": 120,
+      "translated_rejections": 835,
+      "translated_supported": 959,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 281,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 279,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 1,
+          "total": 40,
+          "utility_rejected": 275,
+          "utility_total": 320
+        }
+      }
+    },
+    "solid_box": {
+      "threshold": {
+        "n": 0,
+        "rank": 0,
+        "numerator": 0,
+        "denominator": 1,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 20,
+      "false_exclusion_episode_ids": [
+        "vehicle_kawasaki_ninja_test_00",
+        "vehicle_kawasaki_ninja_test_01",
+        "vehicle_kawasaki_ninja_test_02",
+        "vehicle_kawasaki_ninja_test_03",
+        "vehicle_kawasaki_ninja_test_04",
+        "vehicle_kawasaki_ninja_test_05",
+        "vehicle_kawasaki_ninja_test_06",
+        "vehicle_kawasaki_ninja_test_07",
+        "vehicle_kawasaki_ninja_test_08",
+        "vehicle_kawasaki_ninja_test_09",
+        "vehicle_kawasaki_ninja_test_10",
+        "vehicle_kawasaki_ninja_test_11",
+        "vehicle_kawasaki_ninja_test_12",
+        "vehicle_kawasaki_ninja_test_13",
+        "vehicle_kawasaki_ninja_test_14",
+        "vehicle_kawasaki_ninja_test_15",
+        "vehicle_kawasaki_ninja_test_16",
+        "vehicle_kawasaki_ninja_test_17",
+        "vehicle_kawasaki_ninja_test_18",
+        "vehicle_kawasaki_ninja_test_19"
+      ],
+      "one_sided_95_upper": 1.0,
+      "true_hypothesis_rejections": 120,
+      "supported_true_cases": 120,
+      "translated_rejections": 959,
+      "translated_supported": 959,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 319,
+          "utility_total": 320
+        }
+      }
+    }
+  },
+  "vehicle.mercedes.sprinter": {
+    "full_only": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 47,
+        "denominator": 192,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 0,
+      "false_exclusion_episode_ids": [],
+      "one_sided_95_upper": 0.13910834066826516,
+      "true_hypothesis_rejections": 0,
+      "supported_true_cases": 120,
+      "translated_rejections": 960,
+      "translated_supported": 960,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        }
+      }
+    },
+    "joint": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 15,
+        "denominator": 59,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 0,
+      "false_exclusion_episode_ids": [],
+      "one_sided_95_upper": 0.13910834066826516,
+      "true_hypothesis_rejections": 0,
+      "supported_true_cases": 120,
+      "translated_rejections": 960,
+      "translated_supported": 960,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        }
+      }
+    },
+    "solid_box": {
+      "threshold": {
+        "n": 0,
+        "rank": 0,
+        "numerator": 0,
+        "denominator": 1,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 20,
+      "false_exclusion_episode_ids": [
+        "vehicle_mercedes_sprinter_test_00",
+        "vehicle_mercedes_sprinter_test_01",
+        "vehicle_mercedes_sprinter_test_02",
+        "vehicle_mercedes_sprinter_test_03",
+        "vehicle_mercedes_sprinter_test_04",
+        "vehicle_mercedes_sprinter_test_05",
+        "vehicle_mercedes_sprinter_test_06",
+        "vehicle_mercedes_sprinter_test_07",
+        "vehicle_mercedes_sprinter_test_08",
+        "vehicle_mercedes_sprinter_test_09",
+        "vehicle_mercedes_sprinter_test_10",
+        "vehicle_mercedes_sprinter_test_11",
+        "vehicle_mercedes_sprinter_test_12",
+        "vehicle_mercedes_sprinter_test_13",
+        "vehicle_mercedes_sprinter_test_14",
+        "vehicle_mercedes_sprinter_test_15",
+        "vehicle_mercedes_sprinter_test_16",
+        "vehicle_mercedes_sprinter_test_17",
+        "vehicle_mercedes_sprinter_test_18",
+        "vehicle_mercedes_sprinter_test_19"
+      ],
+      "one_sided_95_upper": 1.0,
+      "true_hypothesis_rejections": 120,
+      "supported_true_cases": 120,
+      "translated_rejections": 960,
+      "translated_supported": 960,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        }
+      }
+    }
+  },
+  "vehicle.tesla.model3": {
+    "full_only": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 368,
+        "denominator": 1275,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 4,
+      "false_exclusion_episode_ids": [
+        "vehicle_tesla_model3_test_06",
+        "vehicle_tesla_model3_test_11",
+        "vehicle_tesla_model3_test_18",
+        "vehicle_tesla_model3_test_19"
+      ],
+      "one_sided_95_upper": 0.4010281173319745,
+      "true_hypothesis_rejections": 5,
+      "supported_true_cases": 120,
+      "translated_rejections": 847,
+      "translated_supported": 960,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 282,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 1,
+          "total": 40,
+          "utility_rejected": 283,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 4,
+          "total": 40,
+          "utility_rejected": 282,
+          "utility_total": 320
+        }
+      }
+    },
+    "joint": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 4,
+        "denominator": 13,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 0,
+      "false_exclusion_episode_ids": [],
+      "one_sided_95_upper": 0.13910834066826516,
+      "true_hypothesis_rejections": 0,
+      "supported_true_cases": 120,
+      "translated_rejections": 814,
+      "translated_supported": 960,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 273,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 272,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 0,
+          "total": 40,
+          "utility_rejected": 269,
+          "utility_total": 320
+        }
+      }
+    },
+    "solid_box": {
+      "threshold": {
+        "n": 0,
+        "rank": 0,
+        "numerator": 0,
+        "denominator": 1,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 20,
+      "false_exclusion_episodes": 20,
+      "false_exclusion_episode_ids": [
+        "vehicle_tesla_model3_test_00",
+        "vehicle_tesla_model3_test_01",
+        "vehicle_tesla_model3_test_02",
+        "vehicle_tesla_model3_test_03",
+        "vehicle_tesla_model3_test_04",
+        "vehicle_tesla_model3_test_05",
+        "vehicle_tesla_model3_test_06",
+        "vehicle_tesla_model3_test_07",
+        "vehicle_tesla_model3_test_08",
+        "vehicle_tesla_model3_test_09",
+        "vehicle_tesla_model3_test_10",
+        "vehicle_tesla_model3_test_11",
+        "vehicle_tesla_model3_test_12",
+        "vehicle_tesla_model3_test_13",
+        "vehicle_tesla_model3_test_14",
+        "vehicle_tesla_model3_test_15",
+        "vehicle_tesla_model3_test_16",
+        "vehicle_tesla_model3_test_17",
+        "vehicle_tesla_model3_test_18",
+        "vehicle_tesla_model3_test_19"
+      ],
+      "one_sided_95_upper": 1.0,
+      "true_hypothesis_rejections": 120,
+      "supported_true_cases": 120,
+      "translated_rejections": 960,
+      "translated_supported": 960,
+      "translated_total": 960,
+      "per_stride": {
+        "1": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "4": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        },
+        "16": {
+          "true_rejected": 40,
+          "total": 40,
+          "utility_rejected": 320,
+          "utility_total": 320
+        }
+      }
+    }
+  },
+  "walker.pedestrian.0001": {
+    "full_only": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 1,
+        "denominator": 1,
+        "vacuous": true
+      },
+      "test_episodes": 20,
+      "available_episodes": 18,
+      "false_exclusion_episodes": 0,
+      "false_exclusion_episode_ids": [],
+      "one_sided_95_upper": null,
+      "true_hypothesis_rejections": 0,
+      "supported_true_cases": 99,
+      "translated_rejections": 0,
+      "translated_supported": 689,
+      "translated_total": 864,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 36,
+          "utility_rejected": 0,
+          "utility_total": 288
+        },
+        "4": {
+          "true_rejected": 0,
+          "total": 36,
+          "utility_rejected": 0,
+          "utility_total": 288
+        },
+        "16": {
+          "true_rejected": 0,
+          "total": 36,
+          "utility_rejected": 0,
+          "utility_total": 288
+        }
+      }
+    },
+    "joint": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 1,
+        "denominator": 1,
+        "vacuous": true
+      },
+      "test_episodes": 20,
+      "available_episodes": 18,
+      "false_exclusion_episodes": 0,
+      "false_exclusion_episode_ids": [],
+      "one_sided_95_upper": null,
+      "true_hypothesis_rejections": 0,
+      "supported_true_cases": 99,
+      "translated_rejections": 0,
+      "translated_supported": 689,
+      "translated_total": 864,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 36,
+          "utility_rejected": 0,
+          "utility_total": 288
+        },
+        "4": {
+          "true_rejected": 0,
+          "total": 36,
+          "utility_rejected": 0,
+          "utility_total": 288
+        },
+        "16": {
+          "true_rejected": 0,
+          "total": 36,
+          "utility_rejected": 0,
+          "utility_total": 288
+        }
+      }
+    },
+    "solid_box": {
+      "threshold": {
+        "n": 0,
+        "rank": 0,
+        "numerator": 0,
+        "denominator": 1,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 18,
+      "false_exclusion_episodes": 18,
+      "false_exclusion_episode_ids": [
+        "walker_pedestrian_0001_test_00",
+        "walker_pedestrian_0001_test_01",
+        "walker_pedestrian_0001_test_02",
+        "walker_pedestrian_0001_test_03",
+        "walker_pedestrian_0001_test_04",
+        "walker_pedestrian_0001_test_05",
+        "walker_pedestrian_0001_test_06",
+        "walker_pedestrian_0001_test_07",
+        "walker_pedestrian_0001_test_08",
+        "walker_pedestrian_0001_test_09",
+        "walker_pedestrian_0001_test_10",
+        "walker_pedestrian_0001_test_11",
+        "walker_pedestrian_0001_test_12",
+        "walker_pedestrian_0001_test_13",
+        "walker_pedestrian_0001_test_14",
+        "walker_pedestrian_0001_test_15",
+        "walker_pedestrian_0001_test_16",
+        "walker_pedestrian_0001_test_19"
+      ],
+      "one_sided_95_upper": null,
+      "true_hypothesis_rejections": 99,
+      "supported_true_cases": 99,
+      "translated_rejections": 689,
+      "translated_supported": 689,
+      "translated_total": 864,
+      "per_stride": {
+        "1": {
+          "true_rejected": 36,
+          "total": 36,
+          "utility_rejected": 288,
+          "utility_total": 288
+        },
+        "4": {
+          "true_rejected": 36,
+          "total": 36,
+          "utility_rejected": 288,
+          "utility_total": 288
+        },
+        "16": {
+          "true_rejected": 27,
+          "total": 36,
+          "utility_rejected": 113,
+          "utility_total": 288
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "total_new_frames": 528,
+  "total_raw_rays": 46615008,
+  "independent_box_checks": 14256,
+  "vehicles_initial": {
+    "solid_box": {
+      "false_exclusions": 100,
+      "episodes": 100,
+      "translated_rejected": 4783,
+      "translated_total": 4800,
+      "translated_rejection_fraction": 0.9964583333333333
+    },
+    "full_only": {
+      "false_exclusions": 17,
+      "episodes": 100,
+      "translated_rejected": 4327,
+      "translated_total": 4800,
+      "translated_rejection_fraction": 0.9014583333333334
+    },
+    "joint": {
+      "false_exclusions": 2,
+      "episodes": 100,
+      "translated_rejected": 4028,
+      "translated_total": 4800,
+      "translated_rejection_fraction": 0.8391666666666666
+    }
+  },
+  "pedestrian_followup": {
+    "full_only": {
+      "false_exclusions": 4,
+      "scheduled": 20,
+      "available": 19,
+      "refused": 1,
+      "unconditional_one_sided_95_upper": 0.4010281173319745,
+      "conditional_available_one_sided_95_upper": 0.4191202289169427,
+      "translated_rejected": 724,
+      "translated_total": 912,
+      "translated_rejection_fraction": 0.793859649122807
+    },
+    "joint": {
+      "false_exclusions": 0,
+      "scheduled": 20,
+      "available": 19,
+      "refused": 1,
+      "unconditional_one_sided_95_upper": 0.13910834066826516,
+      "conditional_available_one_sided_95_upper": 0.14586850331224344,
+      "translated_rejected": 626,
+      "translated_total": 912,
+      "translated_rejection_fraction": 0.6864035087719298
+    },
+    "solid_box": {
+      "false_exclusions": 19,
+      "scheduled": 20,
+      "available": 19,
+      "refused": 1,
+      "unconditional_one_sided_95_upper": 0.9974386212234697,
+      "conditional_available_one_sided_95_upper": 1.0,
+      "translated_rejected": 733,
+      "translated_total": 912,
+      "translated_rejection_fraction": 0.8037280701754386
+    }
+  },
+  "score_only_cpu": {
+    "initial": {
+      "1": {
+        "median_ms": 3.2353975000000004,
+        "p95_ms": 4.12509805
+      },
+      "4": {
+        "median_ms": 0.711269,
+        "p95_ms": 1.0937796
+      },
+      "16": {
+        "median_ms": 0.2483775,
+        "p95_ms": 0.37133084999999993
+      }
+    },
+    "availability_followup": {
+      "1": {
+        "median_ms": 4.0592665,
+        "p95_ms": 5.02507
+      },
+      "4": {
+        "median_ms": 1.1784875,
+        "p95_ms": 2.0370315
+      },
+      "16": {
+        "median_ms": 0.3595945,
+        "p95_ms": 0.7051503
+      }
+    }
+  },
+  "analysis_sha256": [
+    "781e5ad4fd74a592d8c20dab357b4be23d4b518e438db4f5d1d35544b341adac",
+    "6fb25b3379c8e14505eaa4e36a184455bfd936823100b1c014290d050eedb416"
+  ],
+  "scope": "Descriptive stratified totals; no pooled binomial guarantee. Pedestrian follow-up is a separate fresh experiment after inspecting initial results. CPU excludes transforms, hypothesis construction, acquisition, links and control."
+}

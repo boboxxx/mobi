@@ -1,0 +1,149 @@
+scored 60
+scored 120
+scored 180
+{
+  "walker.pedestrian.0001": {
+    "full_only": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 83,
+        "denominator": 129,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 19,
+      "false_exclusion_episodes": 4,
+      "false_exclusion_episode_ids": [
+        "walker_availability_test_10",
+        "walker_availability_test_11",
+        "walker_availability_test_15",
+        "walker_availability_test_17"
+      ],
+      "one_sided_95_upper": null,
+      "true_hypothesis_rejections": 5,
+      "supported_true_cases": 100,
+      "translated_rejections": 724,
+      "translated_supported": 733,
+      "translated_total": 912,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 38,
+          "utility_rejected": 302,
+          "utility_total": 304
+        },
+        "4": {
+          "true_rejected": 2,
+          "total": 38,
+          "utility_rejected": 301,
+          "utility_total": 304
+        },
+        "16": {
+          "true_rejected": 3,
+          "total": 38,
+          "utility_rejected": 121,
+          "utility_total": 304
+        }
+      }
+    },
+    "joint": {
+      "threshold": {
+        "n": 19,
+        "rank": 19,
+        "numerator": 7,
+        "denominator": 9,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 19,
+      "false_exclusion_episodes": 0,
+      "false_exclusion_episode_ids": [],
+      "one_sided_95_upper": null,
+      "true_hypothesis_rejections": 0,
+      "supported_true_cases": 100,
+      "translated_rejections": 626,
+      "translated_supported": 733,
+      "translated_total": 912,
+      "per_stride": {
+        "1": {
+          "true_rejected": 0,
+          "total": 38,
+          "utility_rejected": 271,
+          "utility_total": 304
+        },
+        "4": {
+          "true_rejected": 0,
+          "total": 38,
+          "utility_rejected": 274,
+          "utility_total": 304
+        },
+        "16": {
+          "true_rejected": 0,
+          "total": 38,
+          "utility_rejected": 81,
+          "utility_total": 304
+        }
+      }
+    },
+    "solid_box": {
+      "threshold": {
+        "n": 0,
+        "rank": 0,
+        "numerator": 0,
+        "denominator": 1,
+        "vacuous": false
+      },
+      "test_episodes": 20,
+      "available_episodes": 19,
+      "false_exclusion_episodes": 19,
+      "false_exclusion_episode_ids": [
+        "walker_availability_test_00",
+        "walker_availability_test_01",
+        "walker_availability_test_02",
+        "walker_availability_test_03",
+        "walker_availability_test_04",
+        "walker_availability_test_05",
+        "walker_availability_test_06",
+        "walker_availability_test_07",
+        "walker_availability_test_08",
+        "walker_availability_test_09",
+        "walker_availability_test_10",
+        "walker_availability_test_11",
+        "walker_availability_test_12",
+        "walker_availability_test_13",
+        "walker_availability_test_14",
+        "walker_availability_test_15",
+        "walker_availability_test_16",
+        "walker_availability_test_17",
+        "walker_availability_test_18"
+      ],
+      "one_sided_95_upper": null,
+      "true_hypothesis_rejections": 100,
+      "supported_true_cases": 100,
+      "translated_rejections": 733,
+      "translated_supported": 733,
+      "translated_total": 912,
+      "per_stride": {
+        "1": {
+          "true_rejected": 38,
+          "total": 38,
+          "utility_rejected": 304,
+          "utility_total": 304
+        },
+        "4": {
+          "true_rejected": 38,
+          "total": 38,
+          "utility_rejected": 304,
+          "utility_total": 304
+        },
+        "16": {
+          "true_rejected": 24,
+          "total": 38,
+          "utility_rejected": 125,
+          "utility_total": 304
+        }
+      }
+    }
+  }
+}

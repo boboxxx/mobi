@@ -1,0 +1,139 @@
+{
+  "episodes": 234,
+  "frames": 458,
+  "raw_rays": 40434988,
+  "actor_returns": 448416,
+  "independent_box_checks": 12366,
+  "summary": [
+    {
+      "blueprint": "vehicle.audi.a2",
+      "method": "full_only",
+      "false_exclusions": 2,
+      "available": 20,
+      "threshold": "308/1051"
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "method": "joint",
+      "false_exclusions": 1,
+      "available": 20,
+      "threshold": "79/265"
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "method": "solid_box",
+      "false_exclusions": 20,
+      "available": 20,
+      "threshold": "0"
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "method": "full_only",
+      "false_exclusions": 6,
+      "available": 20,
+      "threshold": "223/360"
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "method": "joint",
+      "false_exclusions": 0,
+      "available": 20,
+      "threshold": "5/7"
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "method": "solid_box",
+      "false_exclusions": 20,
+      "available": 20,
+      "threshold": "0"
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "method": "full_only",
+      "false_exclusions": 5,
+      "available": 20,
+      "threshold": "174/361"
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "method": "joint",
+      "false_exclusions": 1,
+      "available": 20,
+      "threshold": "13/25"
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "method": "solid_box",
+      "false_exclusions": 20,
+      "available": 20,
+      "threshold": "0"
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "full_only",
+      "false_exclusions": 0,
+      "available": 20,
+      "threshold": "47/192"
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "joint",
+      "false_exclusions": 0,
+      "available": 20,
+      "threshold": "15/59"
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "solid_box",
+      "false_exclusions": 20,
+      "available": 20,
+      "threshold": "0"
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "method": "full_only",
+      "false_exclusions": 4,
+      "available": 20,
+      "threshold": "368/1275"
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "method": "joint",
+      "false_exclusions": 0,
+      "available": 20,
+      "threshold": "4/13"
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "method": "solid_box",
+      "false_exclusions": 20,
+      "available": 20,
+      "threshold": "0"
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "method": "full_only",
+      "false_exclusions": 0,
+      "available": 18,
+      "threshold": "1"
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "method": "joint",
+      "false_exclusions": 0,
+      "available": 18,
+      "threshold": "1"
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "method": "solid_box",
+      "false_exclusions": 18,
+      "available": 18,
+      "threshold": "0"
+    }
+  ],
+  "analysis_sha256": "781e5ad4fd74a592d8c20dab357b4be23d4b518e438db4f5d1d35544b341adac",
+  "capture_manifest_sha256": "b652d12c69ee6d00fd8636f09bad7a545c33c02c44281c7c43b4de7f1d7b0f85",
+  "audit_source_sha256": "55bc6c76a9ced3422adfdc90a3018ca698bebdbb4318d0667e67a5fcd3c6f10d",
+  "scope": "Independent six-face intersections, draw/split hashes, same-frame labels and exact quantiles; statistical exchangeability and physical sensor validity are assumptions, not audit conclusions."
+}
