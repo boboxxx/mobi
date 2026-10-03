@@ -2,7 +2,29 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October3 bounded-current-evidence update: `tube_evidence_result_20261003.md`.
+Latest October3 proof-repair update: `proof_repair_result_20261003.md`.
+Sheng completed324 fixed-budget calls and108 timing-dependent adaptive calls over
+36 retained tasks. Repair now evaluates old unresolved cells using current
+endpoint-ball messages, maintains a complete partition and explores earliest
+contact first. At4096 visits,21/36 lower horizons improve but all modeled net
+remainders are zero. At256 visits,7/36 are positive, equal to the strong direct
+baseline. The repair-0 wrapper's5/36 is an overhead ablation, not a fair strong
+baseline; no5→7 main-method improvement is claimed. Adaptive development uses the
+same data after fixed outcomes. Seven tasks are positive in all three repeats
+versus six for same-trial direct checking; individual positives are21/108 versus
+20/108. Two bicycle tasks gain margin, while29 tasks remain zero and median
+receiver time increases98.958→252.588ms. Actual final elapsed cost is charged;
+old initialization plus restore fits the saved20.5s gap. No real-data new upper
+witness is found, so tightness is still unresolved. Fixed/adaptive independent
+audits respectively check8,962,022/8,964,176 partition nodes and128,700/49,780
+unique new interval counts. Both audit pairs and summary pair match bytewise
+across hosts; six tests pass on each. No additional physical observation or
+independent risk calibration is claimed. The implementation and scoped theory
+are delivered, but full scene coverage, a small certified conservatism gap,
+physical sensing/motion validity, useful new-scene closed loop and final MobiCom
+novelty remain unachieved. No recurring research loop or automation was created.
+
+Previous October3 bounded-current-evidence update: `tube_evidence_result_20261003.md`.
 The finite sheng matrix implements endpoint balls plus exact current exceptions,
 36 old-only64k-node proofs and108 warm cases (six classes, two queries, three
 radii and three synthetic-noise levels). Current frame/reference identities,

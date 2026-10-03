@@ -1,0 +1,27 @@
+{
+  "rows": 108,
+  "command": [
+    "c++",
+    "-O3",
+    "-std=c++17",
+    "-ffp-contract=off",
+    "-shared",
+    "-fPIC",
+    "/home/sheng/mobicom2027_visibility_20261001/experiments/proof_repair_20261003/adaptive.cpp",
+    "-o",
+    "/tmp/mobi_adaptive_repair.so"
+  ],
+  "prior_artifact_manifest_sha256": "aba4a5534e762dc43a2f44cac96a0ec52df4916b8cfbd28e98159ca6efdd98bb",
+  "source_hashes": {
+    "experiments/proof_repair_20261003/adaptive.cpp": "6c8113720303a3e10605b944dca2ab463bedbe292b8b64b846e9984d01023d4f",
+    "experiments/proof_repair_20261003/adaptive_runtime.py": "8bc499a3fa99db261e245b947becaa06a226923a847b7ae8e5bf87ed21608d60",
+    "experiments/proof_repair_20261003/run_adaptive.py": "3ccd3268d90cc160883ba6d123b1e73d99c16faae0222b967c4c899765418453",
+    "experiments/proof_repair_20261003/ADAPTIVE_PROTOCOL.md": "44236c269dd752c121ce1926097e1e1ebc39ca1d836b9a63d9b250cb9fe29734",
+    "experiments/proof_repair_20261003/kernel.cpp": "92db9274e08973df9e3590cfd211739791873efe9420f61d5e923aeff02f57f3",
+    "experiments/proof_repair_20261003/repair_runtime.py": "dc17935ff69e0f3846f0034bdc8d6fa6ad168e801f10f50ce3572de69f0965a1",
+    "experiments/tube_evidence_20261003/kernel.cpp": "9e8d9c5c9f5304d4ad5842b46ecef5d60361adc63aaef4f19267b7625abf54b1",
+    "experiments/tube_evidence_20261003/runtime.py": "2b9d0e0f0b3039482272ed04375c2f951a4012030e0ca77c534303a8863b04cf",
+    "experiments/tube_evidence_20261003/codec.py": "ffc7e2c6f1fa08d52a074fdcdcf49695f17034c3501214323f0f92f00f8ee535",
+    "experiments/expiry_runtime_20261003/kernel.cpp": "c2eab6af17ddbd28a294f83451db20831ee0bbcf75e47bf100ae567ce94b81ec"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "deterministic_pairs": [
+    {
+      "local": "audit_local.json",
+      "sheng": "audit_sheng.json",
+      "sha256": "3448ddd53bdbdf78534245993f232a428290dc66ced34ef94cc9556a339a26b4"
+    },
+    {
+      "local": "audit_adaptive_local.json",
+      "sheng": "audit_adaptive_sheng.json",
+      "sha256": "e2141884a1a9736f0011bd1c4a019130b489671077a1aeef03bf7d7e45c2e4d6"
+    },
+    {
+      "local": "summary_local.json",
+      "sheng": "summary_sheng.json",
+      "sha256": "7016bae6687fd89ff9fcd00920979139e0fab8f43abe6d260172ac5527a5632f"
+    }
+  ],
+  "tests_per_host": 6,
+  "source_manifest_sha256": "8e2ae021b58a34b1a5c1df52b626c8743ade89b0368e9666f522985190a80fff",
+  "goal_complete": false,
+  "scope": "Finite saved-message proof repair and causal stopping; posthoc adaptive development. Same saved sheng outputs audited independently on two hosts. No full scene coverage, near-optimality, deployment-risk or physical-control claim."
+}

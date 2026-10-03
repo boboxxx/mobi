@@ -1,0 +1,26 @@
+{
+  "rows": 108,
+  "compiler": "c++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0",
+  "command": [
+    "c++",
+    "-O3",
+    "-std=c++17",
+    "-ffp-contract=off",
+    "-shared",
+    "-fPIC",
+    "/home/sheng/mobicom2027_visibility_20261001/experiments/proof_repair_20261003/kernel.cpp",
+    "-o",
+    "/tmp/mobi_repair_kernel.so"
+  ],
+  "prior_artifact_manifest_sha256": "aba4a5534e762dc43a2f44cac96a0ec52df4916b8cfbd28e98159ca6efdd98bb",
+  "source_hashes": {
+    "experiments/proof_repair_20261003/kernel.cpp": "92db9274e08973df9e3590cfd211739791873efe9420f61d5e923aeff02f57f3",
+    "experiments/proof_repair_20261003/repair_runtime.py": "dc17935ff69e0f3846f0034bdc8d6fa6ad168e801f10f50ce3572de69f0965a1",
+    "experiments/proof_repair_20261003/run.py": "734129bf56bbd318f4c69c54b647f378c20b0f5d8bb538be08ed97c4210601b7",
+    "experiments/proof_repair_20261003/PROTOCOL.md": "43e336ce24e05982c1981e68e0c577341130d69f480af76271a93699882c2d50",
+    "experiments/tube_evidence_20261003/kernel.cpp": "9e8d9c5c9f5304d4ad5842b46ecef5d60361adc63aaef4f19267b7625abf54b1",
+    "experiments/tube_evidence_20261003/runtime.py": "2b9d0e0f0b3039482272ed04375c2f951a4012030e0ca77c534303a8863b04cf",
+    "experiments/tube_evidence_20261003/codec.py": "ffc7e2c6f1fa08d52a074fdcdcf49695f17034c3501214323f0f92f00f8ee535",
+    "experiments/expiry_runtime_20261003/kernel.cpp": "c2eab6af17ddbd28a294f83451db20831ee0bbcf75e47bf100ae567ce94b81ec"
+  }
+}
