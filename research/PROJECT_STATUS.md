@@ -2,7 +2,28 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October3 receiver-only witness update: `nominal_witness_result_20261003.md`.
+Latest October3 fresh positive-state update: `positive_state_result_20261003.md`.
+Sheng completed a frozen594-episode, six-class schedule:552 captured static episodes,
+1104 frames,24367488 retained stride-four returns. XYZ-only component proposals
+receive independently calibrated radii and are all transmitted as a center union.
+Of360 scheduled tests,29 refuse and17 exclude the true center in at least one view.
+The fixed-fit one-sided95% class risk upper bounds remain10.12%–16.73%, not<=5%.
+Complete-processing accounting retains705/1440 positive modeled queries, median
+211.871ms, with152B median available packets and2.543ms median pipeline time.
+Forty positive query results belong to excluded episodes. A separate posthoc
+Decimal check tests both positive-interval endpoints against true-center reach;
+zero model conflicts does not cancel the17 center exclusions or establish actual
+collision safety. Four audit pairs match bytewise; ten tests pass on each host.
+Numerical solver gaps<=1us apply only to the fixed union/body-disc model. Original
+assembly-omitting timings and the first floating-point audit failure are preserved;
+corrected results do not change packets/radii/thresholds. Old545-pose regression
+removes36 closest nominal candidates but leaves5 of36 closest actual-raw candidates.
+The offline two-view availability rule still lacks a paid causal live schedule.
+No new physical sensing/motion validation, full-scene inventory, dynamic closed-loop
+benefit, same-information SOTA comparison or MobiCom novelty is established. Owned
+CARLA was cleaned and stopped. No automation; the full objective remains unfinished.
+
+Previous October3 receiver-only witness update: `nominal_witness_result_20261003.md`.
 Sheng completed36 finite searches with294912 evaluated poses and549 successive
 best feasible witnesses. All36 model upper horizons tighten. Search uses legal
 nominal message realizations only; hidden actual current data is restricted to a

@@ -1,0 +1,28 @@
+{
+  "deterministic_pairs": [
+    {
+      "local": "audit_local.json",
+      "sheng": "audit_sheng.json",
+      "sha256": "1c4130beb8e53ba9c86845bb69d0da001df56c6a6656338581ba7b515a8cf96c"
+    },
+    {
+      "local": "diagnosis_local.json",
+      "sheng": "diagnosis_sheng.json",
+      "sha256": "7c99bc4f8994fca56dc21faf5168dd9b81df8b8d2ffad487c1dd5652edc02129"
+    },
+    {
+      "local": "summary_local.json",
+      "sheng": "summary_sheng.json",
+      "sha256": "a3ef5befe60a5a39031138cad64b53b7bc69360e0ae53a022a4b6f2a8553ab33"
+    },
+    {
+      "local": "expiry_local.json",
+      "sheng": "expiry_sheng.json",
+      "sha256": "dd3de82ca89f12b427454c0cb648bfa151a379c12a820815ecfa08192fd07202"
+    }
+  ],
+  "tests_per_host": 10,
+  "source_manifest_sha256": "5563b5aaf81b1f49b60e6eed2b51dea2d45099a88cdbd5f1b1c93b8bf5498be9",
+  "goal_complete": false,
+  "scope": "Fresh static known-class center calibration and conditional expiry; offline family availability, marginal coverage only. No complete physical/online safety or near-optimal full-evidence expiry established."
+}
