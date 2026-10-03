@@ -2,6 +2,21 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
+Latest October3 dynamic/action-eligible update: `causal_state_result_20261003.md`.
+A frozen930-episode dynamic batch captures867 sequences,5202scans and114818544
+retained returns. State/tube policies give3080/3807 union grants per11520 scheduled
+queries at20Mbps. Unfiltered task correction gives2770; filtering base expiry
+shorter than220ms BEFORE max95 task calibration gives5154, tying the strong
+lossless-center baseline. One observed occupied Sprinter grant is retained.
+Its class development-test risk upper is7.664%; reused data and model/grid scope
+preclude safety/near-optimality/novelty completion. Nine independent pairs match
+bytewise, seven tests pass perhost. A single NEW pre-capture frozen prospective
+930-episode batch is in progress onsheng, with no policy tuning or recurring job.
+The prospective outputs must be independently audited and published before
+being claimed. Full inventory, actual links, continuous physics, interactive
+ego control, novel evidence selection and submission-quality demonstration
+remain unresolved; do not redefine completion around this experiment.
+
 Latest October3 fresh positive-state update: `positive_state_result_20261003.md`.
 Sheng completed a frozen594-episode, six-class schedule:552 captured static episodes,
 1104 frames,24367488 retained stride-four returns. XYZ-only component proposals

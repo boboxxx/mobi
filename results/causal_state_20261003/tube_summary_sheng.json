@@ -1,0 +1,452 @@
+{
+  "total": {
+    "scheduled_calibration_episodes": 570,
+    "scheduled_test_episodes": 360,
+    "test_future_excluded_episodes": 3,
+    "joint_calibration_confidence_lower": 0.954091431307709,
+    "future_pairs": 56969,
+    "packet_checks": 15606,
+    "analytic_age_checks": 10404
+  },
+  "classes": [
+    {
+      "blueprint": "vehicle.audi.a2",
+      "radius_um": 1608809,
+      "calibration_n": 95,
+      "rank": 95,
+      "slope_um_s": 3000000,
+      "test_episodes": 60,
+      "future_excluded_episodes": 1,
+      "captured_frames": 348,
+      "available_frames": 347,
+      "one_sided_95_risk_upper": 0.076639994934504
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "radius_um": 1764540,
+      "calibration_n": 95,
+      "rank": 95,
+      "slope_um_s": 3000000,
+      "test_episodes": 60,
+      "future_excluded_episodes": 1,
+      "captured_frames": 342,
+      "available_frames": 339,
+      "one_sided_95_risk_upper": 0.076639994934504
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "radius_um": 8355220,
+      "calibration_n": 95,
+      "rank": 95,
+      "slope_um_s": 3000000,
+      "test_episodes": 60,
+      "future_excluded_episodes": 0,
+      "captured_frames": 348,
+      "available_frames": 345,
+      "one_sided_95_risk_upper": 0.048702913310098
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "radius_um": 434402,
+      "calibration_n": 95,
+      "rank": 95,
+      "slope_um_s": 3000000,
+      "test_episodes": 60,
+      "future_excluded_episodes": 0,
+      "captured_frames": 360,
+      "available_frames": 359,
+      "one_sided_95_risk_upper": 0.048702913310098
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "radius_um": 725322,
+      "calibration_n": 95,
+      "rank": 95,
+      "slope_um_s": 3000000,
+      "test_episodes": 60,
+      "future_excluded_episodes": 1,
+      "captured_frames": 360,
+      "available_frames": 360,
+      "one_sided_95_risk_upper": 0.076639994934504
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "radius_um": 197683,
+      "calibration_n": 95,
+      "rank": 95,
+      "slope_um_s": 3000000,
+      "test_episodes": 60,
+      "future_excluded_episodes": 0,
+      "captured_frames": 252,
+      "available_frames": 248,
+      "one_sided_95_risk_upper": 0.048702913310098
+    }
+  ],
+  "comparisons": [
+    {
+      "bitrate": 20000000,
+      "method": "union",
+      "grants": 3807,
+      "scheduled_queries": 11520,
+      "primary_grants": 3080,
+      "paired_grant_change": 727,
+      "wire_bytes": 306448,
+      "observed_disc_occupied_grants": 0,
+      "median_test_packet_bytes": 152.0,
+      "median_test_source_us": 2389.5,
+      "median_test_receiver_us": 236.0,
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 681,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 600,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 11,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 952,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 845,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 718,
+          "scheduled_queries": 1920
+        }
+      ]
+    },
+    {
+      "bitrate": 20000000,
+      "method": "lossless_centers",
+      "grants": 3801,
+      "scheduled_queries": 11520,
+      "primary_grants": 3084,
+      "paired_grant_change": 717,
+      "wire_bytes": 361420,
+      "observed_disc_occupied_grants": 0,
+      "median_test_packet_bytes": 179.0,
+      "median_test_source_us": 2321.5,
+      "median_test_receiver_us": 247.0,
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 683,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 599,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 11,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 948,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 844,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 716,
+          "scheduled_queries": 1920
+        }
+      ]
+    },
+    {
+      "bitrate": 20000000,
+      "method": "full_xyz",
+      "grants": 1685,
+      "scheduled_queries": 11520,
+      "primary_grants": 1150,
+      "paired_grant_change": 535,
+      "wire_bytes": 379908305,
+      "observed_disc_occupied_grants": 0,
+      "median_test_packet_bytes": 191945.5,
+      "median_test_source_us": 13455.0,
+      "median_test_receiver_us": 3903.0,
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 261,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 223,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 5,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 459,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 404,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 333,
+          "scheduled_queries": 1920
+        }
+      ]
+    },
+    {
+      "bitrate": 20000000,
+      "method": "fixed200",
+      "grants": 0,
+      "scheduled_queries": 11520,
+      "primary_grants": 0,
+      "paired_grant_change": 0,
+      "wire_bytes": 306448,
+      "observed_disc_occupied_grants": 0,
+      "median_test_packet_bytes": 152.0,
+      "median_test_source_us": 2389.5,
+      "median_test_receiver_us": 236.0,
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 0,
+          "scheduled_queries": 1920
+        }
+      ]
+    },
+    {
+      "bitrate": 2000000,
+      "method": "union",
+      "grants": 3794,
+      "scheduled_queries": 11520,
+      "primary_grants": 3068,
+      "paired_grant_change": 726,
+      "wire_bytes": 306448,
+      "observed_disc_occupied_grants": 0,
+      "median_test_packet_bytes": 152.0,
+      "median_test_source_us": 2389.5,
+      "median_test_receiver_us": 236.0,
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 681,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 594,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 11,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 950,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 840,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 718,
+          "scheduled_queries": 1920
+        }
+      ]
+    },
+    {
+      "bitrate": 2000000,
+      "method": "lossless_centers",
+      "grants": 3783,
+      "scheduled_queries": 11520,
+      "primary_grants": 3069,
+      "paired_grant_change": 714,
+      "wire_bytes": 361420,
+      "observed_disc_occupied_grants": 0,
+      "median_test_packet_bytes": 179.0,
+      "median_test_source_us": 2321.5,
+      "median_test_receiver_us": 247.0,
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 678,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 594,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 11,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 943,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 841,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 716,
+          "scheduled_queries": 1920
+        }
+      ]
+    },
+    {
+      "bitrate": 2000000,
+      "method": "full_xyz",
+      "grants": 0,
+      "scheduled_queries": 11520,
+      "primary_grants": 0,
+      "paired_grant_change": 0,
+      "wire_bytes": 379908305,
+      "observed_disc_occupied_grants": 0,
+      "median_test_packet_bytes": 191945.5,
+      "median_test_source_us": 13455.0,
+      "median_test_receiver_us": 3903.0,
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 0,
+          "scheduled_queries": 1920
+        }
+      ]
+    },
+    {
+      "bitrate": 2000000,
+      "method": "fixed200",
+      "grants": 0,
+      "scheduled_queries": 11520,
+      "primary_grants": 0,
+      "paired_grant_change": 0,
+      "wire_bytes": 306448,
+      "observed_disc_occupied_grants": 0,
+      "median_test_packet_bytes": 152.0,
+      "median_test_source_us": 2389.5,
+      "median_test_receiver_us": 236.0,
+      "classes": [
+        {
+          "blueprint": "vehicle.audi.a2",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.tesla.model3",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.mercedes.sprinter",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.diamondback.century",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "vehicle.kawasaki.ninja",
+          "grants": 0,
+          "scheduled_queries": 1920
+        },
+        {
+          "blueprint": "walker.pedestrian.0001",
+          "grants": 0,
+          "scheduled_queries": 1920
+        }
+      ]
+    }
+  ],
+  "source_sha256": "393f98c5a20dac5cb3d70d0c1ca56b1b7c4f6cb63a9a53daf51e56dda6e37715",
+  "tube_sha256": "ed141cd469380f30e7c042f9c828d59e03972c7a9c635e19fcc098ac3a502ebc",
+  "tube_audit_sha256": "a52bd07a18894143ffa58b41e3cfa807b893cca9a58c0b69a0fdee016dd19c4b",
+  "primary_summary_sha256": "1495952cabf203bf630075de013e312f168b59986ee0a4f01c19509e472a0780",
+  "scope": "Paired finite future-SNAPSHOT prediction tube versus primary state/motion model with separately measured paid timing. No continuous physical or ego-driving guarantee, independent-query inference, or novelty claim."
+}

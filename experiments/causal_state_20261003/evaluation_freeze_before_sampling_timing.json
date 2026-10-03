@@ -1,0 +1,15 @@
+{
+  "source_hashes": {
+    "experiments/causal_state_20261003/engine.py": "0c0cd91395c1e7dddc16bfdb4c7a8a53a05d3a2fd047c2721a3190d577eed02b",
+    "experiments/causal_state_20261003/evaluate.py": "0686b3f3686400acbc48902c945caf13d54931f5811b9ca1d7613a651f67e287",
+    "experiments/causal_state_20261003/audit.py": "098667fa80fcf1d98623865bd5a21be523d9079c0bc937c60512bf9dad7a5716",
+    "experiments/causal_state_20261003/THEORY.md": "321cd453c3ac74bc83fa5058254c7630e13ce28358f237c82b7e9c3b09e0d7a2",
+    "experiments/causal_state_20261003/test_causal.py": "34c85d514b02d635cc7bbfb331bfcc27fe696957774e0bd7b291dfceb4b7a40e",
+    "experiments/causal_state_20261003/extend_server.ps1": "1822796d5c89bab4ffdbb2ecb395f75bbf2e128479b889f3f901b0ccd81a4fb3"
+  },
+  "scope": "Freeze implementation before fresh test evaluation; no fresh result used to choose thresholds or policies.",
+  "prior_freeze_sha256": "53282046444441900ba417d162c5ea26000d2129a8ff2c53f06bc89764167644",
+  "revision_reason": "Compact JSON serialization before evaluation to keep the complete artifact below GitHub single-file size limit; no algorithm, threshold, timing interval or protocol change.",
+  "additional_revision_reason": "Code inspection before first evaluation found [] vs (0,2) shape mismatch in independent audit of refused scans; normalize expected shape and explicitly check episode actor ID. No producer, threshold or result changes.",
+  "before_empty_shape_fix_sha256": "46791a124494f72012c40da4ff622a808c138e4dcacb464eb4f50d76e51be5a7"
+}

@@ -1,0 +1,5 @@
+{
+  "original_sha256": "098667fa80fcf1d98623865bd5a21be523d9079c0bc937c60512bf9dad7a5716",
+  "revised_sha256": "81c9feaf6d2e618292205182433c56be1a31cfea9481735cc3f80196293683fd",
+  "reason": "First independent audit failed at walker RandomState speed exact equality across NumPy versions (2.22e-16 m/s). Permit at most two float64 spacings for seed replay only; frozen plan/data/model/production/results unchanged. Production source hashes resolve archived original audit."
+}

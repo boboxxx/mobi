@@ -1,0 +1,924 @@
+{
+  "episode_id": "vehicle_mercedes_sprinter_test_041",
+  "rows": [
+    {
+      "id": "vehicle_mercedes_sprinter_test_041_s00_v0",
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "split": "test",
+      "step": 0,
+      "layout": 0,
+      "source_us": 1201657723,
+      "acquisition_us": 53000,
+      "available": true,
+      "base_bounds": [
+        {
+          "lower_us": 0,
+          "upper_us": 0,
+          "reason": "unsafe_at_observation",
+          "witness_index": 2
+        },
+        {
+          "lower_us": 500000,
+          "upper_us": 500000,
+          "reason": null,
+          "witness_index": 0
+        }
+      ],
+      "bounds": [
+        {
+          "lower_us": -1,
+          "upper_us": -1
+        },
+        {
+          "lower_us": 498539,
+          "upper_us": 498539
+        }
+      ],
+      "grid_oracle_us": [
+        -1,
+        500000
+      ],
+      "deadline_overstatement": false,
+      "methods": {
+        "union": {
+          "wire_bytes": 160,
+          "wire_sha256": "9f531c192c692e8aeaa8d098dbbb7ee8177bb03d9d3d6cc2f77ab344dec3e2b5",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s00_v0_union.bin",
+          "samples": [
+            {
+              "source_s": 0.003788883997913217,
+              "selection_s": 0.00030069699641899206,
+              "receiver_s": 0.0005902470002183691
+            },
+            {
+              "source_s": 0.0021352920011850074,
+              "selection_s": 0.000184014999831561,
+              "receiver_s": 0.0028226890026417095
+            },
+            {
+              "source_s": 0.0021053599994047545,
+              "selection_s": 0.00018327300131204538,
+              "receiver_s": 0.003811310998571571
+            }
+          ],
+          "source_us": 3789,
+          "receiver_us": 3812
+        },
+        "lossless_centers": {
+          "wire_bytes": 195,
+          "wire_sha256": "0d82e2b028326c01fc1b81e94832824972ff186d51c314545f39a596b43fd29f",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s00_v0_lossless_centers.bin",
+          "samples": [
+            {
+              "source_s": 0.001996134000364691,
+              "selection_s": 0.0001789900015864987,
+              "receiver_s": 0.0007351300009759143
+            },
+            {
+              "source_s": 0.0034121159987989813,
+              "selection_s": 0.00017528000171296299,
+              "receiver_s": 0.000631430000794353
+            },
+            {
+              "source_s": 0.001972461999685038,
+              "selection_s": 0.00020322799900895916,
+              "receiver_s": 0.0011897849981323816
+            }
+          ],
+          "source_us": 3413,
+          "receiver_us": 1190
+        },
+        "full_xyz": {
+          "wire_bytes": 187105,
+          "wire_sha256": "f1cd6b0ac66476de7848c17af810916fecbe048bb7837b4ab5a604e6ead506cf",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s00_v0_full_xyz.bin",
+          "samples": [
+            {
+              "source_s": 0.00869654500274919,
+              "selection_s": 0.00019562799934647046,
+              "receiver_s": 0.006120349997218
+            },
+            {
+              "source_s": 0.010236550999252358,
+              "selection_s": 0.00042853299964917824,
+              "receiver_s": 0.015011444000265328
+            },
+            {
+              "source_s": 0.009165510997263482,
+              "selection_s": 0.00021969999943394214,
+              "receiver_s": 0.006247975998121547
+            }
+          ],
+          "source_us": 10237,
+          "receiver_us": 15012
+        },
+        "fixed200": {
+          "wire_bytes": 160,
+          "wire_sha256": "9f531c192c692e8aeaa8d098dbbb7ee8177bb03d9d3d6cc2f77ab344dec3e2b5",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s00_v0_union.bin",
+          "samples": [
+            {
+              "source_s": 0.003788883997913217,
+              "selection_s": 0.00030069699641899206,
+              "receiver_s": 0.0005902470002183691
+            },
+            {
+              "source_s": 0.0021352920011850074,
+              "selection_s": 0.000184014999831561,
+              "receiver_s": 0.0028226890026417095
+            },
+            {
+              "source_s": 0.0021053599994047545,
+              "selection_s": 0.00018327300131204538,
+              "receiver_s": 0.003811310998571571
+            }
+          ],
+          "source_us": 3789,
+          "receiver_us": 3812
+        }
+      }
+    },
+    {
+      "id": "vehicle_mercedes_sprinter_test_041_s00_v1",
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "split": "test",
+      "step": 0,
+      "layout": 1,
+      "source_us": 1201657723,
+      "acquisition_us": 74766,
+      "available": true,
+      "base_bounds": [
+        {
+          "lower_us": 0,
+          "upper_us": 0,
+          "reason": "unsafe_at_observation",
+          "witness_index": 0
+        },
+        {
+          "lower_us": 500000,
+          "upper_us": 500000,
+          "reason": null,
+          "witness_index": 0
+        }
+      ],
+      "bounds": [
+        {
+          "lower_us": -1,
+          "upper_us": -1
+        },
+        {
+          "lower_us": 498539,
+          "upper_us": 498539
+        }
+      ],
+      "grid_oracle_us": [
+        -1,
+        500000
+      ],
+      "deadline_overstatement": false,
+      "methods": {
+        "union": {
+          "wire_bytes": 168,
+          "wire_sha256": "fb34959e41ab3384c2f5d9c3a902ad08abfc29d6f7d46ec835bf23e958196dcf",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s00_v1_union.bin",
+          "samples": [
+            {
+              "source_s": 0.002662678998603951,
+              "selection_s": 0.00016852000044309534,
+              "receiver_s": 0.00030360600067069754
+            },
+            {
+              "source_s": 0.0018133730009139981,
+              "selection_s": 0.00020180499996058643,
+              "receiver_s": 0.0002776690016617067
+            },
+            {
+              "source_s": 0.001740355000947602,
+              "selection_s": 0.00020707099974970333,
+              "receiver_s": 0.0003026790000149049
+            }
+          ],
+          "source_us": 2663,
+          "receiver_us": 304
+        },
+        "lossless_centers": {
+          "wire_bytes": 211,
+          "wire_sha256": "23dd7cb2e4ee8fc625749f5c45dd9af4590a18ca066d789568b5974773d9f0ba",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s00_v1_lossless_centers.bin",
+          "samples": [
+            {
+              "source_s": 0.0017052639996109065,
+              "selection_s": 0.00020544799917843193,
+              "receiver_s": 0.0002634369993756991
+            },
+            {
+              "source_s": 0.002324425000551855,
+              "selection_s": 0.00018106800052919425,
+              "receiver_s": 0.00026897600037045777
+            },
+            {
+              "source_s": 0.0017195899999933317,
+              "selection_s": 0.00018576399816083722,
+              "receiver_s": 0.00024194700017687865
+            }
+          ],
+          "source_us": 2325,
+          "receiver_us": 269
+        },
+        "full_xyz": {
+          "wire_bytes": 193057,
+          "wire_sha256": "1a678ddac664e60a49a2a45404fac8a8bcb293a03cd720a02a80bbbbd6159964",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s00_v1_full_xyz.bin",
+          "samples": [
+            {
+              "source_s": 0.010529572999075754,
+              "selection_s": 0.0002058909994957503,
+              "receiver_s": 0.008726944997761166
+            },
+            {
+              "source_s": 0.01429521099998965,
+              "selection_s": 0.0002331830000912305,
+              "receiver_s": 0.005451080000057118
+            },
+            {
+              "source_s": 0.015790400000696536,
+              "selection_s": 0.0005354679997253697,
+              "receiver_s": 0.006040820000634994
+            }
+          ],
+          "source_us": 15791,
+          "receiver_us": 8727
+        },
+        "fixed200": {
+          "wire_bytes": 168,
+          "wire_sha256": "fb34959e41ab3384c2f5d9c3a902ad08abfc29d6f7d46ec835bf23e958196dcf",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s00_v1_union.bin",
+          "samples": [
+            {
+              "source_s": 0.002662678998603951,
+              "selection_s": 0.00016852000044309534,
+              "receiver_s": 0.00030360600067069754
+            },
+            {
+              "source_s": 0.0018133730009139981,
+              "selection_s": 0.00020180499996058643,
+              "receiver_s": 0.0002776690016617067
+            },
+            {
+              "source_s": 0.001740355000947602,
+              "selection_s": 0.00020707099974970333,
+              "receiver_s": 0.0003026790000149049
+            }
+          ],
+          "source_us": 2663,
+          "receiver_us": 304
+        }
+      }
+    },
+    {
+      "id": "vehicle_mercedes_sprinter_test_041_s05_v0",
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "split": "test",
+      "step": 5,
+      "layout": 0,
+      "source_us": 1201907723,
+      "acquisition_us": 60462,
+      "available": true,
+      "base_bounds": [
+        {
+          "lower_us": 0,
+          "upper_us": 0,
+          "reason": "unsafe_at_observation",
+          "witness_index": 2
+        },
+        {
+          "lower_us": 500000,
+          "upper_us": 500000,
+          "reason": null,
+          "witness_index": 0
+        }
+      ],
+      "bounds": [
+        {
+          "lower_us": -1,
+          "upper_us": -1
+        },
+        {
+          "lower_us": 498539,
+          "upper_us": 498539
+        }
+      ],
+      "grid_oracle_us": [
+        -1,
+        500000
+      ],
+      "deadline_overstatement": false,
+      "methods": {
+        "union": {
+          "wire_bytes": 160,
+          "wire_sha256": "789c6408d3ffc611d155319c6770c0e0f11fc3e848bdc264bb94c26c2e9579a1",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s05_v0_union.bin",
+          "samples": [
+            {
+              "source_s": 0.004221885999868391,
+              "selection_s": 0.00034957900061272085,
+              "receiver_s": 0.0005585719991358928
+            },
+            {
+              "source_s": 0.004094203999557067,
+              "selection_s": 0.00033794900082284585,
+              "receiver_s": 0.0006039159998181276
+            },
+            {
+              "source_s": 0.0028487820018199272,
+              "selection_s": 0.0004313099998398684,
+              "receiver_s": 0.000548720003280323
+            }
+          ],
+          "source_us": 4222,
+          "receiver_us": 604
+        },
+        "lossless_centers": {
+          "wire_bytes": 195,
+          "wire_sha256": "112e78789cb1ea0ba39f88caac3dbfc894398fe6d63c78a7021697ee554196ee",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s05_v0_lossless_centers.bin",
+          "samples": [
+            {
+              "source_s": 0.0026144740004383493,
+              "selection_s": 0.00030398699891520664,
+              "receiver_s": 0.0005614919973595534
+            },
+            {
+              "source_s": 0.0033048410004994366,
+              "selection_s": 0.000246702998992987,
+              "receiver_s": 0.0007653050015505869
+            },
+            {
+              "source_s": 0.0022295589988061693,
+              "selection_s": 0.00025541699869791046,
+              "receiver_s": 0.000543427999218693
+            }
+          ],
+          "source_us": 3305,
+          "receiver_us": 766
+        },
+        "full_xyz": {
+          "wire_bytes": 187334,
+          "wire_sha256": "1f66ce6c369b48922184134d315fefbbfa4104c9213d4cfda80a66c63f83371e",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s05_v0_full_xyz.bin",
+          "samples": [
+            {
+              "source_s": 0.009702987001219299,
+              "selection_s": 0.00021599499814328738,
+              "receiver_s": 0.006295615999988513
+            },
+            {
+              "source_s": 0.009244565000699367,
+              "selection_s": 0.00021530099911615252,
+              "receiver_s": 0.006093432999477955
+            },
+            {
+              "source_s": 0.009076328002265655,
+              "selection_s": 0.00022086299941292964,
+              "receiver_s": 0.007483371002308559
+            }
+          ],
+          "source_us": 9703,
+          "receiver_us": 7484
+        },
+        "fixed200": {
+          "wire_bytes": 160,
+          "wire_sha256": "789c6408d3ffc611d155319c6770c0e0f11fc3e848bdc264bb94c26c2e9579a1",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s05_v0_union.bin",
+          "samples": [
+            {
+              "source_s": 0.004221885999868391,
+              "selection_s": 0.00034957900061272085,
+              "receiver_s": 0.0005585719991358928
+            },
+            {
+              "source_s": 0.004094203999557067,
+              "selection_s": 0.00033794900082284585,
+              "receiver_s": 0.0006039159998181276
+            },
+            {
+              "source_s": 0.0028487820018199272,
+              "selection_s": 0.0004313099998398684,
+              "receiver_s": 0.000548720003280323
+            }
+          ],
+          "source_us": 4222,
+          "receiver_us": 604
+        }
+      }
+    },
+    {
+      "id": "vehicle_mercedes_sprinter_test_041_s05_v1",
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "split": "test",
+      "step": 5,
+      "layout": 1,
+      "source_us": 1201907723,
+      "acquisition_us": 94382,
+      "available": true,
+      "base_bounds": [
+        {
+          "lower_us": 0,
+          "upper_us": 0,
+          "reason": "unsafe_at_observation",
+          "witness_index": 0
+        },
+        {
+          "lower_us": 500000,
+          "upper_us": 500000,
+          "reason": null,
+          "witness_index": 0
+        }
+      ],
+      "bounds": [
+        {
+          "lower_us": -1,
+          "upper_us": -1
+        },
+        {
+          "lower_us": 498539,
+          "upper_us": 498539
+        }
+      ],
+      "grid_oracle_us": [
+        -1,
+        500000
+      ],
+      "deadline_overstatement": false,
+      "methods": {
+        "union": {
+          "wire_bytes": 168,
+          "wire_sha256": "1eb0bf79612aa90ae36502e4529f40fb44c6ed13eaec2421547626f8c7651b07",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s05_v1_union.bin",
+          "samples": [
+            {
+              "source_s": 0.001891436997539131,
+              "selection_s": 0.00016621499889879487,
+              "receiver_s": 0.000285213998722611
+            },
+            {
+              "source_s": 0.0017920069985848386,
+              "selection_s": 0.00017190799917443655,
+              "receiver_s": 0.0002762439980870113
+            },
+            {
+              "source_s": 0.0017645089974394068,
+              "selection_s": 0.00017180299983010627,
+              "receiver_s": 0.00024571999892941676
+            }
+          ],
+          "source_us": 1892,
+          "receiver_us": 286
+        },
+        "lossless_centers": {
+          "wire_bytes": 211,
+          "wire_sha256": "4c12fd4d864cf96d7a4b636aeade7901074c383ca4238aa0aa870230c5c20fc4",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s05_v1_lossless_centers.bin",
+          "samples": [
+            {
+              "source_s": 0.00186996599950362,
+              "selection_s": 0.00018009399718721397,
+              "receiver_s": 0.00032012700103223324
+            },
+            {
+              "source_s": 0.0018744509980024304,
+              "selection_s": 0.0001959709989023395,
+              "receiver_s": 0.000259620002907468
+            },
+            {
+              "source_s": 0.0017791509999369737,
+              "selection_s": 0.00019242800044594333,
+              "receiver_s": 0.00023539299945696257
+            }
+          ],
+          "source_us": 1875,
+          "receiver_us": 321
+        },
+        "full_xyz": {
+          "wire_bytes": 193227,
+          "wire_sha256": "f25b4079616abd9b7c202ab87e3650b07e4180f768baa88bacc599d6950191f7",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s05_v1_full_xyz.bin",
+          "samples": [
+            {
+              "source_s": 0.010782878001919016,
+              "selection_s": 0.00019552200319594704,
+              "receiver_s": 0.006290929002716439
+            },
+            {
+              "source_s": 0.011213562000193633,
+              "selection_s": 0.00026123999850824475,
+              "receiver_s": 0.005354154000087874
+            },
+            {
+              "source_s": 0.010324073999072425,
+              "selection_s": 0.00022381899907486513,
+              "receiver_s": 0.007710270001552999
+            }
+          ],
+          "source_us": 11214,
+          "receiver_us": 7711
+        },
+        "fixed200": {
+          "wire_bytes": 168,
+          "wire_sha256": "1eb0bf79612aa90ae36502e4529f40fb44c6ed13eaec2421547626f8c7651b07",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s05_v1_union.bin",
+          "samples": [
+            {
+              "source_s": 0.001891436997539131,
+              "selection_s": 0.00016621499889879487,
+              "receiver_s": 0.000285213998722611
+            },
+            {
+              "source_s": 0.0017920069985848386,
+              "selection_s": 0.00017190799917443655,
+              "receiver_s": 0.0002762439980870113
+            },
+            {
+              "source_s": 0.0017645089974394068,
+              "selection_s": 0.00017180299983010627,
+              "receiver_s": 0.00024571999892941676
+            }
+          ],
+          "source_us": 1892,
+          "receiver_us": 286
+        }
+      }
+    },
+    {
+      "id": "vehicle_mercedes_sprinter_test_041_s10_v0",
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "split": "test",
+      "step": 10,
+      "layout": 0,
+      "source_us": 1202157723,
+      "acquisition_us": 61307,
+      "available": true,
+      "base_bounds": [
+        {
+          "lower_us": 340573,
+          "upper_us": 340574,
+          "reason": null,
+          "witness_index": 1
+        },
+        {
+          "lower_us": 500000,
+          "upper_us": 500000,
+          "reason": null,
+          "witness_index": 0
+        }
+      ],
+      "bounds": [
+        {
+          "lower_us": 339112,
+          "upper_us": 339113
+        },
+        {
+          "lower_us": 498539,
+          "upper_us": 498539
+        }
+      ],
+      "grid_oracle_us": [
+        -1,
+        500000
+      ],
+      "deadline_overstatement": true,
+      "methods": {
+        "union": {
+          "wire_bytes": 144,
+          "wire_sha256": "1cd62c09388f1d5f6eac63eb62ee272548ac93444aa65ca7e88111e1098bacd3",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s10_v0_union.bin",
+          "samples": [
+            {
+              "source_s": 0.0022661129987682216,
+              "selection_s": 0.00016350100122508593,
+              "receiver_s": 0.0007822439984010998
+            },
+            {
+              "source_s": 0.002054208998742979,
+              "selection_s": 0.00017647699860390276,
+              "receiver_s": 0.0006422149999707472
+            },
+            {
+              "source_s": 0.00195460900067701,
+              "selection_s": 0.000171469000633806,
+              "receiver_s": 0.0008789849998720456
+            }
+          ],
+          "source_us": 2267,
+          "receiver_us": 879
+        },
+        "lossless_centers": {
+          "wire_bytes": 163,
+          "wire_sha256": "85795003e0e90b882ffd3c1dc951e3a51edb4f705ba3220544310da5f80d52ae",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s10_v0_lossless_centers.bin",
+          "samples": [
+            {
+              "source_s": 0.002017791000980651,
+              "selection_s": 0.00021037400074419565,
+              "receiver_s": 0.0006539770001836587
+            },
+            {
+              "source_s": 0.003904187000443926,
+              "selection_s": 0.00016890599727048539,
+              "receiver_s": 0.00042236400258843787
+            },
+            {
+              "source_s": 0.0029027630007476546,
+              "selection_s": 0.00039285499951802194,
+              "receiver_s": 0.0004028269977425225
+            }
+          ],
+          "source_us": 3905,
+          "receiver_us": 654
+        },
+        "full_xyz": {
+          "wire_bytes": 187537,
+          "wire_sha256": "800d8734ebdaecab5bbd0dabbfe7726306ae3bdbdcbfc917de46b60f04f69af4",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s10_v0_full_xyz.bin",
+          "samples": [
+            {
+              "source_s": 0.009025871000631014,
+              "selection_s": 0.00019924800290027633,
+              "receiver_s": 0.005335966001439374
+            },
+            {
+              "source_s": 0.009065068999916548,
+              "selection_s": 0.00020386399773997255,
+              "receiver_s": 0.007129367997549707
+            },
+            {
+              "source_s": 0.009121782997681294,
+              "selection_s": 0.00021630499759339727,
+              "receiver_s": 0.007451148001564434
+            }
+          ],
+          "source_us": 9122,
+          "receiver_us": 7452
+        },
+        "fixed200": {
+          "wire_bytes": 144,
+          "wire_sha256": "1cd62c09388f1d5f6eac63eb62ee272548ac93444aa65ca7e88111e1098bacd3",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s10_v0_union.bin",
+          "samples": [
+            {
+              "source_s": 0.0022661129987682216,
+              "selection_s": 0.00016350100122508593,
+              "receiver_s": 0.0007822439984010998
+            },
+            {
+              "source_s": 0.002054208998742979,
+              "selection_s": 0.00017647699860390276,
+              "receiver_s": 0.0006422149999707472
+            },
+            {
+              "source_s": 0.00195460900067701,
+              "selection_s": 0.000171469000633806,
+              "receiver_s": 0.0008789849998720456
+            }
+          ],
+          "source_us": 2267,
+          "receiver_us": 879
+        }
+      }
+    },
+    {
+      "id": "vehicle_mercedes_sprinter_test_041_s10_v1",
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "split": "test",
+      "step": 10,
+      "layout": 1,
+      "source_us": 1202157723,
+      "acquisition_us": 100966,
+      "available": true,
+      "base_bounds": [
+        {
+          "lower_us": 0,
+          "upper_us": 0,
+          "reason": "unsafe_at_observation",
+          "witness_index": 0
+        },
+        {
+          "lower_us": 500000,
+          "upper_us": 500000,
+          "reason": null,
+          "witness_index": 0
+        }
+      ],
+      "bounds": [
+        {
+          "lower_us": -1,
+          "upper_us": -1
+        },
+        {
+          "lower_us": 498539,
+          "upper_us": 498539
+        }
+      ],
+      "grid_oracle_us": [
+        -1,
+        500000
+      ],
+      "deadline_overstatement": false,
+      "methods": {
+        "union": {
+          "wire_bytes": 152,
+          "wire_sha256": "326073e1afd717a8c9be31d2d0f3531588cddd092af5a926fe61392ad94fd71e",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s10_v1_union.bin",
+          "samples": [
+            {
+              "source_s": 0.0019391569985600654,
+              "selection_s": 0.00017230299999937415,
+              "receiver_s": 0.00019784899996011518
+            },
+            {
+              "source_s": 0.0018280859985679854,
+              "selection_s": 0.00019394999981159344,
+              "receiver_s": 0.0001447710019419901
+            },
+            {
+              "source_s": 0.001705396000033943,
+              "selection_s": 0.00017186900004162453,
+              "receiver_s": 0.00014146399917080998
+            }
+          ],
+          "source_us": 1940,
+          "receiver_us": 198
+        },
+        "lossless_centers": {
+          "wire_bytes": 179,
+          "wire_sha256": "00b299dc272e9933bc8b6cd87e5c503aa3f99ad0db27aa86199a4547af125fd5",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s10_v1_lossless_centers.bin",
+          "samples": [
+            {
+              "source_s": 0.00185581899859244,
+              "selection_s": 0.00018707200069911778,
+              "receiver_s": 0.00017570300042279996
+            },
+            {
+              "source_s": 0.0017613859999983106,
+              "selection_s": 0.00018242399892187677,
+              "receiver_s": 0.00015115399946807884
+            },
+            {
+              "source_s": 0.0017428840001230128,
+              "selection_s": 0.0001727720009512268,
+              "receiver_s": 0.0001425160007784143
+            }
+          ],
+          "source_us": 1856,
+          "receiver_us": 176
+        },
+        "full_xyz": {
+          "wire_bytes": 193387,
+          "wire_sha256": "ee68f6abdfe6631606d0fee9ece193ef9523690d2e8b7ea1807c9593c4a3a51f",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s10_v1_full_xyz.bin",
+          "samples": [
+            {
+              "source_s": 0.011020686997653684,
+              "selection_s": 0.00018286699923919514,
+              "receiver_s": 0.005120928999531316
+            },
+            {
+              "source_s": 0.010466603001987096,
+              "selection_s": 0.00022833000184618868,
+              "receiver_s": 0.005296035000355914
+            },
+            {
+              "source_s": 0.010244578999845544,
+              "selection_s": 0.00022981599977356382,
+              "receiver_s": 0.00659768499826896
+            }
+          ],
+          "source_us": 11021,
+          "receiver_us": 6598
+        },
+        "fixed200": {
+          "wire_bytes": 152,
+          "wire_sha256": "326073e1afd717a8c9be31d2d0f3531588cddd092af5a926fe61392ad94fd71e",
+          "packet": "messages/vehicle_mercedes_sprinter_test_041_s10_v1_union.bin",
+          "samples": [
+            {
+              "source_s": 0.0019391569985600654,
+              "selection_s": 0.00017230299999937415,
+              "receiver_s": 0.00019784899996011518
+            },
+            {
+              "source_s": 0.0018280859985679854,
+              "selection_s": 0.00019394999981159344,
+              "receiver_s": 0.0001447710019419901
+            },
+            {
+              "source_s": 0.001705396000033943,
+              "selection_s": 0.00017186900004162453,
+              "receiver_s": 0.00014146399917080998
+            }
+          ],
+          "source_us": 1940,
+          "receiver_us": 198
+        }
+      }
+    }
+  ],
+  "trace_checks": [
+    {
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "union",
+      "bitrate": 20000000,
+      "grants": 13,
+      "scheduled_queries": 32,
+      "wire_bytes": 952,
+      "oracle_grants": 12,
+      "observed_disc_occupied_grants": 1
+    },
+    {
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "lossless_centers",
+      "bitrate": 20000000,
+      "grants": 13,
+      "scheduled_queries": 32,
+      "wire_bytes": 1154,
+      "oracle_grants": 12,
+      "observed_disc_occupied_grants": 1
+    },
+    {
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "full_xyz",
+      "bitrate": 20000000,
+      "grants": 6,
+      "scheduled_queries": 32,
+      "wire_bytes": 1141647,
+      "oracle_grants": 6,
+      "observed_disc_occupied_grants": 0
+    },
+    {
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "fixed200",
+      "bitrate": 20000000,
+      "grants": 0,
+      "scheduled_queries": 32,
+      "wire_bytes": 952,
+      "oracle_grants": 0,
+      "observed_disc_occupied_grants": 0
+    },
+    {
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "union",
+      "bitrate": 2000000,
+      "grants": 13,
+      "scheduled_queries": 32,
+      "wire_bytes": 952,
+      "oracle_grants": 12,
+      "observed_disc_occupied_grants": 1
+    },
+    {
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "lossless_centers",
+      "bitrate": 2000000,
+      "grants": 13,
+      "scheduled_queries": 32,
+      "wire_bytes": 1154,
+      "oracle_grants": 12,
+      "observed_disc_occupied_grants": 1
+    },
+    {
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "full_xyz",
+      "bitrate": 2000000,
+      "grants": 0,
+      "scheduled_queries": 32,
+      "wire_bytes": 1141647,
+      "oracle_grants": 0,
+      "observed_disc_occupied_grants": 0
+    },
+    {
+      "episode_id": "vehicle_mercedes_sprinter_test_041",
+      "blueprint": "vehicle.mercedes.sprinter",
+      "method": "fixed200",
+      "bitrate": 2000000,
+      "grants": 0,
+      "scheduled_queries": 32,
+      "wire_bytes": 952,
+      "oracle_grants": 0,
+      "observed_disc_occupied_grants": 0
+    }
+  ],
+  "explanation": "At step10 view0 the XYZ proposal set misses the currently occupied left query and predicts340.573ms base expiry;1461us class correction leaves339.112ms. At decision step12 it grants239.112ms residual, despite actual observed body-disc occupancy. View1 independently has zero base expiry. Longest delivered deadline does not veto view0. Retained counterexample; no test-tuned patch to the frozen prospective policy."
+}

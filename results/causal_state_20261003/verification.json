@@ -1,0 +1,53 @@
+{
+  "deterministic_pairs": [
+    {
+      "local": "audit_local.json",
+      "sheng": "audit_sheng.json",
+      "sha256": "1032593d69021c18c08af6d3fd2c28d1963a446909ed8eb548844ea7a390eb42"
+    },
+    {
+      "local": "summary_local.json",
+      "sheng": "summary_sheng.json",
+      "sha256": "1495952cabf203bf630075de013e312f168b59986ee0a4f01c19509e472a0780"
+    },
+    {
+      "local": "tube_audit_local.json",
+      "sheng": "tube_audit_sheng.json",
+      "sha256": "a52bd07a18894143ffa58b41e3cfa807b893cca9a58c0b69a0fdee016dd19c4b"
+    },
+    {
+      "local": "tube_summary_local.json",
+      "sheng": "tube_summary_sheng.json",
+      "sha256": "df6f52363f6feb058f28edccafb60f94b36a494378db63a93a353f91de4a45ab"
+    },
+    {
+      "local": "support_audit_local.json",
+      "sheng": "support_audit_sheng.json",
+      "sha256": "1d5edbc5d2783187672eeefd4745e17fad5612e5e6a1f715f47d731095e44674"
+    },
+    {
+      "local": "functional_audit_local.json",
+      "sheng": "functional_audit_sheng.json",
+      "sha256": "4a8921461637f19683b5754e6f468b2cb2dd58f5ca9e8c5452a9b08ff40441b3"
+    },
+    {
+      "local": "functional_summary_local.json",
+      "sheng": "functional_summary_sheng.json",
+      "sha256": "73f30b95fe39f61e36d0913b626849f0341e9b410d035edffed8b08d00d1ea6e"
+    },
+    {
+      "local": "action_functional_audit_local.json",
+      "sheng": "action_functional_audit_sheng.json",
+      "sha256": "7e031d6c1793d18142dc5423a8f1006e8b53bea949a47ffd231e96c3688b70eb"
+    },
+    {
+      "local": "action_functional_summary_local.json",
+      "sheng": "action_functional_summary_sheng.json",
+      "sha256": "32b8071faa8c9923f846a32e37b9fcf38db24dd8803a2059ecaaa599f63495a6"
+    }
+  ],
+  "tests_per_host": 7,
+  "source_manifest_sha256": "96fceb961218b04014e574256eba6ebbb9e774c5c6b519f3a1a39580bca3d584",
+  "goal_complete": false,
+  "scope": "Finite dynamic frame-local calibration and causal trace execution; no full physical/ego-control/novelty completion."
+}
