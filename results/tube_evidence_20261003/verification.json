@@ -1,0 +1,23 @@
+{
+  "deterministic_pairs": [
+    {
+      "local": "audit_local.json",
+      "sheng": "audit_sheng.json",
+      "sha256": "7c7c6ee88450b4f681e8cbf4348006c8d9b577c26022d814bbb50eaf7604ddc1"
+    },
+    {
+      "local": "witnesses_local.json",
+      "sheng": "witnesses_sheng.json",
+      "sha256": "9ef4989e8c494b6cfee4cc325c4d52625d6628544f35c6d89850f07db72b30c8"
+    },
+    {
+      "local": "summary_local.json",
+      "sheng": "summary_sheng.json",
+      "sha256": "f5ac74575fdbaeaafa9e99c7e880ac4e10a43faa938454e04aa52bee6eca539d"
+    }
+  ],
+  "tests_per_host": 5,
+  "source_manifest_sha256": "df5bbf535d0b128454d0397c9f51141bae235c964ba604194bc548d67eb2933e",
+  "goal_complete": false,
+  "scope": "Pointwise bounded-current-evidence replay; same inherited revalidation rule only for representation-loss diagnostic; no complete physical scene coverage, optimality or deployment-risk claim."
+}

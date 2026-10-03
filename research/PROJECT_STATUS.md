@@ -2,7 +2,34 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October3 expiry-runtime update: `expiry_runtime_result_20261003.md`.
+Latest October3 bounded-current-evidence update: `tube_evidence_result_20261003.md`.
+The finite sheng matrix implements endpoint balls plus exact current exceptions,
+36 old-only64k-node proofs and108 warm cases (six classes, two queries, three
+radii and three synthetic-noise levels). Current frame/reference identities,
+all-ray membership at the sender and conservative receiver count bounds replace
+unsafe equal-coordinate assumptions. Empty eroded boxes contribute worst unknown
+counts; stale exclusions are revoked. Incremental and same-message full rechecks
+agree throughout. At1mm perturbations,5mm balls leave25.377/67.888ms in2/12 queries;
+at10mm,50mm balls leave34.267ms in1/12. All108 full-recheck modeled remainders are0.
+Cold coding/construction is charged and ready inside the saved20.5s gaps; sensing,
+callback, real links, WCET and simultaneous execution remain unmeasured.
+The representation-loss diagnostic is restricted to formerly excluded leaves;
+old unresolved leaves stay possible. It does not measure cold uncertainty loss
+or a complete all-leaf raw refinement. A separate post-replay3385-pose search
+finds no compatible witness to tighten the upper bounds; gaps remain158.818–500ms.
+All18 current variants retain the audited true pose, but they derive from six
+base observations and do not establish independent calibrated noise risk. Existing
+retrospective-score false-exclusion records are preserved. Certificate reuse,
+sharing, temporal compression and conformal robust planning are established prior
+art; targeted primary reading is documented. Five tests pass on both hosts; independent audit, witness and summary JSON pairs
+match bytewise. Audits verify2,930,074 partition nodes,2,516,883 warm checks and
+108 current-message coverage assertions. The current representation/revalidation
+subproblem is implemented; tight scene inference, unknown inventory, physical
+contracts, fresh risk validation, useful dynamic control, real links and a final
+MobiCom contribution remain. No recurring research loop was created. This is
+substantive progress, not a verified completion of the full objective.
+
+Previous October3 expiry-runtime update: `expiry_runtime_result_20261003.md`.
 The existing13.8s profiled query exposes repeated rational-age and geometry work.
 C++17 exact integer age and unchanged geometric scoring reproduce the complete
 503118-node16k partition; median native construction is0.608s versus9.601s Python.

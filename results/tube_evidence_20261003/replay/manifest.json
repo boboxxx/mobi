@@ -1,0 +1,33 @@
+{
+  "compilation": {
+    "seconds": 1.1390411749998748,
+    "command": [
+      "c++",
+      "-O3",
+      "-std=c++17",
+      "-ffp-contract=off",
+      "-shared",
+      "-fPIC",
+      "/home/sheng/mobicom2027_visibility_20261001/experiments/tube_evidence_20261003/kernel.cpp",
+      "-o",
+      "/tmp/mobi_tube_kernel.so"
+    ],
+    "compiler": "c++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0"
+  },
+  "budget": 64000,
+  "cold_calls": 36,
+  "warm_cases": 108,
+  "analysis_sha256": "f46727e9173fc706580a8cfbb03d959df2a9b353ac0e096213913bec9d61d917",
+  "source_hashes": {
+    "experiments/tube_evidence_20261003/kernel.cpp": "9e8d9c5c9f5304d4ad5842b46ecef5d60361adc63aaef4f19267b7625abf54b1",
+    "experiments/tube_evidence_20261003/runtime.py": "2b9d0e0f0b3039482272ed04375c2f951a4012030e0ca77c534303a8863b04cf",
+    "experiments/tube_evidence_20261003/codec.py": "ffc7e2c6f1fa08d52a074fdcdcf49695f17034c3501214323f0f92f00f8ee535",
+    "experiments/tube_evidence_20261003/run.py": "0fea4fc84418705a1b0c628928eff0e7a59fc67adccfea6b9779ce00d60a6e75",
+    "experiments/tube_evidence_20261003/PROTOCOL.md": "1c8e08e2c6fccc374ecd5e08993c89708461aeab593724700305a65e8baf81a3",
+    "experiments/expiry_runtime_20261003/kernel.cpp": "c2eab6af17ddbd28a294f83451db20831ee0bbcf75e47bf100ae567ce94b81ec",
+    "experiments/expiry_runtime_20261003/runtime.py": "9dd565d4eaffc497bb0ef66ec825a076779deb58ab14b50783478029af7b95a5",
+    "experiments/pose_inversion_20261003/packet.py": "a87931c00e10d8fe15c1151c0cebe6d3b795b9308d09c430d2c6d35a2c015fca",
+    "experiments/terrain_score_20261003/model.py": "b7e9a402fdb3a09eb2165cfc177dee8567dcdc655d68b0246ca05839b728c243"
+  },
+  "scope": "Fixed synthetic endpoint-uncertainty study over saved sources. No new calibrated sensor distribution, physical motion or real-link claim."
+}
