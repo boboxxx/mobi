@@ -1,0 +1,42 @@
+{
+  "artifact_manifest_sha256": "60e491693ac0f65676f6218c617b08c4380e6466915d0fede34bc4a92277147d",
+  "audit_sha256": "b2ccc32142f65c2eeba01cb4d9a64c6067ea689d5321b8328c3e7f989e475cf1",
+  "bytes": 53425862,
+  "files": 13,
+  "finite_geometry_verification_complete": true,
+  "frozen_sources_valid": true,
+  "goal_complete": false,
+  "new_policy_or_ego_or_wireless_qualified": false,
+  "publication_source_manifest_sha256": "ab140b8a2cdab6e5a4ca49362f8cbdd044af7d7193146c7de87bb34423b4b913",
+  "radius_summary": {
+    "component_mean:2500000": {
+      "geometry_eligible": 7375,
+      "positive": 9392,
+      "queries": 14322
+    },
+    "component_mean:750000": {
+      "geometry_eligible": 12426,
+      "positive": 15004,
+      "queries": 18414
+    },
+    "component_modes:2500000": {
+      "geometry_eligible": 7369,
+      "positive": 9388,
+      "queries": 14322
+    },
+    "component_modes:750000": {
+      "geometry_eligible": 12402,
+      "positive": 15001,
+      "queries": 18414
+    }
+  },
+  "stats": {
+    "fixed_equal": 8184,
+    "geometry_eligible": 39572,
+    "queries": 65472
+  },
+  "statuses": {
+    "bounded": 65408,
+    "refused_empty_observation": 64
+  }
+}
