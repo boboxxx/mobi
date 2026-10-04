@@ -2,7 +2,26 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October4 observation representation update: `background_frontend_result_20261004.md`.
+Latest October4 body-support expiry update: `body_expiry_result_20261004.md`.
+The finite sheng study completes2076 reused-test frames,2072 bounded and4 refused,
+with5746 independent intersection certificates and distance/expiry brackets<=2um/1us.
+No model threshold is refit and no fresh risk qualification follows from observed
+0/60 center exclusions perclass. Exact full hulls are the strong same-information
+baseline: active/hull/points/raw grants at20Mbps are4556/4564/4563/2215 per11520;
+2Mbps cold with55264B actual common setup gives3398/3404/3294/0. Sparse active
+certificates are larger and lose to hulls; do not promote them as a communication
+contribution. True-center isotropic source P95 age gaps range146–292ms; median0
+is distorted by the500mscap and unsafe queries. Fifty-three abstract supported
+contact witnesses (32Sprinter) explain some remaining conservatism, without
+proving all-ray/mesh-compatible physical counterexamples. Auditor reconstructs
+376837 quantized points,8304 actual wires,5760 paid traces and184320 decisions.
+Three deterministic pairs match across hosts and13 tests pass perhost. Initial
+path-error source/freeze and partial outputs remain. No new capture, simulator,
+automation, actual wireless, unknown-inventory/physical/ego guarantee or MobiCom
+novelty. This finite package is complete; full credible-and-not-overconservative
+validity and distinct useful evidence selection remain unfinished. Goal active.
+
+Previous October4 observation representation update: `background_frontend_result_20261004.md`.
 Sheng completes all5304 unchanged prospective scans with0/1/10mm fixed shifts,
 using a frozen old-XYZ static reference. Its354/548 voxels and full provenance
 cost53552B. Background merging discards1515 selected target returns in the parent
