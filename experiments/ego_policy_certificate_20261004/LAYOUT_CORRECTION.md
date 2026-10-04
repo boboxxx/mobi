@@ -1,0 +1,1 @@
+The original plot used text at +0.08m while the near-zero progress autoscale was in micrometres, producing a tight-layout warning and overlapping titles. Original code/image/warning are retained. plot_complete.py only sets a visible metre scale and smaller subplot titles; data, all methods and comparisons are unchanged. It saves separate layout outputs.

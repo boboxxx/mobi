@@ -1,0 +1,5094 @@
+{
+  "captured": 72,
+  "decisions": 7200,
+  "deployment_authorizations": 0,
+  "episodes": [
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_000",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6100
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_000",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5422
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_000",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5264
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_001",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5425
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_001",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5094
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_001",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6839
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_002",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5278
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_002",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6856
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_002",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5554
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_003",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6173
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_003",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5533
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_003",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5270
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_004",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5342
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_004",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5161
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_004",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6421
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_005",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5067
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_005",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6089
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_005",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5543
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_006",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6365
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_006",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5327
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_006",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5089
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_007",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5323
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_007",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5250
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_007",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6418
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_008",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5290
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_008",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6491
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_008",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5431
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_009",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6126
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_009",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5347
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_009",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5169
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_010",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5513
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_010",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5174
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_010",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6425
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_011",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5284
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_011",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 7058
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_011",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5348
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_012",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6374
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_012",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5340
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_012",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5307
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_013",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5443
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_013",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5289
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_013",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6077
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_014",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5281
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_014",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6241
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_014",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5365
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_015",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6938
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 11,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_015",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 55
+        }
+      ],
+      "wire_bytes": 5433
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_015",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5079
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_016",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5524
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_016",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5120
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_016",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6911
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_017",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5290
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_017",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6405
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_017",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5361
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_018",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6519
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_018",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5459
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_018",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5273
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_019",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5367
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_019",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5178
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_019",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 7161
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_020",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5092
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_020",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6230
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_020",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5463
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_021",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6008
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_deadline_021",
+      "max_speed_mps": 6e-06,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5490
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_021",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5154
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_022",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5343
+    },
+    {
+      "blueprint": "vehicle.audi.a2",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_cone_022",
+      "max_speed_mps": 0.0,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5104
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_function_022",
+      "max_speed_mps": 6e-06,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 6357
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 12,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 1e-06,
+      "id": "test_cone_023",
+      "max_speed_mps": 6e-06,
+      "method": "cone",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 4
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 7
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 10
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 13
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 16
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 19
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 22
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 25
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 28
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 31
+        },
+        {
+          "confirmed_stop_us": null,
+          "first_stop_us": null,
+          "interrupted": true,
+          "step": 55
+        },
+        {
+          "confirmed_stop_us": 150000,
+          "first_stop_us": 50000,
+          "interrupted": false,
+          "step": 58
+        }
+      ],
+      "wire_bytes": 5276
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_function_023",
+      "max_speed_mps": 0.0,
+      "method": "function",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 6356
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "collisions": 0,
+      "dropped": 7,
+      "engineering_go": 0,
+      "engineering_go_from_uncovered_source": 0,
+      "forward_m": 0.0,
+      "id": "test_deadline_023",
+      "max_speed_mps": 0.0,
+      "method": "deadline",
+      "propagation_us": 20000,
+      "received": 13,
+      "source_sets_not_containing_target": 0,
+      "status": "captured",
+      "transitions": [],
+      "wire_bytes": 5450
+    }
+  ],
+  "freeze_sha256": "d8ec7c3ed76e7f1f2f6d6cb24591111f88da350aff4c7947d046844c28cc1013",
+  "goal_complete": false,
+  "independent_geometry_queries": 5616,
+  "outcomes_sha256": "299172adadb258cb476c6eea9b4cd1e2db6db42e60325f60b7d7de81923779f5",
+  "planned": 72,
+  "risk_labels": [
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_000",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_000",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_000",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_001",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_001",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_001",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_002",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_002",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_002",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_003",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_003",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_003",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_004",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_004",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_004",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_005",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_005",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_005",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_006",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_006",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_006",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_007",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_007",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_007",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_008",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_008",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_008",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_009",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_009",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_009",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_010",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_010",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_010",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_011",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_011",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_011",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_012",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_012",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_012",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_013",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_013",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_013",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_014",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_014",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_014",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_015",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_015",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_015",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_016",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_016",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_016",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_017",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_017",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_017",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_018",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_018",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_018",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_019",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_019",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_019",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_020",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_020",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_020",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_021",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_021",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_021",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_022",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_022",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_022",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_cone_023",
+      "method": "cone",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": true,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_function_023",
+      "method": "function",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    },
+    {
+      "capture_complete": true,
+      "collisions": 0,
+      "failed": false,
+      "id": "test_deadline_023",
+      "method": "deadline",
+      "sampled_violations": {
+        "ego_enclosure": 0,
+        "ego_speed_cap": 0,
+        "self_mask_leak_returns": 0,
+        "target_mask_removed_returns": 0
+      },
+      "selected": false,
+      "source_age_go_failures": 0,
+      "source_exclusion_go": 0
+    }
+  ],
+  "scope": "Fresh physical unqualified measured-delay ego loop, sampled diagnostics, no continuous/radio/statistical risk guarantee.",
+  "source_scans": 1440,
+  "split": "test",
+  "violations": {
+    "ego_enclosure": 0,
+    "ego_speed_cap": 0,
+    "self_mask_leak_returns": 0,
+    "target_mask_removed_returns": 0
+  }
+}
