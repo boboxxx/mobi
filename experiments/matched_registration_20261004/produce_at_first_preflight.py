@@ -21,7 +21,7 @@ def main():
    profiles=[]
    for _ in range(3):
     t=time.perf_counter();xyz=np.c_[raw['x'],raw['y'],raw['z']].astype('<f4');gg=parent.groups(xyz,T,np.asarray(d['context']['basis']['anchor']),np.asarray(d['context']['basis']['road']),extent,d['context']['background']['layouts'][str(r['layout'])]['codes']);hh=[parent.hull(g) for g in gg]
-    if method=='hull':packet=parent.pack('hull',hh,ci,r['layout'],r['frame'],r['source_us'],ctx['primary_context_sha256'],ctx['calibration_sha256'])
+    if method=='hull':packet=parent.pack(hh,ci,r['layout'],r['frame'],r['source_us'],ctx['primary_context_sha256'],ctx['calibration_sha256'])
     else:packet=lease.encode(parent.infer(hh,extent,ctx['registry'][bp]['joint_slack_um'],'joint_hull'),ci,r['layout'],r['frame'],r['source_us'],ctx['primary_context_sha256'],ctx['calibration_sha256'])
     ss=time.perf_counter()-t;t=time.perf_counter();out=decode(packet,method,ctx);rx=time.perf_counter()-t;assert hh==r['hulls_cm'] and (out['status'],out['lower_us'])==(r['methods']['joint_hull']['status'],r['methods']['joint_hull']['lower_us']) and out['source_us']==r['source_us'] and out['frame']==r['frame'] and out['class_index']==ci and out['layout']==r['layout'];profiles.append(dict(source_s=ss,receiver_s=rx,selection_s=r['selection_s']))
    target=p/'messages'/(r['id']+'_'+method+'.bin');target.write_bytes(packet);methods[method]=dict(status=out['status'],lower_us=out['lower_us'],samples=profiles,source_us=math.ceil((max(v['source_s'] for v in profiles)+r['selection_s'])*1e6),receiver_us=math.ceil(max(v['receiver_s'] for v in profiles)*1e6),wire_bytes=len(packet),wire_sha256=sha(target),packet=str(target.relative_to(ROOT)))

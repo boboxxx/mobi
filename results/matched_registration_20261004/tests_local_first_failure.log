@@ -1,0 +1,26 @@
+test_same_membership_with_lighter_context (test_registration.RegistrationTests.test_same_membership_with_lighter_context) ... ERROR
+test_setup_hash_corruption_rejected (test_registration.RegistrationTests.test_setup_hash_corruption_rejected) ... ok
+test_source_epoch_and_refusal_preserved (test_registration.RegistrationTests.test_source_epoch_and_refusal_preserved) ... ERROR
+
+======================================================================
+ERROR: test_same_membership_with_lighter_context (test_registration.RegistrationTests.test_same_membership_with_lighter_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/chen/Documents/ChatGPT/mobi/experiments/matched_registration_20261004/test_registration.py", line 6, in test_same_membership_with_lighter_context
+    c=self.ctx();h=[[[-10,-10],[10,-10],[10,10],[-10,10]]];expected=parent.infer(h,c['catalog']['known'],0,'joint_hull');w=parent.pack(h,0,0,17,125000,c['primary_context_sha256'],c['calibration_sha256']);a=decode(w,'hull',c);b=decode(lease.encode(expected,0,0,17,125000,c['primary_context_sha256'],c['calibration_sha256']),'deadline',c);self.assertEqual((a['status'],a['lower_us'],a['source_us']),(b['status'],b['lower_us'],125000))
+                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: pack() missing 1 required positional argument: 'calibration'
+
+======================================================================
+ERROR: test_source_epoch_and_refusal_preserved (test_registration.RegistrationTests.test_source_epoch_and_refusal_preserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/chen/Documents/ChatGPT/mobi/experiments/matched_registration_20261004/test_registration.py", line 8, in test_source_epoch_and_refusal_preserved
+    c=self.ctx();w=parent.pack([],0,1,18,250000,c['primary_context_sha256'],c['calibration_sha256']);a=decode(w,'hull',c);self.assertEqual((a['status'],a['lower_us'],a['source_us']),('refused',[],250000));c=dict(c,calibration_sha256='33'*32)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: pack() missing 1 required positional argument: 'calibration'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.004s
+
+FAILED (errors=2)
