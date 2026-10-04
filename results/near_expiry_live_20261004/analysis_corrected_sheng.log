@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "experiments/near_expiry_live_20261004/analyze_importsafe.py", line 47, in <module>
+    if __name__=='__main__':main()
+  File "experiments/near_expiry_live_20261004/analyze_importsafe.py", line 35, in main
+    oldage=R.horizon(oldlower,A.G.radius(ext),r) if oldlower is not None else 0
+AttributeError: module 'runtime' has no attribute 'horizon'
