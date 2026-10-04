@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+"""Independent direct-deadline packet/setup/unchanged-authority/FIFO audit."""
+import argparse,hashlib,importlib.util,json,math,struct,zlib
+from pathlib import Path
+from collections import defaultdict
+ROOT=Path(__file__).resolve().parents[2];E=Path(__file__).resolve().parent
+spec=importlib.util.spec_from_file_location('ind_fifo',ROOT/'experiments/body_expiry_20261004/audit.py');ind=importlib.util.module_from_spec(spec);spec.loader.exec_module(ind)
+HEADER=struct.Struct('<4sBBIIq32s32sqq')
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def read(p):return json.loads(p.read_bytes())
+def canon(x):return json.dumps(x,sort_keys=True,separators=(',',':')).encode()
+def main():
+ ap=argparse.ArgumentParser();ap.add_argument('--results',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);a=ap.parse_args();p=a.results.resolve();x=read(p/'lease_baseline_sheng.json');d=read(p/'analysis_sheng.json');f=read(E/'lease_baseline_freeze.json');assert x['primary_analysis_sha256']==sha(p/'analysis_sheng.json') and x['primary_audit_sha256']==sha(p/'audit_sheng.json') and read(p/'audit_sheng.json')['analysis_sha256']==sha(p/'analysis_sheng.json') and x['freeze_sha256']==sha(E/'lease_baseline_freeze.json')
+ for n,h in f['sources'].items():assert sha(ROOT/n)==h,n
+ ctx=x['minimal_context'];assert ctx['primary_context_sha256']==d['contract_sha256'] and ctx['primary_source_hashes']==d['source_hashes'] and ctx['catalog']==d['context']['catalog'] and ctx['registry']==d['registry'] and ctx['queries_um']==[[-6000000,0],[6000000,0]] and ctx['query_radius_um']==750000 and ctx['cap_us']==500000 and ctx['calibration_receipt_sha256']==d['calibration_receipt_sha256'] and ctx['source_identity_sha256']==sha(E/'lease_baseline.py');assert x['minimal_contract_sha256']==hashlib.sha256(canon(ctx)).hexdigest();setup=x['minimal_setup'];wire=(p/'lease_setup_minimal.bin').read_bytes();b=zlib.decompress(wire);assert hashlib.sha256(b[:-32]).digest()==b[-32:] and json.loads(b[:-32])==ctx and len(wire)==setup['wire_bytes'] and sha(p/'lease_setup_minimal.bin')==setup['wire_sha256'] and len(setup['samples'])==3
+ for dst,key in [('source_us','source_s'),('receiver_us','receiver_s')]:assert setup[dst]==math.ceil(max(v[key] for v in setup['samples'])*1e6)
+ old={r['id']:r for r in d['rows'] if r['split']=='test'};byep=defaultdict(list);seen=set()
+ for r in x['rows']:
+  assert r['id'] not in seen;seen.add(r['id']);o=old[r['id']];m=r['method'];expected=o['methods']['joint_hull'];assert r['episode_id']==o['episode_id'] and r['blueprint']==o['blueprint'] and (m['status'],m['lower_us'])==(expected['status'],expected['lower_us']);wire=(ROOT/m['packet']).read_bytes();b=zlib.decompress(wire);assert len(b)==HEADER.size+32 and hashlib.sha256(b[:-32]).digest()==b[-32:];status={'bounded':0,'refused':1,'empty':2}[m['status']];ages=tuple(m['lower_us']) if status==0 else (0,0);h=HEADER.unpack(b[:-32]);assert h==(b'LSE1',status,o['layout'],list(ctx['catalog']).index(o['blueprint']),o['frame'],o['source_us'],bytes.fromhex(x['minimal_contract_sha256']),bytes.fromhex(d['calibration_sha256']),*ages);assert len(wire)==m['wire_bytes'] and sha(ROOT/m['packet'])==m['wire_sha256'];assert len(m['samples'])==3 and all(v['selection_s']==o['selection_s'] for v in m['samples']);assert m['source_us']==math.ceil((max(v['source_s'] for v in m['samples'])+o['selection_s'])*1e6) and m['receiver_us']==math.ceil(max(v['receiver_s'] for v in m['samples'])*1e6);byep[r['episode_id']].append(dict(o,methods={'lease':m}))
+ assert seen==set(old) and len(x['traces'])==2880;seen=set()
+ for t in x['traces']:
+  key=(t['episode_id'],t['registration'],t['rate'],t['startup']);assert key not in seen;seen.add(key);rr=byep[t['episode_id']];t0=min(r['source_us'] for r in rr) if rr else 0;assert t['t0']==t0;reg=d['setup'] if t['registration']=='full' else setup;v=ind.independent_replay(rr,'lease',t['rate'],t0,reg if t['startup']=='cold' else None);assert all(t[k]==value for k,value in v.items())
+ policies=[dict(registration=reg,rate=rate,startup=startup,grants=sum(t['grants'] for t in x['traces'] if t['registration']==reg and t['rate']==rate and t['startup']==startup),scheduled_queries=11520) for reg in ('full','minimal') for rate in (20000000,2000000) for startup in ('warm','cold')];assert policies==x['policies'];out=dict(frames=len(old),packet_checks=len(old),trace_checks=len(x['traces']),decision_checks=len(x['traces'])*32,policies=policies,source_sha256=sha(Path(__file__)),analysis_sha256=sha(p/'lease_baseline_sheng.json'),primary_audit_sha256=sha(p/'audit_sheng.json'),scope='Independent exact unchanged calibrated ages, source epochs, actual lease/minimal setup packets, measurement maxima and three FIFO replay; no source computation attestation or new risk family.');a.out.write_text(json.dumps(out,separators=(',',':'))+'\n');print(json.dumps(policies),flush=True)
+if __name__=='__main__':main()
