@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "experiments/near_expiry_live_20261004/analyze.py", line 46, in <module>
+    if __name__=='__main__':main()
+  File "experiments/near_expiry_live_20261004/analyze.py", line 27, in main
+    proposal=R.evidence(original,ctx).query(q,r);A.geometry(original,d['body'],ctx,proposal)
+AttributeError: module 'audit' has no attribute 'geometry'
