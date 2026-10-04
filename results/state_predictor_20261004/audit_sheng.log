@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "experiments/state_predictor_20261004/audit.py", line 65, in <module>
+    if __name__=='__main__':main()
+  File "experiments/state_predictor_20261004/audit.py", line 39, in main
+    assert rad['episode_scores']=={ep+'|'+m:s for (ep,m),s in scores.items()}
+AssertionError

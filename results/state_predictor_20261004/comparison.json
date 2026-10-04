@@ -1,0 +1,54 @@
+{
+  "comparisons": [
+    {
+      "blueprint": "vehicle.audi.a2",
+      "same_source_queries": 720,
+      "joint_gap_p95_us": 194982.65,
+      "ridge_gap_p95_us": 246491.74999999988,
+      "ridge_excluded_development_episodes": 0,
+      "planned_development_test_episodes": 60
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "same_source_queries": 708,
+      "joint_gap_p95_us": 197027.25,
+      "ridge_gap_p95_us": 285058.55,
+      "ridge_excluded_development_episodes": 1,
+      "planned_development_test_episodes": 60
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "same_source_queries": 672,
+      "joint_gap_p95_us": 264141.4,
+      "ridge_gap_p95_us": 259490.39999999985,
+      "ridge_excluded_development_episodes": 2,
+      "planned_development_test_episodes": 60
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "same_source_queries": 716,
+      "joint_gap_p95_us": 135211.75,
+      "ridge_gap_p95_us": 86634.5,
+      "ridge_excluded_development_episodes": 1,
+      "planned_development_test_episodes": 60
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "same_source_queries": 720,
+      "joint_gap_p95_us": 152560.9,
+      "ridge_gap_p95_us": 91968.4,
+      "ridge_excluded_development_episodes": 4,
+      "planned_development_test_episodes": 60
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "same_source_queries": 552,
+      "joint_gap_p95_us": 52427.6,
+      "ridge_gap_p95_us": 23265.899999999998,
+      "ridge_excluded_development_episodes": 2,
+      "planned_development_test_episodes": 60
+    }
+  ],
+  "source_sha256": "46983efcd83a0fd783da0cc2ee3c6b6f0f8dff38790ae3fcca73e15dd893a17a",
+  "scope": "Same bounded source rows/exact stored oracle; reused development observations, no paid utility/fresh coverage qualification."
+}
