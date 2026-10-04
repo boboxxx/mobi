@@ -1,0 +1,94 @@
+[
+  {
+    "rate": 20000000,
+    "startup": "warm",
+    "scheduled_queries": 11520,
+    "primary_grants": {
+      "sphere_hull": 4526,
+      "pose_hull": 4683,
+      "joint_hull": 4688,
+      "joint_raw": 2263
+    },
+    "lease": {
+      "full": {
+        "grants": 4686,
+        "lease_only": 0,
+        "joint_hull_only": 2
+      },
+      "minimal": {
+        "grants": 4686,
+        "lease_only": 0,
+        "joint_hull_only": 2
+      }
+    }
+  },
+  {
+    "rate": 20000000,
+    "startup": "cold",
+    "scheduled_queries": 11520,
+    "primary_grants": {
+      "sphere_hull": 4526,
+      "pose_hull": 4683,
+      "joint_hull": 4688,
+      "joint_raw": 2263
+    },
+    "lease": {
+      "full": {
+        "grants": 4686,
+        "lease_only": 0,
+        "joint_hull_only": 2
+      },
+      "minimal": {
+        "grants": 4686,
+        "lease_only": 0,
+        "joint_hull_only": 2
+      }
+    }
+  },
+  {
+    "rate": 2000000,
+    "startup": "warm",
+    "scheduled_queries": 11520,
+    "primary_grants": {
+      "sphere_hull": 4526,
+      "pose_hull": 4681,
+      "joint_hull": 4685,
+      "joint_raw": 0
+    },
+    "lease": {
+      "full": {
+        "grants": 4686,
+        "lease_only": 3,
+        "joint_hull_only": 2
+      },
+      "minimal": {
+        "grants": 4686,
+        "lease_only": 3,
+        "joint_hull_only": 2
+      }
+    }
+  },
+  {
+    "rate": 2000000,
+    "startup": "cold",
+    "scheduled_queries": 11520,
+    "primary_grants": {
+      "sphere_hull": 3016,
+      "pose_hull": 3118,
+      "joint_hull": 3120,
+      "joint_raw": 0
+    },
+    "lease": {
+      "full": {
+        "grants": 3121,
+        "lease_only": 3,
+        "joint_hull_only": 2
+      },
+      "minimal": {
+        "grants": 4686,
+        "lease_only": 1568,
+        "joint_hull_only": 2
+      }
+    }
+  }
+]

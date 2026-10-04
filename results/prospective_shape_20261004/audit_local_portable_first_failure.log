@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/chen/Documents/ChatGPT/mobi/experiments/prospective_shape_20261004/audit_portable.py", line 94, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/chen/Documents/ChatGPT/mobi/experiments/prospective_shape_20261004/audit_portable.py", line 45, in main
+    ext=catalog[r['blueprint']];assert old['bounding_box']['extent']==ext and old['bounding_box']['rotation']==[0.0,0.0,0.0] and old['sensor_frame']==old['frame'];assert T.tolist()==old['sensor_transform']['matrix']==rc['transforms'][str(r['layout'])];true=(np.asarray(old['center'])-basis['anchor'])@np.asarray(basis['road']);assert r['true_xy']==true[:2].tolist();assert r['source_us']==math.floor(old['timestamp']*1e6) and r['acquisition_us']==math.ceil(old['acquisition_s']*1e6)
+                                                                                                                                                                                                                                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

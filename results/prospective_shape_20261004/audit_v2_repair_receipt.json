@@ -1,0 +1,13 @@
+{
+  "reason": "Cross-NumPy exact-equality failure in recomputing stored projected truth. Exact-rational affine forward-error checks replace host-dependent float equality; all stored membership coordinates and scores stay unchanged. Unique input/split index removes quadratic metadata work without changing scope.",
+  "original_portable_source_sha256": "8dfacc49711ad7fbcb097b1f2ffca349d51a39cbcd8776544bd3ead2cc753e81",
+  "portable_v2_source_sha256": "9d64f5f8254ecf3a17716dc9a0fa0577ffc5beade4210855c99e4e1c292b46cd",
+  "first_local_failure_log_sha256": "c79add4d6f5e2ecfbaa52a7ec5d3c734bda520919d1c3bf8413859a8d2f0a205",
+  "coordinate_rounding_checks": 5274,
+  "maximum_affine_error_um": {
+    "numerator": 980877859375,
+    "denominator": 590295810358705651712
+  },
+  "all_forward_error_bounds_below_nm": 1,
+  "model_membership_score_geometry_wire_fifo_unchanged": true
+}

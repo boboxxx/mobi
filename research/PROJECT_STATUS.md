@@ -2,7 +2,31 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October4 complete-yaw update: `pose_support_result_20261004.md`.
+Latest October4 fresh fixed-score qualification: `prospective_shape_result_20261004.md`.
+Pre-capture published freeze a10acd54 and separately registered source-deadline
+freeze540f42ca remain unchanged. Sheng completes930 planned/879 captured episodes,
+5274 fresh frames,2046 test frames,5760 main+2880 strong-baseline traces.
+Direct membership qualification controls one whole-episode/model/source event
+under fixed-law iid assumptions, without requiring the shape prior to be true.
+New tests have1/60 bicycle center exclusions,0/60 other classes; refusal/failure
+plans remain counted. The failed shape source needs2363um expansion; its capped
+query ages equal the same-body reference and must NOT be test-repaired.
+Source P95 age gaps remain52–264ms. At20Mbps sphere/pose/joint/raw grants are
+4526/4683/4688/2263 per11520; direct source deadlines give4686. At2Mbps cold,
+minimal2402B source-deadline registration gives4686 versus3120 for57854B joint
+geometry context. The current trusted-source fixed-query scope supports no
+new geometry communication superiority. Numerical outward brackets<=1um/1us,
+physical snapshots and future-grid checks have no observed conflicts; continuous
+physical/ego, unknown inventory and actual radio guarantees do not follow.
+Five deterministic output pairs match across hosts;14 distinct tests pass each.
+Both NumPy compatibility failure histories and raw SciPy last-bit summaries
+remain archived. Original>100MiB analysis is represented by hash-checked lossless
+gzip for publication; original point clouds and wires remain complete.
+This finite experiment package is complete; fresh qualification alone does NOT
+complete the full credible/nonconservative expiry or MobiCom contribution goal.
+No recurrent automation or ongoing simulator/capture/producer job was created.
+
+Previous October4 complete-yaw update: `pose_support_result_20261004.md`.
 Finite sheng development completes5304 reused source frames,2076 test frames,
 5760 primary traces and1440 separately frozen optimized-RAW traces. Exact
 outer-cover distance/age brackets are<=1um/1us. Sphere/pose/joint hull/raw grants

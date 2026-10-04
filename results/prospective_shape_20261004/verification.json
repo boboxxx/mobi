@@ -1,0 +1,74 @@
+{
+  "deterministic_pairs": [
+    {
+      "stem": "audit_v2",
+      "sha256": "41358a98f0aee8fd24b2de41690b3ff94bced5e8fb37886e77bc4f558ccc244d"
+    },
+    {
+      "stem": "summary_normalized",
+      "sha256": "151264b1ade6b86e183140185dd444f88211999780da3dec879a985b16837cf8"
+    },
+    {
+      "stem": "lease_audit",
+      "sha256": "62d471bbdf6e6d6742e47e4efd8f51ec9de6fd00218d536a7adaf4cb83e3dd63"
+    },
+    {
+      "stem": "comparison",
+      "sha256": "6ca7d1c4717b4a3995dc3d34da1f856b331dfd6fd139abf077086b56c6ba0d25"
+    },
+    {
+      "stem": "diagnostic",
+      "sha256": "c7d778b1be48904d857336d2d9d11a5ccfd3fb6ceb3154ad62e1999cd23979a8"
+    }
+  ],
+  "tests_per_host": {
+    "primary_membership": 3,
+    "lease_followup": 2,
+    "inherited_geometry": 9
+  },
+  "source_manifest_sha256": "72ee36f63eb9dc197e4082c06cff442a667c56d5cd3d1ad3921be92b58b77f4d",
+  "capture_plan_episodes": 930,
+  "raw_summary_presentation_differences": [
+    {
+      "blueprint": "vehicle.audi.a2",
+      "field": "simultaneous_six_class_risk_upper95",
+      "local": 0.07669119060754309,
+      "sheng": 0.0766911906075431
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "field": "simultaneous_six_class_risk_upper95",
+      "local": 0.07669119060754309,
+      "sheng": 0.0766911906075431
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "field": "simultaneous_six_class_risk_upper95",
+      "local": 0.07669119060754309,
+      "sheng": 0.0766911906075431
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "field": "simultaneous_six_class_risk_upper95",
+      "local": 0.07669119060754309,
+      "sheng": 0.0766911906075431
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "field": "simultaneous_six_class_risk_upper95",
+      "local": 0.07669119060754309,
+      "sheng": 0.0766911906075431
+    }
+  ],
+  "lossless_analysis_archive": {
+    "materialized_file": "analysis_sheng.json",
+    "materialized_sha256": "05b83789ed52d13958e3f425e778db261cff9b7d0853c531808dfc9b1f59e8cf",
+    "materialized_bytes": 106136234,
+    "archived_file": "analysis_sheng.json.gz",
+    "archived_sha256": "e66eb75ce814ebcbd765f03604a1deccd21859428d1ed41667e2e252560a8819",
+    "archived_bytes": 15017017,
+    "scope": "Lossless gzip representation to satisfy GitHub single-file limit; no analysis/data change."
+  },
+  "full_goal_complete": false,
+  "scope": "Fresh fixed-law joint current-center qualification and paid four-policy plus strong direct-deadline comparison; no unknown inventory, continuous physical/live ego guarantee or distinct MobiCom contribution established."
+}
