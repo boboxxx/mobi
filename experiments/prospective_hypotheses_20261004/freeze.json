@@ -1,0 +1,34 @@
+{
+  "sources": {
+    "experiments/prospective_hypotheses_20261004/PROTOCOL.md": "98cc258cd195b6bc0b0261bd16d18f1bd861b3180fc6a7f88cfebfc11e9d6b2d",
+    "experiments/prospective_hypotheses_20261004/capture.py": "68e80f07e1b330f23f8526f0dadcc3ff7ace46dcd491576c9c6436aa602336b2",
+    "experiments/prospective_hypotheses_20261004/catalog.json": "18307fc31b8f871e246e61fa46ea7e01272e6c1555365aa16573ac2fe9f9570e",
+    "experiments/prospective_hypotheses_20261004/plan.json": "5f6b291847a12e9f2365a36245638c4f391c662d0c8493e88cd17d9a40fb89fd",
+    "experiments/prospective_hypotheses_20261004/run_capture.sh": "0abb78b4ff9db0ead43da25500ffd6c2a0960d2699bda8f839334fd290b2aa96",
+    "experiments/prospective_hypotheses_20261004/scores.py": "173e39a261d42cf106e99f90b193e091e1c9958a65ec6c478d82b95e6d8ad370",
+    "experiments/prospective_hypotheses_20261004/start_carla.ps1": "951aa824b1f18ef3ce272d8264b94d04306fbf2049242d065024379464f6f6dd",
+    "experiments/prospective_hypotheses_20261004/stop_carla.ps1": "7da7d8f81641de08c8f024909ff522e3b8087c547272bbb2a128b37ecc010b49",
+    "experiments/prospective_hypotheses_20261004/test_scores.py": "5f395d36d04bdcf93b66d87555b355b9fbce4bb06d20211a57a5174be6a7549a",
+    "experiments/calibrated_hypotheses_20261004/model.py": "11c45088f746e8f8ae7e8f874cdbcfe203b40151726f9cd4ccac09d58a1618db",
+    "experiments/calibrated_hypotheses_20261004/geometry.py": "aac8e62e487db8d3fdb1df720c01a904189fd70dd733a500c080ceffe71c38b7",
+    "experiments/state_predictor_20261004/predictor.py": "9885990fc72ce18692f1b701db624804712593a71a1fd907b6800649d3350461",
+    "experiments/state_predictor_20261004/integer_state.py": "8d89abb2bc8308868c86f1200f64faaea4894d21b7f8a7b9e8f379ca54cedc59",
+    "experiments/pose_support_20261004/observer.py": "389fc594080a31614f77634dcfce7651e4d966fcbefe15b20a6a49703f902725",
+    "experiments/pose_support_20261004/directions.json": "6c373319a30b5f8f5be3a54d020836f55baec6516ac9442670ded2241834f70d",
+    "experiments/body_expiry_20261004/frontend.py": "cc77a43c23b099785f42b6db1cbe949f28a3670c5b76ebad77efcbe00b4dca93",
+    "experiments/body_expiry_20261004/kernel.py": "fbec77a3521ad63a54db22ea581b9c0b9a94f50cfd3261ea118d2281ff3e75ce",
+    "experiments/body_expiry_20261004/proposer.cpp": "2197580b32290fc255dc1362109c9e07fef35598d2f0395782637ae49be8e2d0",
+    "experiments/pose_support_20261004/wire.py": "ec27cf1df595c3186a57b12cb8cb432a4cde8b57f502458c8161bbfadae3c7d7"
+  },
+  "inputs": {
+    "results/calibrated_hypotheses_20261004/models_sheng.json": "737e57e06d9a3b71f4344d6e153a812c08b9cb33534e6f791b050255530fe8f6",
+    "results/calibrated_hypotheses_20261004/publication_source_manifest.json": "168b41c1d508f559148696b891d1929f35652dcfebc86219a144190f9e5c89f6",
+    "results/calibrated_hypotheses_20261004/artifact_manifest.json": "427bdb7f7047f62952f8ddbb17823c7a15f489a3714c25bfbb4de684ac37c64f",
+    "results/state_predictor_20261004/models_sheng.json": "b5013604105c18c4cf195cbb65b7c5121c467360a700ff6ca614d3b6831096dc",
+    "results/background_frontend_20261004/background.json": "ae106219eefac0dab947cae9a4388e65eb0343d2ece7b30f8d889e22b6bd4638",
+    "results/prospective_expiry_20261003/analysis_sheng.json": "77ecff23917afb059b23d04145ca2adc82f0a70362fddc740794cfe3c4ba93b9",
+    "results/body_expiry_20261004/native_build_sheng.json": "da7a95b33d953ef5621029dbcf84576989c6fcec1b06748b982cf660e36ea5c5"
+  },
+  "development_models_published_commit": "dbcba8c8c1cf1a7c2f86e71148b8df51ac175ebe",
+  "scope": "Independent capture only after immutable four-family model and score freeze; evaluate calibration before test, transport/timing separately frozen before profiling; full project not complete."
+}
