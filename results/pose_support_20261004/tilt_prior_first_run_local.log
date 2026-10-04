@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/chen/Documents/ChatGPT/mobi/experiments/pose_support_20261004/tilt_prior_lower_bound_at_first_run.py", line 16, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/chen/Documents/ChatGPT/mobi/experiments/pose_support_20261004/tilt_prior_lower_bound_at_first_run.py", line 15, in main
+    out=dict(witnesses=witnesses,count=len(witnesses),minimum_lower_bound=min(v['norm_lower_num'] for v in witnesses)/1e12,registered_prior=[87267,1000000],source_sha256=sha(Path(__file__)),input_hashes={str(pp.relative_to(ROOT)):sha(pp),str((p/'audit_sheng.json').relative_to(ROOT)):sha(p/'audit_sheng.json')},scope='For EVERY pure yaw U, U*e3=e3, so ||R-U||op >= ||R*e3-e3||. Exact binary-rational registered-road/actor-matrix witnesses prove all archived flags exceed the prior, independent of the chosen yaw or SVD. This is an offline diagnostic, not a truth-based runtime gate.');a.out.write_text(json.dumps(out,separators=(',',':'))+'\n')
+                                                                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chen/miniconda3/lib/python3.12/pathlib.py", line 682, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: 'results/pose_support_20261004/audit_sheng.json' is not in the subpath of '/Users/chen/Documents/ChatGPT/mobi'

@@ -2,7 +2,28 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October4 body-support expiry update: `body_expiry_result_20261004.md`.
+Latest October4 complete-yaw update: `pose_support_result_20261004.md`.
+Finite sheng development completes5304 reused source frames,2076 test frames,
+5760 primary traces and1440 separately frozen optimized-RAW traces. Exact
+outer-cover distance/age brackets are<=1um/1us. Sphere/pose/joint hull/raw grants
+at20Mbps are4563/4727/4728/2279 per11520 planned queries. At2Mbps cold after
+56710B actual setup they are3043/3159/3157/0. Joint nearly ties pose; original
+and optimized complete-RAW output/counts agree. No selector/compressor novelty.
+Joint descriptive slack is0 for four classes,21424um bicycle,34905um motorcycle;
+observed reused-test center exclusions remain0/60 perclass without fresh risk
+qualification.72 source tilt-prior violations have exact rational lower witnesses
+valid against ANY pure yaw, not merely one selected heading.155 joint grants at20Mbps
+reference these sources; they are not155 observed collisions or exclusions.
+The body/point conditions and reused fitting do not give new physical authority.
+Source P95 oracle age gaps remain61–285ms. Auditors check945120 quantized points,
+859724 yaw rectangles,8304 wires,184320 primary+46080 follow-up decisions;
+279840 repeated future grids show no observed conflicts, not independent risk.
+Five deterministic pairs match across hosts and9 distinct tests pass perhost.
+No capture/simulator, real link, unknown inventory, ego guarantee or recurring
+job. Fresh fixed-score qualification and useful distinct mobile/communication
+algorithm remain required. This finite package is complete; full goal active.
+
+Previous October4 body-support expiry update: `body_expiry_result_20261004.md`.
 The finite sheng study completes2076 reused-test frames,2072 bounded and4 refused,
 with5746 independent intersection certificates and distance/expiry brackets<=2um/1us.
 No model threshold is refit and no fresh risk qualification follows from observed
