@@ -1,0 +1,403 @@
+{
+  "classes": [
+    {
+      "blueprint": "vehicle.audi.a2",
+      "old_radius_um": 1418654,
+      "development_radius_um": 1418654,
+      "captured_test_episodes": 60,
+      "scheduled_test_episodes": 60,
+      "variants": [
+        {
+          "shift_m": 0.0,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 360,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 0,
+          "excluded_episode_ids": [],
+          "geometric_horizons_at_least_220ms": 408,
+          "geometric_positive_on_excluded_episodes": 0,
+          "changed_proposal_frames": 0,
+          "target_returns": 81587,
+          "target_returns_removed": 0,
+          "median_extraction_us": 1583.5,
+          "max_extraction_us": 13166
+        },
+        {
+          "shift_m": 0.001,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 360,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 0,
+          "excluded_episode_ids": [],
+          "geometric_horizons_at_least_220ms": 408,
+          "geometric_positive_on_excluded_episodes": 0,
+          "changed_proposal_frames": 92,
+          "target_returns": 81587,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        },
+        {
+          "shift_m": 0.01,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 360,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 0,
+          "excluded_episode_ids": [],
+          "geometric_horizons_at_least_220ms": 410,
+          "geometric_positive_on_excluded_episodes": 0,
+          "changed_proposal_frames": 360,
+          "target_returns": 81587,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        }
+      ]
+    },
+    {
+      "blueprint": "vehicle.tesla.model3",
+      "old_radius_um": 1982980,
+      "development_radius_um": 1982980,
+      "captured_test_episodes": 58,
+      "scheduled_test_episodes": 60,
+      "variants": [
+        {
+          "shift_m": 0.0,
+          "captured_frames": 348,
+          "scheduled_frames": 360,
+          "available_frames": 348,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 0,
+          "excluded_episode_ids": [],
+          "geometric_horizons_at_least_220ms": 339,
+          "geometric_positive_on_excluded_episodes": 0,
+          "changed_proposal_frames": 0,
+          "target_returns": 112551,
+          "target_returns_removed": 0,
+          "median_extraction_us": 1671.0,
+          "max_extraction_us": 22149
+        },
+        {
+          "shift_m": 0.001,
+          "captured_frames": 348,
+          "scheduled_frames": 360,
+          "available_frames": 348,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 0,
+          "excluded_episode_ids": [],
+          "geometric_horizons_at_least_220ms": 339,
+          "geometric_positive_on_excluded_episodes": 0,
+          "changed_proposal_frames": 119,
+          "target_returns": 112551,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        },
+        {
+          "shift_m": 0.01,
+          "captured_frames": 348,
+          "scheduled_frames": 360,
+          "available_frames": 348,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 0,
+          "excluded_episode_ids": [],
+          "geometric_horizons_at_least_220ms": 337,
+          "geometric_positive_on_excluded_episodes": 0,
+          "changed_proposal_frames": 348,
+          "target_returns": 112551,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        }
+      ]
+    },
+    {
+      "blueprint": "vehicle.mercedes.sprinter",
+      "old_radius_um": 5591086,
+      "development_radius_um": 1283823,
+      "captured_test_episodes": 60,
+      "scheduled_test_episodes": 60,
+      "variants": [
+        {
+          "shift_m": 0.0,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 360,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 10,
+          "excluded_episode_ids": [
+            "prospective_vehicle_mercedes_sprinter_test_000",
+            "prospective_vehicle_mercedes_sprinter_test_002",
+            "prospective_vehicle_mercedes_sprinter_test_005",
+            "prospective_vehicle_mercedes_sprinter_test_012",
+            "prospective_vehicle_mercedes_sprinter_test_013",
+            "prospective_vehicle_mercedes_sprinter_test_014",
+            "prospective_vehicle_mercedes_sprinter_test_020",
+            "prospective_vehicle_mercedes_sprinter_test_021",
+            "prospective_vehicle_mercedes_sprinter_test_022",
+            "prospective_vehicle_mercedes_sprinter_test_026"
+          ],
+          "geometric_horizons_at_least_220ms": 347,
+          "geometric_positive_on_excluded_episodes": 60,
+          "changed_proposal_frames": 0,
+          "target_returns": 177596,
+          "target_returns_removed": 0,
+          "median_extraction_us": 1825.0,
+          "max_extraction_us": 19425
+        },
+        {
+          "shift_m": 0.001,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 360,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 11,
+          "excluded_episode_ids": [
+            "prospective_vehicle_mercedes_sprinter_test_000",
+            "prospective_vehicle_mercedes_sprinter_test_002",
+            "prospective_vehicle_mercedes_sprinter_test_005",
+            "prospective_vehicle_mercedes_sprinter_test_012",
+            "prospective_vehicle_mercedes_sprinter_test_013",
+            "prospective_vehicle_mercedes_sprinter_test_014",
+            "prospective_vehicle_mercedes_sprinter_test_020",
+            "prospective_vehicle_mercedes_sprinter_test_021",
+            "prospective_vehicle_mercedes_sprinter_test_022",
+            "prospective_vehicle_mercedes_sprinter_test_026",
+            "prospective_vehicle_mercedes_sprinter_test_027"
+          ],
+          "geometric_horizons_at_least_220ms": 347,
+          "geometric_positive_on_excluded_episodes": 66,
+          "changed_proposal_frames": 258,
+          "target_returns": 177596,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        },
+        {
+          "shift_m": 0.01,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 360,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 8,
+          "excluded_episode_ids": [
+            "prospective_vehicle_mercedes_sprinter_test_002",
+            "prospective_vehicle_mercedes_sprinter_test_005",
+            "prospective_vehicle_mercedes_sprinter_test_013",
+            "prospective_vehicle_mercedes_sprinter_test_014",
+            "prospective_vehicle_mercedes_sprinter_test_020",
+            "prospective_vehicle_mercedes_sprinter_test_021",
+            "prospective_vehicle_mercedes_sprinter_test_022",
+            "prospective_vehicle_mercedes_sprinter_test_027"
+          ],
+          "geometric_horizons_at_least_220ms": 348,
+          "geometric_positive_on_excluded_episodes": 48,
+          "changed_proposal_frames": 360,
+          "target_returns": 177596,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        }
+      ]
+    },
+    {
+      "blueprint": "vehicle.diamondback.century",
+      "old_radius_um": 492120,
+      "development_radius_um": 492120,
+      "captured_test_episodes": 60,
+      "scheduled_test_episodes": 60,
+      "variants": [
+        {
+          "shift_m": 0.0,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 359,
+          "refused_captured_frames": 1,
+          "excluded_episodes": 0,
+          "excluded_episode_ids": [],
+          "geometric_horizons_at_least_220ms": 505,
+          "geometric_positive_on_excluded_episodes": 0,
+          "changed_proposal_frames": 0,
+          "target_returns": 7666,
+          "target_returns_removed": 0,
+          "median_extraction_us": 1229.0,
+          "max_extraction_us": 8789
+        },
+        {
+          "shift_m": 0.001,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 359,
+          "refused_captured_frames": 1,
+          "excluded_episodes": 0,
+          "excluded_episode_ids": [],
+          "geometric_horizons_at_least_220ms": 505,
+          "geometric_positive_on_excluded_episodes": 0,
+          "changed_proposal_frames": 71,
+          "target_returns": 7666,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        },
+        {
+          "shift_m": 0.01,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 360,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 2,
+          "excluded_episode_ids": [
+            "prospective_vehicle_diamondback_century_test_004",
+            "prospective_vehicle_diamondback_century_test_038"
+          ],
+          "geometric_horizons_at_least_220ms": 507,
+          "geometric_positive_on_excluded_episodes": 19,
+          "changed_proposal_frames": 360,
+          "target_returns": 7666,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        }
+      ]
+    },
+    {
+      "blueprint": "vehicle.kawasaki.ninja",
+      "old_radius_um": 727269,
+      "development_radius_um": 727269,
+      "captured_test_episodes": 60,
+      "scheduled_test_episodes": 60,
+      "variants": [
+        {
+          "shift_m": 0.0,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 359,
+          "refused_captured_frames": 1,
+          "excluded_episodes": 1,
+          "excluded_episode_ids": [
+            "prospective_vehicle_kawasaki_ninja_test_007"
+          ],
+          "geometric_horizons_at_least_220ms": 490,
+          "geometric_positive_on_excluded_episodes": 8,
+          "changed_proposal_frames": 0,
+          "target_returns": 17878,
+          "target_returns_removed": 0,
+          "median_extraction_us": 1293.0,
+          "max_extraction_us": 4180
+        },
+        {
+          "shift_m": 0.001,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 359,
+          "refused_captured_frames": 1,
+          "excluded_episodes": 1,
+          "excluded_episode_ids": [
+            "prospective_vehicle_kawasaki_ninja_test_007"
+          ],
+          "geometric_horizons_at_least_220ms": 490,
+          "geometric_positive_on_excluded_episodes": 8,
+          "changed_proposal_frames": 88,
+          "target_returns": 17878,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        },
+        {
+          "shift_m": 0.01,
+          "captured_frames": 360,
+          "scheduled_frames": 360,
+          "available_frames": 360,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 1,
+          "excluded_episode_ids": [
+            "prospective_vehicle_kawasaki_ninja_test_007"
+          ],
+          "geometric_horizons_at_least_220ms": 490,
+          "geometric_positive_on_excluded_episodes": 9,
+          "changed_proposal_frames": 360,
+          "target_returns": 17878,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        }
+      ]
+    },
+    {
+      "blueprint": "walker.pedestrian.0001",
+      "old_radius_um": 197411,
+      "development_radius_um": 197411,
+      "captured_test_episodes": 48,
+      "scheduled_test_episodes": 60,
+      "variants": [
+        {
+          "shift_m": 0.0,
+          "captured_frames": 288,
+          "scheduled_frames": 360,
+          "available_frames": 286,
+          "refused_captured_frames": 2,
+          "excluded_episodes": 0,
+          "excluded_episode_ids": [],
+          "geometric_horizons_at_least_220ms": 455,
+          "geometric_positive_on_excluded_episodes": 0,
+          "changed_proposal_frames": 0,
+          "target_returns": 3310,
+          "target_returns_removed": 0,
+          "median_extraction_us": 1231.5,
+          "max_extraction_us": 17643
+        },
+        {
+          "shift_m": 0.001,
+          "captured_frames": 288,
+          "scheduled_frames": 360,
+          "available_frames": 286,
+          "refused_captured_frames": 2,
+          "excluded_episodes": 0,
+          "excluded_episode_ids": [],
+          "geometric_horizons_at_least_220ms": 455,
+          "geometric_positive_on_excluded_episodes": 0,
+          "changed_proposal_frames": 51,
+          "target_returns": 3310,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        },
+        {
+          "shift_m": 0.01,
+          "captured_frames": 288,
+          "scheduled_frames": 360,
+          "available_frames": 288,
+          "refused_captured_frames": 0,
+          "excluded_episodes": 2,
+          "excluded_episode_ids": [
+            "prospective_walker_pedestrian_0001_test_006",
+            "prospective_walker_pedestrian_0001_test_053"
+          ],
+          "geometric_horizons_at_least_220ms": 460,
+          "geometric_positive_on_excluded_episodes": 24,
+          "changed_proposal_frames": 288,
+          "target_returns": 3310,
+          "target_returns_removed": 0,
+          "median_extraction_us": null,
+          "max_extraction_us": null
+        }
+      ]
+    }
+  ],
+  "fit_scans": {
+    "0": 532,
+    "1": 532
+  },
+  "static_voxels": {
+    "0": 354,
+    "1": 548
+  },
+  "setup_wire_bytes": 53552,
+  "analysis_sha256": "4c2c5b2c829ab5820c7a7dd872f7e6a727244cf5954570d9b3b0b6dc93e52778",
+  "audit_sha256": "77493d319621188eab8ed7d4d5179feb9c330b04797df8f0304a4362c847f956",
+  "source_sha256": "48096413022df7d46b28ebf7531ca8b861c16cec64be36c500522500ba4db322",
+  "scope": "Geometric source-age>=220ms counts only, no paid or received grants. Changed frontend on reused inspected data, descriptive max95 radii without prospective risk guarantee. Fixed-shift synthetic diagnostics, no noise-distribution bound."
+}

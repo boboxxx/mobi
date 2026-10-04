@@ -2,7 +2,26 @@
 
 Objective: finish a scientifically defensible semantic V2X research project targeting MobiCom 2027, with algorithmic focus, execution on sheng, reproducible code/results in boboxxx/mobi. Publication acceptance cannot be guaranteed. The ledger records evidence, not a redefinition of completion around current tests. No scheduled research loop is authorized.
 
-Latest October4 same-frame intersection update: `view_intersection_result_20261004.md`.
+Latest October4 observation representation update: `background_frontend_result_20261004.md`.
+Sheng completes all5304 unchanged prospective scans with0/1/10mm fixed shifts,
+using a frozen old-XYZ static reference. Its354/548 voxels and full provenance
+cost53552B. Background merging discards1515 selected target returns in the parent
+worst Sprinter frame. Subtraction changes descriptive radius5.591086→1.283823m,
+but leaves10/60 reused-test Sprinter center exclusions; do not use the shrinkage
+as trusted authority or attribute source geometry counts to paid grants.
+A separate post-result all-point body-support hypothesis preserves partial-observation
+uncertainty. Complete component-wise ball intersections have descriptive slack0um
+and observed reused-test exclusions0/60 perclass, including the ten Sprinter and
+one Motorcycle failures. Independent BFS/Decimal checks reconstruct7389 components
+and945120 quantized points. No expiry or set tightness/paid utility is yet computed
+for this hypothesis; fresh frozen statistical validation is still required.
+Five JSON pairs match bytewise across hosts and3+2 tests pass perhost. Initial
+floating display/support versions remain archived. No simulator/recurring job.
+This is representation progress, not full completion: unknown inventory, physical
+and live ego utility, communication selection novelty and submission evidence
+remain unresolved. The project goal stays active; do not redefine completion.
+
+Previous October4 same-frame intersection update: `view_intersection_result_20261004.md`.
 Finite sheng current-only receiver development reuses the prospective data without
 new capture or risk fitting. Of1080 planned source pairs,1038 captured pairs yield
 1035 bounded intersections and3 missing views. Independent all-pair integer checks
