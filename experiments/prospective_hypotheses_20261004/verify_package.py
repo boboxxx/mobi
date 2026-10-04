@@ -24,6 +24,9 @@ def main():
     archive=read(P/'archive.json')
     for name,m in archive['logical_files'].items():assert name in ('qualification_sheng.json','paid_sheng.json','minimal_registration_sheng.json') and sha(P/name)==m['logical_sha256'] and (P/name).stat().st_size==m['logical_bytes']
     manifest=read(P/'artifact_manifest.json');total=0
+    excluded={'artifact_manifest.json','verification_local.json','verification_sheng.json',*archive['logical_files']}
+    actual={str(p.relative_to(ROOT)) for p in P.rglob('*') if p.is_file() and p.name not in excluded}
+    assert actual==set(manifest['files']), 'Full artifact tree differs from manifest'
     for n,m in manifest['files'].items():
         p=ROOT/n;assert n.startswith('results/prospective_hypotheses_20261004/') and not Path(n).is_absolute() and '..' not in Path(n).parts;assert sha(p)==m['sha256'] and p.stat().st_size==m['bytes'],n;total+=m['bytes']
     assert total==manifest['total_bytes'] and len(manifest['files'])==manifest['file_count']

@@ -1,0 +1,33 @@
+{
+  "cpu_model": "13th Gen Intel(R) Core(TM) i9-13900K",
+  "native_binary_sha256": "b33d62a6ac15ba5f4ec6d27ea14fdfaf272256a23eb95397586a4e8e7b0560c2",
+  "numpy": "1.24.4",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "python": "3.8.10 (default, Jun  4 2021, 15:09:15) \n[GCC 7.5.0]",
+  "scipy": "1.10.1",
+  "scope": "Finite CARLA capture on Windows and actual algorithm profiles in WSL, same sheng host. Profiles are observed wall time, not WCET; initialized services. No live wireless/ego claim.",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "windows": {
+    "cpu": [
+      {
+        "Name": "13th Gen Intel(R) Core(TM) i9-13900K",
+        "NumberOfCores": 24,
+        "NumberOfLogicalProcessors": 32
+      }
+    ],
+    "gpu": [
+      {
+        "DriverVersion": "32.0.15.9186",
+        "Name": "NVIDIA GeForce RTX 4090"
+      },
+      {
+        "DriverVersion": "15.6.5.199",
+        "Name": "GameViewer Virtual Display Adapter"
+      }
+    ]
+  }
+}
