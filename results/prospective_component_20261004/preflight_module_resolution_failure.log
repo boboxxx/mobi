@@ -1,0 +1,26 @@
+....E
+======================================================================
+ERROR: test_old_source_to_actual_packets_and_stage_outputs (test_produce_fixture.ActualPhaseFixture.test_old_source_to_actual_packets_and_stage_outputs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/chen/Documents/ChatGPT/mobi/experiments/prospective_component_20261004/test_produce_fixture.py", line 37, in test_old_source_to_actual_packets_and_stage_outputs
+    with patch.multiple(fresh_io,P=fixture,E=fixture),patch.multiple(produce,P=fixture,E=fixture),patch.object(sys,'argv',['produce.py','--split','test']):produce.main()
+                                                                                                                                                           ^^^^^^^^^^^^^^
+  File "/Users/chen/Documents/ChatGPT/mobi/experiments/prospective_hypotheses_20261004/produce.py", line 15, in main
+    d=read(P/'qualification_sheng.json');receipt=read(P/'calibration_frozen.json');assert d['registry']==receipt['registry'] and d['calibration_receipt_sha256']==sha(P/'calibration_frozen.json')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chen/Documents/ChatGPT/mobi/experiments/prospective_hypotheses_20261004/io_common.py", line 10, in read
+    def read(p):return json.loads(p.read_bytes())
+                                  ^^^^^^^^^^^^^^
+  File "/Users/chen/miniconda3/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chen/miniconda3/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/chen/Documents/ChatGPT/mobi/results/prospective_component_20261004/.fixture-bdht1g_d/qualification_sheng.json'
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.809s
+
+FAILED (errors=1)
