@@ -1,0 +1,1 @@
+The original frozen plot, receipt, metrics and report remain unchanged. This supplemental rendering uses exactly the same input, calculations, cases, axes and scales. Only risk label placement/colour and the third legend position change to avoid overlap. Original source and input hashes are recorded; no statistical/physical method or test changes.

@@ -1,0 +1,59 @@
+{
+  "all_progress_labels_independently_checked": true,
+  "audit_sha256": "ea67f76690656bab7e5c0859f04eb98d570c6b695aa296e005654553b194a64f",
+  "cells": [
+    {
+      "accepted": true,
+      "failed": 0,
+      "method": "cone",
+      "risk_upper": [
+        372913932868104373,
+        9223372036854775808
+      ],
+      "selected": 116,
+      "useful": 98,
+      "utility_lower": [
+        8349543245166800851,
+        18446744073709551616
+      ]
+    },
+    {
+      "accepted": true,
+      "failed": 0,
+      "method": "deadline",
+      "risk_upper": [
+        396340676663293189,
+        9223372036854775808
+      ],
+      "selected": 109,
+      "useful": 98,
+      "utility_lower": [
+        8349543245166800851,
+        18446744073709551616
+      ]
+    },
+    {
+      "accepted": true,
+      "failed": 0,
+      "method": "function",
+      "risk_upper": [
+        709863033176377013,
+        18446744073709551616
+      ],
+      "selected": 122,
+      "useful": 97,
+      "utility_lower": [
+        8247997716947363857,
+        18446744073709551616
+      ]
+    }
+  ],
+  "freeze_sha256": "31264576b2cdd7266a90ee79ba39815acc66e788f9133c6fae21a452e993a690",
+  "goal_complete": false,
+  "joint_confidence_lower": [
+    19,
+    20
+  ],
+  "policy_sha256": "273ae651927ca977037356d144ae7e30d3fa62334e144ffe7fb0e65b4237e0f4",
+  "scope": "Six standard exact tests under declared joint IID; no proof of that assumption or road/radio/continuous risk."
+}

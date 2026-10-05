@@ -1,0 +1,244 @@
+{
+  "action_us": 300000,
+  "basis": {
+    "anchor": [
+      0.6327173709869385,
+      -57.46783447265625,
+      0.0
+    ],
+    "road": [
+      [
+        0.9998724964270997,
+        -0.01596843413235822,
+        0.0
+      ],
+      [
+        0.01596843413235822,
+        0.9998724964270997,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "catalog": {
+    "vehicle.audi.a2": [
+      1.852684736251831,
+      0.8943392634391785,
+      0.7745251059532166
+    ],
+    "vehicle.diamondback.century": [
+      0.8281218409538269,
+      0.2912190854549408,
+      0.8098834753036499
+    ],
+    "vehicle.kawasaki.ninja": [
+      1.021842122077942,
+      0.3984561562538147,
+      0.761595606803894
+    ],
+    "vehicle.mercedes.sprinter": [
+      2.957595109939575,
+      0.9942164421081543,
+      1.2803276777267456
+    ],
+    "vehicle.tesla.model3": [
+      2.3958897590637207,
+      1.081725001335144,
+      0.7438300251960754
+    ],
+    "walker.pedestrian.0001": [
+      0.18767888844013214,
+      0.18767888844013214,
+      0.9300000071525574
+    ]
+  },
+  "decision_processing_budget_us": 20000,
+  "new_policy_qualified": false,
+  "registry": {
+    "vehicle.audi.a2": {
+      "fallback_um": [
+        0,
+        1
+      ],
+      "joint": [
+        0,
+        1
+      ],
+      "local_mean": [
+        117273,
+        33235
+      ],
+      "local_modes": [
+        402973,
+        68782
+      ],
+      "ridge": [
+        1291437,
+        1
+      ],
+      "supported_mean": [
+        117273,
+        33235
+      ],
+      "supported_modes": [
+        402973,
+        68782
+      ]
+    },
+    "vehicle.diamondback.century": {
+      "fallback_um": [
+        76383,
+        1
+      ],
+      "joint": [
+        76383,
+        1
+      ],
+      "local_mean": [
+        76383,
+        10000
+      ],
+      "local_modes": [
+        76383,
+        10000
+      ],
+      "ridge": [
+        569848,
+        1
+      ],
+      "supported_mean": [
+        235045,
+        108326
+      ],
+      "supported_modes": [
+        28493,
+        10130
+      ]
+    },
+    "vehicle.kawasaki.ninja": {
+      "fallback_um": [
+        15507,
+        1
+      ],
+      "joint": [
+        32872,
+        1
+      ],
+      "local_mean": [
+        4109,
+        1250
+      ],
+      "local_modes": [
+        31613,
+        8626
+      ],
+      "ridge": [
+        1018300,
+        1
+      ],
+      "supported_mean": [
+        4109,
+        1250
+      ],
+      "supported_modes": [
+        31613,
+        8626
+      ]
+    },
+    "vehicle.mercedes.sprinter": {
+      "fallback_um": [
+        0,
+        1
+      ],
+      "joint": [
+        0,
+        1
+      ],
+      "local_mean": [
+        321375,
+        81647
+      ],
+      "local_modes": [
+        177738,
+        42523
+      ],
+      "ridge": [
+        1749435,
+        1
+      ],
+      "supported_mean": [
+        321375,
+        81647
+      ],
+      "supported_modes": [
+        177738,
+        42523
+      ]
+    },
+    "vehicle.tesla.model3": {
+      "fallback_um": [
+        0,
+        1
+      ],
+      "joint": [
+        0,
+        1
+      ],
+      "local_mean": [
+        353224,
+        136197
+      ],
+      "local_modes": [
+        700493,
+        187822
+      ],
+      "ridge": [
+        1760409,
+        1
+      ],
+      "supported_mean": [
+        353224,
+        136197
+      ],
+      "supported_modes": [
+        700493,
+        187822
+      ]
+    },
+    "walker.pedestrian.0001": {
+      "fallback_um": [
+        0,
+        1
+      ],
+      "joint": [
+        0,
+        1
+      ],
+      "local_mean": [
+        233987,
+        74751
+      ],
+      "local_modes": [
+        192933,
+        50000
+      ],
+      "ridge": [
+        229352,
+        1
+      ],
+      "supported_mean": [
+        233987,
+        74751
+      ],
+      "supported_modes": [
+        192933,
+        50000
+      ]
+    }
+  },
+  "speed_cap_um_s": 750000
+}
