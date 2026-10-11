@@ -1,0 +1,36 @@
+{
+  "capture_absent_when_frozen": true,
+  "inputs": {
+    "experiments/actuator_admission_20261011/PROTOCOL.md": "cc97f75befda5f04f9f2ce05c0ee8937053b07572cf42e123e2ac55453c8d9c3",
+    "experiments/actuator_admission_20261011/context.json": "270c05d07092611c6ee5a769921a735b9428d6afa6f11de21a51999dbd7dce0b",
+    "experiments/actuator_admission_20261011/freeze.json": "0493d07bd7486acd92c9197c2f46fed979eb66358ff1ac4ed1ae68c9ae492c56",
+    "experiments/actuator_admission_20261011/model.py": "b0a2e3b5e9689e76c9abad8bcd21298e4bb1675a303694fe75401ec90c415e1d",
+    "experiments/body_expiry_20261004/frontend.py": "cc77a43c23b099785f42b6db1cbe949f28a3670c5b76ebad77efcbe00b4dca93",
+    "experiments/closed_loop_audit_20261011/fast_expiry.py": "c7c6aec7d8dd23e5d46453ece27fdf6966e4eb7f14f7fcede69cf6b744a497f8",
+    "experiments/closed_loop_motion_20261011/context.json": "6bbd017ef2c0d855fcb435c502ea3fbca61d9f6642fccd3282f188877bc1f67d",
+    "experiments/closed_loop_motion_20261011/freeze.json": "8254fe6c30a1f7dacbfb78191659efeea1158a987eea1fec3cdd1ccacb67354e",
+    "experiments/closed_loop_motion_20261011/plan.json": "47fd24fa102ec88d40fb77d691e91b9c96e2a4ce01662a7a3823d0699435e9b7",
+    "experiments/closed_loop_motion_20261011/runtime.py": "e6941b0e85d2aed3dc2202413fcd5aedb4dc8ba1ba4a43dd8e2c514b40cd93bf",
+    "experiments/ego_actuator_realization_20261004/capture.py": "4e6b213572542f623a2335dd7c0bf8d07bb544845cb8706f275cce4499159d72",
+    "experiments/joint_motion_expiry_20261011/adapter.py": "1e3a03ed970c87428c1d0d66033b9e3c03d9a4b81a033537638bb8ec3a84f658",
+    "experiments/nominal_route_20261011/PROTOCOL.md": "ccfe1ade4c4866b013feef1a43b427672b9560b7dca4c2e92a7a431f3a4a0be0",
+    "experiments/nominal_route_20261011/freeze.json": "3f65c5a98ffd8d163f026ac4c9d6502d9d3dffbc5ec35ed36989092b76543171",
+    "experiments/pose_support_20261004/directions.json": "6c373319a30b5f8f5be3a54d020836f55baec6516ac9442670ded2241834f70d",
+    "experiments/pose_support_20261004/observer.py": "389fc594080a31614f77634dcfce7651e4d966fcbefe15b20a6a49703f902725",
+    "research/actuator_admission_reading_20261011.md": "bb1cd751c82e58b7d329e932d03fe8a803c0af83e4d3d4553cdd24986dfe4eb7",
+    "results/background_frontend_20261004/background.json": "ae106219eefac0dab947cae9a4388e65eb0343d2ece7b30f8d889e22b6bd4638",
+    "results/nominal_route_20261011/analysis_sheng.json": "f3381ca360609b188d88eaf2408abf85ed11d70e42d6bb381d61dd4ab4453097"
+  },
+  "scope": "12 fixed 40s development episodes conditional virtual actuator simulation; budget fixed before nominal feasibility; no risk certification",
+  "sources": {
+    "experiments/actuator_route_40s_20261011/PROTOCOL.md": "63c57bff619a7a32598ed9e88238bc7a8b0757f732214f2519944face6db15d1",
+    "experiments/actuator_route_40s_20261011/analyze.py": "fee289d49aa283dd3c981dc7964826ed6d4847dcc5bf99e13ac8b9ece9cfcc1d",
+    "experiments/actuator_route_40s_20261011/capture.py": "a967d9b17d2339411ce309210ab18d59846307c243b0881831cd3b23913db243",
+    "experiments/actuator_route_40s_20261011/context.json": "6f22cc893673318b828855ccc129e09ee514cc0de4f60a75edcad6ec5140526a",
+    "experiments/actuator_route_40s_20261011/model.py": "b0a2e3b5e9689e76c9abad8bcd21298e4bb1675a303694fe75401ec90c415e1d",
+    "experiments/actuator_route_40s_20261011/plan.json": "4bd620a47d40930c52995f823ca79454d57d8cc4c8dbdcecf436aa223fae945a",
+    "experiments/actuator_route_40s_20261011/start_carla.ps1": "07ffdb8b347e3ed8e39fad175589d04fa5015a555721a3743ab49df7e72974f9",
+    "experiments/actuator_route_40s_20261011/stop_carla.ps1": "41df2fec8b14c7077c7da7eb622c1a4ad78aba1f6298ca347cf56e32f9a6106d",
+    "experiments/actuator_route_40s_20261011/test_model.py": "d43d10fb4c9aa04ceb37c4d8ca918fea9428123aaf6dd4bbc9007d60bd3d7da4"
+  }
+}
