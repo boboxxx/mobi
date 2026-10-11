@@ -1,0 +1,8 @@
+{
+  "scope": "directory setup only; no tests or replay attempted before repair",
+  "failures": [
+    "Symlink to absent NTFS target then pathlib.mkdir: FileExistsError exit1",
+    "Python3.8 pathlib lacks readlink: AttributeError exit1"
+  ],
+  "repair": "os.readlink verifies destination; create the same specified target directory; all source hashes and replay parameters unchanged"
+}
