@@ -1,0 +1,264 @@
+{
+  "cost_quantiles_us": {
+    "acquisition_us": {
+      "max": 147849.0,
+      "min": 40636.0,
+      "p50": 63610.5,
+      "p95": 93322.64999999998
+    },
+    "actual_paid_age_us": {
+      "max": 209281.0,
+      "min": 120046.0,
+      "p50": 123961.0,
+      "p95": 154933.94999999995
+    },
+    "source_fee_us": {
+      "max": 52402.0,
+      "min": 10230.0,
+      "p50": 19508.0,
+      "p95": 29261.199999999993
+    }
+  },
+  "joint_factorized_prefix_mismatches": 0,
+  "paired_gained_queries": 410,
+  "paired_lost_queries": 0,
+  "paired_scenes": [
+    {
+      "gain": 27,
+      "id": "dynamic_01",
+      "motion": "stay",
+      "permits": {
+        "factorized": 27,
+        "joint": 27,
+        "snapshot": 0
+      }
+    },
+    {
+      "gain": 28,
+      "id": "dynamic_02",
+      "motion": "stay",
+      "permits": {
+        "factorized": 28,
+        "joint": 28,
+        "snapshot": 0
+      }
+    },
+    {
+      "gain": 29,
+      "id": "dynamic_03",
+      "motion": "stay",
+      "permits": {
+        "factorized": 29,
+        "joint": 29,
+        "snapshot": 0
+      }
+    },
+    {
+      "gain": 26,
+      "id": "dynamic_04",
+      "motion": "stay",
+      "permits": {
+        "factorized": 56,
+        "joint": 56,
+        "snapshot": 30
+      }
+    },
+    {
+      "gain": 27,
+      "id": "dynamic_05",
+      "motion": "stay",
+      "permits": {
+        "factorized": 57,
+        "joint": 57,
+        "snapshot": 30
+      }
+    },
+    {
+      "gain": 27,
+      "id": "dynamic_06",
+      "motion": "away",
+      "permits": {
+        "factorized": 46,
+        "joint": 46,
+        "snapshot": 19
+      }
+    },
+    {
+      "gain": 27,
+      "id": "dynamic_07",
+      "motion": "away",
+      "permits": {
+        "factorized": 44,
+        "joint": 44,
+        "snapshot": 17
+      }
+    },
+    {
+      "gain": 20,
+      "id": "dynamic_08",
+      "motion": "away",
+      "permits": {
+        "factorized": 55,
+        "joint": 55,
+        "snapshot": 35
+      }
+    },
+    {
+      "gain": 11,
+      "id": "dynamic_10",
+      "motion": "away",
+      "permits": {
+        "factorized": 58,
+        "joint": 58,
+        "snapshot": 47
+      }
+    },
+    {
+      "gain": 12,
+      "id": "dynamic_11",
+      "motion": "away",
+      "permits": {
+        "factorized": 58,
+        "joint": 58,
+        "snapshot": 46
+      }
+    },
+    {
+      "gain": 0,
+      "id": "dynamic_12",
+      "motion": "approach",
+      "permits": {
+        "factorized": 0,
+        "joint": 0,
+        "snapshot": 0
+      }
+    },
+    {
+      "gain": 0,
+      "id": "dynamic_13",
+      "motion": "approach",
+      "permits": {
+        "factorized": 0,
+        "joint": 0,
+        "snapshot": 0
+      }
+    },
+    {
+      "gain": 8,
+      "id": "dynamic_14",
+      "motion": "approach",
+      "permits": {
+        "factorized": 10,
+        "joint": 10,
+        "snapshot": 2
+      }
+    },
+    {
+      "gain": 9,
+      "id": "dynamic_15",
+      "motion": "approach",
+      "permits": {
+        "factorized": 11,
+        "joint": 11,
+        "snapshot": 2
+      }
+    },
+    {
+      "gain": 8,
+      "id": "dynamic_16",
+      "motion": "approach",
+      "permits": {
+        "factorized": 19,
+        "joint": 19,
+        "snapshot": 11
+      }
+    },
+    {
+      "gain": 8,
+      "id": "dynamic_17",
+      "motion": "approach",
+      "permits": {
+        "factorized": 19,
+        "joint": 19,
+        "snapshot": 11
+      }
+    },
+    {
+      "gain": 28,
+      "id": "dynamic_18",
+      "motion": "cross",
+      "permits": {
+        "factorized": 28,
+        "joint": 28,
+        "snapshot": 0
+      }
+    },
+    {
+      "gain": 28,
+      "id": "dynamic_19",
+      "motion": "cross",
+      "permits": {
+        "factorized": 28,
+        "joint": 28,
+        "snapshot": 0
+      }
+    },
+    {
+      "gain": 14,
+      "id": "dynamic_20",
+      "motion": "cross",
+      "permits": {
+        "factorized": 29,
+        "joint": 29,
+        "snapshot": 15
+      }
+    },
+    {
+      "gain": 17,
+      "id": "dynamic_21",
+      "motion": "cross",
+      "permits": {
+        "factorized": 29,
+        "joint": 29,
+        "snapshot": 12
+      }
+    },
+    {
+      "gain": 28,
+      "id": "dynamic_22",
+      "motion": "cross",
+      "permits": {
+        "factorized": 58,
+        "joint": 58,
+        "snapshot": 30
+      }
+    },
+    {
+      "gain": 28,
+      "id": "dynamic_23",
+      "motion": "cross",
+      "permits": {
+        "factorized": 58,
+        "joint": 58,
+        "snapshot": 30
+      }
+    }
+  ],
+  "source_prefix_quantiles_us": {
+    "factorized": {
+      "p10": 0.0,
+      "p50": 500000.0,
+      "p90": 500000.0
+    },
+    "joint": {
+      "p10": 0.0,
+      "p50": 500000.0,
+      "p90": 500000.0
+    },
+    "snapshot": {
+      "p10": 0.0,
+      "p50": 252809.5,
+      "p90": 500000.0
+    }
+  }
+}
