@@ -1,0 +1,105 @@
+{
+  "first_model_risks_checked": 2448,
+  "input_receipts": [
+    {
+      "path": "results/action_window_reference_20261011/sheng/scientific.json",
+      "sha256": "69153c78111f74f9df9a031941b96c0d7ce9adbe753f5826c6c4cb98f58e48af"
+    },
+    {
+      "path": "results/temporal_action_window_20261011/sheng/scientific.json",
+      "sha256": "57320fa42c7144fbee7200e757d8df5328300a6cf7f253a2d0e3f746cd2d74fb"
+    }
+  ],
+  "interpretation": "impossibility restricted to fixed action, age grid, known model family and per-history worst-model criterion; no global task impossibility",
+  "minimum_risk_witness": {
+    "age": 7,
+    "all_queries_infeasible_at_tested_budgets": true,
+    "history": [
+      1,
+      2,
+      2
+    ],
+    "largest_tested_budget": "1/10",
+    "length": 1,
+    "minimum_worst_model_risk": "36421903800792881609/311304761728000000000",
+    "models": [
+      [
+        "7/20",
+        "3/20",
+        "3/25"
+      ]
+    ],
+    "worst_model_indices": [
+      3
+    ]
+  },
+  "oracle_reference": [
+    {
+      "accepted": 34,
+      "alpha": "1/100",
+      "fee_ticks": 0,
+      "query_count": 408,
+      "statement": "full source-state oracle diagnostic; not a sensor or system result"
+    },
+    {
+      "accepted": 23,
+      "alpha": "1/100",
+      "fee_ticks": 1,
+      "query_count": 384,
+      "statement": "full source-state oracle diagnostic; not a sensor or system result"
+    },
+    {
+      "accepted": 14,
+      "alpha": "1/100",
+      "fee_ticks": 2,
+      "query_count": 360,
+      "statement": "full source-state oracle diagnostic; not a sensor or system result"
+    },
+    {
+      "accepted": 41,
+      "alpha": "1/20",
+      "fee_ticks": 0,
+      "query_count": 408,
+      "statement": "full source-state oracle diagnostic; not a sensor or system result"
+    },
+    {
+      "accepted": 30,
+      "alpha": "1/20",
+      "fee_ticks": 1,
+      "query_count": 384,
+      "statement": "full source-state oracle diagnostic; not a sensor or system result"
+    },
+    {
+      "accepted": 21,
+      "alpha": "1/20",
+      "fee_ticks": 2,
+      "query_count": 360,
+      "statement": "full source-state oracle diagnostic; not a sensor or system result"
+    },
+    {
+      "accepted": 48,
+      "alpha": "1/10",
+      "fee_ticks": 0,
+      "query_count": 408,
+      "statement": "full source-state oracle diagnostic; not a sensor or system result"
+    },
+    {
+      "accepted": 37,
+      "alpha": "1/10",
+      "fee_ticks": 1,
+      "query_count": 384,
+      "statement": "full source-state oracle diagnostic; not a sensor or system result"
+    },
+    {
+      "accepted": 28,
+      "alpha": "1/10",
+      "fee_ticks": 2,
+      "query_count": 360,
+      "statement": "full source-state oracle diagnostic; not a sensor or system result"
+    }
+  ],
+  "scope": "independent exact reconstruction plus post-result explanatory oracle",
+  "status": "PASS",
+  "temporal_decisions_checked": 9792,
+  "temporal_model_risks_checked": 39168
+}
