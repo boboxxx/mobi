@@ -1,0 +1,23 @@
+WARNING: attempting to unsubscribe from stream but sensor wasn't listening: Actor 27 (sensor.lidar.ray_cast_semantic) 
+{"id": "closed_00", "status": "captured", "file": "episodes/closed_00.json.gz", "sha256": "6095e361e1351083419da0a1ce7785b7001405cadd5804688b4f4e98f419fdec", "logical_sha256": "408536612cd11acb092d4119fe3e6625611d3dee879466f5d87695d26376b05a", "rows": 630, "sources": 300, "elapsed_s": 55.94863128196448}
+WARNING: attempting to unsubscribe from stream but sensor wasn't listening: Actor 31 (sensor.lidar.ray_cast_semantic) 
+{"id": "closed_01", "status": "captured", "file": "episodes/closed_01.json.gz", "sha256": "f7eb818a22761e49124aef52f028774a702af8441c3e51268df4192b273eb435", "logical_sha256": "f345c8b1c66dacf6d115c47133dd810c32d073e60a5937be32cc3de965a4994b", "rows": 630, "sources": 300, "elapsed_s": 113.46467550494708}
+WARNING: attempting to unsubscribe from stream but sensor wasn't listening: Actor 35 (sensor.lidar.ray_cast_semantic) 
+{"id": "closed_02", "status": "captured", "file": "episodes/closed_02.json.gz", "sha256": "d7ac4acf52e8c549793cb36a38991008092455254a10248dd4ebdee39312535e", "logical_sha256": "ef6ff9ede8be7edb485566c250ab3d1a69e977c5902222f76535ce41005390e2", "rows": 630, "sources": 300, "elapsed_s": 171.0191393729765}
+WARNING: attempting to unsubscribe from stream but sensor wasn't listening: Actor 39 (sensor.lidar.ray_cast_semantic) 
+{"id": "closed_03", "status": "captured", "file": "episodes/closed_03.json.gz", "sha256": "883f2e276703ce230b2e4ba5fe63242132c2951d77d7a7e2b4d6e3003b84bc6b", "logical_sha256": "ec1a892b9ede5aaff32512644ea94827364c4350220f2980eae904f7bca6cd9a", "rows": 630, "sources": 300, "elapsed_s": 227.29252617200837}
+WARNING: attempting to unsubscribe from stream but sensor wasn't listening: Actor 43 (sensor.lidar.ray_cast_semantic) 
+{"id": "closed_04", "status": "captured", "file": "episodes/closed_04.json.gz", "sha256": "e80dc8fe4c9403e8b11724a165675d786120880a311cf03ae2c732c202f85343", "logical_sha256": "40f8396ee937ab1c436b5583beff44af94d97c5d87b17f50d69e9b6aa23d5ce1", "rows": 630, "sources": 300, "elapsed_s": 283.37812325404957}
+WARNING: attempting to unsubscribe from stream but sensor wasn't listening: Actor 47 (sensor.lidar.ray_cast_semantic) 
+{"id": "closed_05", "status": "captured", "file": "episodes/closed_05.json.gz", "sha256": "e94c22fd5fd0f896deeeda923a833f79fa894bf5d89010738840a65049ccb737", "logical_sha256": "85d726740150efcc671c215ad89921f2b0942de3303d815b50e527b172fdf61c", "rows": 630, "sources": 300, "elapsed_s": 340.70113372197375}
+WARNING: attempting to unsubscribe from stream but sensor wasn't listening: Actor 51 (sensor.lidar.ray_cast_semantic) 
+{"id": "closed_06", "status": "captured", "file": "episodes/closed_06.json.gz", "sha256": "6bf27af0b691fbaff38f631e9199a4713ac41750ed336fec1ddbaa919e95c31d", "logical_sha256": "8111ecfa9b122d2b7247c8175c1b3957f2b3352430743be59698bbc7f9431bb0", "rows": 630, "sources": 300, "elapsed_s": 397.084060456953}
+WARNING: attempting to unsubscribe from stream but sensor wasn't listening: Actor 55 (sensor.lidar.ray_cast_semantic) 
+Traceback (most recent call last):
+  File "experiments/closed_loop_motion_20261011/capture.py", line 235, in <module>
+    main()
+  File "experiments/closed_loop_motion_20261011/capture.py", line 216, in main
+    path.write_bytes(gzip.compress(logical, mtime=0))
+  File "/home/sheng/anaconda3/envs/carla/lib/python3.8/pathlib.py", line 1246, in write_bytes
+    return f.write(view)
+OSError: [Errno 28] No space left on device
