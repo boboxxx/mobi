@@ -1,0 +1,24 @@
+{
+  "capture_absent_when_frozen": true,
+  "inputs": {
+    "experiments/body_expiry_20261004/frontend.py": "cc77a43c23b099785f42b6db1cbe949f28a3670c5b76ebad77efcbe00b4dca93",
+    "experiments/closed_loop_motion_20261011/context.json": "6bbd017ef2c0d855fcb435c502ea3fbca61d9f6642fccd3282f188877bc1f67d",
+    "experiments/closed_loop_motion_20261011/plan.json": "47fd24fa102ec88d40fb77d691e91b9c96e2a4ce01662a7a3823d0699435e9b7",
+    "experiments/ego_actuator_realization_20261004/capture.py": "4e6b213572542f623a2335dd7c0bf8d07bb544845cb8706f275cce4499159d72",
+    "experiments/joint_motion_expiry_20261011/adapter.py": "1e3a03ed970c87428c1d0d66033b9e3c03d9a4b81a033537638bb8ec3a84f658",
+    "experiments/pose_support_20261004/directions.json": "6c373319a30b5f8f5be3a54d020836f55baec6516ac9442670ded2241834f70d",
+    "experiments/pose_support_20261004/observer.py": "389fc594080a31614f77634dcfce7651e4d966fcbefe15b20a6a49703f902725",
+    "results/background_frontend_20261004/background.json": "ae106219eefac0dab947cae9a4388e65eb0343d2ece7b30f8d889e22b6bd4638"
+  },
+  "scope": "12-episode fixed dynamic ego development, not certification",
+  "sources": {
+    "experiments/closed_loop_motion_20261011/PROTOCOL.md": "662847e516f14f5a4d9753ea6495e342a8cd9618743e613cbc40977009f13da4",
+    "experiments/closed_loop_motion_20261011/analyze.py": "1d9db76205794f4c36a9b1892347924bc5ae2082f876d6249e12ad92e66f4317",
+    "experiments/closed_loop_motion_20261011/capture.py": "c06f93765764e95976ea5849eeca5b72e9cd00bd2dbeb82e29709f618d16dea4",
+    "experiments/closed_loop_motion_20261011/runtime.py": "e6941b0e85d2aed3dc2202413fcd5aedb4dc8ba1ba4a43dd8e2c514b40cd93bf",
+    "experiments/closed_loop_motion_20261011/start_carla.ps1": "0e20538d10fb9a1f8df21164f2c819df3e246653aa941667d568ebb3331eb007",
+    "experiments/closed_loop_motion_20261011/stop_carla.ps1": "50ee33fad7c3655e9e2ef92391a965a1d8e8a5ebc55a645a3a64f537ff6b0ff6",
+    "experiments/closed_loop_motion_20261011/test_runtime.py": "f676c55959ab42640bcbbfdea53364077078b81f7aad97b08017ca1ef9c1dad7"
+  },
+  "version": 1
+}
